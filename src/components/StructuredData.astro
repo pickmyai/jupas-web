@@ -1,0 +1,127 @@
+---
+interface ArticleData {
+    title: string;
+    description: string;
+    url: string;
+    image?: string;
+    datePublished?: string;
+    dateModified?: string;
+}
+
+interface Props {
+    type?: 'website' | 'mobileApplication' | 'article';
+    articleData?: ArticleData;
+    breadcrumbItems?: Array<{ name: string; url: string }>;
+}
+
+const { type = 'website', articleData, breadcrumbItems } = Astro.props;
+
+const baseUrl = Astro.site || new URL(Astro.url.origin);
+
+const schemas = {
+    organization: {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DSE Jupas 神器",
+        "url": baseUrl.toString(),
+        "logo": new URL("/logo1024.png", baseUrl).toString(),
+        "sameAs": [
+            "https://apps.apple.com/app/id6780134101",
+            "https://play.google.com/store/apps/details?id=app.jupas.dse",
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "availableLanguage": ["zh-HK", "zh-TW", "zh-CN", "en"]
+        }
+    },
+
+    mobileApplication: {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "DSE Jupas 神器 - JUPAS 計分及面試 App",
+        "alternateName": ["DSE Jupas", "JUPAS 計分器", "JUPAS Calculator"],
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "iOS, Android",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "HKD"
+        },
+        "description": "DSE Jupas 神器：JUPAS 計分器自動套用八大及自資院校收生計分公式（Best 5、4C+2X）即時計分，AI 入學機會分析對比歷年收生中位數，加埋 AI 語音大學面試模擬，涵蓋約 440 個真實 JUPAS 課程，一個 App 搞掂升大學。免費下載。",
+        "installUrl": "https://apps.apple.com/app/id6780134101",
+        "downloadUrl": [
+            "https://apps.apple.com/app/id6780134101",
+            "https://play.google.com/store/apps/details?id=app.jupas.dse"
+        ]
+    },
+
+    website: {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "DSE Jupas 神器",
+        "url": baseUrl.toString()
+    },
+
+    breadcrumb: {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": baseUrl.toString()
+            }
+        ]
+    }
+};
+
+const schemaList = [schemas.organization];
+
+if (type === 'mobileApplication') {
+    schemaList.push(schemas.mobileApplication);
+}
+
+if (type === 'website') {
+    schemaList.push(schemas.website);
+    schemaList.push(schemas.breadcrumb);
+}
+
+if (type === 'article' && articleData) {
+    schemaList.push({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": articleData.title,
+        "description": articleData.description,
+        ...(articleData.image && { "image": new URL(articleData.image, baseUrl).toString() }),
+        ...(articleData.datePublished && { "datePublished": articleData.datePublished }),
+        ...(articleData.dateModified && { "dateModified": articleData.dateModified }),
+        "author": { "@type": "Organization", "name": "DSE Jupas 神器" },
+        "publisher": {
+            "@type": "Organization",
+            "name": "DSE Jupas 神器",
+            "logo": { "@type": "ImageObject", "url": new URL("/logo1024.png", baseUrl).toString() }
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": new URL(articleData.url, baseUrl).toString() }
+    });
+}
+
+if (breadcrumbItems && breadcrumbItems.length > 0) {
+    schemaList.push({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": breadcrumbItems.map((item, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "name": item.name,
+            "item": new URL(item.url, baseUrl).toString()
+        }))
+    });
+}
+---
+
+<!-- JSON-LD Structured Data -->
+{schemaList.map(schema => (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+))}

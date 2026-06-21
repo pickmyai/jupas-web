@@ -1,0 +1,22 @@
+{
+    "name": "DSE Jupas 神器",
+    "short_name": "DSE Jupas",
+    "description": "JUPAS 計分器・AI 入學機會分析・大學面試模擬 — 一個 App 搞掂升大學",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#FFC83D",
+    "background_color": "#FFFDF6",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/"
+}

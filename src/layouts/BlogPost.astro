@@ -1,0 +1,218 @@
+---
+import Layout from "./Layout.astro";
+
+const { frontmatter } = Astro.props;
+const canonicalPath = Astro.url.pathname;
+---
+
+<Layout
+    title={frontmatter.title}
+    description={frontmatter.description}
+    ogImage={frontmatter.image}
+    schemaType="article"
+    articleData={{
+        title: frontmatter.title,
+        description: frontmatter.description || '',
+        url: canonicalPath,
+        image: frontmatter.image,
+    }}
+    breadcrumbItems={[
+        { name: '首頁', url: '/' },
+        { name: '升學攻略', url: '/blog/' },
+        { name: frontmatter.title, url: canonicalPath },
+    ]}
+>
+    {/* Navbar (same as homepage) */}
+    <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-6 h-16 flex items-center justify-between max-w-6xl">
+            <a href="/" class="flex items-center gap-2.5">
+                <img src="/logo-transparent.png" alt="DSE Jupas 神器" class="w-10 h-10 object-contain" />
+                <div class="leading-tight">
+                    <span class="font-bold text-gray-900 text-sm block">DSE Jupas 神器</span>
+                    <span class="text-[10px] text-gray-400 block">JUPAS 計分 ・ 入學分析 ・ 面試模擬</span>
+                </div>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <div class="flex gap-7 text-sm text-gray-500">
+                    <a href="/#features" class="hover:text-amber-500 transition-colors font-medium">功能</a>
+                    <a href="/#faq" class="hover:text-amber-500 transition-colors font-medium">常見問題</a>
+                    <a href="/#reviews" class="hover:text-amber-500 transition-colors font-medium">評價</a>
+                    <a href="/blog/" class="text-amber-500 font-semibold">升學攻略</a>
+                    <a href="/#scores" class="hover:text-amber-500 transition-colors font-medium">收生分數</a>
+                </div>
+                <a href="https://apps.apple.com/app/id6780134101"
+                    class="bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors shadow-lg shadow-amber-200">
+                    下載 App
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    {/* Main Content */}
+    <div class="min-h-screen bg-slate-50 pt-24 pb-20">
+        <div class="container mx-auto px-6 max-w-4xl">
+            {/* Breadcrumb / Back */}
+            <a
+                href="/blog/"
+                class="inline-flex items-center text-slate-500 hover:text-[#f59e0b] transition-colors mb-8 group"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="mr-1 group-hover:-translate-x-1 transition-transform"
+                    ><path d="m15 18-6-6 6-6"></path></svg
+                >
+                返回升學攻略
+            </a>
+
+            {/* Header */}
+            <header class="mb-12 text-center">
+                <div
+                    class="inline-block px-3 py-1 bg-sky-50 text-sky-600 rounded-full text-sm font-medium mb-4"
+                >
+                    升學攻略
+                </div>
+                <h1
+                    class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 leading-tight"
+                >
+                    {frontmatter.title}
+                </h1>
+                <p
+                    class="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed"
+                >
+                    {frontmatter.description}
+                </p>
+            </header>
+
+            {/* Cover image (if provided in frontmatter) */}
+            {frontmatter.image && (
+                <figure class="mb-10 -mx-2 md:-mx-0 rounded-3xl overflow-hidden shadow-lg border border-slate-100">
+                    <img
+                        src={frontmatter.image}
+                        alt={frontmatter.title}
+                        class="w-full h-auto aspect-[16/9] object-cover"
+                        loading="eager"
+                    />
+                </figure>
+            )}
+
+            {/* Content */}
+            <article
+                class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-100 blog-content"
+            >
+                <slot />
+            </article>
+
+            {/* Footer CTA */}
+            <div
+                class="mt-12 text-center bg-amber-900 rounded-3xl p-12 text-white relative overflow-hidden"
+            >
+                <div class="relative z-10">
+                    <h3 class="text-2xl font-bold mb-4">覺得這篇文章有用？</h3>
+                    <p class="mb-8 text-amber-100">
+                        立即下載 DSE Jupas 神器，一個 App 計分、分析入學機會、操練面試。
+                    </p>
+                    <a
+                        href="https://apps.apple.com/app/id6780134101"
+                        class="inline-block bg-white text-amber-900 px-8 py-3 rounded-full font-bold hover:bg-amber-50 transition-colors"
+                    >
+                        免費下載
+                    </a>
+                </div>
+                <div
+                    class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"
+                >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {/* Footer */}
+    <footer class="bg-white border-t border-slate-100 py-12">
+        <div class="container mx-auto px-6">
+            <div
+                class="flex flex-col md:flex-row items-center justify-between gap-6"
+            >
+                <div class="flex items-center gap-2">
+                    <img src="/logo1024.png" alt="DSE Jupas 神器" class="w-8 h-8 object-contain" />
+                    <span
+                        class="font-bold text-lg tracking-tight text-slate-800"
+                        >DSE Jupas 神器</span
+                    >
+                </div>
+                <div class="flex gap-6 text-sm text-slate-500">
+                    <a href="/" class="hover:text-[#f59e0b] transition-colors"
+                        >首頁</a
+                    >
+                    <a
+                        href="/#features"
+                        class="hover:text-[#f59e0b] transition-colors">功能</a
+                    >
+                    <a
+                        href="/blog/"
+                        class="hover:text-[#f59e0b] transition-colors"
+                        >升學攻略</a
+                    >
+                </div>
+                <p class="text-slate-400 text-sm">
+                    © 2026 DSE Jupas 神器. Your Smart JUPAS Companion.
+                </p>
+            </div>
+        </div>
+    </footer>
+</Layout>
+
+<style is:global>
+    /* Blog Content Typography */
+    .blog-content h2 {
+        @apply text-2xl md:text-3xl font-bold mt-12 mb-6 text-slate-900 flex items-center gap-3;
+    }
+    .blog-content h2::before {
+        content: "";
+        @apply w-2 h-8 bg-amber-400 rounded-full block;
+    }
+
+    .blog-content h3 {
+        @apply text-xl font-bold mt-8 mb-4 text-slate-800;
+    }
+
+    .blog-content p {
+        @apply mb-6 leading-relaxed text-slate-600 text-lg;
+    }
+
+    .blog-content ul,
+    .blog-content ol {
+        @apply mb-8 space-y-3 bg-slate-50 p-6 rounded-2xl;
+    }
+
+    .blog-content li {
+        @apply flex items-start text-slate-700 leading-relaxed;
+    }
+    .blog-content li::before {
+        content: "•";
+        @apply text-sky-500 font-bold mr-3;
+    }
+
+    .blog-content strong {
+        @apply text-sky-700 font-bold;
+    }
+
+    .blog-content blockquote {
+        @apply border-l-4 border-sky-400 pl-6 italic text-slate-500 my-8 py-2 bg-slate-50 rounded-r-xl;
+    }
+
+    .blog-content a {
+        @apply text-sky-600 underline hover:text-sky-800 transition-colors;
+    }
+
+    .blog-content hr {
+        @apply my-12 border-slate-200;
+    }
+</style>

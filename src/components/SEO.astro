@@ -1,0 +1,93 @@
+---
+interface Props {
+    title: string;
+    description: string;
+    lang?: string;
+    canonical?: string;
+    ogImage?: string;
+    ogType?: string;
+    twitterCard?: string;
+    keywords?: string;
+    author?: string;
+    noindex?: boolean;
+    alternates?: Array<{ lang: string; url: string }>;
+}
+
+const {
+    title,
+    description,
+    lang = "zh-HK",
+    canonical,
+    ogImage = "/logo1024.png",
+    ogType = "website",
+    twitterCard = "summary_large_image",
+    keywords = "DSE Jupas 神器,JUPAS 計分器,JUPAS 計分,JUPAS 計算機,DSE 計分,JUPAS 收生分數,JUPAS 入學機會,大學面試模擬,JUPAS Band A 策略,JUPAS 改選,DSE 升大學,香港聯招,Best 5,4C+2X,JUPAS calculator,JUPAS score calculator,DSE university admission,HK JUPAS app,大學入學面試",
+    author = "DSE Jupas 神器",
+    noindex = false,
+    alternates = []
+} = Astro.props;
+
+// Build absolute URLs
+const siteUrl = Astro.site || new URL(Astro.url.origin);
+const canonicalURL = canonical || new URL(Astro.url.pathname, siteUrl);
+const ogImageURL = new URL(ogImage, siteUrl);
+---
+
+<!-- Primary Meta Tags -->
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+{keywords && <meta name="keywords" content={keywords} />}
+{author && <meta name="author" content={author} />}
+<meta name="theme-color" content="#FFC83D" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Robots -->
+{noindex ? (
+    <meta name="robots" content="noindex, nofollow" />
+) : (
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+)}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImageURL} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta property="og:site_name" content="DSE Jupas 神器 - JUPAS 計分及面試 App" />
+<meta property="og:locale" content={lang.replace('-', '_').replace(/_([a-z]+)$/, (_, r) => '_' + r.toUpperCase())} />
+
+<!-- Twitter -->
+<meta name="twitter:card" content={twitterCard} />
+<meta name="twitter:url" content={canonicalURL} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageURL} />
+<meta name="twitter:site" content="@jupascalculator" />
+
+<!-- Alternate Languages -->
+{alternates.map(({ lang: altLang, url }) => (
+    <link rel="alternate" hreflang={altLang} href={new URL(url, siteUrl)} />
+))}
+{alternates.length > 0 && (
+    <link rel="alternate" hreflang="x-default" href={new URL(alternates[0].url, siteUrl)} />
+)}
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<!-- iOS Meta Tags -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="DSE Jupas 神器" />
+
+<!-- Performance & Preconnect -->
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />

@@ -1,0 +1,36 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LandingPage, {
+    LANGUAGES,
+    translations,
+} from "../../components/LandingPage";
+
+export function getStaticPaths() {
+    return LANGUAGES.map((l) => ({
+        params: { lang: l.code.toLowerCase() },
+        props: { code: l.code },
+    }));
+}
+
+const { lang } = Astro.params;
+const { code } = Astro.props;
+const t = translations[code] || translations["en"];
+
+// SEO Metadata logic
+const isChinese = code.startsWith("zh");
+const appName = isChinese ? "DSE Jupas 神器" : "DSE Jupas";
+const tagline = isChinese
+    ? "JUPAS 計分器｜八大計分公式・AI 入學機會分析・大學面試模擬・免費下載"
+    : "JUPAS Score Calculator・AI Admission Analysis・University Interview Sim";
+const title = `${appName} - ${tagline}`;
+const seoDescription = isChinese
+    ? "DSE Jupas 神器一個 App 搞掂升大學：輸入 DSE 成績即時套用八大及自資院校收生計分公式（Best 5、4C+2X、科目加權、加分制），涵蓋約 440 個真實 JUPAS 課程；AI 對比歷年收生 median／LQ 分析入學機會，並提供約 1500 條真實大學面試題模擬操練。免費下載。"
+    : t.hero.subtitle;
+const description = seoDescription;
+---
+
+<Layout title={title} description={description} lang={lang}>
+    <main>
+        <LandingPage client:load initialLang={code} />
+    </main>
+</Layout>

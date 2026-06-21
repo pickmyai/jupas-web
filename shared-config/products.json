@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": "10minquiz",
+      "name": "10分鐘BLNST基本法及國安法練習",
+      "nameEn": "10 Min BLNST",
+      "slogan": "BLNST題目練習，每題附詳細原文解釋",
+      "sloganEn": "BLNST practice with detailed explanations",
+      "logo": "/shared-logos/10minquiz.png",
+      "url": "https://www.10minquiz.com/zh-hant/blnst-past-paper-question-app",
+      "color": "#4F46E5",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "picmyquiz",
+      "name": "PicMyQuiz",
+      "nameEn": "PicMyQuiz",
+      "slogan": "上傳材料，AI一秒建立專屬題庫",
+      "sloganEn": "Upload materials, AI builds your quiz instantly",
+      "logo": "/shared-logos/picmyquiz.png",
+      "url": "https://picmyquiz.com",
+      "color": "#EC4899",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "ai-dictation",
+      "name": "默書王 AI 智能默書",
+      "nameEn": "DictateBoss AI",
+      "slogan": "24小時AI默書導師，隨時隨地練習",
+      "sloganEn": "Your 24/7 AI dictation tutor",
+      "logo": "/shared-logos/ai-dictation.png",
+      "url": "https://www.dictateboss.com",
+      "color": "#10B981",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "bookdaddy",
+      "name": "bookdaddy",
+      "nameEn": "bookdaddy",
+      "slogan": "二手書．物品．服務 AI秒速配對",
+      "sloganEn": "Books, items & services matched by AI instantly",
+      "logo": "/shared-logos/bookdaddy.png",
+      "url": "https://www.bookdaddyhk.com",
+      "color": "#F59E0B",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-19",
+    "company": "Pickmy AI",
+    "copyright": "© 2026 Pickmy AI. All rights reserved."
+  }
+}

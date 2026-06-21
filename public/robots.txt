@@ -1,0 +1,28 @@
+# robots.txt for DSE Jupas 神器
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (if any in future)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Sitemap location
+Sitemap: https://jupascalculator.app/sitemap-index.xml
+
+# Crawl-delay (optional, usually not needed)
+# Crawl-delay: 1
+
+# Google bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing bot
+User-agent: Bingbot
+Allow: /
+
+# Baidu bot (important for Chinese market)
+User-agent: Baiduspider
+Allow: /
