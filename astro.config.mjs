@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://jupascalculator.app',
+    site: 'https://www.jupascalculator.app',
     vite: {
         resolve: {
             alias: {

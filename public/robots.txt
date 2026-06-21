@@ -7,7 +7,7 @@ Allow: /
 # Disallow: /api/
 
 # Sitemap location
-Sitemap: https://jupascalculator.app/sitemap-index.xml
+Sitemap: https://www.jupascalculator.app/sitemap-index.xml
 
 # Crawl-delay (optional, usually not needed)
 # Crawl-delay: 1
