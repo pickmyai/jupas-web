@@ -728,19 +728,18 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                             </FadeUp>
                         </div>
 
-                        {/* Right: App demo video in phone frame */}
+                        {/* Right: real app screens in phone frames */}
                         <FadeUp delay={0.12} className="flex justify-center md:justify-end">
                             <div className="relative">
-                                {/* Glow */}
-                                <div className="absolute inset-0 bg-amber-300/30 blur-3xl rounded-full scale-90" />
-                                {/* Soft cream card */}
-                                <div className="relative bg-gradient-to-br from-amber-50 to-white rounded-[2.6rem] p-6 shadow-xl border border-amber-100 w-[270px] md:w-[300px]">
-                                    <img
-                                        src="/app/illu_calc.png"
-                                        className="w-full h-auto block drop-shadow-md"
-                                        alt={t.hero.videoLabel}
-                                    />
-                                </div>
+                                {/* Soft glow */}
+                                <div className="absolute inset-0 bg-amber-300/25 blur-3xl rounded-full scale-90" />
+                                <img
+                                    src="/app/hero_phones.png"
+                                    className="relative w-[300px] sm:w-[360px] md:w-[420px] h-auto block"
+                                    alt={t.hero.videoLabel}
+                                    width="1500"
+                                    height="2071"
+                                />
                             </div>
                         </FadeUp>
                     </div>
