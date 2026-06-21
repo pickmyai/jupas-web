@@ -10,7 +10,6 @@ import { cn } from "../lib/utils";
 
 export const LANGUAGES = [
     { code: "zh-HK", name: "繁體中文 (香港)" },
-    { code: "zh-TW", name: "繁體中文 (台灣)" },
     { code: "zh-CN", name: "简体中文" },
     { code: "en", name: "English" },
 ];
@@ -88,71 +87,6 @@ export const translations = {
             privacy: "私隱政策",
             terms: "使用條款",
         },
-    },
-    "zh-TW": {
-        nav: { features: "功能", reviews: "用戶評價", faq: "常見問題", blog: "升學攻略", cta: "下載 App" },
-        hero: {
-            tagline: "JUPAS 計分 · 入學分析 · 面試模擬 · 免費下載",
-            title: "一秒算好 JUPAS 分數",
-            titleHighlight: "再看清你能進哪一間",
-            subheading: "DSE Jupas 神器幫你計分、分析入學機會、操練面試，一個 App 搞定升大學",
-            subtitle: "輸入 DSE 成績，自動套用八大及自資院校的收生計分公式（Best 5、4C+2X、科目加權、加分制），即時算出每個課程分數；再以 AI 對比歷年收生 median 與 LQ，告訴你哪個課程穩妥、哪個進取，還有約 1500 條真實面試題供你操練。",
-            bullets: [
-                "約 440 個真實 JUPAS 課程，八大計分公式一鍵套用",
-                "AI 入學機會分析——你的分數對比歷年 median／LQ，掌握自己穩不穩",
-                "大學面試模擬——14 個學系大類、約 1500 題，AI 即時評分",
-            ],
-            cta: "免費下載",
-            secondaryCta: "了解更多",
-            videoLabel: "App 示範",
-        },
-        stats: [
-            { value: "約 440", label: "真實 JUPAS 課程" },
-            { value: "八大", label: "院校計分公式" },
-            { value: "約 1500", label: "大學面試題" },
-        ],
-        features: {
-            title: "為何選擇 DSE Jupas 神器？",
-            subtitle: "計分、入學機會、面試三合一——從選科、評估自己穩不穩、到面試操練，一個 App 幫你從放榜算到進大學",
-            items: [
-                { icon: Calculator, label: "JUPAS 計分", title: "JUPAS 計分神器", desc: "輸入 DSE 成績，自動套用八大及自資院校不同收生計分公式，即時算出每個課程的真實分數。", bullets: ["Best 5、4C+2X、科目加權、加分制全支援", "涵蓋約 440 個真實 JUPAS 課程", "不同院校公式自動切換，即時出分"], color: "orange" },
-                { icon: Brain, label: "AI 入學分析", title: "AI 入學機會分析", desc: "你的分數對比每個課程歷年收生 median 與 LQ，AI 告訴你是穩妥、進取還是保底。", bullets: ["對比歷年收生中位數與下四分位", "AI 判斷穩妥／進取／保底", "附帶 Band A–E 排位策略建議"], color: "teal" },
-                { icon: Mic, label: "面試模擬", title: "大學面試模擬", desc: "AI 語音面試官，涵蓋 14 個學系大類、約 1500 條真實面試題，中英雙語即時評分。", bullets: ["醫、牙、法律、商、教育、社工、護理全覆蓋", "中英雙語，AI 即時評分", "附改善建議，練到有信心為止"], color: "orange" },
-                { icon: GraduationCap, label: "八大全覆蓋", title: "八大院校計分公式", desc: "港大、中大、科大、城大、理大、浸大、教大、嶺大——八大收生計分公式全部內建。", bullets: ["八大及主要自資院校公式齊備", "每間大學收生計分邏輯逐一拆解", "不必再自己查 prospectus 慢慢算"], color: "teal" },
-                { icon: BarChart3, label: "收生數據", title: "歷年收生數據參考", desc: "每個課程附歷年收生 median 與 LQ，還有收生分數趨勢，幫你判斷自己的位置。", bullets: ["median／LQ 收生數據逐科呈現", "過去數年收生分數趨勢圖", "用真實數據評估自己能進哪間"], color: "orange" },
-                { icon: ListChecks, label: "心願清單", title: "心願清單 Wishlist", desc: "將心儀課程加入 wishlist，一覽你的分數對每個課程的入學機會，方便排志願。", bullets: ["一鍵收藏心儀課程", "並排比較分數與入學機會", "排志願前一目了然"], color: "teal" },
-                { icon: TrendingUp, label: "選科策略", title: "Band A–E 選科策略", desc: "AI 根據你的分數與收生數據，建議哪些課程放 Band A、哪些放保底，排得穩妥又博得起。", bullets: ["進取到保底分層建議", "夢想課程與安全課程平衡排位", "20 個志願部署一目了然"], color: "orange" },
-                { icon: Wifi, label: "離線可用", title: "離線也能算分", desc: "計分器與收生數據離線也能用，隨時隨地拿出來算，不受網絡限制。", bullets: ["計分功能完全離線運作", "收生數據已內建，不必等 loading", "只需首次下載時連接網絡"], color: "teal" },
-            ],
-        },
-        process: {
-            title: "三步搞定升大學",
-            steps: [
-                { num: "01", title: "輸入 DSE 成績", desc: "填入你各科 DSE 成績，App 自動套用八大計分公式，即時計分", icon: Calculator },
-                { num: "02", title: "選心儀課程看分析", desc: "查看每個課程的計分與入學機會，AI 告訴你穩妥、進取還是保底", icon: BarChart3 },
-                { num: "03", title: "AI 面試模擬操練", desc: "用約 1500 條真實面試題操練，AI 語音面試官即時評分給建議", icon: Mic },
-            ],
-        },
-        reviews: {
-            title: "真實用戶評價",
-            items: [
-                { text: "以前要自己查 prospectus 逐科算分，算到頭都暈。現在輸入成績立刻算出八大每個課程的分，省了好多時間。", name: "王同學", detail: "中六 DSE 應屆", avatar: "王" },
-                { text: "最棒的是 AI 入學分析，把我的分和歷年 median、LQ 比，告訴我哪些穩妥哪些進取，排 Band A 的時候安心多了。", name: "陳同學", detail: "DSE 考生", avatar: "陳" },
-                { text: "面試模擬幫了我很多，醫科 MMI 那些題真的很像考評那些，練了幾天真的找回信心，面試講話沒那麼緊張。", name: "李同學", detail: "報讀醫科", avatar: "李" },
-            ],
-        },
-        faq: {
-            title: "常見問題",
-            items: [
-                { q: "計分準不準？數據從哪裡來？", a: "計分器依據八大及自資院校公開的收生計分公式（Best 5、4C+2X、科目加權、加分制等）逐一實現，並對照社群整理的真實課程計分方法。結果僅供參考，正式收生以各院校公佈為準。", icon: Calculator },
-                { q: "覆蓋多少個課程？", a: "目前涵蓋約 440 個真實 JUPAS 課程，包括八大院校及主要自資院校的熱門學系，並會持續更新。", icon: GraduationCap },
-                { q: "AI 入學機會分析怎麼算？", a: "AI 會將你的計分對比每個課程歷年收生 median（中位數）與 LQ（下四分位數），判斷你是穩妥、進取還是保底，再給出 Band A–E 排位策略建議。", icon: Brain },
-                { q: "需要全程連網嗎？", a: "不需要。計分器與收生數據參考支援離線使用；AI 入學分析與面試模擬則需要連網才能使用。", icon: Wifi },
-                { q: "面試題符不符合真實？", a: "面試題庫涵蓋 14 個學系大類、約 1500 條題目，參考各熱門學系真實面試常見題型（包括醫科 MMI），中英雙語，配 AI 即時評分與改善建議。", icon: Mic },
-            ],
-        },
-        cta: { title: "從放榜算到進大學", subtitle: "計分、入學分析、面試模擬，一個 App 搞定升大學。免費下載，立即試。" },
-        footer: { copyright: "© 2026 DSE Jupas 神器", tagline: "JUPAS 計分 · 入學分析 · 面試模擬", privacy: "隱私政策", terms: "使用條款" },
     },
     "zh-CN": {
         nav: { features: "功能", reviews: "用户好评", faq: "常见问题", blog: "升学攻略", cta: "下载 App" },
@@ -798,22 +732,14 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                         <FadeUp delay={0.12} className="flex justify-center md:justify-end">
                             <div className="relative">
                                 {/* Glow */}
-                                <div className="absolute inset-0 bg-amber-400/20 blur-3xl rounded-full scale-75" />
-                                {/* Thin phone frame */}
-                                <div className="relative bg-gray-900 rounded-[2.8rem] p-[3px] shadow-2xl border border-gray-700/50 w-[260px] md:w-[280px]">
-                                    <div className="bg-black rounded-[2.6rem] overflow-hidden relative">
-                                        {/* Dynamic Island */}
-                                        <div className="relative bg-black pt-3 pb-1 flex justify-center">
-                                            <div className="w-[90px] h-[26px] bg-black rounded-full relative flex items-center justify-center">
-                                                <div className="absolute left-4 w-[8px] h-[8px] rounded-full bg-gray-900 ring-1 ring-gray-700" />
-                                            </div>
-                                        </div>
-                                        <img
-                                            src="/app/illu_calc.png"
-                                            className="w-full h-auto block"
-                                            alt={t.hero.videoLabel}
-                                        />
-                                    </div>
+                                <div className="absolute inset-0 bg-amber-300/30 blur-3xl rounded-full scale-90" />
+                                {/* Soft cream card */}
+                                <div className="relative bg-gradient-to-br from-amber-50 to-white rounded-[2.6rem] p-6 shadow-xl border border-amber-100 w-[270px] md:w-[300px]">
+                                    <img
+                                        src="/app/illu_calc.png"
+                                        className="w-full h-auto block drop-shadow-md"
+                                        alt={t.hero.videoLabel}
+                                    />
                                 </div>
                             </div>
                         </FadeUp>
@@ -973,15 +899,13 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                         </FadeUp>
                         <FadeUp delay={0.12} className="flex justify-center md:justify-end">
                             <div className="relative">
-                                <div className="absolute inset-0 bg-sky-400/20 blur-3xl rounded-full scale-75" />
-                                <div className="relative bg-gradient-to-b from-gray-900 to-gray-800 rounded-[2.4rem] p-[6px] shadow-2xl border border-gray-700 w-[260px] md:w-[280px]">
-                                    <div className="bg-black rounded-[2rem] overflow-hidden">
-                                        <img
-                                            src="/app/illu_mock.png"
-                                            className="w-full h-auto block"
-                                            alt="DSE Jupas 神器 面試模擬示範"
-                                        />
-                                    </div>
+                                <div className="absolute inset-0 bg-sky-300/30 blur-3xl rounded-full scale-90" />
+                                <div className="relative bg-gradient-to-br from-sky-50 to-white rounded-[2.6rem] p-6 shadow-xl border border-sky-100 w-[270px] md:w-[300px]">
+                                    <img
+                                        src="/app/illu_mock.png"
+                                        className="w-full h-auto block drop-shadow-md"
+                                        alt="DSE Jupas 神器 面試模擬示範"
+                                    />
                                 </div>
                             </div>
                         </FadeUp>

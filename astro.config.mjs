@@ -26,7 +26,6 @@ export default defineConfig({
                 defaultLocale: 'zh-HK',
                 locales: {
                     'zh-HK': 'zh-HK',
-                    'zh-TW': 'zh-TW',
                     'zh-CN': 'zh-CN',
                     'en': 'en',
                 }
