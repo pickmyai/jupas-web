@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "JUPAS 計分方法全攻略：Best 5、4C+2X 同各大學收生公式拆解"
-description: "同一張 DSE 成績單，HKU、CUHK、HKUST、CityU、PolyU、HKBU、LingU、EdUHK 計出嚟嘅分可以差好遠。一篇拆清 Best 5、4C+2X、核心科要求、選修科加權、特定科目 bonus、面試 / 比賽額外分，附八大計分差異對照表同實際計分示範。"
+title: "同一張 DSE 成績單點解間間大學計分唔同？JUPAS Best 5、4C+2X 全拆解"
+description: "同一張 DSE 成績單，點解 HKU、CUHK、HKUST、CityU、PolyU、HKBU、LingU、EdUHK 計出嚟嘅分可以差好遠？一篇拆清 Best 5、4C+2X、核心科要求、選修科加權、特定科目 bonus、面試 / 比賽額外分，附八大計分差異對照表。"
 image: "/blog-covers/jupas-scoring-methods-explained.webp"
 category: "計分攻略"
 readTime: "12 分鐘"
@@ -47,7 +47,7 @@ pubDate: "2026-06-18"
 
 每年放榜後總有同學發現：用同一張 DSE 成績單，套入 HKU 嘅商科同 CUHK 嘅理科，分數竟然差成 3、4 分。明明科目一樣，點解會咁？答案係——**JUPAS 每個課程都有自己一套計分公式**。有啲用 Best 5、有啲用 4C+2X、有啲將數學或選修科 ×2 加權、有啲仲會幫你 M1/M2 加 bonus。你唔搞清楚邊條公式對你最有利，就好難判斷自己應該排邊個課程、放邊個志願先穩陣。
 
-呢篇文會由最基本嘅 5\*\*=7 分換算開始，逐層拆解 Best 5、4C+2X、核心科最低要求（俗稱「3322」）、選修科加權、特定科目 bonus、面試同比賽額外分，再用一張表對照八大主要計分差異，最後示範由一張真實成績單計出唔同課程嘅分。睇完你應該可以自己手動 mock 任何一個課程嘅分數。
+呢篇文會由最基本嘅 5\*\*=7 分換算開始，逐層拆解 Best 5、4C+2X、核心科最低要求（俗稱「3322」）、選修科加權、特定科目 bonus、面試同比賽額外分，再用一張 DSE 成績單示例計出唔同課程嘅分。睇完你應該可以自己手動 mock 任何一個課程嘅分數。
 
 <div class="not-prose my-8 p-6 rounded-2xl border border-slate-200 bg-white">
   <div class="text-xs tracking-wider uppercase text-slate-500 mb-3 flex items-center gap-2">

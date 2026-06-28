@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "JUPAS 改選 Change of Choices 全指南：時間線同放榜前後策略"
-description: "由報名、Band A 截止、放榜前最後改選窗口、DSE 放榜日，一路去到放榜後改選、Main Round offer 同 Clearing 補選——一篇拆清 JUPAS 全年時間線同每個階段嘅改選策略，附四大階段 checklist。日期每年不同，記得對返官方最新時間表。"
+title: "DSE 分數比預期差怕入唔到 U？JUPAS 改選時間線同放榜前後逆襲策略"
+description: "分數比預期差，係咪仲有機會靠 JUPAS 改選救返？由報名、Band A 截止、放榜前最後改選窗口、DSE 放榜日，一路去到放榜後改選、Main Round offer 同 Clearing 補選——一篇拆清全年時間線同每個階段嘅改選策略。"
 image: "/blog-covers/jupas-change-of-choices-guide.webp"
 category: "JUPAS 流程"
 readTime: "10 分鐘"
@@ -72,7 +72,7 @@ pubDate: "2026-06-21"
     </thead>
     <tbody class="text-slate-700">
       <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">開始報名</td><td class="px-4 py-3">約年尾（11–12 月）</td><td class="px-4 py-3">登記 JUPAS 帳戶、填課程志願、了解每科要求</td></tr>
-      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">Band A 截止</td><td class="px-4 py-3">約 12 月</td><td class="px-4 py-3">Band A（首 3 個志願）最後確定限期，部分課程只睇 Band A</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">Band A 截止</td><td class="px-4 py-3">約 12 月</td><td class="px-4 py-3">Band A（首 3 個志願）最後確定限期，適合放最想讀及最值得搏嘅課程</td></tr>
       <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">面試 / 額外要求</td><td class="px-4 py-3">約 1–5 月</td><td class="px-4 py-3">部分課程放榜前面試、交 portfolio、體能 / 語文測試</td></tr>
       <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">放榜前改選</td><td class="px-4 py-3">約 6–7 月（放榜前）</td><td class="px-4 py-3">最後一次自由重排志願（Modification of Choices）</td></tr>
       <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">DSE 放榜日</td><td class="px-4 py-3">約 7 月中</td><td class="px-4 py-3">攞成績、即時評估自己各課程分數同機會</td></tr>
@@ -93,7 +93,7 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
 
 喺改選截止限期之前，你可以**無限次自由重排所有志願次序**，唔會額外收費，亦唔會留下任何「紀錄」影響收生。即係話放榜前你完全可以放膽試擺、調換、汰換課程，最後喺截止前鎖定一個最佳次序就得。
 
-要特別留意 **Band A 嘅特殊地位**：Band A 係你嘅首 3 個志願（A1、A2、A3），部分課程（尤其神科）只會考慮將佢哋擺喺 Band A 嘅申請人。所以放榜前重排 Band A 雖然唔使額外收費，但**意義最重大**——擺邊 3 個入 Band A，直接決定你有冇資格被某啲課程考慮。
+要特別留意 **Band A 嘅特殊地位**：Band A 係你嘅首 3 個志願（A1、A2、A3）。院校喺 Main Round 前會見到課程屬於 Band A，但唔會知道 A1 / A2 / A3 嘅實際次序。所以放榜前重排 Band A 雖然唔使額外收費，但**意義最重大**——擺邊 3 個入 Band A，等於向院校表達你最高意向；部分競爭大課程或會較重視 banding，實際做法仍以各院校及課程公布為準。
 
 <div class="not-prose my-6 border-l-4 border-sky-400 bg-sky-50/60 rounded-r-lg p-4 flex gap-3">
   <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
@@ -153,7 +153,7 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
     <li>✅ 登記 JUPAS 帳戶、確認個人 / 學校資料正確</li>
     <li>✅ 用 JUPAS 計分器計出自己每個目標課程嘅分數（公式各不同）</li>
     <li>✅ 對返各課程嘅最低門檻（中英數 + 選修要求、英文 Level 4/5 神科）</li>
-    <li>✅ 排好初步志願次序，將最重要、只睇 Band A 嘅課程擺入 A1–A3</li>
+    <li>✅ 排好初步志願次序，將最重要、最值得表達高意向嘅課程擺入 A1–A3</li>
     <li>✅ 留意 Band A 截止限期，喺限期前確定 Band A</li>
   </ul>
 </div>
@@ -174,7 +174,7 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
 
 <div class="not-prose my-6 p-5 rounded-2xl border border-slate-200 bg-white">
   <ul class="m-0 text-slate-700 text-sm leading-relaxed space-y-2">
-    <li>✅ 攞成績後即刻用計分器計返每個課程嘅真實分數</li>
+    <li>✅ 攞成績後即刻用計分器計返每個課程嘅對應分數</li>
     <li>✅ 用真實成績重新評估每個志願嘅入學機會（成績好 / 差都要重排）</li>
     <li>✅ 喺放榜後改選窗口（時間好短）內完成志願調整</li>
     <li>✅ 守住電話 / email，注意 offer 通知同每個 deadline</li>
@@ -211,7 +211,7 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
 
 <details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
 <summary class="font-semibold text-slate-900 cursor-pointer">Band A 同其他 Band 有咩分別？點解大家咁緊張 Band A？</summary>
-<p class="text-slate-700 text-sm mt-3 leading-relaxed">Band A 係你首 3 個志願（A1–A3）。部分課程（尤其競爭大嘅神科）只會考慮將佢哋擺入 Band A 嘅申請人，唔擺入 Band A 就直接冇得 consideration。所以 Band A 嘅 3 個位「最值錢」，要用「進取 / 穩陣 / 保底」三梯級審慎鎖定。</p>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">Band A 係你首 3 個志願（A1–A3）。JUPAS 會以 Band A–E 形式向院校呈現你的選擇，Main Round 前不披露同一 Band 內的實際次序。因為 Band A 反映最高意向，競爭大課程值得優先放入；但不同課程會點運用 banding，仍以官方公布為準。</p>
 </details>
 
 <details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
@@ -234,7 +234,7 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#f59e0b] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
     <div>
       <div class="text-lg font-bold text-slate-900 mb-1">改選 deadline 前，用數據鎖定你嘅 Band A</div>
-      <p class="text-slate-700 m-0 text-sm leading-relaxed">改志願最怕「憑感覺擺」。喺每個改選窗口截止前，用 DSE Jupas 神器 嘅 JUPAS 計分器計出你每個課程嘅真實分數，再用 AI 入學機會分析比對歷年收生 median 同 LQ，一眼分清邊個志願係穩陣、邊個進取、邊個保底，理性鎖定 A1–A3 三梯級。如果有課程要面試，仲可以用大學面試模擬提早練定。</p>
+      <p class="text-slate-700 m-0 text-sm leading-relaxed">改志願最怕「憑感覺擺」。喺每個改選窗口截止前，用 DSE Jupas 神器 嘅 JUPAS 計分器計出你每個課程嘅對應分數，再用 AI 入學機會分析比對歷年收生 median 同 LQ，一眼分清邊個志願係穩陣、邊個進取、邊個保底，理性鎖定 A1–A3 三梯級。如果有課程要面試，仲可以用大學面試模擬提早練定。</p>
     </div>
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "大學入學面試準備：醫科、法律、商科常見題 + 答題框架"
-description: "神科面試一關往往決定生死。一篇拆清 MMI（多站式面試）點運作、醫 / 法 / 商 / 教 / 工各學系最常考嘅時事倫理題、個人特質題同情境題，附 STAR 答題框架實例、中英文 mock interview 雙語準備法，同臨場 do & don't 清單，幫你由「驚到口窒窒」練到對答如流。"
+title: "大學面試一開口就扣分？醫科、法律、商科常見題 + STAR 答題框架"
+description: "面試一緊張就口窒窒，會唔會明明夠分都輸喺最後一關？一篇拆清 MMI（多站式面試）點運作、醫 / 法 / 商 / 教 / 工最常考嘅時事倫理題、個人特質題同情境題，附 STAR 答題框架、中英文 mock interview 準備法同臨場清單。"
 image: "/blog-covers/university-interview-preparation.webp"
 category: "面試攻略"
 readTime: "12 分鐘"
@@ -245,7 +245,7 @@ MMI（Multiple Mini Interview，多站式面試）係近年醫、牙、護理、
     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#f59e0b] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>
     <div>
       <div class="text-lg font-bold text-slate-900 mb-1">冇真人陪練？同 AI 考官講出聲練到對答如流</div>
-      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器 嘅<strong>大學面試模擬</strong>內置 AI 語音考官，題庫橫跨 <strong>14 個學系大類、約 1,500 條真實面試題</strong>（醫、法、商、教、工等），會出題、會追問、會即場畀回饋。你可以揀學系、揀中 / 英文，對住 AI 考官講出聲反覆 rehearse，模擬真實面試嘅壓力同節奏——臨真正上陣前先練到爛熟，唔使再驚自己「窒口」。</p>
+      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器 嘅<strong>大學面試模擬</strong>內置 AI 語音考官，題庫橫跨 <strong>14 個學系大類、約 1,500 條面試練習題</strong>（醫、法、商、教、工等），會出題、會追問、會即場畀回饋。你可以揀學系、揀中 / 英文，對住 AI 考官講出聲反覆 rehearse，模擬面試壓力同節奏：臨真正上陣前先練到爛熟，唔使再驚自己「窒口」。</p>
     </div>
   </div>
 </div>

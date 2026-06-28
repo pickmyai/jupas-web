@@ -24,6 +24,9 @@ const labels = {
     privacy:      isChinese ? '私隱政策'   : 'Privacy Policy',
     terms:        isChinese ? '使用條款'   : 'Terms of Use',
     tagline:      isChinese ? 'JUPAS 計分・入學機會分析・大學面試模擬' : 'JUPAS Score Calculator · Admission Analysis · Interview Prep',
+    disclaimer:   isChinese
+        ? 'DSE Jupas 神器並非 JUPAS 官方網站或 JUPAS Office 認可服務；資料及分析只供升學參考，正式安排以 JUPAS 及各院校公布為準。'
+        : 'DSE Jupas is not an official JUPAS website or endorsed by the JUPAS Office. Information and analysis are for admissions reference only; official JUPAS and institution announcements prevail.',
 };
 
 const categorizedProducts = [
@@ -161,7 +164,8 @@ const categorizedProducts = [
             </div>
         </div>
         <div class="text-center text-gray-600 text-xs mt-8 pt-6 border-t border-gray-700">
-            {meta.copyright}
+            <p>{meta.copyright}</p>
+            <p class="mt-2 max-w-3xl mx-auto text-gray-500 leading-relaxed">{labels.disclaimer}</p>
         </div>
     </div>
 </footer>
