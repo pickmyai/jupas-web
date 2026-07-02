@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "DSE 分數比預期差怕入唔到 U？JUPAS 改選時間線同放榜前後逆襲策略"
-description: "分數比預期差，係咪仲有機會靠 JUPAS 改選救返？由報名、Band A 截止、放榜前最後改選窗口、DSE 放榜日，一路去到放榜後改選、Main Round offer 同 Clearing 補選——一篇拆清全年時間線同每個階段嘅改選策略。"
+title: "JUPAS 改選 2026｜改選日期、48 小時時段、步驟、費用全攻略＋放榜前後策略"
+description: "JUPAS 改選 2026 幾時開始？放榜（7 月 15 日）後 7 月 16–18 日個人 48 小時時段點改？可以加幾多個新課程？要唔要收費？一篇拆清 2026 官方時間表、改選規則、步驟同放榜前後嘅逆襲策略。"
 image: "/blog-covers/jupas-change-of-choices-guide.webp"
 category: "JUPAS 流程"
 readTime: "10 分鐘"
@@ -22,24 +22,24 @@ pubDate: "2026-06-21"
       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
       放榜前改選
     </div>
-    <div class="text-2xl font-extrabold text-slate-900">約 6–7 月</div>
-    <div class="text-xs text-slate-600 mt-1">最後一次免費重排 Band A</div>
+    <div class="text-2xl font-extrabold text-slate-900">5 月 27 日</div>
+    <div class="text-xs text-slate-600 mt-1">2026 年放榜前最後修改截止（下午 5 時）</div>
   </div>
   <div class="border border-slate-200 rounded-xl bg-white p-5">
     <div class="flex items-center gap-2 text-slate-500 text-xs tracking-wider uppercase mb-2">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
       放榜日
     </div>
-    <div class="text-2xl font-extrabold text-slate-900">約 7 月中</div>
-    <div class="text-xs text-slate-600 mt-1">DSE 放榜 + 放榜後改選開放</div>
+    <div class="text-2xl font-extrabold text-slate-900">7 月 15 日</div>
+    <div class="text-xs text-slate-600 mt-1">2026 DSE 放榜；改選時段 7 月 16–18 日</div>
   </div>
   <div class="border border-slate-200 rounded-xl bg-white p-5">
     <div class="flex items-center gap-2 text-slate-500 text-xs tracking-wider uppercase mb-2">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
       派位
     </div>
-    <div class="text-2xl font-extrabold text-slate-900">Main + Clearing</div>
-    <div class="text-xs text-slate-600 mt-1">正式派位 + 補選餘額</div>
+    <div class="text-2xl font-extrabold text-slate-900">8 月 5 / 25 日</div>
+    <div class="text-xs text-slate-600 mt-1">Main Round 正式派位 + Clearing 補選結果</div>
   </div>
 </div>
 
@@ -52,14 +52,14 @@ pubDate: "2026-06-21"
 <div class="not-prose my-6 border-l-4 border-amber-400 bg-amber-50/60 rounded-r-lg p-4 flex gap-3">
   <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
   <div>
-    <div class="font-semibold text-amber-900 text-sm mb-1">重要：日期每年都唔同</div>
-    <p class="text-amber-900/80 text-sm leading-relaxed m-0">以下所有月份、窗口都係「一般而言 / 約」嘅參考範圍，並非官方確實日期。JUPAS 每年嘅報名截止、Band A 截止、改選窗口、放榜後改選同派位日期都會調整，可以相差幾日到一兩個星期。請務必以 JUPAS 官網每年公佈嘅<strong>最新 Important Dates / 時間表</strong>為唯一準則，唔好淨係靠呢篇文記日子。</p>
+    <div class="font-semibold text-amber-900 text-sm mb-1">2026 年關鍵日期已核對官方公布</div>
+    <p class="text-amber-900/80 text-sm leading-relaxed m-0">下文標明「2026 年」嘅日期（放榜 7 月 15 日、改選 7 月 16–18 日、Main Round 8 月 5 日、Clearing 8 月 25 日等）已對照 <a href="https://www.jupas.edu.hk/tc/" target="_blank" rel="noopener">JUPAS 官網</a>公布核實（截至 2026 年 7 月）。不過官方安排仍有可能調整，而且每年日期都唔同——每個關鍵 deadline 行動前，請以 JUPAS 官網嘅<strong>最新公布</strong>做最後確認。</p>
   </div>
 </div>
 
-## JUPAS 全年時間線（一般而言）
+## JUPAS 2026 全年時間線
 
-下表將 JUPAS 一個申請年度由報名到放榜後派位嘅主要階段排列出嚟。再次提醒：日期係**約數**，每年不同。
+下表將 JUPAS 2026 申請年度由報名到放榜後派位嘅主要階段排列出嚟，7 月起嘅日期已核對官方公布；報名階段日期屬一般範圍，每年略有不同。
 
 <div class="not-prose my-8 overflow-hidden rounded-2xl border border-slate-200">
   <table class="w-full text-sm border-separate border-spacing-0">
@@ -74,16 +74,17 @@ pubDate: "2026-06-21"
       <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">開始報名</td><td class="px-4 py-3">約年尾（11–12 月）</td><td class="px-4 py-3">登記 JUPAS 帳戶、填課程志願、了解每科要求</td></tr>
       <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">Band A 截止</td><td class="px-4 py-3">約 12 月</td><td class="px-4 py-3">Band A（首 3 個志願）最後確定限期，適合放最想讀及最值得搏嘅課程</td></tr>
       <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">面試 / 額外要求</td><td class="px-4 py-3">約 1–5 月</td><td class="px-4 py-3">部分課程放榜前面試、交 portfolio、體能 / 語文測試</td></tr>
-      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">放榜前改選</td><td class="px-4 py-3">約 6–7 月（放榜前）</td><td class="px-4 py-3">最後一次自由重排志願（Modification of Choices）</td></tr>
-      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">DSE 放榜日</td><td class="px-4 py-3">約 7 月中</td><td class="px-4 py-3">攞成績、即時評估自己各課程分數同機會</td></tr>
-      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">放榜後改選</td><td class="px-4 py-3">放榜後幾日內</td><td class="px-4 py-3">按真實成績再改志願（短窗口，要快）</td></tr>
-      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">Main Round 派位</td><td class="px-4 py-3">約 7 月底 / 8 月初</td><td class="px-4 py-3">正式 offer 公佈，按志願次序派最高一個</td></tr>
-      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">Clearing / 補選</td><td class="px-4 py-3">Main Round 之後</td><td class="px-4 py-3">未填滿學額開放補選，分數略低或有機會入</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">放榜前改選截止</td><td class="px-4 py-3">2026 年 5 月 27 日（下午 5 時）</td><td class="px-4 py-3">放榜前最後一次自由更新志願（Update of Programme Choices）</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">查閱改選時段</td><td class="px-4 py-3">2026 年 6 月 24 日（上午 9 時）起</td><td class="px-4 py-3">登入 JUPAS 帳戶查閱自己獲分配嘅 48 小時個人改選時段（不可更改）</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">DSE 放榜日</td><td class="px-4 py-3">2026 年 7 月 15 日</td><td class="px-4 py-3">攞成績、即時評估自己各課程分數同機會</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">放榜後改選</td><td class="px-4 py-3">2026 年 7 月 16–18 日</td><td class="px-4 py-3">喺個人 48 小時時段內按真實成績改志願（一次過提交；重新提交要 HK$250，最終截至 7 月 18 日下午 1:15）</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">Main Round 派位</td><td class="px-4 py-3">2026 年 8 月 5 日（上午 9 時）</td><td class="px-4 py-3">正式 offer 公佈，按志願次序派最高一個；接受要喺 8 月 6 日下午 5 時前繳 HK$5,000 留位費</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold text-[#f59e0b]">Clearing / 補選結果</td><td class="px-4 py-3">2026 年 8 月 25 日（上午 9 時）</td><td class="px-4 py-3">未填滿學額開放補選，分數略低或有機會入；留位費限期同日下午 5 時</td></tr>
     </tbody>
   </table>
 </div>
 
-<p class="text-sm text-slate-500 italic">以上時間線及日期僅供參考，每年安排不同，一切以 JUPAS 官方公佈嘅最新時間表為準。</p>
+<p class="text-sm text-slate-500 italic">2026 年日期已核對 JUPAS 官網公布（截至 2026 年 7 月）；官方如有調整，一切以 JUPAS 官方最新公佈為準。</p>
 
 ## 改選機制：放榜前 vs 放榜後
 
@@ -103,14 +104,19 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
   </div>
 </div>
 
-### 放榜後：按真實成績再改 + 接受 offer 嘅決定
+### 放榜後：48 小時個人時段，一次過改（2026 年 7 月 16–18 日）
 
-放榜後會開放一個**較短嘅改選窗口**，畀你按真實 DSE 成績再調整志願次序。呢個窗口好關鍵但時間好趕——通常只係放榜後嘅幾日內，你要喺攞到成績嗰一刻就即刻評估，唔好拖。
+放榜後嘅改選（官方叫 **Modification of Programme Choices**）同放榜前完全唔同玩法。2026 年嘅安排係：放榜（7 月 15 日）之後，**每位申請人會獲分配一個 48 小時嘅個人時段**，落喺 7 月 16 至 18 日之間。你由 **6 月 24 日上午 9 時**起就可以登入 JUPAS 帳戶查閱自己嘅時段——記住個時段係**分配咗就唔可以改**，所以一定要提早睇定，唔好等放榜先發現自己個時段一早開始咗。
 
-放榜後嘅核心動作有兩個層面：
+喺自己嘅時段內，你可以**免費做一次過嘅修改**，具體可以：
 
-- **再改志願次序**：如果你成績比預期好（或差），可以即時重排，將更貼合自己分數嘅課程提前。
-- **接受 / 等待更高 offer 嘅決定**：當系統派咗一個 offer 畀你，你要決定**接受（confirm）**定係**唔接受、博更高 band 嘅 offer**。一旦接受咗一個 offer，通常等於放棄排喺更後嘅志願——所以「接唔接」係一個冇得返轉頭嘅決定，要諗清楚。
+- **加入新課程**：最多加 5 個新選擇（或用嚟取代原有課程），總志願數上限仍然係 20 個
+- **重排次序**：包括重新排 Band A（A1–A3）
+- **刪除課程**
+
+要留意兩個位：第一，呢次修改係**一次過提交**——提交咗之後如果想再改，要申請「重新提交」並繳付 **HK$250**（不設退款，2026 年最終截止係 **7 月 18 日下午 1 時 15 分**），所以撳「提交」之前一定要成個 list 檢查清楚。第二，系統每日凌晨 3 至 6 時維護，唔好將修改留到時段最後一刻先做。
+
+改完之後就係等派位同**接受 offer 嘅決定**：Main Round offer 喺 **8 月 5 日上午 9 時**公布，獲派嘅係你符合資格嘅最高志願，而且係你今個學年**唯一一個** JUPAS offer——接受就要喺 **8 月 6 日下午 5 時**前繳交 HK$5,000 留位費，過咗時限就當放棄。
 
 ## Main Round vs Clearing：兩輪派位嘅分別
 
@@ -158,7 +164,7 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
   </ul>
 </div>
 
-### ② 放榜前改選 checklist（約 6–7 月）
+### ② 放榜前改選 checklist（2026 年 5 月 27 日截止）
 
 <div class="not-prose my-6 p-5 rounded-2xl border border-slate-200 bg-white">
   <ul class="m-0 text-slate-700 text-sm leading-relaxed space-y-2">
@@ -170,19 +176,19 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
   </ul>
 </div>
 
-### ③ 放榜當日 checklist（約 7 月中）
+### ③ 放榜當日 checklist（2026 年 7 月 15 日）
 
 <div class="not-prose my-6 p-5 rounded-2xl border border-slate-200 bg-white">
   <ul class="m-0 text-slate-700 text-sm leading-relaxed space-y-2">
     <li>✅ 攞成績後即刻用計分器計返每個課程嘅對應分數</li>
     <li>✅ 用真實成績重新評估每個志願嘅入學機會（成績好 / 差都要重排）</li>
-    <li>✅ 喺放榜後改選窗口（時間好短）內完成志願調整</li>
+    <li>✅ 確認自己嘅 48 小時改選時段（6 月 24 日起可查），喺時段內一次過完成志願調整</li>
     <li>✅ 守住電話 / email，注意 offer 通知同每個 deadline</li>
     <li>✅ 預先諗定：派到 offer 之後接受定等更高 band，諗清楚再撳</li>
   </ul>
 </div>
 
-### ④ 放榜後 checklist（Main Round → Clearing）
+### ④ 放榜後 checklist（改選 7 月 16–18 日 → Main Round 8 月 5 日 → Clearing 8 月 25 日）
 
 <div class="not-prose my-6 p-5 rounded-2xl border border-slate-200 bg-white">
   <ul class="m-0 text-slate-700 text-sm leading-relaxed space-y-2">
@@ -215,8 +221,18 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
 </details>
 
 <details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
-<summary class="font-semibold text-slate-900 cursor-pointer">放榜後仲可唔可以改志願？有幾多時間？</summary>
-<p class="text-slate-700 text-sm mt-3 leading-relaxed">可以，放榜後會開放一個改選窗口，畀你按真實成績再調整志願次序，但時間好短（通常只係放榜後幾日內）。你要喺攞到成績嗰一刻就即時評估同行動，唔好拖。確實開放同截止時間每年不同，以 JUPAS 官方公佈為準。</p>
+<summary class="font-semibold text-slate-900 cursor-pointer">JUPAS 改選 2026 幾時開始？時間表係點？</summary>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">2026 年 DSE 於 7 月 15 日放榜，放榜後改選喺 7 月 16 至 18 日進行——每位申請人獲分配一個 48 小時嘅個人時段（唔可以更改），由 6 月 24 日上午 9 時起可以登入 JUPAS 帳戶查閱。Main Round 派位結果 8 月 5 日上午 9 時公布，Clearing 補選結果 8 月 25 日公布。官方如有調整，以 JUPAS 官網最新公佈為準。</p>
+</details>
+
+<details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
+<summary class="font-semibold text-slate-900 cursor-pointer">放榜後改選可以改幾多個課程？可以加新課程嗎？</summary>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">可以。喺你嘅 48 小時個人時段內，你可以免費做一次過嘅修改：最多加入 5 個新課程選擇（或取代原有課程），總志願數上限維持 20 個；同時可以重新排次序（包括 Band A）同刪除課程。記住係一次過提交，撳掣前要檢查清楚成個 list。</p>
+</details>
+
+<details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
+<summary class="font-semibold text-slate-900 cursor-pointer">JUPAS 改選要唔要收費？</summary>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">喺獲分配嘅個人時段內做嘅一次過修改係免費嘅。但如果提交咗之後想再改，就要申請「重新提交」並繳付 HK$250（不設退款），2026 年重新提交最終截止時間係 7 月 18 日下午 1 時 15 分。所以最好一次過改啱，慳返呢 HK$250。</p>
 </details>
 
 <details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
@@ -226,7 +242,7 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
 
 <details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
 <summary class="font-semibold text-slate-900 cursor-pointer">JUPAS 確實嘅報名同放榜日期喺邊度睇？</summary>
-<p class="text-slate-700 text-sm mt-3 leading-relaxed">所有確實日期一定要睇 JUPAS 官網每年公佈嘅 Important Dates / 時間表。呢篇文所有月份都係「約」嘅參考範圍，每年都會調整，可以相差幾日到一兩星期。千祈唔好淨係靠網上文章記日子，每個關鍵 deadline 都應該以官方公佈為準。</p>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">所有確實日期一定要睇 JUPAS 官網（jupas.edu.hk）公佈嘅 Important Dates / 時間表。本文 2026 年日期已對照官方公布核實（截至 2026 年 7 月），但官方仍有可能調整，每個關鍵 deadline 行動前都應該再上官網確認一次。</p>
 </details>
 
 <div class="not-prose my-8 p-6 rounded-2xl bg-gradient-to-br from-amber-50 to-white border border-amber-100">
@@ -243,8 +259,73 @@ JUPAS 改選最容易令人混亂嘅地方，係**放榜前同放榜後嘅改選
 
 JUPAS 改選嘅核心觀念只有一句：**唔同階段嘅改選，規則同心態完全唔同**。放榜前係自由重排、放膽鎖定 Band A 三梯級嘅階段；放榜後係按真實成績爭分奪秒、每個 deadline 當天處理嘅階段。掌握咗成條時間線，你就唔會喺最關鍵嘅幾日手忙腳亂。
 
-重點 recap：① 全年時間線——報名（約年尾）→ Band A 截止（約 12 月）→ 放榜前改選（約 6–7 月）→ 放榜日（約 7 月中）→ 放榜後改選 → Main Round → Clearing；② 放榜前改選免費隨你重排，重點係用 predicted grade + median/LQ 鎖定 Band A 三梯級；③ 放榜後窗口好短，改選同接 offer 要當天決定；④ Main Round 派最高 qualify 志願、Clearing 補選分數可能較低係翻身機會；⑤ 所有日期每年不同，以官方為準。
+重點 recap：① 2026 時間線——放榜前改選截止（5 月 27 日）→ 查閱改選時段（6 月 24 日起）→ 放榜日（7 月 15 日）→ 放榜後改選（7 月 16–18 日，個人 48 小時時段）→ Main Round（8 月 5 日）→ Clearing（8 月 25 日）；② 放榜前改選免費隨你重排，重點係用 predicted grade + median/LQ 鎖定 Band A 三梯級；③ 放榜後改選係一次過提交（重新提交要 HK$250），改選同接 offer 都要當天決定；④ Main Round 派最高 qualify 志願、Clearing 補選分數可能較低係翻身機會；⑤ 官方如有調整，一切以 JUPAS 官網最新公佈為準。
 
 想喺改選 deadline 前快速計清每個課程分數、用數據定 Band A，可以即刻試 DSE Jupas 神器 —— <a href="https://apps.apple.com/app/id6780134101">立即下載 DSE Jupas 神器</a>，用 JUPAS 計分器 + AI 入學機會分析鎖定穩陣 / 進取 / 保底嘅志願梯隊，再用大學面試模擬準備好任何面試 offer。
 
 <p class="text-sm text-slate-500 italic">以上時間線及日期僅供參考，每年安排不同，一切以 JUPAS 官方公佈嘅最新時間表為準。</p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "放榜前改志願次序要唔要收費？會唔會影響收生？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "放榜前喺改選截止限期（2026 年為 5 月 27 日下午 5 時）之前，可以無限次自由重排志願次序，不會額外收費，亦不會因為改過多少次而影響收生，大學只會看最終儲存的次序。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Band A 同其他 Band 有咩分別？點解大家咁緊張 Band A？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Band A 是首 3 個志願（A1–A3）。JUPAS 以 Band A–E 形式向院校呈現選擇，Main Round 前不披露同一 Band 內的實際次序。Band A 反映最高意向，競爭大的課程值得優先放入；各課程如何運用 banding 以官方公布為準。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "JUPAS 改選 2026 幾時開始？時間表係點？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2026 年 DSE 於 7 月 15 日放榜，放榜後改選於 7 月 16 至 18 日進行，每位申請人獲分配一個不可更改的 48 小時個人時段，由 6 月 24 日上午 9 時起可登入 JUPAS 帳戶查閱。Main Round 派位結果 8 月 5 日上午 9 時公布，Clearing 補選結果 8 月 25 日公布。官方如有調整，以 JUPAS 官網最新公布為準。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "放榜後改選可以改幾多個課程？可以加新課程嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。在 48 小時個人時段內可免費作一次過修改：最多加入 5 個新課程選擇（或取代原有課程），總志願數上限維持 20 個；同時可重新排序（包括 Band A）及刪除課程。修改屬一次過提交，提交前應檢查清楚整個志願表。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "JUPAS 改選要唔要收費？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "在獲分配的個人時段內作的一次過修改是免費的。若提交後想再修改，需申請重新提交並繳付 HK$250（不設退款），2026 年重新提交最終截止時間為 7 月 18 日下午 1 時 15 分。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Main Round 同 Clearing（補選）有咩分別？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main Round 是正式派位（2026 年 8 月 5 日公布），按最終志願次序派出符合資格的最高一個 offer。Clearing 補選（2026 年 8 月 25 日公布結果）是之後的收尾階段，讓仍有空缺的課程填補學額，實際收生分數可能比正常低，是一個翻身機會。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "JUPAS 確實嘅報名同放榜日期喺邊度睇？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "所有確實日期以 JUPAS 官網（jupas.edu.hk）公布的 Important Dates / 時間表為準。本文 2026 年日期已對照官方公布核實（截至 2026 年 7 月），但官方仍可能調整，每個關鍵期限行動前應再上官網確認。"
+      }
+    }
+  ]
+}
+</script>

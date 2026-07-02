@@ -322,7 +322,15 @@ const PhoneMockup = ({ label }) => (
 
 const BLOG_POSTS = [
     {
-        url: "/blog/jupas-scoring-methods-explained",
+        url: "/blog/dse-results-day-2026-guide/",
+        image: "/blog-covers/dse-results-day-2026-guide.webp",
+        category: "放榜攻略",
+        title: "DSE 放榜 2026 攻略｜7 月 15 日放榜日時間表、JUPAS 改選 48 小時、派位全流程",
+        desc: "由放榜前準備、放榜日行動清單，到 48 小時改選同 8 月派位補選，拆清 2026 放榜季每個關鍵日期。",
+        readTime: "11 分鐘",
+    },
+    {
+        url: "/blog/jupas-scoring-methods-explained/",
         image: "/blog-covers/jupas-scoring-methods-explained.webp",
         category: "計分攻略",
             title: "同一張 DSE 成績單點解間間大學計分唔同？JUPAS Best 5、4C+2X 全拆解",
@@ -330,7 +338,7 @@ const BLOG_POSTS = [
         readTime: "12 分鐘",
     },
     {
-        url: "/blog/jupas-band-a-strategy",
+        url: "/blog/jupas-band-a-strategy/",
         image: "/blog-covers/jupas-band-a-strategy.webp",
         category: "選科策略",
             title: "20 個 JUPAS 志願點排先唔會放榜得個吉？Band A 排位策略全拆解",
@@ -338,7 +346,7 @@ const BLOG_POSTS = [
         readTime: "11 分鐘",
     },
     {
-        url: "/blog/jupas-admission-scores-2026",
+        url: "/blog/jupas-admission-scores-2026/",
         image: "/blog-covers/jupas-admission-scores-2026.webp",
         category: "收生數據",
             title: "你嘅 DSE 分數夠唔夠入八大熱門科？2026 JUPAS 收生 median、LQ 參考一覽",
@@ -346,7 +354,7 @@ const BLOG_POSTS = [
         readTime: "13 分鐘",
     },
     {
-        url: "/blog/university-interview-preparation",
+        url: "/blog/university-interview-preparation/",
         image: "/blog-covers/university-interview-preparation.webp",
         category: "面試攻略",
             title: "大學面試一開口就扣分？醫科、法律、商科常見題 + STAR 答題框架",
@@ -354,7 +362,7 @@ const BLOG_POSTS = [
         readTime: "12 分鐘",
     },
     {
-        url: "/blog/jupas-change-of-choices-guide",
+        url: "/blog/jupas-change-of-choices-guide/",
         image: "/blog-covers/jupas-change-of-choices-guide.webp",
         category: "JUPAS 流程",
             title: "DSE 分數比預期差怕入唔到 U？JUPAS 改選時間線同放榜前後逆襲策略",
