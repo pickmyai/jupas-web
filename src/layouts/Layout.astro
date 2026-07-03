@@ -71,6 +71,21 @@ const alternates = LANGUAGES.map(l => ({
 	<body class="bg-background text-foreground antialiased font-sans">
 		<slot />
 		<ProductFooter currentProductId="jupas" lang={lang} />
+		<script is:inline>
+		document.addEventListener('click', function (e) {
+		  var a = e.target && e.target.closest && e.target.closest('a[href*="apps.apple.com"], a[href*="play.google.com"]');
+		  if (!a) return;
+		  var href = a.href || '';
+		  var platform = href.indexOf('apps.apple.com') !== -1 ? 'ios' : 'android';
+		  var m = platform === 'ios' ? href.match(/id(\d{8,})/) : href.match(/[?&]id=([\w.]+)/);
+		  try {
+		    var p = new URLSearchParams({ site: 'jupas', app: (m && m[1]) || '', platform: platform, page: location.pathname });
+		    if (!(navigator.sendBeacon && navigator.sendBeacon('https://www.pickmyquiz.com/api/track/app-click', p))) {
+		      fetch('https://www.pickmyquiz.com/api/track/app-click', { method: 'POST', body: p, keepalive: true });
+		    }
+		  } catch (err) {}
+		}, true);
+		</script>
 	</body>
 </html>
 <style is:global>
