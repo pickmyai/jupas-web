@@ -3,6 +3,11 @@ import Layout from "./Layout.astro";
 
 const { frontmatter } = Astro.props;
 const canonicalPath = Astro.url.pathname;
+const datePublished = frontmatter.pubDate;
+const dateModified = frontmatter.updatedDate || frontmatter.pubDate;
+const displayDate = dateModified
+    ? new Date(dateModified).toLocaleDateString("zh-HK", { year: "numeric", month: "long", day: "numeric" })
+    : null;
 ---
 
 <Layout
@@ -15,6 +20,8 @@ const canonicalPath = Astro.url.pathname;
         description: frontmatter.description || '',
         url: canonicalPath,
         image: frontmatter.image,
+        ...(datePublished && { datePublished }),
+        ...(dateModified && { dateModified }),
     }}
     breadcrumbItems={[
         { name: '首頁', url: '/' },
@@ -89,6 +96,12 @@ const canonicalPath = Astro.url.pathname;
                 >
                     {frontmatter.description}
                 </p>
+                {displayDate && (
+                    <p class="text-sm text-slate-400 mt-4">
+                        {frontmatter.updatedDate ? '更新於 ' : '發佈於 '}{displayDate}
+                        {frontmatter.readTime && <span> ・ 閱讀時間 {frontmatter.readTime}</span>}
+                    </p>
+                )}
                 <p class="text-xs text-slate-400 max-w-2xl mx-auto mt-4 leading-relaxed">
                     本文為非官方升學參考內容，JUPAS 及各院校正式安排、日期、收生要求及計分方法，請以官方最新公布為準。
                 </p>

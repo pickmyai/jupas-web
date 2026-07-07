@@ -6,6 +6,7 @@ image: "/blog-covers/jupas-change-of-choices-guide.webp"
 category: "JUPAS 流程"
 readTime: "10 分鐘"
 pubDate: "2026-06-21"
+updatedDate: "2026-07-07"
 ---
 
 <div class="not-prose my-8 grid sm:grid-cols-4 gap-4">

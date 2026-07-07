@@ -16,6 +16,7 @@ export const LANGUAGES = [
 export const translations = {
     "zh-HK": {
         nav: { features: "功能", reviews: "使用情境", faq: "常見問題", blog: "升學攻略", cta: "下載 App" },
+        resultsBanner: { label: "2026 DSE 放榜季", text: "7 月 15 日放榜．JUPAS 改選 48 小時攻略", cta: "睇放榜時間表" },
         hero: {
             tagline: "JUPAS 計分 · 出路評級 · 入學分析 · 面試模擬",
             title: "一秒計好 JUPAS 分數",
@@ -93,6 +94,7 @@ export const translations = {
     },
     "zh-CN": {
         nav: { features: "功能", reviews: "使用情境", faq: "常见问题", blog: "升学攻略", cta: "下载 App" },
+        resultsBanner: { label: "2026 DSE 放榜季", text: "7 月 15 日放榜．JUPAS 改选 48 小时攻略", cta: "看放榜时间表" },
         hero: {
             tagline: "JUPAS 计分 · 出路评级 · 入学分析 · 面试模拟",
             title: "一秒算好 JUPAS 分数",
@@ -162,6 +164,7 @@ export const translations = {
     },
     en: {
         nav: { features: "Features", reviews: "Reviews", faq: "FAQ", blog: "Guides", cta: "Download" },
+        resultsBanner: { label: "2026 DSE Results Season", text: "Results out 15 Jul · JUPAS 48-hour re-ordering guide", cta: "See the timeline" },
         hero: {
             tagline: "JUPAS Scoring · Outcome Rating · Admission Analysis · Interview Sim",
             title: "Calculate Your JUPAS Score in a Second",
@@ -707,8 +710,27 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                 )}
             </AnimatePresence>
 
+            {/* ===== SEASONAL RESULTS-DAY BANNER ===== */}
+            {t.resultsBanner && (
+                <div className="pt-16">
+                    <a
+                        href="/blog/dse-results-day-2026-guide/"
+                        className="block bg-amber-500 hover:bg-amber-600 transition-colors text-white"
+                    >
+                        <div className="container mx-auto px-6 max-w-6xl py-2.5 flex items-center justify-center gap-2 text-center text-sm font-medium flex-wrap">
+                            <span className="inline-flex items-center gap-1.5 bg-white/20 rounded-full px-2.5 py-0.5 text-xs font-bold tracking-wide">
+                                <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                                {t.resultsBanner.label}
+                            </span>
+                            <span>{t.resultsBanner.text}</span>
+                            <span className="underline underline-offset-2 font-semibold">{t.resultsBanner.cta} →</span>
+                        </div>
+                    </a>
+                </div>
+            )}
+
             {/* ===== HERO ===== */}
-            <section className="hero-gradient pt-24 pb-20 md:pt-32 md:pb-28 relative overflow-hidden">
+            <section className={`hero-gradient pb-20 md:pb-28 relative overflow-hidden ${t.resultsBanner ? 'pt-12 md:pt-16' : 'pt-24 md:pt-32'}`}>
                 <div className="container mx-auto px-6 max-w-6xl relative">
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         {/* Left: Text */}

@@ -6,6 +6,7 @@ image: "/blog-covers/dse-results-day-2026-guide.webp"
 category: "放榜攻略"
 readTime: "11 分鐘"
 pubDate: "2026-07-02"
+updatedDate: "2026-07-07"
 ---
 
 <div class="not-prose my-8 grid sm:grid-cols-4 gap-4">
