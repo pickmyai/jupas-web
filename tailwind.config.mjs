@@ -6,7 +6,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Inter', 'Noto Sans TC', 'sans-serif'],
+                sans: ['-apple-system', 'BlinkMacSystemFont', 'PingFang TC', 'Microsoft JhengHei', 'Segoe UI', 'sans-serif'],
             },
             colors: {
                 border: "hsl(var(--border))",

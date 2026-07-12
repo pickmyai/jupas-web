@@ -1,3 +1,10 @@
 {
-    "trailingSlash": true
+    "trailingSlash": true,
+    "redirects": [
+        {
+            "source": "/zh-hk",
+            "destination": "/",
+            "permanent": true
+        }
+    ]
 }

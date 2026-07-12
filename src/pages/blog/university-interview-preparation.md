@@ -6,6 +6,8 @@ image: "/blog-covers/university-interview-preparation.webp"
 category: "面試攻略"
 readTime: "12 分鐘"
 pubDate: "2026-06-20"
+updatedDate: "2026-07-12"
+verifiedDate: "2026-07-12"
 ---
 
 <div class="not-prose my-8 grid sm:grid-cols-4 gap-4">
@@ -45,7 +47,7 @@ pubDate: "2026-06-20"
 
 ## 「筆試分夠，面試一關就 hang 機？」
 
-每年都有同學 DSE 分數明明過晒收生 median，最後仲係收唔到醫、法、環球商業呢類神科。原因好簡單——**呢啲課程嘅最終 ranking 唔係淨計 DSE，面試表現可以佔好重比例**。一個 5\*\*\* 尖子，如果面試答到語無倫次、唔識結構、見到倫理題就 freeze，分分鐘輸畀一個分數較低但對答清晰、思路有條理嘅同學。
+部分課程除 DSE 成績外，亦會考慮面試、測試、作品集或其他資料；實際比重同形式由院校及課程決定，而且可能按年度更新。高過歷年收生 median 唔代表必然取錄，準備前應先查目標課程當年官方甄選安排。
 
 面試最大嘅難處，係佢冇「標準答案」。你背幾多 model answer 都冇用，因為考官想睇嘅係你**點諗、點表達、點面對冇諗過嘅情境**。呢篇文會由 MMI（多站式面試）點運作講起，逐一拆解醫 / 法 / 商 / 教 / 工各學系最常考嘅題型，教你用 STAR 框架答到有頭有尾，再講中英文雙語點準備、mock interview 點練先有效，最後附一張臨場 do & don't 清單。睇完你就知面試唔係「靠彩數」，而係可以系統化準備嘅一場仗。
 
@@ -245,7 +247,7 @@ MMI（Multiple Mini Interview，多站式面試）係近年醫、牙、護理、
     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#f59e0b] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>
     <div>
       <div class="text-lg font-bold text-slate-900 mb-1">冇真人陪練？同 AI 考官講出聲練到對答如流</div>
-      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器 嘅<strong>大學面試模擬</strong>內置 AI 語音考官，題庫橫跨 <strong>14 個學系大類、約 1,500 條面試練習題</strong>（醫、法、商、教、工等），會出題、會追問、會即場畀回饋。你可以揀學系、揀中 / 英文，對住 AI 考官講出聲反覆 rehearse，模擬面試壓力同節奏：臨真正上陣前先練到爛熟，唔使再驚自己「窒口」。</p>
+      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器嘅<strong>大學面試模擬</strong>題庫包含 <strong>14 個學系大類、1,232 條面試練習題</strong>，支援中英文語音練習與回饋。題目用作表達及思考訓練，唔代表任何院校會使用相同題目或評分方法；正式安排以課程官方通知為準。</p>
     </div>
   </div>
 </div>

@@ -22,14 +22,6 @@ export default defineConfig({
         tailwind(),
         react(),
         sitemap({
-            i18n: {
-                defaultLocale: 'zh-HK',
-                locales: {
-                    'zh-HK': 'zh-HK',
-                    'zh-CN': 'zh-CN',
-                    'en': 'en',
-                }
-            },
             filter: (page) => !page.includes('/admin/') && !page.includes('/api/'),
         }),
         critters()

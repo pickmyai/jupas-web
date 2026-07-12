@@ -1,6 +1,4 @@
 ---
-import '@fontsource/inter';
-import '@fontsource/noto-sans-tc';
 import SEO from '../components/SEO.astro';
 import StructuredData from '../components/StructuredData.astro';
 import ProductFooter from '../components/ProductFooter.astro';
@@ -25,11 +23,13 @@ interface Props {
     schemaType?: 'website' | 'mobileApplication' | 'article';
     articleData?: ArticleData;
     breadcrumbItems?: Array<{ name: string; url: string }>;
+    alternates?: Array<{ lang: string; url: string }>;
+    showProductFooter?: boolean;
 }
 
 const {
 	title,
-	description = "DSE Jupas 神器：JUPAS 計分器自動套用八大收生計分公式（Best 5、4C+2X）即時計分，AI 入學機會分析對比歷年收生中位數參考值，配合 413 個課程出路評級比較職涯 ROI，加埋 AI 語音大學面試模擬。非官方升學參考工具，免費下載。",
+	description = "DSE Jupas 神器提供 JUPAS 課程計分、歷年收生資料參考、出路評級、志願排序分析及大學面試練習。非官方升學參考工具。",
 	lang = "zh-HK",
 	ogImage,
 	keywords,
@@ -37,13 +37,17 @@ const {
 	schemaType = 'mobileApplication',
 	articleData,
 	breadcrumbItems,
+	alternates: providedAlternates,
+	showProductFooter = true,
 } = Astro.props;
 
-// Generate alternate language URLs
-const alternates = LANGUAGES.map(l => ({
-	lang: l.code,
-	url: l.code === 'zh-HK' ? '/' : `/${l.code.toLowerCase()}/`
-}));
+const isLocalizedHome = ['/', '/en/', '/zh-cn/'].includes(Astro.url.pathname);
+const alternates = providedAlternates ?? (isLocalizedHome
+    ? LANGUAGES.map(l => ({
+        lang: l.code,
+        url: l.code === 'zh-HK' ? '/' : `/${l.code.toLowerCase()}/`,
+    }))
+    : []);
 ---
 
 <!doctype html>
@@ -70,7 +74,7 @@ const alternates = LANGUAGES.map(l => ({
 	</head>
 	<body class="bg-background text-foreground antialiased font-sans">
 		<slot />
-		<ProductFooter currentProductId="jupas" lang={lang} />
+		{showProductFooter && <ProductFooter currentProductId="jupas" lang={lang} />}
 		<script is:inline>
 		document.addEventListener('click', function (e) {
 		  var a = e.target && e.target.closest && e.target.closest('a[href*="apps.apple.com"], a[href*="play.google.com"]');
@@ -89,6 +93,13 @@ const alternates = LANGUAGES.map(l => ({
 	</body>
 </html>
 <style is:global>
+	* { box-sizing: border-box; }
+	.font-sans { font-family: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Microsoft JhengHei', 'Segoe UI', sans-serif; }
+	.gradient-text { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+	.hero-gradient { background: linear-gradient(135deg, #fffbeb 0%, #fff 50%, #f0f9ff 100%); }
+	.cta-gradient { background: linear-gradient(135deg, #f59e0b 0%, #d97706 60%, #b45309 100%); }
+	.card-hover { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+	.card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(245,158,11,0.12); }
 	:root {
 		--background: 0 0% 100%;
 		--foreground: 222.2 84% 4.9%;

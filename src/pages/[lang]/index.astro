@@ -6,7 +6,7 @@ import LandingPage, {
 } from "../../components/LandingPage";
 
 export function getStaticPaths() {
-    return LANGUAGES.map((l) => ({
+    return LANGUAGES.filter((l) => l.code !== "zh-HK").map((l) => ({
         params: { lang: l.code.toLowerCase() },
         props: { code: l.code },
     }));
@@ -20,16 +20,16 @@ const t = translations[code] || translations["en"];
 const isChinese = code.startsWith("zh");
 const appName = isChinese ? "DSE Jupas 神器" : "DSE Jupas";
 const tagline = isChinese
-    ? "JUPAS 計分器｜出路評級・AI 入學機會分析・大學面試模擬・免費下載"
-    : "JUPAS Score Calculator・Outcome Rating・AI Admission Analysis・University Interview Sim";
-const title = `${appName} - ${tagline}`;
+    ? "JUPAS 計分、課程比較與面試練習"
+    : "JUPAS Calculator, Programme Comparison and Interview Practice";
+const title = isChinese ? `${appName} - ${tagline}` : "DSE Jupas | JUPAS Calculator & Interview Practice";
 const seoDescription = isChinese
-    ? "DSE Jupas 神器一個 App 搞掂升大學：輸入 DSE 成績即時套用八大及自資院校收生計分公式（Best 5、4C+2X、科目加權、加分制），涵蓋約 440 個 JUPAS 課程資料；AI 對比歷年收生 median／LQ 參考值分析入學機會，配合 413 個課程出路評級比較就業、薪酬、抗 AI、升學及技能複利，並提供約 1500 條大學面試練習題模擬操練。非官方升學參考工具，免費下載。"
-    : t.hero.subtitle;
+    ? "DSE Jupas 神器提供 413 個 JUPAS 課程計分及出路評級、歷年 median／LQ 參考、Band 排位分析，以及 14 類共 1,232 條大學面試練習題。非官方升學參考工具。"
+    : "Explore 413 JUPAS programme profiles, historical admission-score positions and 1,232 bilingual interview prompts. Independent reference only; no admission guarantee.";
 const description = seoDescription;
 ---
 
-<Layout title={title} description={description} lang={lang}>
+<Layout title={title} description={description} lang={code}>
     <main>
         <LandingPage client:load initialLang={code} />
     </main>

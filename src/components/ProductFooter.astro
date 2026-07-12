@@ -60,7 +60,7 @@ const categorizedProducts = [
         title: labels.dse,
         items: [
             
-            { id: 'dsejupas', name: 'DSE Jupas 神器', slogan: 'JUPAS 計分器 ・ 入學機會分析 ・ 大學面試模擬', logo: '/shared-logos/dsejupas_logo.png', url: 'https://www.jupascalculator.app/' },{ id: 'jupas',      name: 'DSE Jupas 神器 APP',   slogan: 'JUPAS 計分器 ・ AI 入學機會分析 ・ 大學面試模擬',         logo: '/logo1024.png',                      url: 'https://jupascalculator.app' },
+            { id: 'jupas', name: 'DSE Jupas 神器 APP', slogan: 'JUPAS 計分器 ・ AI 入學機會分析 ・ 大學面試模擬', logo: '/logo-80.webp', url: 'https://www.jupascalculator.app/' },
             { id: 'vocabshiba', name: '單詞狗 VocabShiba APP', slogan: '只背CE/AL/DSE必考單詞 ・ 特調統計所有公開試考過的單詞', logo: '/shared-logos/vocabshiba_logo.png', url: 'https://vocabshiba.com' },
             { id: 'dsechi',     name: 'DSE 文言文神器',           slogan: 'DSE 文言文秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',            logo: '/shared-logos/dsechi_logo.png',      url: 'https://dseapp.com/dse-chi/' },
             { id: 'dseecon',    name: 'DSE 經濟科神器',          slogan: 'DSE 經濟科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',                  logo: '/shared-logos/dseecon_logo.png',     url: 'https://dseapp.com/dse-econ/' },
@@ -127,7 +127,7 @@ const categorizedProducts = [
                                         <h5 class="font-medium text-white text-[11px] md:text-xs mb-0.5 leading-tight line-clamp-1 group-hover:text-amber-300 transition-colors">
                                             {product.name}
                                         </h5>
-                                        <p class="text-[10px] md:text-xs text-gray-400 leading-snug line-clamp-1 md:line-clamp-2">
+                                        <p class="text-[10px] md:text-xs text-gray-300 leading-snug line-clamp-1 md:line-clamp-2">
                                             {product.slogan}
                                         </p>
                                     </div>
@@ -146,26 +146,26 @@ const categorizedProducts = [
     <div class="container mx-auto px-6">
         <div class="flex flex-col md:flex-row items-center justify-between gap-6">
             <div class="flex items-center gap-3 bg-white rounded-2xl px-4 py-3 shadow-sm">
-                <img src="/logo1024.png" alt="DSE Jupas 神器" class="w-9 h-9 object-contain" />
+                <img src="/logo-80.webp" alt="DSE Jupas 神器" class="w-9 h-9 object-contain" width="36" height="36" />
                 <div>
                     <div class="font-bold text-gray-900 text-sm">DSE Jupas 神器</div>
                     <div class="text-gray-500 text-xs">{labels.tagline}</div>
                 </div>
             </div>
-            <div class="flex gap-6 text-gray-400 text-sm">
-                <a href="#features" class="hover:text-white transition-colors">{labels.features}</a>
-                <a href="#faq" class="hover:text-white transition-colors">{labels.faq}</a>
-                <a href="#reviews" class="hover:text-white transition-colors">{labels.reviews}</a>
+            <div class="flex gap-6 text-gray-200 text-sm">
+                <a href="/#features" class="hover:text-white transition-colors">{labels.features}</a>
+                <a href="/#faq" class="hover:text-white transition-colors">{labels.faq}</a>
+                <a href="/#reviews" class="hover:text-white transition-colors">{labels.reviews}</a>
                 <a href="/blog/" class="hover:text-white transition-colors">{labels.blog}</a>
             </div>
-            <div class="flex gap-4 text-gray-500 text-xs">
+            <div class="flex gap-4 text-gray-300 text-xs">
                 <a href="/privacy" class="hover:text-gray-300">{labels.privacy}</a>
                 <a href="/terms" class="hover:text-gray-300">{labels.terms}</a>
             </div>
         </div>
-        <div class="text-center text-gray-600 text-xs mt-8 pt-6 border-t border-gray-700">
+        <div class="text-center text-gray-300 text-xs mt-8 pt-6 border-t border-gray-700">
             <p>{meta.copyright}</p>
-            <p class="mt-2 max-w-3xl mx-auto text-gray-500 leading-relaxed">{labels.disclaimer}</p>
+            <p class="mt-2 max-w-3xl mx-auto text-gray-300 leading-relaxed">{labels.disclaimer}</p>
         </div>
     </div>
 </footer>

@@ -5,6 +5,7 @@ const { frontmatter } = Astro.props;
 const canonicalPath = Astro.url.pathname;
 const datePublished = frontmatter.pubDate;
 const dateModified = frontmatter.updatedDate || frontmatter.pubDate;
+const verifiedDate = frontmatter.verifiedDate || dateModified;
 const displayDate = dateModified
     ? new Date(dateModified).toLocaleDateString("zh-HK", { year: "numeric", month: "long", day: "numeric" })
     : null;
@@ -28,12 +29,13 @@ const displayDate = dateModified
         { name: '升學攻略', url: '/blog/' },
         { name: frontmatter.title, url: canonicalPath },
     ]}
+    showProductFooter={false}
 >
     {/* Navbar (same as homepage) */}
     <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
         <div class="container mx-auto px-6 h-16 flex items-center justify-between max-w-6xl">
             <a href="/" class="flex items-center gap-2.5">
-                <img src="/logo-transparent.png" alt="DSE Jupas 神器" class="w-10 h-10 object-contain" />
+                <img src="/logo-transparent-96.webp" alt="DSE Jupas 神器" class="w-10 h-10 object-contain" />
                 <div class="leading-tight">
                     <span class="font-bold text-gray-900 text-sm block">DSE Jupas 神器</span>
                     <span class="text-[10px] text-gray-400 block">JUPAS 計分 ・ 入學分析 ・ 面試模擬</span>
@@ -102,6 +104,12 @@ const displayDate = dateModified
                         {frontmatter.readTime && <span> ・ 閱讀時間 {frontmatter.readTime}</span>}
                     </p>
                 )}
+                <div class="mt-4 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs text-slate-500">
+                    <span>撰寫及資料覆核：DSE Jupas 神器編輯組</span>
+                    <span aria-hidden="true">·</span>
+                    <a href="/editorial-policy/" class="text-sky-700 hover:underline">資料來源與編輯守則</a>
+                    {verifiedDate && <span>· 最後核實 {new Date(verifiedDate).toLocaleDateString('zh-HK')}</span>}
+                </div>
                 <p class="text-xs text-slate-400 max-w-2xl mx-auto mt-4 leading-relaxed">
                     本文為非官方升學參考內容，JUPAS 及各院校正式安排、日期、收生要求及計分方法，請以官方最新公布為準。
                 </p>

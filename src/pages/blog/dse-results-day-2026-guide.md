@@ -6,7 +6,8 @@ image: "/blog-covers/dse-results-day-2026-guide.webp"
 category: "放榜攻略"
 readTime: "11 分鐘"
 pubDate: "2026-07-02"
-updatedDate: "2026-07-07"
+updatedDate: "2026-07-12"
+verifiedDate: "2026-07-12"
 ---
 
 <div class="not-prose my-8 grid sm:grid-cols-4 gap-4">
@@ -64,7 +65,7 @@ updatedDate: "2026-07-07"
 
 ### ③ 對定每個志願嘅收生數據
 
-每個你考慮緊嘅課程，預先記低佢歷年收生 **median 同 LQ（下四分位數）**：你嘅預估分高過 median 係穩陣，喺 LQ 同 median 之間係博得過，低過 LQ 就要當保底以外嘅彩票。唔知邊度搵呢啲數據，可以參考<a href="/blog/jupas-admission-scores-2026/">2026 收生分數一覽</a>。
+每個你考慮緊嘅課程，預先記低佢歷年收生 **median 同 LQ（下四分位數）**，用嚟理解自己相對過往獲錄取者嘅位置。高過 median 唔等於今年穩入，低過 LQ 亦唔係自動落選；仲要核對當年度公式、入學要求、Band、面試同其他甄選因素。詳見<a href="/blog/jupas-admission-scores-2026/">JUPAS median、LQ 解讀與限制</a>。
 
 <div class="not-prose my-6 border-l-4 border-sky-400 bg-sky-50/60 rounded-r-lg p-4 flex gap-3">
   <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
@@ -92,7 +93,7 @@ updatedDate: "2026-07-07"
 - **一次過提交**——提交咗之後想再改，要申請重新提交並繳 HK$250（不設退款），最終截至 7 月 18 日下午 1 時 15 分。
 - 系統每日凌晨 3 至 6 時維護，唔好死線衝刺。
 
-策略上，改選嘅核心係將個志願 list 變成同你**真實成績**匹配嘅「穩陣／進取／保底」三梯級——成績好過預期就大膽將進取志願推上 Band A，失手就要即刻補強保底部分。詳細嘅改選步驟、費用同排位策略，我哋寫咗成篇獨立攻略：<a href="/blog/jupas-change-of-choices-guide/">JUPAS 改選 2026 全攻略</a>，Band A 點排亦可以睇<a href="/blog/jupas-band-a-strategy/">Band A 排位策略</a>。
+策略上，改選核心係用**真實成績**逐個核對課程公式、最低要求及甄選安排，再按「如果同時可得，我真正會揀邊個」排列實際次序。歷史 median／LQ 只係其中一項背景資料。詳細步驟同費用見<a href="/blog/jupas-change-of-choices-guide/">JUPAS 改選 2026 全攻略</a>，排序機制見<a href="/blog/jupas-band-a-strategy/">Band A 排位策略</a>。
 
 另外留意：部分課程喺放榜後仲會有**面試或者補充要求**，尤其係你改選時新加入嘅課程。如果你新加咗要面試嘅課程，時間會好緊迫——面試常見題型同 STAR 答題框架可以睇<a href="/blog/university-interview-preparation/">大學面試準備攻略</a>，或者直接用 App 入面嘅面試模擬操練。
 
@@ -135,7 +136,7 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#f59e0b] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
     <div>
       <div class="text-lg font-bold text-slate-900 mb-1">放榜前入定分數，放榜日一改即有答案</div>
-      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器 內置八大及自資院校計分公式同約 440 個 JUPAS 課程資料：放榜前入好目標課程同預估成績，放榜日改一改真實分數，即時見到每個志願嘅對應分數同 AI 入學機會分析（對比歷年 median / LQ），改選時段內仲可以用面試模擬即刻操練新加課程嘅面試。</p>
+      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器現有 413 個 JUPAS 課程資料，可按已整理公式計分、對照歷史 median／LQ 位置及練習面試。分析只供核對與規劃，唔係官方錄取概率；提交改選前要再查 JUPAS 同院校最新資料。</p>
     </div>
   </div>
 </div>
@@ -159,7 +160,7 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
 
 <details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
 <summary class="font-semibold text-slate-900 cursor-pointer">如果 Main Round 派唔到 offer 點算？</summary>
-<p class="text-slate-700 text-sm mt-3 leading-relaxed">Main Round 冇 offer 嘅申請人會喺 Clearing 補選階段被考慮，結果於 2026 年 8 月 25 日上午 9 時公布，接受要喺同日下午 5 時前繳留位費。補選階段仍有空缺嘅課程收生分可能較低，係翻身機會；同時可以並行考慮自資院校同副學位路線。</p>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">Main Round 冇 offer 嘅申請人會喺 Clearing 補選階段被考慮，結果於 2026 年 8 月 25 日上午 9 時公布，接受要喺同日下午 5 時前繳留位費。實際可派課程及結果視乎空缺與官方程序；同時可以並行考慮自資院校同副學位路線。</p>
 </details>
 
 <details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
@@ -175,7 +176,7 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
 
 想放榜日一改成績即刻睇晒所有志願嘅分數同機會，而家就下載 <a href="https://apps.apple.com/app/id6780134101">DSE Jupas 神器</a>，放榜前入定你嘅目標課程，用 JUPAS 計分器 + AI 入學機會分析 + 大學面試模擬打贏場放榜戰役。
 
-<p class="text-sm text-slate-500 italic">2026 年日期已核對 JUPAS 官網公布（截至 2026 年 7 月）；官方如有調整，一切以 JUPAS 官方最新公佈為準。</p>
+<p class="text-sm text-slate-500 italic">2026 年日期已於 2026 年 7 月 12 日核對 <a href="https://www.jupas.edu.hk/en/important-dates/" rel="external">JUPAS Important Dates</a>；官方如有調整，一切以最新公佈為準。DSE 放榜安排亦應核對<a href="https://www.hkeaa.edu.hk/en/hkdse/" rel="external">香港考評局 HKDSE 頁面</a>。</p>
 
 <script type="application/ld+json">
 {
@@ -211,7 +212,7 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
       "name": "如果 Main Round 派唔到 offer 點算？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Main Round 沒有 offer 的申請人會在 Clearing 補選階段被考慮，結果於 2026 年 8 月 25 日上午 9 時公布，接受須於同日下午 5 時前繳留位費。補選階段仍有空缺的課程收生分數可能較低，是翻身機會；同時可並行考慮自資院校及副學位路線。"
+        "text": "Main Round 沒有 offer 的申請人會在 Clearing 補選階段被考慮，結果於 2026 年 8 月 25 日上午 9 時公布，接受須於同日下午 5 時前繳留位費。實際可派課程及結果視乎空缺與官方程序；申請人亦可並行考慮其他升學路線。"
       }
     },
     {

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-    Quote, CheckCircle2, Wifi, Globe, ChevronDown, Menu, X,
-    ChevronRight, Star, Brain, BarChart3, Calculator, GraduationCap,
+    CheckCircle2, Wifi, Globe, ChevronDown, Menu, X,
+    ChevronRight, Brain, BarChart3, Calculator, GraduationCap,
     Mic, TrendingUp, Award, ListChecks
 } from "lucide-react";
 import { cn } from "../lib/utils";
@@ -22,36 +22,36 @@ export const translations = {
             title: "一秒計好 JUPAS 分數",
             titleHighlight: "再睇清入學機會同出路",
             subheading: "DSE Jupas 神器幫你計分、分析入學機會、比較出路評級、操練面試，一個 App 搞掂升大學",
-            subtitle: "輸入 DSE 成績，自動套用八大及自資院校嘅收生計分公式（Best 5、4C+2X、科目加權、加分制），即時計出每個課程分數；再用 AI 對比歷年收生 median 同 LQ，配合 413 個課程嘅 6 維出路評級，睇清邊科穩陣、邊科進取、邊科職涯 ROI 最高，仲有約 1500 條面試練習題等你操練。",
+            subtitle: "輸入 DSE 成績，自動按 413 個課程各自嘅院校公式計分；再對比歷年收生 median 同 LQ，了解自己喺過往取錄分布中嘅位置，配合 413 個課程嘅 6 維出路評級同 14 類共 1,232 條面試練習題作升學參考。",
             disclaimer: "非 JUPAS 官方網站或 JUPAS Office 認可服務；資料及分析只供升學參考，正式安排以 JUPAS 及各院校公布為準。",
             bullets: [
-                "約 440 個 JUPAS 課程資料，八大計分公式一鍵套用",
+                "413 個 JUPAS 課程資料，按院校及課程公式計分",
                 "413 個課程出路評級——就業、薪酬、抗 AI、升學、院校排名、技能複利一眼比較",
                 "AI 入學機會分析——你嘅分對比歷年 median／LQ，再結合出路評級講策略",
-                "大學面試模擬——14 個學系大類、約 1500 條練習題，AI 即時評分",
+                "大學面試模擬——14 個學系大類、1,232 條練習題，AI 即時回饋",
             ],
             cta: "免費下載",
             secondaryCta: "了解更多",
             videoLabel: "App 示範",
         },
         stats: [
-            { value: "約 440", label: "JUPAS 課程資料" },
+            { value: "413", label: "JUPAS 課程資料" },
             { value: "413", label: "課程出路評級" },
             { value: "八大", label: "院校計分公式" },
-            { value: "約 1500", label: "大學面試題" },
+            { value: "1,232", label: "大學面試題" },
         ],
         features: {
             title: "點解揀 DSE Jupas 神器？",
             subtitle: "計分、入學機會、出路評級、課程比較、面試操練一站式——由放榜計到入大學",
             items: [
-                { icon: Calculator, label: "JUPAS 計分", title: "JUPAS 計分神器", desc: "輸入 DSE 成績，自動套用八大及自資院校唔同收生計分公式，即時計出每個課程嘅對應分數。", bullets: ["Best 5、4C+2X、科目加權、加分制全支援", "涵蓋約 440 個 JUPAS 課程資料", "唔同院校公式自動切換，即時出分"], color: "orange" },
-                { icon: Brain, label: "AI 入學分析", title: "AI 入學機會分析", desc: "你嘅分數對比每個課程歷年收生 median 同 LQ，AI 話你知係穩陣、進取定保底。", bullets: ["對比歷年收生中位數同下四分位", "AI 判斷穩陣／進取／保底", "俾埋 Band A–E 排位策略建議"], color: "teal" },
+                { icon: Calculator, label: "JUPAS 計分", title: "JUPAS 計分神器", desc: "輸入 DSE 成績，自動按院校及課程公開公式，即時計出每個課程嘅對應分數。", bullets: ["Best 5、科目加權及 bonus 按課程處理", "涵蓋 413 個唯一 JUPAS 課程", "唔同院校公式自動切換，即時出分"], color: "orange" },
+                { icon: Brain, label: "AI 入學分析", title: "歷史收生位置分析", desc: "將你嘅分數對比每個課程歷年 median 同 LQ，顯示同過往取錄分布嘅距離，再提供排序考慮因素。", bullets: ["對比歷年收生中位數同下四分位", "清楚標示年份、公式與資料限制", "說明 Band A–E 同真實喜好次序"], color: "teal" },
                 { icon: Award, label: "出路評級", title: "413 個課程出路評級", desc: "已評級課程會以 A+ 至 C+ 顯示職涯 ROI 參考，按 6 個維度評估，唔止睇收生分數。", bullets: ["就業前景、薪酬回報、抗 AI 能力", "升學潛力、院校排名、技能複利", "可按出路評級排序，配合分數差篩選"], color: "orange" },
                 { icon: BarChart3, label: "課程比較", title: "課程比較雷達圖", desc: "兩三個課程並排比較，分數、入學機會、出路評級、薪酬、學費一次睇清。", bullets: ["多課程出路評級雷達圖疊線比較", "A/B/C 等級並排顯示", "幫你喺相近分數課程之間揀得更有根據"], color: "teal" },
-                { icon: Mic, label: "面試模擬", title: "大學面試模擬", desc: "AI 語音面試官，涵蓋 14 個學系大類、約 1500 條面試練習題，中英雙語即時評分。", bullets: ["醫、牙、法律、商、教育、社工、護理常見題型", "中英雙語，AI 即時評分", "附改善建議，練到有信心為止"], color: "orange" },
+                { icon: Mic, label: "面試模擬", title: "大學面試模擬", desc: "AI 語音面試官，涵蓋 14 個學系大類、1,232 條面試練習題，中英雙語提供即時回饋。", bullets: ["醫、牙、法律、商、教育、社工、護理常見題型", "中英雙語，AI 即時回饋", "附改善建議，練到有信心為止"], color: "orange" },
                 { icon: GraduationCap, label: "八大全覆蓋", title: "八大院校計分公式", desc: "港大、中大、科大、城大、理大、浸大、教大、嶺大——八大收生計分公式全部內建。", bullets: ["八大及主要自資院校公式齊備", "每間大學收生計分邏輯逐一拆解", "唔使再自己查 prospectus 慢慢計"], color: "teal" },
                 { icon: BarChart3, label: "收生數據", title: "歷年收生數據參考", desc: "每個課程附歷年收生 median 同 LQ，仲有收生分數趨勢，幫你判斷自己嘅位置。", bullets: ["median／LQ 收生數據逐科呈現", "過去幾年收生分數趨勢圖", "用歷年數據參考自己位置"], color: "orange" },
-                { icon: TrendingUp, label: "選科策略", title: "Band A–E 選科策略", desc: "AI 根據你嘅分數同收生數據，建議邊啲課程放 Band A、邊啲放保底，排得穩陣又博得起。", bullets: ["進取到保底分層建議", "夢想課程同安全課程平衡排位", "20 個志願部署一目了然"], color: "orange" },
+                { icon: TrendingUp, label: "選科策略", title: "Band A–E 選科策略", desc: "按你嘅真實喜好、入學要求、歷史收生位置同課程對 Band 嘅考慮方式，協助整理 20 個志願。", bullets: ["先按真正想讀程度排序", "分開院校看到嘅 Band 與保密嘅實際次序", "20 個志願部署一目了然"], color: "orange" },
             ],
         },
         process: {
@@ -59,26 +59,26 @@ export const translations = {
             steps: [
                 { num: "01", title: "輸入 DSE 成績", desc: "填入你各科 DSE 成績，App 自動套用八大計分公式，即時計分", icon: Calculator },
                 { num: "02", title: "睇入學機會同出路評級", desc: "比較每個課程嘅收生分數、機會、A+ 至 C+ 出路評級，再決定點排志願", icon: Award },
-                { num: "03", title: "AI 面試模擬操練", desc: "用約 1500 條面試練習題操練，AI 語音面試官即時評分俾建議", icon: Mic },
+                { num: "03", title: "AI 面試模擬操練", desc: "用 1,232 條面試練習題操練，AI 語音面試官即時提供改善建議", icon: Mic },
             ],
         },
         reviews: {
             title: "學生使用情境",
             items: [
-                { text: "以前要自己查 prospectus 逐科計分，計到頭都暈。而家輸入成績即刻出晒八大每個課程嘅分，慳返好多時間。", name: "Wong 同學", detail: "中六 DSE 應屆", avatar: "王" },
-                { text: "最正係 AI 入學分析，將我嘅分同歷年 median、LQ 比，話我知邊啲穩陣邊啲進取，排 Band A 嘅時候安心好多。", name: "Chan 同學", detail: "DSE 考生", avatar: "陳" },
-                { text: "面試模擬幫到我好多，醫科 MMI 常見追問方式都有得練，練咗幾日真係夾返有信心，面試講嘢冇咁驚。", name: "Lee 同學", detail: "報讀醫科", avatar: "李" },
+                { text: "輸入一次 DSE 成績，逐個課程按官方公開公式計分，毋須手動在不同 prospectus 之間重複換算。", name: "快速計分", detail: "適合放榜前後比較課程", avatar: "算" },
+                { text: "把分數放回歷年 median／LQ 分布理解，同時顯示年份與限制；不把歷史數字當成錄取保證。", name: "歷史位置", detail: "適合整理選科考慮因素", avatar: "析" },
+                { text: "按學系和語言揀題，錄音或輸入答案後取得結構、內容與表達方面的 AI 改善建議。", name: "面試操練", detail: "14 類、1,232 條練習題", avatar: "練" },
             ],
         },
         faq: {
             title: "常見問題",
             items: [
                 { q: "計分準唔準？數據邊度嚟？", a: "計分器依據八大及自資院校公開嘅收生計分公式（Best 5、4C+2X、科目加權、加分制等）逐一實現，並對照公開及整理所得嘅 JUPAS 課程計分資料。結果只供參考，正式收生以各院校公佈為準。", icon: Calculator },
-                { q: "覆蓋幾多個課程？", a: "目前整理約 440 個 JUPAS 課程資料，包括八大院校及主要自資院校嘅熱門學系，並會持續更新。", icon: GraduationCap },
-                { q: "AI 入學機會分析點計？", a: "AI 會將你嘅計分對比每個課程歷年收生 median（中位數）同 LQ（下四分位數），判斷你係穩陣、進取定保底，再結合出路評級俾 Band A–E 排位策略建議。", icon: Brain },
+                { q: "覆蓋幾多個課程？", a: "目前整理 413 個唯一 JUPAS 課程資料及出路評級，包括八大院校及主要自資院校課程，並會按官方資料更新。", icon: GraduationCap },
+                { q: "AI 入學分析點計？", a: "AI 會將你按課程公式計出嘅分數，對比該課程歷年 median 同 LQ，解釋你與過往取錄分布嘅距離，再結合入學要求、Band、面試及出路資料作參考；結果唔係錄取概率或保證。", icon: Brain },
                 { q: "出路評級係咩？", a: "出路評級係職涯 ROI 導向參考，413 個課程按就業前景、升學潛力、抗 AI 能力、院校排名、薪酬回報、技能複利 6 個維度評估，再用 A+ 至 C+ 顯示。它唔等同官方意見，亦唔代表課程學術價值或個人適合度。", icon: Award },
                 { q: "需要全程連網嗎？", a: "唔需要。計分器同收生數據參考支援離線使用；AI 入學分析同面試模擬需要連網先用到。", icon: Wifi },
-                { q: "面試題庫點樣參考？", a: "面試題庫涵蓋 14 個學系大類、約 1500 條練習題，參考各熱門學系常見面試題型（包括醫科 MMI），中英雙語，配 AI 即時評分同改善建議。", icon: Mic },
+                { q: "面試題庫點樣參考？", a: "面試題庫涵蓋 14 個學系大類、1,232 條練習題，參考各熱門學系常見面試題型（包括醫科 MMI），中英雙語，配 AI 即時回饋同改善建議。", icon: Mic },
             ],
         },
         cta: {
@@ -100,36 +100,36 @@ export const translations = {
             title: "一秒算好 JUPAS 分数",
             titleHighlight: "再看清入学机会和出路",
             subheading: "DSE Jupas 神器帮你计分、分析入学机会、比较出路评级、操练面试，一个 App 搞定升大学",
-            subtitle: "输入 DSE 成绩，自动套用八大及自资院校的收生计分公式（Best 5、4C+2X、科目加权、加分制），即时算出每个课程分数；再用 AI 对比历年收生 median 与 LQ，配合 413 个课程的 6 维出路评级，看清哪个课程稳妥、哪个进取、哪个职业 ROI 最高，还有约 1500 条面试练习题供你操练。",
+            subtitle: "输入 DSE 成绩，按 413 个课程各自的院校公式计分；再对比历年收生 median 与 LQ，了解自己在过往取录分布中的位置，配合 413 个课程的 6 维出路评级和 14 类共 1,232 条面试练习题作升学参考。",
             disclaimer: "非 JUPAS 官方网站或 JUPAS Office 认可服务；资料及分析只供升学参考，正式安排以 JUPAS 及各院校公布为准。",
             bullets: [
-                "约 440 个 JUPAS 课程资料，八大计分公式一键套用",
+                "413 个 JUPAS 课程资料，按院校及课程公式计分",
                 "413 个课程出路评级——就业、薪酬、抗 AI、升学、院校排名、技能复利一眼比较",
                 "AI 入学机会分析——你的分数对比历年 median／LQ，再结合出路评级讲策略",
-                "大学面试模拟——14 个学系大类、约 1500 条练习题，AI 即时评分",
+                "大学面试模拟——14 个学系大类、1,232 条练习题，AI 即时反馈",
             ],
             cta: "免费下载",
             secondaryCta: "了解更多",
             videoLabel: "App 示范",
         },
         stats: [
-            { value: "约 440", label: "JUPAS 课程资料" },
+            { value: "413", label: "JUPAS 课程资料" },
             { value: "413", label: "课程出路评级" },
             { value: "八大", label: "院校计分公式" },
-            { value: "约 1500", label: "大学面试题" },
+            { value: "1,232", label: "大学面试题" },
         ],
         features: {
             title: "为何选择 DSE Jupas 神器？",
             subtitle: "计分、入学机会、出路评级、课程比较、面试操练一站式——从放榜算到进大学",
             items: [
-                { icon: Calculator, label: "JUPAS 计分", title: "JUPAS 计分神器", desc: "输入 DSE 成绩，自动套用八大及自资院校不同收生计分公式，即时算出每个课程的对应分数。", bullets: ["Best 5、4C+2X、科目加权、加分制全支持", "涵盖约 440 个 JUPAS 课程资料", "不同院校公式自动切换，即时出分"], color: "orange" },
-                { icon: Brain, label: "AI 入学分析", title: "AI 入学机会分析", desc: "你的分数对比每个课程历年收生 median 与 LQ，AI 告诉你是稳妥、进取还是保底。", bullets: ["对比历年收生中位数与下四分位", "AI 判断稳妥／进取／保底", "附带 Band A–E 排位策略建议"], color: "teal" },
+                { icon: Calculator, label: "JUPAS 计分", title: "JUPAS 计分神器", desc: "输入 DSE 成绩，按院校及课程公开公式即时算出每个课程的对应分数。", bullets: ["Best 5、科目加权及 bonus 按课程处理", "涵盖 413 个唯一 JUPAS 课程", "不同院校公式自动切换，即时出分"], color: "orange" },
+                { icon: Brain, label: "AI 入学分析", title: "历史收生位置分析", desc: "把你的分数对比每个课程历年 median 与 LQ，显示与过往取录分布的距离，并提供排序考虑因素。", bullets: ["对比历年收生中位数与下四分位", "清楚标示年份、公式与资料限制", "说明 Band A–E 与真实喜好次序"], color: "teal" },
                 { icon: Award, label: "出路评级", title: "413 个课程出路评级", desc: "已评级课程会以 A+ 至 C+ 显示职业 ROI 参考，按 6 个维度评估，不只看收生分数。", bullets: ["就业前景、薪酬回报、抗 AI 能力", "升学潜力、院校排名、技能复利", "可按出路评级排序，配合分数差筛选"], color: "orange" },
                 { icon: BarChart3, label: "课程比较", title: "课程比较雷达图", desc: "两三个课程并排比较，分数、入学机会、出路评级、薪酬、学费一次看清。", bullets: ["多课程出路评级雷达图叠线比较", "A/B/C 等级并排显示", "帮你在相近分数课程之间选得更有根据"], color: "teal" },
-                { icon: Mic, label: "面试模拟", title: "大学面试模拟", desc: "AI 语音面试官，涵盖 14 个学系大类、约 1500 条面试练习题，中英双语即时评分。", bullets: ["医、牙、法律、商、教育、社工、护理常见题型", "中英双语，AI 即时评分", "附改善建议，练到有信心为止"], color: "orange" },
+                { icon: Mic, label: "面试模拟", title: "大学面试模拟", desc: "AI 语音面试官，涵盖 14 个学系大类、1,232 条面试练习题，中英双语即时反馈。", bullets: ["医、牙、法律、商、教育、社工、护理常见题型", "中英双语，AI 即时反馈", "附改善建议，练到有信心为止"], color: "orange" },
                 { icon: GraduationCap, label: "八大全覆盖", title: "八大院校计分公式", desc: "港大、中大、科大、城大、理大、浸大、教大、岭大——八大收生计分公式全部内建。", bullets: ["八大及主要自资院校公式齐备", "每间大学收生计分逻辑逐一拆解", "不必再自己查 prospectus 慢慢算"], color: "teal" },
                 { icon: BarChart3, label: "收生数据", title: "历年收生数据参考", desc: "每个课程附历年收生 median 与 LQ，还有收生分数趋势，帮你判断自己的位置。", bullets: ["median／LQ 收生数据逐科呈现", "过去数年收生分数趋势图", "用历年数据参考自己位置"], color: "orange" },
-                { icon: TrendingUp, label: "选科策略", title: "Band A–E 选科策略", desc: "AI 根据你的分数与收生数据，建议哪些课程放 Band A、哪些放保底，排得稳妥又博得起。", bullets: ["进取到保底分层建议", "梦想课程与安全课程平衡排位", "20 个志愿部署一目了然"], color: "orange" },
+                { icon: TrendingUp, label: "选科策略", title: "Band A–E 选科策略", desc: "按真实喜好、入学要求、历史收生位置及课程对 Band 的考虑方式，协助整理 20 个志愿。", bullets: ["先按真正想读程度排序", "分开院校可见的 Band 与保密的实际次序", "20 个志愿部署一目了然"], color: "orange" },
             ],
         },
         process: {
@@ -137,26 +137,26 @@ export const translations = {
             steps: [
                 { num: "01", title: "输入 DSE 成绩", desc: "填入你各科 DSE 成绩，App 自动套用八大计分公式，即时计分", icon: Calculator },
                 { num: "02", title: "看入学机会和出路评级", desc: "比较每个课程的收生分数、机会、A+ 至 C+ 出路评级，再决定怎样排志愿", icon: Award },
-                { num: "03", title: "AI 面试模拟操练", desc: "用约 1500 条面试练习题操练，AI 语音面试官即时评分给建议", icon: Mic },
+                { num: "03", title: "AI 面试模拟操练", desc: "用 1,232 条面试练习题操练，AI 语音面试官即时提供改善建议", icon: Mic },
             ],
         },
         reviews: {
             title: "学生使用情境",
             items: [
-                { text: "以前要自己查 prospectus 逐科算分，算到头都晕。现在输入成绩立刻算出八大每个课程的分，省了好多时间。", name: "王同学", detail: "中六 DSE 应届", avatar: "王" },
-                { text: "最赞的是 AI 入学分析，把我的分和历年 median、LQ 比，告诉我哪些稳妥哪些进取，排 Band A 的时候安心多了。", name: "陈同学", detail: "DSE 考生", avatar: "陈" },
-                { text: "面试模拟帮了我很多，医科 MMI 常见追问方式都有得练，练了几天真的找回信心，面试讲话没那么紧张。", name: "李同学", detail: "报读医科", avatar: "李" },
+                { text: "输入一次 DSE 成绩，逐个课程按官方公开公式计分，无须在不同 prospectus 之间重复换算。", name: "快速计分", detail: "适合放榜前后比较课程", avatar: "算" },
+                { text: "把分数放回历年 median／LQ 分布理解，同时显示年份和限制，不把历史数字当成录取保证。", name: "历史位置", detail: "适合整理选科考虑因素", avatar: "析" },
+                { text: "按学系和语言选题，录音或输入答案后取得结构、内容及表达方面的 AI 改善建议。", name: "面试操练", detail: "14 类、1,232 条练习题", avatar: "练" },
             ],
         },
         faq: {
             title: "常见问题",
             items: [
                 { q: "计分准不准？数据从哪里来？", a: "计分器依据八大及自资院校公开的收生计分公式（Best 5、4C+2X、科目加权、加分制等）逐一实现，并对照公开及整理所得的 JUPAS 课程计分资料。结果仅供参考，正式收生以各院校公布为准。", icon: Calculator },
-                { q: "覆盖多少个课程？", a: "目前整理约 440 个 JUPAS 课程资料，包括八大院校及主要自资院校的热门学系，并会持续更新。", icon: GraduationCap },
-                { q: "AI 入学机会分析怎么算？", a: "AI 会将你的计分对比每个课程历年收生 median（中位数）与 LQ（下四分位数），判断你是稳妥、进取还是保底，再结合出路评级给出 Band A–E 排位策略建议。", icon: Brain },
+                { q: "覆盖多少个课程？", a: "目前整理 413 个唯一 JUPAS 课程资料及出路评级，包括八大院校及主要自资院校课程，并会按官方资料更新。", icon: GraduationCap },
+                { q: "AI 入学分析怎么算？", a: "AI 会把你按课程公式算出的分数与该课程历年 median 和 LQ 比较，解释你和过往取录分布的距离，再结合入学要求、Band、面试及出路资料作参考；结果不是录取概率或保证。", icon: Brain },
                 { q: "出路评级是什么？", a: "出路评级是职业 ROI 导向参考，413 个课程按就业前景、升学潜力、抗 AI 能力、院校排名、薪酬回报、技能复利 6 个维度评估，再用 A+ 至 C+ 显示。它不是官方意见，也不代表课程学术价值或个人适合度。", icon: Award },
                 { q: "需要全程联网吗？", a: "不需要。计分器与收生数据参考支持离线使用；AI 入学分析与面试模拟则需要联网才能使用。", icon: Wifi },
-                { q: "面试题库怎样参考？", a: "面试题库涵盖 14 个学系大类、约 1500 条练习题，参考各热门学系常见面试题型（包括医科 MMI），中英双语，配 AI 即时评分与改善建议。", icon: Mic },
+                { q: "面试题库怎样参考？", a: "面试题库涵盖 14 个学系大类、1,232 条练习题，参考各热门学系常见面试题型（包括医科 MMI），中英双语，配 AI 即时反馈与改善建议。", icon: Mic },
             ],
         },
         cta: { title: "从放榜算到进大学", subtitle: "计分、出路评级、入学分析、课程比较、面试模拟，一个 App 搞定升大学。免费下载，立即试。" },
@@ -170,36 +170,36 @@ export const translations = {
             title: "Calculate Your JUPAS Score in a Second",
             titleHighlight: "Then Compare Admission Chances and Outcomes",
             subheading: "DSE Jupas scores your results, analyses admission chances, compares outcome ratings and drills interviews — your university journey in one app",
-            subtitle: "Enter your DSE results and DSE Jupas instantly applies each university's admission scoring formula (Best 5, 4C+2X, subject weighting, bonus points) across the eight UGC universities and self-financing institutions. AI then compares your score against each programme's historical median and lower quartile, while 413 programme Outcome Ratings help you compare career ROI across six dimensions — plus ~1,500 interview practice prompts.",
+            subtitle: "Enter your DSE results and calculate against the published formula for 413 programmes. Compare your result with historical median and lower-quartile data to understand its position in past admitted cohorts, alongside 413 six-dimension Outcome Ratings and 1,232 practice questions across 14 interview groups.",
             disclaimer: "Not an official JUPAS website or a service endorsed by the JUPAS Office. Data and analysis are for admissions reference only; official JUPAS and institution announcements prevail.",
             bullets: [
-                "~440 JUPAS programme data entries with one-tap scoring across all eight universities",
+                "413 JUPAS programme profiles with programme-specific scoring",
                 "413 programme Outcome Ratings — employment, salary, AI resilience, further study, university ranking and skill compounding",
                 "AI admission analysis — your score vs historical median / LQ, with outcome context for ranking strategy",
-                "University interview simulation — 14 faculty groups, ~1,500 practice prompts, instant AI scoring",
+                "University interview simulation — 14 faculty groups, 1,232 practice prompts and instant AI feedback",
             ],
             cta: "Download Free",
             secondaryCta: "Learn More",
             videoLabel: "App Demo",
         },
         stats: [
-            { value: "~440", label: "JUPAS Programme Data" },
+            { value: "413", label: "JUPAS Programme Data" },
             { value: "413", label: "Outcome Ratings" },
             { value: "8", label: "University Scoring Formulas" },
-            { value: "~1,500", label: "Interview Questions" },
+            { value: "1,232", label: "Interview Questions" },
         ],
         features: {
             title: "Why DSE Jupas?",
             subtitle: "Scoring, admission chances, outcome ratings, programme comparison and interview practice — one app takes you from results day to your offer",
             items: [
-                { icon: Calculator, label: "JUPAS Scoring", title: "JUPAS Score Calculator", desc: "Enter your DSE results and instantly get your calculated score for every programme using each institution's admission formula.", bullets: ["Best 5, 4C+2X, subject weighting & bonus points all supported", "Covers ~440 JUPAS programme data entries", "Auto-switches formulas per institution for instant results"], color: "orange" },
-                { icon: Brain, label: "AI Analysis", title: "AI Admission Analysis", desc: "Your score is compared against each programme's historical median and LQ — AI tells you if it's safe, ambitious or a safety net.", bullets: ["Compared against historical median & lower quartile", "AI verdict: safe / ambitious / safety net", "Includes Band A–E ranking strategy advice"], color: "teal" },
+                { icon: Calculator, label: "JUPAS Scoring", title: "JUPAS Score Calculator", desc: "Enter your DSE results and calculate against each programme's published institutional formula.", bullets: ["Best-subject, weighting and bonus rules handled per programme", "Covers 413 unique JUPAS programmes", "Auto-switches formulas per institution"], color: "orange" },
+                { icon: Brain, label: "AI Analysis", title: "Historical Intake Position", desc: "Compare your calculated score with each programme's historical median and LQ, with the year, formula and limitations made clear.", bullets: ["Historical median and lower-quartile context", "No admission probability or guarantee", "Explains bands and genuine preference order"], color: "teal" },
                 { icon: Award, label: "Outcome Rating", title: "413 Programme Outcome Ratings", desc: "Rated programmes show an A+ to C+ career-ROI reference across six dimensions, so you don't only compare admission scores.", bullets: ["Employment outlook, salary ROI and AI resilience", "Further-study path, university ranking and skill compounding", "Sort by outcome rating and combine it with score-gap filters"], color: "orange" },
                 { icon: BarChart3, label: "Comparison", title: "Programme Comparison Radar", desc: "Compare two or three programmes side by side: score, chance, outcome rating, salary and tuition in one view.", bullets: ["Overlayed outcome radar charts", "A/B/C ratings shown side by side", "Better decisions when programmes have similar scores"], color: "teal" },
-                { icon: Mic, label: "Interview Sim", title: "University Interview Simulation", desc: "An AI voice interviewer covering 14 faculty groups and ~1,500 interview practice prompts, with bilingual instant scoring.", bullets: ["Medicine, dentistry, law, business, education, social work, nursing & more", "Bilingual (Chinese & English) with instant AI scoring", "Actionable feedback until you feel confident"], color: "orange" },
+                { icon: Mic, label: "Interview Sim", title: "University Interview Simulation", desc: "An AI voice interviewer covering 14 faculty groups and 1,232 interview practice prompts, with bilingual instant feedback.", bullets: ["Medicine, dentistry, law, business, education, social work, nursing & more", "Bilingual Chinese and English feedback", "Actionable suggestions for improvement"], color: "orange" },
                 { icon: GraduationCap, label: "All 8 Unis", title: "Eight-University Scoring Formulas", desc: "HKU, CUHK, HKUST, CityU, PolyU, HKBU, EdUHK, LingnanU — every admission scoring formula built in.", bullets: ["Formulas for all eight unis & major self-financing schools", "Each university's scoring logic broken down", "No more digging through prospectuses by hand"], color: "teal" },
                 { icon: BarChart3, label: "Admission Data", title: "Historical Admission Data", desc: "Every programme comes with historical median and LQ scores plus admission trends to help you read your position.", bullets: ["Median / LQ admission data per programme", "Score trends over recent years", "Use historical data to judge your position"], color: "orange" },
-                { icon: TrendingUp, label: "Choice Strategy", title: "Band A–E Choice Strategy", desc: "Based on your score and admission data, AI suggests which programmes to put in Band A and which as safety nets — ambitious yet safe.", bullets: ["Layered advice from ambitious to safety net", "Balance dream and safe programmes", "All 20 choices laid out at a glance"], color: "orange" },
+                { icon: TrendingUp, label: "Choice Strategy", title: "Band A–E Choice Strategy", desc: "Organise all 20 choices using genuine preference, entrance requirements, historical intake position and how programmes consider bands.", bullets: ["Rank by what you genuinely want to study", "Separate visible bands from confidential actual order", "All 20 choices laid out at a glance"], color: "orange" },
             ],
         },
         process: {
@@ -207,7 +207,7 @@ export const translations = {
             steps: [
                 { num: "01", title: "Enter DSE Results", desc: "Fill in your subject grades and the app applies all eight scoring formulas instantly", icon: Calculator },
                 { num: "02", title: "Compare Chances and Outcomes", desc: "Review scores, admission chances and A+ to C+ Outcome Ratings before ranking choices", icon: Award },
-                { num: "03", title: "Drill AI Interviews", desc: "Practise with ~1,500 interview prompts and an AI voice interviewer scoring you live", icon: Mic },
+                { num: "03", title: "Drill AI Interviews", desc: "Practise with 1,232 interview prompts and receive immediate AI feedback", icon: Mic },
             ],
         },
         reviews: {
@@ -222,11 +222,11 @@ export const translations = {
             title: "Common Questions",
             items: [
                 { q: "How accurate is the scoring? Where's the data from?", a: "The calculator implements the published admission scoring formulas of the eight universities and self-financing institutions (Best 5, 4C+2X, subject weighting, bonus points, etc.), cross-checked against community-compiled programme scoring methods. Results are for reference only; official admissions follow each institution's announcements.", icon: Calculator },
-                { q: "How many programmes are covered?", a: "Currently ~440 JUPAS programme data entries, including popular faculties across the eight universities and major self-financing institutions, with ongoing updates.", icon: GraduationCap },
-                { q: "How does the AI admission analysis work?", a: "The AI compares your score against each programme's historical median and lower quartile (LQ), judges whether it's safe, ambitious or a safety net, then uses outcome context to give Band A–E ranking strategy advice.", icon: Brain },
+                { q: "How many programmes are covered?", a: "The current bundle contains 413 unique JUPAS programme scoring and Outcome Rating profiles, updated against published institutional information.", icon: GraduationCap },
+                { q: "How does the AI admission analysis work?", a: "It compares your programme-specific score with historical median and LQ data, explains the distance from past admitted cohorts, and adds entrance-requirement, band, interview and outcome context. It is not an admission probability or guarantee.", icon: Brain },
                 { q: "What is the Outcome Rating?", a: "Outcome Rating is a career-ROI reference for 413 programmes across six dimensions: employment outlook, further-study path, AI resilience, university ranking, salary ROI and skill compounding. It is not official advice and does not measure academic value or personal fit.", icon: Award },
                 { q: "Do I need internet?", a: "No for the calculator and admission data reference — they work offline. AI admission analysis and interview simulation require a connection.", icon: Wifi },
-                { q: "How should I use the interview question bank?", a: "The bank covers 14 faculty groups and ~1,500 practice prompts modelled on common interview formats (including Medicine MMI), bilingual, with instant AI scoring and improvement feedback.", icon: Mic },
+                { q: "How should I use the interview question bank?", a: "The bank covers 14 faculty groups and 1,232 practice prompts based on common interview formats, including Medicine MMI, with bilingual AI feedback and improvement suggestions.", icon: Mic },
             ],
         },
         cta: { title: "From Results Day to Your University Offer", subtitle: "Scoring, Outcome Ratings, admission analysis, programme comparison and interview simulation — your whole university journey in one app. Download free and try it now." },
@@ -236,10 +236,10 @@ export const translations = {
 
 const getTranslation = (lang) => translations[lang] || translations["en"];
 
-const FadeUp = ({ children, delay = 0, className }) => (
+const FadeUp = ({ children, delay = 0, className, reveal = true }) => (
     <motion.div
-        initial={{ opacity: 0, y: 24 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={reveal ? { opacity: 0, y: 24 } : false}
+        whileInView={reveal ? { opacity: 1, y: 0 } : undefined}
         viewport={{ once: true, margin: "-40px" }}
         transition={{ duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] }}
         className={className}
@@ -345,7 +345,7 @@ const BLOG_POSTS = [
         image: "/blog-covers/jupas-band-a-strategy.webp",
         category: "選科策略",
             title: "20 個 JUPAS 志願點排先唔會放榜得個吉？Band A 排位策略全拆解",
-            desc: "Band A 放夢想定保險？用收生 median／LQ 數據，由進取到保底排好 20 個志願。",
+            desc: "院校只會看到志願 Band，但聯招派位仍按你的實際次序處理；用真實喜好、入學要求及歷年數據逐項核對。",
         readTime: "11 分鐘",
     },
     {
@@ -413,7 +413,7 @@ const FeatureVisual = ({ index }) => {
         <div className="bg-white rounded-3xl p-6 shadow-xl border border-sky-100 w-full max-w-sm">
             <div className="flex items-center justify-between mb-4">
                 <div className="font-bold text-gray-900 text-sm">入學機會分析</div>
-                <span className="text-[10px] font-bold text-green-700 bg-green-100 px-2.5 py-0.5 rounded-full">穩陣 ✓</span>
+                <span className="text-[10px] font-bold text-sky-700 bg-sky-100 px-2.5 py-0.5 rounded-full">歷史位置較高</span>
             </div>
             <div className="space-y-3 mb-4">
                 {[
@@ -433,7 +433,7 @@ const FeatureVisual = ({ index }) => {
                 ))}
             </div>
             <div className="bg-sky-50 rounded-xl p-3">
-                <div className="text-[11px] text-gray-600 leading-relaxed"><span className="font-bold text-sky-700">AI 建議：</span>你嘅分高於 median 2.5 分，屬穩陣之選，可放心排 Band A。</div>
+                <div className="text-[11px] text-gray-600 leading-relaxed"><span className="font-bold text-sky-700">分析提示：</span>你嘅分高於過往 median 2.5 分；仍要核對入學要求、Band、面試及當年競爭。</div>
             </div>
         </div>,
 
@@ -549,8 +549,8 @@ const FeatureVisual = ({ index }) => {
             <div className="space-y-3">
                 {[
                     { band: "A", label: "進取", c: "text-green-700 bg-green-100", chips: ["港大 醫學", "中大 法律"] },
-                    { band: "B", label: "穩陣", c: "text-sky-700 bg-sky-100", chips: ["科大 商學", "城大 數據"] },
-                    { band: "C", label: "保底", c: "text-amber-700 bg-amber-100", chips: ["理大 工程", "浸大 傳理"] },
+                    { band: "B", label: "次選", c: "text-sky-700 bg-sky-100", chips: ["科大 商學", "城大 數據"] },
+                    { band: "C", label: "其他選擇", c: "text-amber-700 bg-amber-100", chips: ["理大 工程", "浸大 傳理"] },
                 ].map((g) => (
                     <div key={g.band}>
                         <div className="flex items-center gap-2 mb-1.5">
@@ -606,24 +606,14 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
 
     return (
         <div className="min-h-screen font-sans bg-white overflow-hidden">
-            <style>{`
-                * { box-sizing: border-box; }
-                .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans TC', 'PingFang TC', 'Segoe UI', sans-serif; }
-                .gradient-text { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-                .hero-gradient { background: linear-gradient(135deg, #fffbeb 0%, #fff 50%, #f0f9ff 100%); }
-                .cta-gradient { background: linear-gradient(135deg, #f59e0b 0%, #d97706 60%, #b45309 100%); }
-                .card-hover { transition: transform 0.25s ease, box-shadow 0.25s ease; }
-                .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(245,158,11,0.12); }
-            `}</style>
-
             {/* ===== NAVBAR ===== */}
             <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
                 <div className="container mx-auto px-6 h-16 flex items-center justify-between max-w-6xl">
                     <a href="/" className="flex items-center gap-2.5">
-                        <img src="/logo-transparent.png" alt="DSE Jupas 神器" className="w-10 h-10 object-contain" />
+                        <img src="/logo-transparent-96.webp" alt="DSE Jupas 神器" className="w-10 h-10 object-contain" width="96" height="96" />
                         <div className="leading-tight">
                             <span className="font-bold text-gray-900 text-sm block">DSE Jupas 神器</span>
-                            <span className="text-[10px] text-gray-400 block">JUPAS 計分 ・ 出路評級 ・ 入學分析</span>
+                            <span className="text-[10px] text-gray-600 block">JUPAS 計分 ・ 出路評級 ・ 入學分析</span>
                         </div>
                     </a>
 
@@ -660,7 +650,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     </div>
 
                     {/* Mobile burger */}
-                    <button onClick={() => setMobileMenuOpen(true)} className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                    <button onClick={() => setMobileMenuOpen(true)} className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors" aria-label="開啟選單">
                         <Menu size={22} className="text-gray-700" />
                     </button>
                 </div>
@@ -675,13 +665,13 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                             <div className="p-6">
                                 <div className="flex items-center justify-between mb-8">
                                     <div className="flex items-center gap-2">
-                                        <img src="/logo-transparent.png" alt="DSE Jupas 神器" className="w-9 h-9 object-contain" />
+                                        <img src="/logo-transparent-96.webp" alt="DSE Jupas 神器" className="w-9 h-9 object-contain" width="96" height="96" />
                                         <div className="leading-tight">
                                             <span className="font-bold text-gray-900 text-sm block">DSE Jupas 神器</span>
-                                            <span className="text-[10px] text-gray-400 block">JUPAS 計分 ・ 出路評級 ・ 入學分析</span>
+                                            <span className="text-[10px] text-gray-600 block">JUPAS 計分 ・ 出路評級 ・ 入學分析</span>
                                         </div>
                                     </div>
-                                    <button onClick={() => setMobileMenuOpen(false)} className="p-1.5 rounded-lg hover:bg-gray-100">
+                                    <button onClick={() => setMobileMenuOpen(false)} className="p-1.5 rounded-lg hover:bg-gray-100" aria-label="關閉選單">
                                         <X size={20} className="text-gray-600" />
                                     </button>
                                 </div>
@@ -715,10 +705,10 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                 <div className="pt-16">
                     <a
                         href="/blog/dse-results-day-2026-guide/"
-                        className="block bg-amber-500 hover:bg-amber-600 transition-colors text-white"
+                        className="block bg-amber-700 hover:bg-amber-800 transition-colors text-white"
                     >
                         <div className="container mx-auto px-6 max-w-6xl py-2.5 flex items-center justify-center gap-2 text-center text-sm font-medium flex-wrap">
-                            <span className="inline-flex items-center gap-1.5 bg-white/20 rounded-full px-2.5 py-0.5 text-xs font-bold tracking-wide">
+                            <span className="inline-flex items-center gap-1.5 bg-white rounded-full px-2.5 py-0.5 text-xs font-bold tracking-wide text-amber-900">
                                 <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
                                 {t.resultsBanner.label}
                             </span>
@@ -735,32 +725,32 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         {/* Left: Text */}
                         <div className="relative">
-                            <FadeUp>
-                                <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-600 text-xs font-bold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
+                            <FadeUp reveal={false}>
+                                <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-800 text-xs font-bold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
                                     <div className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
                                     {t.hero.tagline}
                                 </div>
                             </FadeUp>
-                            <FadeUp delay={0.08}>
+                            <FadeUp delay={0.08} reveal={false}>
                                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-[1.15] tracking-tight mb-4">
                                     {t.hero.title}<br />
                                     <span className="gradient-text">{t.hero.titleHighlight}</span>
                                 </h1>
                             </FadeUp>
                             {t.hero.subheading && (
-                                <FadeUp delay={0.12}>
+                                <FadeUp delay={0.12} reveal={false}>
                                     <p className="text-lg md:text-xl font-semibold text-gray-700 mb-4 max-w-lg">
                                         {t.hero.subheading}
                                     </p>
                                 </FadeUp>
                             )}
-                            <FadeUp delay={0.16}>
+                            <FadeUp delay={0.16} reveal={false}>
                                 <p className="text-base text-gray-500 leading-relaxed mb-5 max-w-lg">
                                     {t.hero.subtitle}
                                 </p>
                             </FadeUp>
                             {t.hero.bullets && (
-                                <FadeUp delay={0.20}>
+                                <FadeUp delay={0.20} reveal={false}>
                                     <ul className="space-y-2.5 mb-8 max-w-lg">
                                         {t.hero.bullets.map((b, i) => (
                                             <li key={i} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -772,33 +762,36 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                                 </FadeUp>
                             )}
                             {t.hero.disclaimer && (
-                                <FadeUp delay={0.22}>
+                                <FadeUp delay={0.22} reveal={false}>
                                     <p className="text-xs text-gray-400 leading-relaxed mb-6 max-w-lg">
                                         {t.hero.disclaimer}
                                     </p>
                                 </FadeUp>
                             )}
-                            <FadeUp delay={0.26} className="flex flex-wrap gap-3">
+                            <FadeUp delay={0.26} className="flex flex-wrap gap-3" reveal={false}>
                                 <a href="https://apps.apple.com/app/id6780134101" className="hover:opacity-90 transition-opacity">
-                                    <img src="/ios-icon.png" alt="Download on App Store" className="h-12 w-auto" />
+                                    <img src="/ios-icon.png" alt="Download on App Store" className="h-12 w-auto" width="288" height="86" />
                                 </a>
                                 <a href="https://play.google.com/store/apps/details?id=app.jupas.dse" className="hover:opacity-90 transition-opacity">
-                                    <img src="/android-icon.png" alt="Get it on Google Play" className="h-12 w-auto" />
+                                    <img src="/android-icon.png" alt="Get it on Google Play" className="h-12 w-auto" width="289" height="86" />
                                 </a>
                             </FadeUp>
                         </div>
 
                         {/* Right: real app screens in phone frames */}
-                        <FadeUp delay={0.12} className="flex justify-center md:justify-end">
+                        <FadeUp delay={0.12} className="flex justify-center md:justify-end" reveal={false}>
                             <div className="relative">
                                 {/* Soft glow */}
                                 <div className="absolute inset-0 bg-amber-300/25 blur-3xl rounded-full scale-90" />
                                 <img
-                                    src="/app/hero_phones.png"
+                                    src="/app/hero_phones.webp"
                                     className="relative w-[300px] sm:w-[360px] md:w-[420px] h-auto block"
                                     alt={t.hero.videoLabel}
-                                    width="1500"
-                                    height="2071"
+                                    width="840"
+                                    height="1160"
+                                    loading="eager"
+                                    decoding="async"
+                                    fetchpriority="high"
                                 />
                             </div>
                         </FadeUp>
@@ -826,7 +819,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <FadeUp className="text-center mb-16">
                         <div className="inline-flex items-center gap-3 mb-3">
                             <motion.img
-                                src="/app/star_cheer.png"
+                                src="/app/star_cheer.webp"
                                 alt="DSE Jupas 神器 星星吉祥物"
                                 aria-hidden="true"
                                 className="w-10 h-10 md:w-12 md:h-12 pointer-events-none select-none"
@@ -885,7 +878,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <FadeUp className="text-center mb-14">
                         <div className="inline-flex items-center gap-3">
                             <motion.img
-                                src="/app/star_think.png"
+                                src="/app/star_think.webp"
                                 alt="DSE Jupas 神器 星星吉祥物"
                                 aria-hidden="true"
                                 className="w-10 h-10 md:w-12 md:h-12 pointer-events-none select-none"
@@ -925,7 +918,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                             </div>
                             <div className="flex items-start gap-3 mb-5">
                                 <motion.img
-                                    src="/app/star_wave.png"
+                                    src="/app/star_wave.webp"
                                     alt="DSE Jupas 神器 星星吉祥物"
                                     aria-hidden="true"
                                     className="w-10 h-10 md:w-12 md:h-12 flex-shrink-0 mt-1 pointer-events-none select-none"
@@ -943,7 +936,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                             </p>
                             <ul className="space-y-3 text-gray-700">
                                 {[
-                                    "14 個學系大類、約 1500 條面試練習題",
+                                    "14 個學系大類、1,232 條面試練習題",
                                     "AI 語音面試官，中英雙語即時評分",
                                     "逐題俾改善建議，操到有信心為止",
                                 ].map((b, j) => (
@@ -961,9 +954,13 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                                 <div className="absolute inset-0 bg-sky-300/30 blur-3xl rounded-full scale-90" />
                                 <div className="relative bg-gradient-to-br from-sky-50 to-white rounded-[2.6rem] p-6 shadow-xl border border-sky-100 w-[270px] md:w-[300px]">
                                     <img
-                                        src="/app/illu_mock.png"
+                                        src="/app/illu_mock.webp"
                                         className="w-full h-auto block drop-shadow-md"
                                         alt="DSE Jupas 神器 面試模擬示範"
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="430"
+                                        height="430"
                                     />
                                 </div>
                             </div>
@@ -978,10 +975,14 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <FadeUp className="text-center mb-12">
                         <div className="inline-flex items-center gap-3">
                             <motion.img
-                                src="/app/illu_analysis.png"
+                                src="/app/illu_analysis.webp"
                                 alt="DSE Jupas 神器 星星吉祥物"
                                 aria-hidden="true"
                                 className="w-10 h-10 md:w-12 md:h-12 pointer-events-none select-none"
+                                loading="lazy"
+                                decoding="async"
+                                width="430"
+                                height="430"
                                 initial={{ rotate: -12 }}
                                 animate={{ rotate: [-12, 4, -12] }}
                                 transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
@@ -993,12 +994,9 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                         {t.reviews.items.map((review, i) => (
                             <FadeUp key={i} delay={i * 0.1}>
                                 <div className="bg-white rounded-2xl p-6 border border-gray-100 card-hover h-full flex flex-col">
-                                    <div className="flex gap-0.5 mb-4">
-                                        {[...Array(5)].map((_, si) => (
-                                            <Star key={si} size={14} className="text-amber-400 fill-amber-400" />
-                                        ))}
+                                    <div className="inline-flex items-center gap-2 text-xs font-bold text-amber-700 bg-amber-50 rounded-full px-3 py-1 mb-4 self-start">
+                                        <ListChecks size={14} /> 使用情境
                                     </div>
-                                    <Quote size={20} className="text-amber-200 mb-3" />
                                     <p className="text-gray-600 text-sm leading-relaxed flex-grow mb-6">{review.text}</p>
                                     <div className="flex items-center gap-3 pt-4 border-t border-gray-50">
                                         <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white font-bold text-sm shadow-md">
@@ -1022,10 +1020,14 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <FadeUp className="text-center mb-12">
                         <div className="inline-flex items-center gap-3 mb-3">
                             <motion.img
-                                src="/app/illu_report.png"
+                                src="/app/illu_report.webp"
                                 alt="DSE Jupas 神器 星星吉祥物"
                                 aria-hidden="true"
-                                className="w-10 h-10 md:w-12 md:h-12 pointer-events-none select-none"
+                                className="w-auto h-10 md:h-12 pointer-events-none select-none"
+                                loading="lazy"
+                                decoding="async"
+                                width="640"
+                                height="350"
                                 initial={{ rotate: -10 }}
                                 animate={{ rotate: [-10, 4, -10] }}
                                 transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
@@ -1077,12 +1079,12 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <FadeUp className="text-center mb-12">
                         <div className="inline-block text-xs font-bold px-3 py-1.5 rounded-full mb-4 bg-amber-100 text-amber-700 uppercase tracking-wider">八大收生數據</div>
                         <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">JUPAS 收生分數參考</h2>
-                        <p className="text-gray-500 max-w-2xl mx-auto">每個課程附歷年收生 median 同 LQ，輸入你嘅分即知入學機會。App 已整理約 440 個 JUPAS 課程資料作參考。</p>
+                        <p className="text-gray-500 max-w-2xl mx-auto">課程附歷年收生 median 同 LQ 參考，幫你理解自己相對過往獲錄取者嘅位置；唔代表今年錄取機率。App 現有 413 個 JUPAS 課程資料。</p>
                     </FadeUp>
 
                     <FadeUp delay={0.1} className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-4xl mx-auto">
                         {[
-                            { val: "約 440", label: "JUPAS 課程資料" },
+                            { val: "413", label: "JUPAS 課程資料" },
                             { val: "八大", label: "院校計分公式" },
                             { val: "median / LQ", label: "歷年收生數據" },
                             { val: "免費", label: "下載使用" },
@@ -1112,8 +1114,8 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                                         { uni: "高競爭", prog: "醫療 / 牙科 / 頂尖專業", method: "Best 5 + 指定科目加權", median: "高分段", lq: "仍偏高", band: "A" },
                                         { uni: "熱門專業", prog: "法律 / 環球商業 / 量化金融", method: "Best 5 / 4C+2X", median: "中高至高分段", lq: "需留 buffer", band: "A" },
                                         { uni: "熱門 STEM", prog: "計算機 / 數據科學 / 工程", method: "Best 5 + 加分", median: "中高分段", lq: "看科目加權", band: "A/B" },
-                                        { uni: "穩陣選擇", prog: "同領域較低競爭課程", method: "按院校公式", median: "接近你分數", lq: "高過較安心", band: "B/C" },
-                                        { uni: "保底選擇", prog: "自資 / 副學位 / 較冷門課程", method: "按院校公式", median: "低於你分數", lq: "留足距離", band: "D/E" },
+                                        { uni: "歷史位置較高", prog: "同領域其他課程", method: "按院校公式", median: "接近你分數", lq: "只作歷史比較", band: "B/C" },
+                                        { uni: "其他升學選項", prog: "自資 / 副學位 / 其他課程", method: "按院校公式", median: "低於你分數", lq: "仍須核對要求", band: "D/E" },
                                     ].map((r) => (
                                         <tr key={r.prog} className="even:bg-gray-50 border-t border-gray-100">
                                             <td className="px-4 py-3 font-bold text-gray-900">{r.uni}</td>
@@ -1135,7 +1137,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     </FadeUp>
 
                     <FadeUp delay={0.3} className="mt-10 text-center">
-                        <p className="text-gray-500 text-sm mb-5">App 已內建約 440 個課程嘅 median／LQ 收生數據 + 413 個出路評級 + AI 入學機會分析 + 面試模擬</p>
+                        <p className="text-gray-500 text-sm mb-5">App 已內建 413 個課程資料及出路評級、歷史 median／LQ 參考、AI 分析與面試模擬</p>
                         <a href="https://apps.apple.com/app/id6780134101" className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition-colors shadow-lg shadow-amber-200">
                             免費下載 DSE Jupas 神器 <ChevronRight size={16} />
                         </a>
@@ -1149,7 +1151,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <FadeUp className="text-center mb-12">
                         <div className="inline-flex items-center gap-3">
                             <motion.img
-                                src="/app/star_think.png"
+                                src="/app/star_think.webp"
                                 alt="DSE Jupas 神器 星星吉祥物"
                                 aria-hidden="true"
                                 className="w-10 h-10 md:w-12 md:h-12 pointer-events-none select-none"
@@ -1181,7 +1183,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                             <div className="relative z-10">
                                 <div className="inline-flex items-center gap-3 mb-3">
                                     <motion.img
-                                        src="/app/star_cheer.png"
+                                        src="/app/star_cheer.webp"
                                         alt="DSE Jupas 神器 星星吉祥物"
                                         aria-hidden="true"
                                         className="w-10 h-10 md:w-12 md:h-12 pointer-events-none select-none drop-shadow-lg"
@@ -1194,10 +1196,10 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                                 <p className="text-amber-50 mb-10 text-lg max-w-xl mx-auto">{t.cta.subtitle}</p>
                                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                                     <a href="https://apps.apple.com/app/id6780134101" className="hover:opacity-90 transition-opacity drop-shadow-lg">
-                                        <img src="/ios-icon.png" alt="Download on App Store" className="h-14 w-auto" />
+                                        <img src="/ios-icon.png" alt="Download on App Store" className="h-14 w-auto" width="288" height="86" />
                                     </a>
                                     <a href="https://play.google.com/store/apps/details?id=app.jupas.dse" className="hover:opacity-90 transition-opacity drop-shadow-lg">
-                                        <img src="/android-icon.png" alt="Get it on Google Play" className="h-14 w-auto" />
+                                        <img src="/android-icon.png" alt="Get it on Google Play" className="h-14 w-auto" width="289" height="86" />
                                     </a>
                                 </div>
                             </div>

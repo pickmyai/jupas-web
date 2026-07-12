@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+    title="資料來源與編輯守則 | DSE Jupas 神器"
+    description="了解 DSE Jupas 神器如何以 JUPAS、考評局和院校官方資料核實重要日期、課程計分方法及歷年收生數據，並區分官方事實、歷史參考與編輯分析。"
+    schemaType="website"
+    showProductFooter={false}
+>
+    <main class="min-h-screen bg-slate-50 py-20">
+        <article class="container mx-auto max-w-4xl px-6">
+            <a href="/blog/" class="text-sm font-semibold text-sky-700 hover:underline">← 返回升學攻略</a>
+            <header class="mt-8 mb-10">
+                <p class="mb-3 text-sm font-bold tracking-[0.2em] text-amber-600">EDITORIAL STANDARD</p>
+                <h1 class="text-4xl font-extrabold tracking-tight text-slate-950 md:text-5xl">資料來源與編輯守則</h1>
+                <p class="mt-5 max-w-3xl text-lg leading-relaxed text-slate-600">我們把官方流程、院校計分規則、歷年統計與 App 的分析層分開呈現，讓讀者知道哪些是官方事實、哪些是歷史參考、哪些是編輯分析。</p>
+            </header>
+
+            <div class="space-y-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm md:p-12">
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-900">優先資料來源</h2>
+                    <ol class="mt-4 list-decimal space-y-3 pl-6 leading-relaxed text-slate-700">
+                        <li>JUPAS Office 的申請流程、改選、Band、iteration、派位與繳費頁面。</li>
+                        <li>香港考試及評核局的 HKDSE 日期、成績覆核及評核安排。</li>
+                        <li>各院校當年度的 programme page、JUPAS score calculator、admission profile 及入學要求。</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-900">收生分數應如何理解</h2>
+                    <p class="mt-4 leading-relaxed text-slate-700">Median、LQ、UQ 是過往獲錄取者的統計位置，不是預先公布的 cut-off，亦不是錄取概率。院校仍可考慮面試、評核、Band、當年競爭、指定科目及其他資料。因此我們只用「歷史位置較高／落在過往範圍／低於過往 LQ」等描述，不把任何課程稱為保證取錄。</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-900">App 資料與編輯評級</h2>
+                    <p class="mt-4 leading-relaxed text-slate-700">網站所述數量以目前 App bundle 為準：413 個唯一 JUPAS 課程資料及出路評級、14 個面試類別、1,232 條面試練習題。出路評級屬編輯團隊按公開資料作出的職涯 ROI 參考，不代表院校、JUPAS Office 或任何僱主意見。</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-900">更新與更正</h2>
+                    <p class="mt-4 leading-relaxed text-slate-700">具時效性的文章會顯示最後核實日期。若官方公布有更新，我們會實質更新內容，而不只更改日期。如發現錯誤，可電郵 <a class="font-semibold text-sky-700 hover:underline" href="mailto:support@jupascalculator.app">support@jupascalculator.app</a>。</p>
+                </section>
+
+                <p class="border-t border-slate-200 pt-6 text-sm text-slate-500">最後更新：2026年7月12日。DSE Jupas 神器並非 JUPAS 官方網站或獲 JUPAS Office 認可的服務。</p>
+            </div>
+        </article>
+    </main>
+</Layout>
