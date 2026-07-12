@@ -19,13 +19,12 @@ const t = translations[code] || translations["en"];
 // SEO Metadata logic
 const isChinese = code.startsWith("zh");
 const appName = isChinese ? "DSE Jupas 神器" : "DSE Jupas";
-const tagline = isChinese
-    ? "JUPAS 計分、課程比較與面試練習"
-    : "JUPAS Calculator, Programme Comparison and Interview Practice";
-const title = isChinese ? `${appName} - ${tagline}` : "DSE Jupas | JUPAS Calculator & Interview Practice";
+const title = isChinese
+    ? `JUPAS 计分器｜${appName} · 免费计分、收生位置、面试练习`
+    : "JUPAS Calculator | DSE Jupas · Score, Admission Positions & Interview Practice";
 const seoDescription = isChinese
-    ? "DSE Jupas 神器提供 413 個 JUPAS 課程計分及出路評級、歷年 median／LQ 參考、Band 排位分析，以及 14 類共 1,232 條大學面試練習題。非官方升學參考工具。"
-    : "Explore 413 JUPAS programme profiles, historical admission-score positions and 1,232 bilingual interview prompts. Independent reference only; no admission guarantee.";
+    ? "免费 JUPAS 计分器：输入 DSE 成绩即时计分，涵盖 413 个课程计分及出路评级、历年 median／LQ 参考、Band 排位分析，以及 14 类共 1,232 条大学面试练习题。非官方升学参考工具。"
+    : "Free JUPAS calculator: score your DSE results instantly across 413 programme profiles, with historical admission-score positions and 1,232 bilingual interview prompts. Independent reference only; no admission guarantee.";
 const description = seoDescription;
 ---
 

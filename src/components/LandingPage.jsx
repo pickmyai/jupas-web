@@ -18,8 +18,8 @@ export const translations = {
         nav: { features: "功能", reviews: "使用情境", faq: "常見問題", blog: "升學攻略", cta: "下載 App" },
         resultsBanner: { label: "2026 DSE 放榜季", text: "7 月 15 日放榜．JUPAS 改選 48 小時攻略", cta: "睇放榜時間表" },
         hero: {
-            tagline: "JUPAS 計分 · 出路評級 · 入學分析 · 面試模擬",
-            title: "一秒計好 JUPAS 分數",
+            tagline: "JUPAS 計分器 · 出路評級 · 入學分析 · 面試模擬",
+            title: "JUPAS 計分器：一秒計好 DSE 分數",
             titleHighlight: "再睇清入學機會同出路",
             subheading: "DSE Jupas 神器幫你計分、分析入學機會、比較出路評級、操練面試，一個 App 搞掂升大學",
             subtitle: "輸入 DSE 成績，自動按 413 個課程各自嘅院校公式計分；再對比歷年收生 median 同 LQ，了解自己喺過往取錄分布中嘅位置，配合 413 個課程嘅 6 維出路評級同 14 類共 1,232 條面試練習題作升學參考。",
@@ -87,7 +87,7 @@ export const translations = {
         },
         footer: {
             copyright: "© 2026 DSE Jupas 神器",
-            tagline: "JUPAS 計分 · 出路評級 · 入學分析 · 面試模擬",
+            tagline: "JUPAS 計分器 · 出路評級 · 入學分析 · 面試模擬",
             privacy: "私隱政策",
             terms: "使用條款",
         },
@@ -96,8 +96,8 @@ export const translations = {
         nav: { features: "功能", reviews: "使用情境", faq: "常见问题", blog: "升学攻略", cta: "下载 App" },
         resultsBanner: { label: "2026 DSE 放榜季", text: "7 月 15 日放榜．JUPAS 改选 48 小时攻略", cta: "看放榜时间表" },
         hero: {
-            tagline: "JUPAS 计分 · 出路评级 · 入学分析 · 面试模拟",
-            title: "一秒算好 JUPAS 分数",
+            tagline: "JUPAS 计分器 · 出路评级 · 入学分析 · 面试模拟",
+            title: "JUPAS 计分器：一秒算好 DSE 分数",
             titleHighlight: "再看清入学机会和出路",
             subheading: "DSE Jupas 神器帮你计分、分析入学机会、比较出路评级、操练面试，一个 App 搞定升大学",
             subtitle: "输入 DSE 成绩，按 413 个课程各自的院校公式计分；再对比历年收生 median 与 LQ，了解自己在过往取录分布中的位置，配合 413 个课程的 6 维出路评级和 14 类共 1,232 条面试练习题作升学参考。",
@@ -160,14 +160,14 @@ export const translations = {
             ],
         },
         cta: { title: "从放榜算到进大学", subtitle: "计分、出路评级、入学分析、课程比较、面试模拟，一个 App 搞定升大学。免费下载，立即试。" },
-        footer: { copyright: "© 2026 DSE Jupas 神器", tagline: "JUPAS 计分 · 出路评级 · 入学分析 · 面试模拟", privacy: "隐私政策", terms: "使用条款" },
+        footer: { copyright: "© 2026 DSE Jupas 神器", tagline: "JUPAS 计分器 · 出路评级 · 入学分析 · 面试模拟", privacy: "隐私政策", terms: "使用条款" },
     },
     en: {
         nav: { features: "Features", reviews: "Reviews", faq: "FAQ", blog: "Guides", cta: "Download" },
         resultsBanner: { label: "2026 DSE Results Season", text: "Results out 15 Jul · JUPAS 48-hour re-ordering guide", cta: "See the timeline" },
         hero: {
-            tagline: "JUPAS Scoring · Outcome Rating · Admission Analysis · Interview Sim",
-            title: "Calculate Your JUPAS Score in a Second",
+            tagline: "JUPAS Calculator · Outcome Rating · Admission Analysis · Interview Sim",
+            title: "JUPAS Calculator: Score Your DSE Results in a Second",
             titleHighlight: "Then Compare Admission Chances and Outcomes",
             subheading: "DSE Jupas scores your results, analyses admission chances, compares outcome ratings and drills interviews — your university journey in one app",
             subtitle: "Enter your DSE results and calculate against the published formula for 413 programmes. Compare your result with historical median and lower-quartile data to understand its position in past admitted cohorts, alongside 413 six-dimension Outcome Ratings and 1,232 practice questions across 14 interview groups.",
@@ -230,7 +230,7 @@ export const translations = {
             ],
         },
         cta: { title: "From Results Day to Your University Offer", subtitle: "Scoring, Outcome Ratings, admission analysis, programme comparison and interview simulation — your whole university journey in one app. Download free and try it now." },
-        footer: { copyright: "© 2026 DSE Jupas", tagline: "JUPAS Scoring · Outcome Rating · Admission Analysis · Interview Sim", privacy: "Privacy", terms: "Terms" },
+        footer: { copyright: "© 2026 DSE Jupas", tagline: "JUPAS Calculator · Outcome Rating · Admission Analysis · Interview Sim", privacy: "Privacy", terms: "Terms" },
     },
 };
 
