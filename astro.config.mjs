@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import critters from 'astro-critters';
@@ -19,7 +18,6 @@ export default defineConfig({
         }
     },
     integrations: [
-        tailwind(),
         react(),
         sitemap({
             filter: (page) => !page.includes('/admin/') && !page.includes('/api/'),
