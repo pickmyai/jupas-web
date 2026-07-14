@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "DSE 放榜 2026 攻略｜7 月 15 日放榜日時間表、JUPAS 改選 48 小時、Main Round 派位全流程"
-description: "DSE 2026 於 7 月 15 日放榜。放榜當日要做咩？JUPAS 改選 48 小時時段點用？Main Round 8 月 5 日派位、留位費幾時交？由放榜前準備到 Clearing 補選，一篇拆清 2026 放榜季每一個關鍵日期同決定。"
+title: "DSE 放榜急救包 2026｜放榜日清單、成績覆核、JUPAS 改選與 Plan B"
+description: "DSE 2026 於 7 月 15 日放榜。整理放榜日首 30 分鐘行動、必帶文件、成績覆核費用與限期、JUPAS 48 小時改選、Main Round、Plan B 及情緒支援。"
 image: "/blog-covers/dse-results-day-2026-guide.webp"
 category: "放榜攻略"
-readTime: "11 分鐘"
+readTime: "18 分鐘"
 pubDate: "2026-07-02"
-updatedDate: "2026-07-12"
-verifiedDate: "2026-07-12"
+updatedDate: "2026-07-14"
+verifiedDate: "2026-07-14"
 ---
 
 <div class="not-prose my-8 grid sm:grid-cols-4 gap-4">
@@ -85,6 +85,40 @@ verifiedDate: "2026-07-12"
 4. **搵老師或者升學顧問過一次目**——尤其係失手嘅情況，第三者嘅判斷會冷靜好多。
 5. **確認自己嘅改選時段幾點開始**——改選唔係放榜日做，係之後嘅 48 小時時段內做，你仲有時間諗，唔使當日倉卒提交。
 
+### 攞到成績後首 30 分鐘：先穩定，再決定
+
+如果成績同預期有落差，唔好喺情緒最強烈嗰刻即時刪晒志願或者交留位費。先按呢個次序做：
+
+1. **影低及核對成績通知書**：逐科對一次，保留清晰照片；SMS 只係額外渠道，唔可以取代正式成績通知書。
+2. **俾自己 10–15 分鐘消化**：開心、呆咗或者喊都正常，先飲水、坐低，同信任嘅老師或家人一齊睇。
+3. **確認硬門檻**：先查中文、英文、數學、公民科及指定選修科是否符合課程要求，再比較計分；未達硬門檻，分數再高都未必合資格。
+4. **分開三條線處理**：JUPAS 改選、成績覆核、Non-JUPAS 後備申請可以同步準備，唔需要三揀一。
+
+### 放榜日隨身急救包
+
+<div class="not-prose my-6 grid md:grid-cols-2 gap-4">
+  <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+    <div class="font-bold text-slate-900 mb-3">必須帶齊</div>
+    <ul class="m-0 space-y-2 text-sm text-slate-700">
+      <li>身份證、學校要求嘅學生證件</li>
+      <li>手機、充電線／尿袋</li>
+      <li>JUPAS 及電郵登入資料，先測試雙重認證</li>
+      <li>筆、記事簿、水及少量食物</li>
+    </ul>
+  </div>
+  <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+    <div class="font-bold text-slate-900 mb-3">如會即日申請其他課程</div>
+    <ul class="m-0 space-y-2 text-sm text-slate-700">
+      <li>DSE 成績通知書及電子副本</li>
+      <li>中四至中六校內成績表、SLP／OLE 證明</li>
+      <li>證件相、個人陳述及活動證明電子檔</li>
+      <li>可處理申請費／留位費嘅付款方式</li>
+    </ul>
+  </div>
+</div>
+
+各院校文件要求同繳費方式不同，出發前應先查院校官方招生頁，唔好假設一定有即場收表或面試；任何留位費都要先確認課程、退款條款及付款死線。
+
 ## 第三階段：48 小時改選（7 月 16–18 日）
 
 呢個係成個放榜季最重要嘅動作。規則重點：
@@ -96,6 +130,73 @@ verifiedDate: "2026-07-12"
 策略上，改選核心係用**真實成績**逐個核對課程公式、最低要求及甄選安排，再按「如果同時可得，我真正會揀邊個」排列實際次序。歷史 median／LQ 只係其中一項背景資料。詳細步驟同費用見<a href="/blog/jupas-change-of-choices-guide/">JUPAS 改選 2026 全攻略</a>，排序機制見<a href="/blog/jupas-band-a-strategy/">Band A 排位策略</a>。
 
 另外留意：部分課程喺放榜後仲會有**面試或者補充要求**，尤其係你改選時新加入嘅課程。如果你新加咗要面試嘅課程，時間會好緊迫——面試常見題型同 STAR 答題框架可以睇<a href="/blog/university-interview-preparation/">大學面試準備攻略</a>，或者直接用 App 入面嘅面試模擬操練。
+
+<div class="not-prose my-6 border-l-4 border-red-400 bg-red-50 rounded-r-xl p-5">
+  <div class="font-bold text-red-900 mb-2">重要更正：7 月 15–18 日 JUPAS 院校有「靜默期」</div>
+  <p class="text-red-900/80 text-sm leading-relaxed m-0">JUPAS 官方列明，九間參與院校及 SSSDP 院校由放榜至改選截止期間，不會提供選科建議，當中包括面試、電話／電子聯絡及課程輔導。因此唔應預期院校喺改選兩日內打電話教你點排 JUPAS。放榜前如有課程問題，應最遲 7 月 14 日查清；Non-JUPAS 直接申請或早已安排嘅程序，則按相關院校正式通知處理。</p>
+</div>
+
+官方程序：<a href="https://www.jupas.edu.hk/en/application-procedures-information/selection-amendment-of-programme-choices/modification-of-programme-choices-after-release-of-hkdse-examination-results/" rel="external">JUPAS 放榜後修改課程選擇</a>。
+
+## 成績明顯低過預期：覆核唔等於 Appeal
+
+香港考評局正式名稱係 **積分覆核（rechecking）** 同 **重閱答卷（remarking）**。兩者目的不同：
+
+- **積分覆核**：檢查分數計算、資料輸入等技術錯誤，唔會重新評改答案。
+- **重閱答卷**：由評卷員重新評閱適用答卷；多項選擇題、校本評核及部分實習卷等不設重閱。
+- 每名考生最多申請合共 **4 科**；Category C 科目不適用。校內考生經學校申請，自修生經 HKDSE 網上服務申請。
+- 處理後一般不會降級，但亦唔代表「申請就有機會自動升級」；是否升級仍須符合考評局既定準則。
+
+### 2026 覆核關鍵日期
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-slate-200">
+  <table class="w-full text-sm border-separate border-spacing-0">
+    <thead><tr class="bg-slate-900 text-white"><th class="text-left px-4 py-3">日期</th><th class="text-left px-4 py-3">程序</th></tr></thead>
+    <tbody class="text-slate-700">
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold">7 月 15–20 日</td><td class="px-4 py-3">遞交積分覆核／重閱答卷申請；校內考生要留意學校可能設更早內部限期</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold">提交後 2 個曆日內</td><td class="px-4 py-3">繳交申請費；未依時付款，申請不獲接納</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold">8 月 12 日（暫定）</td><td class="px-4 py-3">公布 Category A／B 覆核結果</td></tr>
+      <tr class="even:bg-slate-50"><td class="px-4 py-3 font-semibold">8 月 13 日 9:00–17:00</td><td class="px-4 py-3">成績獲提升者可按 JUPAS 程序申請重新考慮；如修改課程，限一次免費提交</td></tr>
+    </tbody>
+  </table>
+</div>
+
+### 2026 覆核費用速查
+
+| 服務 | 校內考生 | 自修生 |
+|---|---:|---:|
+| 積分覆核：語文科 | HK$266 | HK$320 |
+| 積分覆核：非語文科 | HK$224 | HK$266 |
+| 重閱答卷：語文科（口試除外） | HK$1,065 | HK$1,278 |
+| 重閱答卷：非語文科 | HK$889 | HK$1,065 |
+
+中文／英文分部及英文口試另有收費。完整費用、適用卷別、退款及經濟困難減免安排，應直接查閱<a href="https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Release_of_Results/DSE_2026_RRA_Fees.pdf" rel="external">考評局 2026 費用表</a>及<a href="https://www.hkeaa.edu.hk/en/hkdse/admin/release_of_results/recheck_remark/" rel="external">覆核專頁</a>。
+
+<div class="not-prose my-6 border-l-4 border-amber-400 bg-amber-50 rounded-r-xl p-5">
+  <div class="font-bold text-amber-900 mb-2">唔好因為等覆核而放棄 Main Round offer</div>
+  <p class="text-amber-900/80 text-sm leading-relaxed m-0">覆核結果暫定 8 月 12 日先公布，遲過 8 月 5 日 Main Round。收到 Main Round offer 時仍應按 JUPAS 限期決定及繳費；如成績其後獲提升，再循正式 reconsideration 程序處理。詳情見 <a href="https://www.jupas.edu.hk/en/useful-materials/faq/about-jupas/rechecking-and-remarking-of-hkdse-examination-results/" rel="external">JUPAS 覆核結果 FAQ</a>。</p>
+</div>
+
+## Plan B：E-APP 已截止，仍然可以點做？
+
+2026/27 E-APP 第二輪已於 **7 月 6 日截止**。錯過 E-APP 唔代表所有課程都截止：教育局 E-APP 官網列明，申請人可直接向仍接受申請嘅個別院校遞交，實際空缺、面試及截止日期以院校招生頁為準。
+
+比較副學位或自資課程時，唔好只問「邊間最易升返大學」。先做以下四項查核：
+
+1. **認證**：到教育局 <a href="https://www.cspe.edu.hk/en/ipass/prog-search/" rel="external">iPASS</a> 或<a href="https://www.hkqr.gov.hk/HKQRPRD/web/hkqr-tc/search/qr-search/index.html" rel="external">資歷名冊</a>查課程是否本地評審及登記狀態。
+2. **課程取向**：副學士一般較廣泛、着重通用知識及銜接；高級文憑較專門，兼顧就業及銜接。兩者無絕對高低，要睇科目同個人目標。
+3. **升學證據**：要求院校提供指定課程近年畢業生去向、升讀院校／年級及統計口徑；唔好把網上流傳嘅單一 GPA 當保證線。
+4. **總成本與退費**：計清兩年學費、獎學金、留位費、退款期限、交通及將來 top-up 成本，付款前保存條款截圖及收據。
+
+官方資料顯示，iPASS 收錄 JUPAS 以外、本地評審嘅全日制副學位及學士課程；E-APP 則係放榜前預先申請渠道。兩個平台用途不同，查到課程唔等於保證仍有位，最後仍要向院校確認。
+
+## 情緒急救同家長應對
+
+成績公布嗰一刻出現腦袋空白、喊、唔想即刻講嘢，都係常見壓力反應。最有用唔係立即講大道理，而係先把決定拆細：今日只處理成績、改選底稿及必要申請；唔需要一朝早決定晒未來幾年。
+
+家長可以先問：「你想我陪住、幫你查資料，定係俾你靜一陣？」避免即時比較同學、追問點解失手，或者未核實就催促交留位費。學生如果持續感到難以承受、失眠或有傷害自己嘅念頭，應即時找老師、社工或專業支援；政府 **18111 情緒通**提供 24 小時精神健康支援，緊急情況應致電 999 或前往急症室。
+
+官方支援：<a href="https://www.chp.gov.hk/en/r/2432.html" rel="external">陪我講 Shall We Talk</a>。
 
 ## 第四階段：派位同補選（8 月）
 
@@ -125,6 +226,7 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
     <li>✅ <strong>而家：</strong>登入 JUPAS 查自己嘅 48 小時改選時段（6 月 24 日起可查）</li>
     <li>✅ <strong>放榜前：</strong>用三個成績情境預演三版志願 list，對齊每個課程嘅 median / LQ</li>
     <li>✅ <strong>7 月 15 日：</strong>攞成績、計真實分數、套用預演版本、搵老師過目</li>
+    <li>✅ <strong>7 月 15–20 日：</strong>如有需要，經學校／HKDSE 網上服務申請成績覆核，提交後 2 個曆日內付款</li>
     <li>✅ <strong>7 月 16–18 日：</strong>喺自己時段內一次過完成改選（免費一次，重交 HK$250）</li>
     <li>✅ <strong>8 月 5–6 日：</strong>Main Round 結果 → 接受 offer 要喺 8 月 6 日下午 5 時前繳 HK$5,000</li>
     <li>✅ <strong>8 月 25 日：</strong>Main Round 落空就留意 Clearing 補選結果，同日下午 5 時前繳留位費</li>
@@ -168,15 +270,25 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
 <p class="text-slate-700 text-sm mt-3 leading-relaxed">覆核（rechecking / remarking）結果一般喺 Main Round 派位之後先公布，所以 Main Round 係按你原本成績派位。如果覆核後成績上調，JUPAS 有既定機制按覆核後成績重新考慮申請，但唔好將全部希望押喺覆核度——改選階段仍然要按原成績做最穩妥嘅排法。</p>
 </details>
 
+<details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
+<summary class="font-semibold text-slate-900 cursor-pointer">積分覆核同重閱答卷有咩分別？</summary>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">積分覆核只檢查分數計算、資料輸入等技術錯誤；重閱答卷會重新評閱適用答卷。每人最多申請合共 4 科，但並非所有科目、卷別或分部都可重閱，申請前要查考評局 2026 規則及費用表。</p>
+</details>
+
+<details class="not-prose my-4 rounded-xl border border-slate-200 bg-white p-5">
+<summary class="font-semibold text-slate-900 cursor-pointer">錯過 E-APP，放榜後仲可唔可以報副學位？</summary>
+<p class="text-slate-700 text-sm mt-3 leading-relaxed">可以視乎個別院校安排。2026/27 E-APP 已於 7 月 6 日截止，但 E-APP 官網指錯過者仍可直接向尚未截止嘅院校申請。申請前應用 iPASS／資歷名冊核對認證，再向院校確認空缺、文件、費用及退款期限。</p>
+</details>
+
 ## 結語
 
 放榜季嘅勝負，一半喺 7 月 15 日之前已經決定咗。預先查好改選時段、預演三個成績情境、對齊收生數據——做齊呢三步，放榜當日你就係少數頭腦清醒嘅人。之後嘅 48 小時改選一次過改啱，8 月安心等派位。
 
-重點 recap：① 6 月 24 日起查改選時段；② 放榜前預演三版志願 list；③ 7 月 15 日放榜、7 月 16–18 日個人 48 小時時段內一次過改選（重交要 HK$250）；④ 8 月 5 日 Main Round、8 月 6 日下午 5 時前繳 HK$5,000 留位費；⑤ 8 月 25 日 Clearing 補選結果。官方如有調整，一切以 JUPAS 官網最新公佈為準。
+重點 recap：① 6 月 24 日起查改選時段；② 放榜前預演三版志願 list；③ 7 月 15 日放榜，先核對門檻同分數；④ 有需要就喺 7 月 20 日前申請成績覆核；⑤ 7 月 16–18 日個人 48 小時時段內一次過改選（重交要 HK$250）；⑥ 8 月 5 日 Main Round、8 月 6 日下午 5 時前繳 HK$5,000 留位費；⑦ 8 月 25 日 Clearing 補選結果。官方如有調整，一切以 JUPAS、考評局及院校最新公佈為準。
 
 想放榜日一改成績即刻睇晒所有志願嘅分數同機會，而家就下載 <a href="https://apps.apple.com/app/id6780134101">DSE Jupas 神器</a>，放榜前入定你嘅目標課程，用 JUPAS 計分器 + AI 入學機會分析 + 大學面試模擬打贏場放榜戰役。
 
-<p class="text-sm text-slate-500 italic">2026 年日期已於 2026 年 7 月 12 日核對 <a href="https://www.jupas.edu.hk/en/important-dates/" rel="external">JUPAS Important Dates</a>；官方如有調整，一切以最新公佈為準。DSE 放榜安排亦應核對<a href="https://www.hkeaa.edu.hk/en/hkdse/" rel="external">香港考評局 HKDSE 頁面</a>。</p>
+<p class="text-sm text-slate-500 italic">本文根據《DSE 放榜急救包 V5》整理實務清單，所有日期、費用與制度性資料已於 2026 年 7 月 14 日重新對照 <a href="https://www.jupas.edu.hk/en/important-dates/" rel="external">JUPAS</a>、<a href="https://www.hkeaa.edu.hk/en/hkdse/admin/release_of_results/recheck_remark/" rel="external">香港考評局</a>、<a href="https://www.eapp.gov.hk/" rel="external">E-APP</a>及政府官方資料；與官方資料不一致或無法核實嘅個人經驗數字並未採用。</p>
 
 <script type="application/ld+json">
 {
@@ -221,6 +333,22 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "覆核結果一般在 Main Round 派位之後才公布，所以 Main Round 按原本成績派位。若覆核後成績上調，JUPAS 有既定機制按覆核後成績重新考慮申請，但不應把全部希望押在覆核上，改選階段仍要按原成績作最穩妥的排法。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "積分覆核同重閱答卷有咩分別？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "積分覆核檢查分數計算、資料輸入等技術錯誤；重閱答卷會重新評閱適用答卷。每名考生最多申請合共四科，但並非所有科目、卷別或分部均可重閱。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "錯過 E-APP，放榜後仲可唔可以報副學位？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以視乎個別院校安排。2026/27 E-APP 已於7月6日截止，但錯過者仍可直接向尚未截止的院校申請。申請前應以 iPASS 或資歷名冊核對認證，再向院校確認空缺、文件、費用及退款期限。"
       }
     }
   ]
