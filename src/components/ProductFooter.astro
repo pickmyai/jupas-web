@@ -34,19 +34,19 @@ const categorizedProducts = [
         title: labels.government,
         items: [
             { id: 'blnst',      name: '基本法及國安法APP',  slogan: '極致精選 BLNST 題庫 ・ 每題附詳細原文解釋',           logo: '/shared-logos/blnst_logo.png',   url: 'https://www.blnst.com' },
-            { id: 'cre-chi',    name: 'CRE 中文運用 APP',    slogan: '嚴選 CRE 中文模擬題 ・ 極速掌握中文運用卷',           logo: '/shared-logos/crechi_logo.png',  url: 'https://www.10minquiz.com/zh-hant/cre-chinese-past-paper-question-app' },
-            { id: 'cre-eng',    name: 'CRE 英文運用 APP',    slogan: '精選 CRE 英文模擬題 ・ 助你高效備考',                 logo: '/shared-logos/10minquiz.png',    url: 'https://www.10minquiz.com/zh-hant/cre-english-past-paper-question-app' },
-            { id: 'cre-apt',    name: 'CRE能力傾向測試 APP', slogan: '能力傾向 Aptitude Test 一站式題庫全面覆蓋', logo: '/shared-logos/creapt_logo.png',  url: 'https://www.10minquiz.com/zh-hant/cre-aptitude-test-question-app' },
-            { id: 'jre',        name: '聯合招聘考試 JRE APP', slogan: '最新時事議題 ・ 論點例子示例 ・ 香港公務員JRE備考',   logo: '/shared-logos/jre_logo.png',     url: 'https://www.10minquiz.com/zh-hant/jre-civil-service-exam-app' },
+            { id: 'cre-chi',    name: 'CRE 中文運用 APP',    slogan: '嚴選 CRE 中文模擬題 ・ 極速掌握中文運用卷',           logo: '/shared-logos/crechi_logo.png',  url: 'https://www.10minquiz.com/zh-hant/cre-chinese-past-paper-question-app/' },
+            { id: 'cre-eng',    name: 'CRE 英文運用 APP',    slogan: '精選 CRE 英文模擬題 ・ 助你高效備考',                 logo: '/shared-logos/10minquiz.png',    url: 'https://www.10minquiz.com/zh-hant/cre-english-past-paper-question-app/' },
+            { id: 'cre-apt',    name: 'CRE能力傾向測試 APP', slogan: '能力傾向 Aptitude Test 一站式題庫全面覆蓋', logo: '/shared-logos/creapt_logo.png',  url: 'https://www.10minquiz.com/zh-hant/cre-aptitude-test-question-app/' },
+            { id: 'jre',        name: '聯合招聘考試 JRE APP', slogan: '最新時事議題 ・ 論點例子示例 ・ 香港公務員JRE備考',   logo: '/shared-logos/jre_logo.png',     url: 'https://www.jrehk.com' },
         ],
     },
     {
         title: labels.insurance,
         items: [
-            { id: 'iiqe',   name: '保險中介人 IIQE APP',   slogan: 'IIQE 精選模擬題 ・ 全面備考保險考試', logo: '/shared-logos/iiqe1_logo.png', url: 'https://www.10minquiz.com/zh-hant/iiqe-mpfe-insurance-exam-app' },
-            { id: 'mpfe',   name: 'MPFE 強積金考試 APP',   slogan: '精選 MPFE 模擬題 ・ 強積金中介人考試',     logo: '/shared-logos/mpfe_logo.png',  url: 'https://www.10minquiz.com/zh-hant/iiqe-mpfe-insurance-exam-app' },
-            { id: 'hksi',   name: '證券期貨 HKSI LE APP', slogan: 'HKSI LE 精選模擬題 ・ 證券期貨從業員考試', logo: '/shared-logos/hksi1_logo.png', url: 'https://www.10minquiz.com/zh-hant/hksi-le-securities-futures-exam-app' },
-            { id: 'eaqe',   name: '地產代理 EAQE/SQE APP', slogan: '精選 EAQE & SQE 模擬題 ・ 地產代理資格考試', logo: '/shared-logos/eaqe_logo.png',  url: 'https://www.10minquiz.com/zh-hant/eaqe-sqe-estate-agent-exam-app' },
+            { id: 'iiqe',   name: '保險中介人 IIQE APP',   slogan: 'IIQE 精選模擬題 ・ 全面備考保險考試', logo: '/shared-logos/iiqe1_logo.png', url: 'https://www.iiqepapers.com' },
+            { id: 'mpfe',   name: 'MPFE 強積金考試 APP',   slogan: '精選 MPFE 模擬題 ・ 強積金中介人考試',     logo: '/shared-logos/mpfe_logo.png',  url: 'https://www.10minquiz.com/zh-hant/iiqe-mpfe-insurance-exam-app/' },
+            { id: 'hksi',   name: '證券期貨 HKSI LE APP', slogan: 'HKSI LE 精選模擬題 ・ 證券期貨從業員考試', logo: '/shared-logos/hksi1_logo.png', url: 'https://www.hksipapers.com' },
+            { id: 'eaqe',   name: '地產代理 EAQE/SQE APP', slogan: '精選 EAQE & SQE 模擬題 ・ 地產代理資格考試', logo: '/shared-logos/eaqe_logo.png',  url: 'https://www.10minquiz.com/zh-hant/eaqe-sqe-estate-agent-exam-app/' },
         ],
     },
     {
@@ -61,12 +61,13 @@ const categorizedProducts = [
         items: [
             
             { id: 'jupas', name: 'DSE Jupas 神器 APP', slogan: 'JUPAS 計分器 ・ AI 入學機會分析 ・ 大學面試模擬', logo: '/logo-80.webp', url: 'https://www.jupascalculator.app/' },
-            { id: 'vocabshiba', name: '單詞狗 VocabShiba APP', slogan: '只背CE/AL/DSE必考單詞 ・ 特調統計所有公開試考過的單詞', logo: '/shared-logos/vocabshiba_logo.png', url: 'https://vocabshiba.com' },
-            { id: 'dsechi',     name: 'DSE 文言文神器',           slogan: 'DSE 文言文秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',            logo: '/shared-logos/dsechi_logo.png',      url: 'https://dseapp.com/dse-chi/' },
-            { id: 'dseecon',    name: 'DSE 經濟科神器',          slogan: 'DSE 經濟科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',                  logo: '/shared-logos/dseecon_logo.png',     url: 'https://dseapp.com/dse-econ/' },
-            { id: 'dsebio',     name: 'DSE 生物科神器',          slogan: 'DSE 生物科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',              logo: '/shared-logos/dsebio_logo.png',      url: 'https://dseapp.com/dse-bio/' },
-            { id: 'dsechem',    name: 'DSE 化學科神器',          slogan: 'DSE 化學科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',            logo: '/shared-logos/dsechem_logo.png',     url: 'https://dseapp.com/dse-chem/' },
-            { id: 'dsegeog',    name: 'DSE 地理科神器',          slogan: 'DSE 地理科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',        logo: '/shared-logos/dsegeog_logo.png',     url: 'https://dseapp.com/dse-geog/' },
+            { id: 'vocabshiba', name: '單詞狗 VocabShiba APP', slogan: '只背CE/AL/DSE必考單詞 ・ 特調統計所有公開試考過的單詞', logo: '/shared-logos/vocabshiba_logo.png', url: 'https://www.vocabshiba.com' },
+            { id: 'dsechi',     name: 'DSE 文言文神器',           slogan: 'DSE 文言文秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',            logo: '/shared-logos/dsechi_logo.png',      url: 'https://www.dseapp.com/dse-chi/' },
+            { id: 'dsechireadwrite', name: 'DSE 中文閱讀寫作神器', slogan: 'DSE 中文閱讀理解．實用文／議論文寫作 ・ 附 AI 批改', logo: '/shared-logos/dsechireadwrite_logo.png', url: 'https://apps.apple.com/hk/app/id6789548554' },
+            { id: 'dseecon',    name: 'DSE 經濟科神器',          slogan: 'DSE 經濟科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',                  logo: '/shared-logos/dseecon_logo.png',     url: 'https://www.dseapp.com/dse-econ/' },
+            { id: 'dsebio',     name: 'DSE 生物科神器',          slogan: 'DSE 生物科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',              logo: '/shared-logos/dsebio_logo.png',      url: 'https://www.dseapp.com/dse-bio/' },
+            { id: 'dsechem',    name: 'DSE 化學科神器',          slogan: 'DSE 化學科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',            logo: '/shared-logos/dsechem_logo.png',     url: 'https://www.dseapp.com/dse-chem/' },
+            { id: 'dsegeog',    name: 'DSE 地理科神器',          slogan: 'DSE 地理科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋',        logo: '/shared-logos/dsegeog_logo.png',     url: 'https://www.dseapp.com/dse-geog/' },
             { id: 'dsephysics', name: 'DSE 物理科神器', slogan: 'DSE 物理科秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋', logo: '/shared-logos/dsephysics_logo.png', url: 'https://www.dseapp.com/dse-physics/' },
             { id: 'dsebafs', name: 'DSE BAFS 神器', slogan: 'DSE BAFS 秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋', logo: '/shared-logos/dsebafs_logo.png', url: 'https://www.dseapp.com/dse-bafs/' },
             { id: 'dseict', name: 'DSE ICT 神器', slogan: 'DSE ICT 秒殺精讀筆記．精選題庫 ・ 懶人一APP全覆蓋', logo: '/shared-logos/dseict_logo.png', url: 'https://www.dseapp.com/dse-ict/' },
@@ -77,11 +78,12 @@ const categorizedProducts = [
     {
         title: labels.aiTools,
         items: [
-            { id: 'offergod',     name: 'OfferGod 面試神器',    slogan: 'AI 語音模擬面試 ・ 公務員教育醫管局面試實戰練習', logo: '/shared-logos/offergod_logo.png', url: 'https://offergod.app' },
-            { id: 'picmyquiz',    name: 'PickMyQuiz',         slogan: 'AI 挖空 ・ AI 題庫 ・ 極速背誦溫習',             logo: '/shared-logos/picmyquiz.png',           url: 'https://picmyquiz.com' },
+            { id: 'offergod',     name: 'OfferGod 面試神器',    slogan: 'AI 語音模擬面試 ・ 公務員教育醫管局面試實戰練習', logo: '/shared-logos/offergod_logo.png', url: 'https://www.offergod.app' },
+            { id: 'tutu', name: '兔兔面試班', slogan: '升小一面試 ・ 直資私立叩門實戰練習', logo: '/shared-logos/tutu_logo.png', url: 'https://www.tutuinterview.com' },
+            { id: 'picmyquiz',    name: 'PickMyQuiz',         slogan: 'AI 挖空 ・ AI 題庫 ・ 極速背誦溫習',             logo: '/shared-logos/picmyquiz.png',           url: 'https://www.pickmyquiz.com' },
             { id: 'bookdaddy',    name: 'bookdaddy 二手物品配對', slogan: '二手書交收新體驗 ・ 服務 AI 秒速配對買賣',      logo: '/shared-logos/bookdaddy.png',           url: 'https://www.bookdaddyhk.com' },
             { id: 'sparkmyclass', name: 'SparkMyClass',             slogan: '遊戲化課堂管理平台 ・ 以互動遊戲提升學生參與度', logo: '/shared-logos/sparkmyclass_logo.png',   url: 'https://www.sparkmyclass.com' },
-            { id: 'ai-dictation', name: 'AI默書王 智能默書APP', slogan: '24 小時 AI 默書導師 ・ 隨時隨地智能聽寫默寫', logo: '/shared-logos/ai-dictation.png', url: 'https://www.dictateboss.com' },
+            { id: 'ai-dictation', name: 'AI默書王 智能默書APP', slogan: '24 小時 AI 默書導師 ・ 隨時隨地智能聽寫默寫', logo: '/shared-logos/ai-dictation.png', url: 'https://www.dictateboss.com/' },
         ],
     },
 ].filter(cat => cat.items.some(p => p.id !== currentProductId));
