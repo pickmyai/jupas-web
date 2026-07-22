@@ -49,6 +49,7 @@ const alternates = providedAlternates ?? (isLocalizedHome
         url: l.code === 'zh-HK' ? '/' : `/${l.code.toLowerCase()}/`,
     }))
     : []);
+import Analytics from '@vercel/analytics/astro';
 ---
 
 <!doctype html>
@@ -91,6 +92,7 @@ const alternates = providedAlternates ?? (isLocalizedHome
 		  } catch (err) {}
 		}, true);
 		</script>
+		<Analytics />
 	</body>
 </html>
 <style is:global>
