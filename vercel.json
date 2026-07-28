@@ -5,6 +5,21 @@
             "source": "/zh-hk",
             "destination": "/",
             "permanent": true
+        },
+        {
+            "source": "/zh-hk/",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/zh-hk/:path*",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/zh-hk/:path*/",
+            "destination": "/",
+            "permanent": true
         }
     ]
 }
