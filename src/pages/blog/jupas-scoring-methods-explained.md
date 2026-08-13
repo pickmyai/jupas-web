@@ -6,15 +6,23 @@ image: "/blog-covers/jupas-scoring-methods-explained.webp"
 category: "計分攻略"
 readTime: "8 分鐘"
 pubDate: "2026-06-18"
-updatedDate: "2026-07-12"
-verifiedDate: "2026-07-12"
+updatedDate: "2026-08-13"
+verifiedDate: "2026-08-13"
 ---
 
 同一張 HKDSE 成績單，放進不同院校甚至同一院校的不同課程，計出的 admission score 可以不同。原因不是 JUPAS 先替所有人計一個「總分」，而是院校和課程會公布自己的科目選取、等級換算、加權和其他甄選準則。
 
 ## 沒有一條通用的「5** = 7 分」公式
 
-網上常見把 5**、5*、5 分別換成 7、6、5 分，這只是部分計分例子的尺度，不能套用所有院校。以 2026 入學資料為例，香港大學官方計分器列出的 Level 5**、5*、5 分值為 8.5、7、5.5；其他院校可能使用另一尺度。
+網上常見把 5**、5*、5 分別換成 7、6、5 分。這條舊尺度已經過時——**自 2025 年入學起，主要院校已改用同一套「8.5 制」換算**（甲類核心及選修科）：
+
+| 等級 | 5** | 5* | 5 | 4 | 3 | 2 | 1 |
+|---|---|---|---|---|---|---|---|
+| 分值 | 8.5 | 7 | 5.5 | 4 | 3 | 2 | 1 |
+
+這一點在三間院校的官方頁面上分別可查：<a href="https://admissions.hku.hk/apply/jupas/score-calculator" rel="external">港大 JUPAS Score Calculator</a>、<a href="https://www.cityu.edu.hk/admo/sites/default/files/2026-01/2026_JUPAS_AdmissionScoreFormulaAndScores.pdf" rel="external">城大 2026 JUPAS 計分公式及收生分數（PDF）</a>（原文寫明「new score conversion with effect from 2025 entry」）、<a href="https://join.hkust.edu.hk/admissions/jupas" rel="external">科大 JUPAS 頁</a>。
+
+**但統一了的只是「等級換算」這一步。**科目選取、加權、M1/M2 處理仍然逐個課程不同——單看城大同一份 2026 文件，JS1211 用「Best 5 subjects」並把英文、數學、生物、化學、M1/M2、物理加權 2 倍，JS1806 卻用「3 core + 2 elective subjects」。科大亦明文指出計分是「program-specific formulae, of which certain subjects are given heavier weighting」。
 
 因此，不能只問「我有幾多分」，而要問「按 JSXXXX 這個課程的當年度公式，我有幾多分」。
 
