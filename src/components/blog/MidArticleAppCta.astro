@@ -21,25 +21,25 @@ const copy = isJa ? {
   heading: `散在する試験情報を、${appName}で実行しやすい学習計画に`,
   body: '公式資料、公開情報、市販教材で扱われる出題傾向を専門チームが継続的に調査・照合し、解説付きの体系的な演習へ整理しています。問題データは毎日点検・更新されるため、情報探しよりも苦手分野の改善に時間を使えます。',
   note: 'Pro版は合格を保証するものではありません。購入ページに記載された利用期間中、全機能と継続的なコンテンツ更新を提供します。結果は学習状況と試験当日の実力によって異なります。',
-  download: 'ダウンロード', iosSmall: 'App Storeから', androidSmall: 'Google Playで手に入れよう',
+  download: 'ダウンロード',
 } : isMs ? {
   eyebrow: 'PENYELIDIKAN DI SEBALIK APP',
   heading: `Tukar maklumat peperiksaan yang berselerak kepada pelan ulang kaji dengan ${appName}`,
   body: 'Pasukan kandungan kami sentiasa mengkaji dan menyemak silang dokumen rasmi, maklumat awam serta pendekatan peperiksaan di pasaran, kemudian menyusunnya sebagai latihan berstruktur dengan penerangan. Bank soalan dipantau dan diselenggara setiap hari supaya anda dapat menumpukan masa pada kelemahan, bukan mencari kemas kini.',
   note: 'Pro tidak menjamin kelulusan. Ia menyediakan akses penuh dan kemas kini kandungan sepanjang tempoh akses yang dinyatakan pada halaman pembelian; keputusan tetap bergantung pada persediaan dan prestasi anda semasa peperiksaan.',
-  download: 'Muat turun', iosSmall: 'Download on the', androidSmall: 'GET IT ON',
+  download: 'Muat turun',
 } : isEn ? {
   eyebrow: 'THE RESEARCH BEHIND THE APP',
   heading: `Turn scattered exam information into a plan with ${appName}`,
   body: 'Our content team continuously studies official documents, public information and common exam approaches across the market, then cross-checks and turns them into structured practice with explanations. The question bank is monitored and maintained every day so you can spend less time chasing updates and more time working on weak areas.',
   note: 'Pro does not promise a pass. What it provides is full access and continuing content updates for the access period stated on the purchase page; results still depend on your preparation and exam-day performance.',
-  download: 'Download', iosSmall: 'Download on the', androidSmall: 'GET IT ON',
+  download: 'Download',
 } : {
   eyebrow: 'APP 背後的資料研究',
   heading: `唔使自己追齊散落各處嘅資料：${appName} 幫你整理成可執行嘅溫習計劃`,
   body: '考試資料往往散落喺官方文件、公開資料同市面教材。專責內容團隊持續研究、交叉核對，再整理成有系統嘅練習與解析；題庫亦每日巡查及維護更新，等你少啲時間追資料，多啲時間集中補弱項。',
   note: 'Pro 版唔等於「保證合格」。我哋承諾嘅係按購買頁列明嘅使用期，持續提供完整功能同內容更新；最終成績仍取決於個人準備及臨場表現。',
-  download: '下載', iosSmall: '下載自', androidSmall: '立即下載',
+  download: '下載',
 };
 ---
 
@@ -53,12 +53,10 @@ const copy = isJa ? {
 
   <div class="pmq-mid-article-cta__stores" aria-label={`${copy.download} ${appName}`}>
     <a class="pmq-store-badge" data-store-button="ios" href={iosUrl || undefined} target="_blank" rel="noopener noreferrer" aria-label={`${copy.download} ${appName} — App Store`}>
-      <svg class="pmq-store-badge__apple" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.05 12.54c.02 2.17 1.9 2.89 1.92 2.9-.02.05-.3 1.03-.99 2.04-.59.87-1.21 1.73-2.19 1.75-.96.02-1.27-.57-2.37-.57-1.1 0-1.45.55-2.35.59-.94.04-1.66-.95-2.26-1.81-1.23-1.78-2.17-5.02-.91-7.21a3.5 3.5 0 0 1 3-1.79c.94-.02 1.82.63 2.39.63.57 0 1.64-.78 2.76-.67.47.02 1.79.19 2.64 1.43-.07.04-1.58.92-1.64 2.71ZM15.31 7.22c.5-.6.83-1.43.74-2.26-.72.03-1.59.48-2.1 1.08-.46.53-.86 1.37-.75 2.18.8.06 1.62-.41 2.11-1Z"/></svg>
-      <span><small>{copy.iosSmall}</small><strong>App Store</strong></span>
+      <img src="/ios-icon.png" width="288" height="86" loading="lazy" decoding="async" alt="Download on the App Store" />
     </a>
     <a class="pmq-store-badge" data-store-button="android" href={androidUrl || undefined} target="_blank" rel="noopener noreferrer" aria-label={`${copy.download} ${appName} — Google Play`}>
-      <svg class="pmq-store-badge__play" viewBox="0 0 32 36" aria-hidden="true"><path fill="#00d2ff" d="M1.6 1.8A3 3 0 0 0 .5 4.2v27.6a3 3 0 0 0 1.1 2.4L18.8 18 1.6 1.8Z"/><path fill="#00e676" d="m21.1 15.8-5.5-5.2L3.3 1.2c-.5-.3-1-.4-1.5-.2l19.3 14.8Z"/><path fill="#ffea00" d="M1.8 35c.5.2 1 .1 1.5-.2l12.3-9.4 5.5-5.2L1.8 35Z"/><path fill="#ff3d00" d="m29.7 15.9-6.1-3.5-4.8 5.6 4.8 5.6 6.1-3.5a2.4 2.4 0 0 0 0-4.2Z"/></svg>
-      <span><small>{copy.androidSmall}</small><strong>Google Play</strong></span>
+      <img src="/android-icon.png" width="289" height="86" loading="lazy" decoding="async" alt="Get it on Google Play" />
     </a>
   </div>
 </aside>
@@ -115,18 +113,14 @@ const copy = isJa ? {
   .pmq-mid-article-cta h2 { margin: 0; padding: 0; border: 0; color: #16251f; font-size: clamp(1.25rem, 2.3vw, 1.65rem); line-height: 1.35; }
   .pmq-mid-article-cta p { margin: .8rem 0 0; color: #41534c; font-size: .95rem; line-height: 1.75; }
   .pmq-mid-article-cta .pmq-mid-article-cta__note { color: #66746f; font-size: .78rem; line-height: 1.6; }
-  .pmq-mid-article-cta__stores { display: grid; gap: .65rem; min-width: 174px; }
-  .pmq-store-badge { display: flex; min-height: 52px; align-items: center; gap: .65rem; padding: .5rem .8rem; border: 1px solid #101513; border-radius: 9px; background: #101513; color: #fff; text-decoration: none; box-shadow: 0 5px 14px rgba(0,0,0,.14); transition: transform .18s ease, box-shadow .18s ease; }
-  .pmq-store-badge:hover { color: #fff; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.2); }
-  .pmq-store-badge svg { flex: 0 0 auto; width: 28px; height: 31px; }
-  .pmq-store-badge__apple { width: 30px; }
-  .pmq-store-badge span { display: flex; flex-direction: column; line-height: 1; }
-  .pmq-store-badge small { margin-bottom: .2rem; color: #fff; font-size: .58rem; letter-spacing: .02em; }
-  .pmq-store-badge strong { color: #fff; font-size: 1rem; font-weight: 600; white-space: nowrap; }
+  .pmq-mid-article-cta__stores { display: flex; min-width: 306px; flex-wrap: wrap; justify-content: flex-end; gap: .65rem; }
+  .pmq-store-badge { display: block; width: 148px; border-radius: 9px; line-height: 0; text-decoration: none; box-shadow: 0 5px 14px rgba(0,0,0,.14); transition: transform .18s ease, box-shadow .18s ease; }
+  .pmq-store-badge:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+  .pmq-store-badge img { display: block; width: 100%; height: auto; }
   @media (max-width: 700px) {
     .pmq-mid-article-cta { grid-template-columns: 1fr; gap: 1.25rem; padding: 1.4rem 1.25rem 1.4rem 1.4rem; }
-    .pmq-mid-article-cta__stores { display: flex; min-width: 0; flex-wrap: wrap; }
-    .pmq-store-badge { flex: 1 1 150px; }
+    .pmq-mid-article-cta__stores { min-width: 0; justify-content: flex-start; }
+    .pmq-store-badge { flex: 0 1 148px; }
   }
   @media (prefers-reduced-motion: reduce) { .pmq-store-badge { transition: none; } }
 </style>
