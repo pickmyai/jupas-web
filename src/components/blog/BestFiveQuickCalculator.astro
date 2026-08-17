@@ -1,0 +1,51 @@
+<section class="best-five-tool" aria-labelledby="best-five-tool-title">
+  <div>
+    <p class="best-five-eyebrow">30 秒初步計分</p>
+    <h2 id="best-five-tool-title">先計你最高五科，再睇課程點加權</h2>
+    <p>輸入六科等級，工具會按 2025 年入學起常用嘅 8.5 制揀最高五科。呢個只係未加權基準，唔等於任何一個 JS code 嘅正式 admission score。</p>
+  </div>
+  <div class="best-five-inputs" aria-label="六科成績">
+    {Array.from({ length: 6 }, (_, index) => (
+      <label>
+        <span>第 {index + 1} 科</span>
+        <select class="best-five-grade">
+          <option value="">—</option><option value="8.5">5**</option><option value="7">5*</option><option value="5.5">5</option><option value="4">4</option><option value="3">3</option><option value="2">2</option><option value="1">1</option><option value="0">U</option>
+        </select>
+      </label>
+    ))}
+  </div>
+  <div class="best-five-result" aria-live="polite">
+    <span>未加權 Best 5</span>
+    <strong id="best-five-total">請輸入最少五科</strong>
+    <small id="best-five-breakdown">之後仍要按目標課程核對指定科、M1/M2 同加權。</small>
+  </div>
+</section>
+
+<style>
+  .best-five-tool{margin:0 0 2rem;border:1px solid #fde68a;border-left:6px solid #f59e0b;border-radius:1.25rem;background:linear-gradient(135deg,#fffbeb,#fff);padding:1.25rem;box-shadow:0 12px 30px rgba(146,64,14,.08)}
+  .best-five-tool h2{display:block!important;margin:.25rem 0 .5rem!important;font-size:1.35rem!important}.best-five-tool h2:before{display:none!important}.best-five-tool p{margin:0!important;font-size:.9rem!important;line-height:1.6!important}.best-five-eyebrow{color:#b45309!important;font-size:.7rem!important;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+  .best-five-inputs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem;margin-top:1rem}.best-five-inputs label{display:flex;flex-direction:column;gap:.3rem;color:#475569;font-size:.75rem;font-weight:700}.best-five-inputs select{min-height:44px;border:1px solid #cbd5e1;border-radius:.65rem;background:#fff;padding:.55rem;color:#0f172a;font-weight:700}
+  .best-five-result{display:grid;gap:.15rem;margin-top:1rem;border-radius:.85rem;background:#0f172a;padding:1rem;color:#fff}.best-five-result span{font-size:.75rem;color:#cbd5e1}.best-five-result strong{font-size:1.35rem;color:#fbbf24}.best-five-result small{color:#cbd5e1;line-height:1.45}
+  @media(min-width:640px){.best-five-tool{padding:1.5rem}.best-five-inputs{grid-template-columns:repeat(6,minmax(0,1fr))}}
+</style>
+
+<script is:inline>
+  (() => {
+    const selects = [...document.querySelectorAll('.best-five-grade')];
+    const total = document.getElementById('best-five-total');
+    const breakdown = document.getElementById('best-five-breakdown');
+    const update = () => {
+      const values = selects.map((select) => Number(select.value)).filter((value, index) => selects[index].value !== '').sort((a, b) => b - a);
+      if (values.length < 5) {
+        total.textContent = `仲差 ${5 - values.length} 科`;
+        breakdown.textContent = '輸入最少五科先可以計未加權 Best 5。';
+        return;
+      }
+      const chosen = values.slice(0, 5);
+      const sum = chosen.reduce((result, value) => result + value, 0);
+      total.textContent = `${sum.toFixed(sum % 1 ? 1 : 0)} 分`;
+      breakdown.textContent = `已選最高五科：${chosen.join(' + ')}。正式比較前仍要核對目標課程公式。`;
+    };
+    selects.forEach((select) => select.addEventListener('change', update));
+  })();
+</script>

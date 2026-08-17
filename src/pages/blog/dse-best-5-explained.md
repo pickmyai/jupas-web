@@ -8,6 +8,7 @@ readTime: "9 分鐘"
 pubDate: "2026-08-13"
 updatedDate: "2026-08-13"
 verifiedDate: "2026-08-13"
+showBestFiveCalculator: true
 ---
 
 「Best 5 幾多分？」係 DSE 放榜前後最多人問嘅一條題，但佢冇一個單一答案——唔係因為冇人肯講，而係因為 **Best 5 唔係 JUPAS 訂嘅統一公式，而係每個課程各自定義嘅一種選科方式**。

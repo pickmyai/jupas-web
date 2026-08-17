@@ -1,6 +1,7 @@
 ---
 import Layout from "./Layout.astro";
 import MidArticleAppCta from "../components/blog/MidArticleAppCta.astro";
+import BestFiveQuickCalculator from "../components/blog/BestFiveQuickCalculator.astro";
 
 const { frontmatter } = Astro.props;
 const canonicalPath = Astro.url.pathname;
@@ -132,6 +133,7 @@ const displayDate = dateModified
             <article
                 class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-100 blog-content"
             >
+                {frontmatter.showBestFiveCalculator && <BestFiveQuickCalculator />}
                 <slot />
                 <MidArticleAppCta appName="DSE JUPAS 神器" iosUrl="https://apps.apple.com/app/id6780134101" androidUrl="https://play.google.com/store/apps/details?id=app.jupas.dse" lang="zh-HK" />
             </article>
