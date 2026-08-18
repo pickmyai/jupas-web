@@ -93,6 +93,21 @@ import Analytics from '@vercel/analytics/astro';
 		}, true);
 		</script>
 		<Analytics />
+		<script is:inline>
+		// Page views into the same web_clicks table as the store clicks below, so
+		// web-click-stats can compute a real CTR instead of leaving the denominator
+		// null. `app` is omitted on purpose: this site fronts more than one app, so
+		// a view cannot be attributed to one of them the way a store click can.
+		// Host-gated to production so preview builds stay out of the numbers.
+		try {
+			if (location.hostname === 'jupascalculator.app' || location.hostname === 'www.jupascalculator.app') {
+				var __pv = new URLSearchParams({ site: 'jupas', page: location.pathname });
+				if (!(navigator.sendBeacon && navigator.sendBeacon('https://www.pickmyquiz.com/api/track/page-view', __pv))) {
+					fetch('https://www.pickmyquiz.com/api/track/page-view', { method: 'POST', body: __pv, keepalive: true });
+				}
+			}
+		} catch (err) {}
+		</script>
 	</body>
 </html>
 <style is:global>
