@@ -6,6 +6,7 @@ import {
     Mic, TrendingUp, Award, ListChecks
 } from "lucide-react";
 import { cn } from "../lib/utils";
+import JupasChineseQuickCalculator from "./JupasChineseQuickCalculator";
 
 export const LANGUAGES = [
     { code: "zh-HK", name: "繁體中文 (香港)" },
@@ -812,6 +813,8 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     </div>
                 </div>
             </section>
+
+            {lang === "zh-HK" && <JupasChineseQuickCalculator />}
 
             {/* ===== FEATURES ===== */}
             <section id="features" className="py-20 bg-slate-50">
