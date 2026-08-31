@@ -18,7 +18,7 @@ export const LANGUAGES = [
 export const translations = {
     "zh-HK": {
         nav: { features: "功能", reviews: "使用情境", faq: "常見問題", blog: "升學攻略", cta: "下載 App" },
-        resultsBanner: { label: "2026 DSE 放榜季", text: "7 月 15 日放榜．JUPAS 改選 48 小時攻略", cta: "睇放榜時間表" },
+        resultsBanner: { label: "2027 升學規劃", text: "提早比較計分方法、課程選擇同入學機會", cta: "睇升學攻略" },
         hero: {
             tagline: "JUPAS 計分器 · 出路評級 · 入學分析 · 面試模擬",
             title: "JUPAS 計分器：一秒計好 DSE 分數",
@@ -96,7 +96,7 @@ export const translations = {
     },
     "zh-CN": {
         nav: { features: "功能", reviews: "使用情境", faq: "常见问题", blog: "升学攻略", cta: "下载 App" },
-        resultsBanner: { label: "2026 DSE 放榜季", text: "7 月 15 日放榜．JUPAS 改选 48 小时攻略", cta: "看放榜时间表" },
+        resultsBanner: { label: "2027 升学规划", text: "提早比较计分方法、课程选择和入学机会", cta: "看升学攻略" },
         hero: {
             tagline: "JUPAS 计分器 · 出路评级 · 入学分析 · 面试模拟",
             title: "JUPAS 计分器：一秒算好 DSE 分数",
@@ -166,7 +166,7 @@ export const translations = {
     },
     en: {
         nav: { features: "Features", reviews: "Reviews", faq: "FAQ", blog: "Guides", cta: "Download" },
-        resultsBanner: { label: "2026 DSE Results Season", text: "Results out 15 Jul · JUPAS 48-hour re-ordering guide", cta: "See the timeline" },
+        resultsBanner: { label: "2027 Admissions Planning", text: "Compare scoring methods, programmes and admission chances early", cta: "Read the guides" },
         hero: {
             tagline: "JUPAS Calculator · Outcome Rating · Admission Analysis · Interview Sim",
             title: "JUPAS Calculator: Score Your DSE Results in a Second",
@@ -706,7 +706,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
             {t.resultsBanner && (
                 <div className="pt-16">
                     <a
-                        href="/blog/dse-results-day-2026-guide/"
+                        href="/blog/"
                         className="block bg-amber-700 hover:bg-amber-800 transition-colors text-white"
                     >
                         <div className="container mx-auto px-6 max-w-6xl py-2.5 flex items-center justify-center gap-2 text-center text-sm font-medium flex-wrap">
