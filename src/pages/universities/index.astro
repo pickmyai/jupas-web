@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { schools, programmesFor } from '../../lib/admissions';
+import '../../styles/universities.css';
+---
+<Layout title="JUPAS 院校收生分數｜HKU 港大、CUHK 中大歷年 Median 與 LQ" description="按院校查閱 JUPAS 2023–2025 收生分數、課程加權及資料限制。沿用 DSE Jupas 神器 App 統一資料，先看港大及中大分析，再整理個人選科。" schemaType="website">
+  <header class="uni-nav"><a class="uni-brand" href="/"><img src="/logo-transparent-96.webp" alt="" width="40" height="40" /><span>DSE Jupas 神器</span></a><a href="/blog/">升學攻略</a></header>
+  <main class="uni-main"><nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><span>院校收生分數</span></nav><header class="hub-hero"><p class="eyebrow">JUPAS / 按院校看數據</p><h1>你心儀嘅大學，<br />近年收幾多分？</h1><p class="hero-intro">先按院校及課程查閱過往收生位置，再核對計分方法。數字沿用 App 統一資料，公式有變、年份缺項，都會一併交代。</p></header>
+  <div class="school-grid">{Object.entries(schools).map(([slug, school]) => <a class="school-card" href={`/universities/${slug}/`}><span class="eyebrow">{school.name}</span><h2>{school.code}</h2><p>{school.intro}</p><div><span>{programmesFor(school.code).length} 個課程 · 2023–2025</span><strong>查看分析 →</strong></div></a>)}</div>
+  <section class="article-section article-copy"><h2>查數據之前，先分清三件事</h2><p>年份指學生入學年份，不一定等於招生手冊封面的年份。Median 和 LQ 描述已獲錄取者，並非最低錄取線。不同課程的 Best N、加權及改制會改變分數尺度，不能直接排成全校難易榜。</p><p>目前先提供港大及中大院校分析；港大頁另設免費單課程試算。<a href="/blog/jupas-admission-scores-2026/">了解 Median／LQ 的完整讀法</a>，或<a href="/blog/jupas-band-a-strategy/">閱讀 JUPAS 志願排序指南</a>。</p></section>
+  </main>
+</Layout>

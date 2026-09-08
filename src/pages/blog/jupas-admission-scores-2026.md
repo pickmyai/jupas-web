@@ -6,11 +6,13 @@ image: "/blog-covers/jupas-admission-scores-2026.webp"
 category: "收生數據"
 readTime: "8 分鐘"
 pubDate: "2026-06-20"
-updatedDate: "2026-07-12"
+updatedDate: "2026-09-08"
 verifiedDate: "2026-07-12"
 ---
 
 不少院校會公布獲錄取學生的 median、lower quartile（LQ）或 upper quartile（UQ）。這些數字可以幫你理解**過往獲錄取者的分數分布**，但不是預先公布的 cut-off，更不是今年的錄取概率。
+
+想直接查課程數字，可以看 [HKU 港大 2023–2025 收生分數及單課程試算](/universities/hku/)，或 [CUHK 中大歷年收分變化分析](/universities/cuhk/)。兩頁沿用 App 統一資料，保留公式變更及缺年份的備註；以下先說明怎樣讀這些統計。
 
 ## Median、LQ、UQ 代表甚麼？
 

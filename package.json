@@ -5,6 +5,9 @@
     "scripts": {
         "dev": "astro dev",
         "start": "astro dev",
+        "sync:admissions": "python3 scripts/sync-app-data.py",
+        "verify:admissions": "node scripts/verify-admissions.mjs",
+        "prebuild": "npm run verify:admissions",
         "build": "astro build",
         "postbuild": "node scripts/sanitize-html.mjs",
         "preview": "astro preview",

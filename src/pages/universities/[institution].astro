@@ -1,0 +1,110 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import UniversityCalculator from '../../components/UniversityCalculator';
+import { schools, programmesFor, snapshot, years, medianFor, formatScore as f } from '../../lib/admissions';
+import '../../styles/universities.css';
+
+export function getStaticPaths() {
+  return Object.entries(schools).map(([institution, school]) => ({ params: { institution }, props: { school } }));
+}
+const { school } = Astro.props;
+const isHku = school.code === 'HKU';
+const programmes = programmesFor(school.code);
+const byCode = Object.fromEntries(programmes.map(p => [p.js_code, p]));
+const coverage = years.map(year => programmes.filter(p => medianFor(p, year) != null).length);
+const published = '2026-09-08';
+const url = `https://www.jupascalculator.app/universities/${school.code.toLowerCase()}/`;
+const other = isHku ? schools.cuhk : schools.hku;
+---
+<Layout title={school.title} description={school.description} schemaType="article"
+  articleData={{ title: school.title, description: school.description, url, datePublished: published, dateModified: published }}
+  breadcrumbItems={[{ name: '首頁', url: 'https://www.jupascalculator.app/' }, { name: '院校收生分數', url: 'https://www.jupascalculator.app/universities/' }, { name: `${school.shortName}收生分數`, url }]}>
+  <a class="skip-link" href="#article">跳到收生分析</a>
+  <header class="uni-nav"><a class="uni-brand" href="/"><img src="/logo-transparent-96.webp" alt="" width="40" height="40" /><span>DSE Jupas 神器</span></a><a href="/universities/">院校收分</a><a href="/blog/">升學攻略</a></header>
+  <main id="article" class="uni-main">
+    <nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><a href="/universities/">院校收生分數</a><span>/</span><span>{school.code}</span></nav>
+    <header class="uni-hero">
+      <div><p class="eyebrow">{school.name} · JUPAS 收生資料</p>
+        <h1>{school.code} 收生分數<span>睇清數字背後嘅計分方法</span></h1>
+        <p class="hero-intro">{school.intro}</p>
+        <div class="hero-links"><a class="primary-link" href="#scores">查看 {programmes.length} 個課程</a><a href={isHku ? '#calculator' : '#analysis'}>{isHku ? '免費單課程試算 ↓' : '先睇收分變化分析 ↓'}</a></div>
+      </div>
+      <aside class="edition-card"><span>收生統計年份</span><strong>2023—2025</strong><p>沿用 App 統一數據</p><p>文章整理：2026 年 9 月 8 日<br />資料版本：{String(snapshot.version).slice(0, 4)}-{String(snapshot.version).slice(4, 6)}-{String(snapshot.version).slice(6, 8)}</p><a href="#sources">來源及年份讀法 ↗</a></aside>
+    </header>
+
+    <div class="reading-note"><strong>準備下一輪 JUPAS？</strong>這裡的 2025 欄是過往收生統計，並非 2026／2027 實際收分或預測。新一輪申請要求須另外核對院校公布；部分 App 公式為配合歷史比較而保留舊制，請閱讀各課程備註。</div>
+    <nav class="section-nav" aria-label="文章目錄"><a href="#analysis">近年數據分析</a><a href="#scores">課程分數表</a>{isHku && <a href="#calculator">港大計算器</a>}<a href="#how-to-read">Median／LQ 點睇</a><a href="#sources">資料來源</a></nav>
+
+    <section id="analysis" class="article-section">
+      <p class="eyebrow">01 / 先讀變化</p><h2>{school.shortName}近年收分，應該比較甚麼？</h2>
+      {isHku ? <div class="article-copy">
+        <p>要判斷港大某科近年收分有沒有改變，先固定課程，再看相同統計指標。把所有課程的分數混在一起計一個「港大平均收分」，會混入 Best 3、Best 5、Best 6 及不同科目比重，未能回答你心儀那一科的情況。</p>
+        <h3>測量學：Median 不變，LQ 仍有不同</h3>
+        <p><a href="#js6016">JS6016 測量學</a>在這份資料的 2023、2024、2025 中位數依次是 {f(byCode.JS6016.median_2023)}、{f(byCode.JS6016.median_2024)}、{f(byCode.JS6016.median)} 分；LQ 則是 {f(byCode.JS6016.lq_2023)}、{f(byCode.JS6016.lq_2024)}、{f(byCode.JS6016.lq)} 分。只看 Median，會錯過中間一半獲錄取者分布的變化。接近 LQ 的學生，更應該同時看 UQ、課程要求和甄選因素。</p>
+        <h3>園境學：數值有變，也不能推算下一年</h3>
+        <p><a href="#js6028">JS6028 園境學</a>的三年中位數為 {f(byCode.JS6028.median_2023)}、{f(byCode.JS6028.median_2024)}、{f(byCode.JS6028.median)} 分。這些是資料記錄的歷史位置；單靠分數表，無法判定變化由申請人數、申請者成績或甄選安排造成，更不應按最近一年的差額預測下一年。作品集及能力傾向測試等要求，亦要另行核對。</p>
+        <h3>建築學：缺一個年份，有時比硬接一條線更準確</h3>
+        <p><a href="#js6004">JS6004 建築學</a>的 2023 數值在 App 已留空，原因是當年的 Best 6 與其後 Best 5 不可直接比較。這裡保留相同處理，不用零分代替，也不從其他來源補一個看似完整的數字。該課程另有 Expected Score 備註；這個前瞻指標不能冒充已取錄學生的中位數。</p>
+      </div> : <div class="article-copy">
+        <p>中大不同課程會採用不同選科和比重。搜索「CUHK 收生分數」時，先找 JS 課程代碼，再對照每一年的公式；同樣多了幾分，可能是取錄分布有變，也可能只是計算方法改了。</p>
+        <h3>中國語言及文學：三年數字並非一直向同一方向</h3>
+        <p><a href="#js4018">JS4018 中國語言及文學</a>的 2023–2025 中位數依次為 {f(byCode.JS4018.median_2023)}、{f(byCode.JS4018.median_2024)}、{f(byCode.JS4018.median)} 分。只取最後兩年，容易忽略較早的水平。2025 LQ 為 {f(byCode.JS4018.lq)} 分、UQ 為 {f(byCode.JS4018.uq)} 分；把這個區間和自己的加權分數一起看，比只問「最低幾多分入到」更有幫助。</p>
+        <h3>醫科：2023 的通識科不能當作沒有影響</h3>
+        <p><a href="#js4501">JS4501 內外全科醫學士</a>在資料列出的中位數是 {f(byCode.JS4501.median_2023)}、{f(byCode.JS4501.median_2024)}、{f(byCode.JS4501.median)} 分。App 備註指出，2023 的核心科計分包含通識，其後公民與社會發展科不計分。因此不能把兩段數值差距直接解讀成「醫科變容易入」。下圖刻意不把數值連成趨勢線。</p>
+        <h3>保險、金融與精算學：改比重會改變分數尺度</h3>
+        <p><a href="#js4238">JS4238 保險、金融與精算學</a>的 2024、2025 中位數分別為 {f(byCode.JS4238.median_2024)} 及 {f(byCode.JS4238.median)} 分。資料已註明 2024 不設科目比重，與 App 採用的 2025 公式不同，不能按差額寫成競爭急升。比較自己的成績前，必須先知道試算採用哪一條公式。</p>
+        <h3>新課程與舊課程代碼，也要逐項對應</h3>
+        <p><a href="#js4100">JS4100 公共人文學</a>的早年資料承接前身 JS4020 文化研究，App 已在備註交代。這類資料有助了解課程沿革，但不能當成新課程已連續開辦多年。另有課程為配合 2025 中位數而保留舊計分公式；現行申請年度請另用官方計算器核對。</p>
+      </div>}
+      <div class="history-cards">{school.highlights.map(code => {
+        const p = byCode[code]; const max = Math.max(...years.map(y => medianFor(p, y) ?? 0), 1);
+        return <figure class="history-card"><figcaption><a href={`#${code.toLowerCase()}`}><span>{code}</span><strong>{p.title}</strong></a></figcaption><p class="chart-label">歷年公布 Median · 每年獨立顯示</p><div class="history-bars">{years.map(year => <div class="history-row"><span>{year}</span><div class="bar-track">{medianFor(p, year) != null && <span class="bar" style={`width:${(medianFor(p, year) / max) * 100}%`}></span>}</div><strong>{f(medianFor(p, year))}</strong></div>)}</div><p class="fine-print">{p.data_remark ? '含年份或公式差異；請閱讀下方課程完整備註，不直接比較升跌。' : '分數只描述過往取錄分布，不預測下一年。每幅圖的比例尺獨立。'}</p></figure>;
+      })}</div>
+    </section>
+
+    {isHku && <section id="calculator" class="article-section calculator-section"><p class="eyebrow">02 / 換成自己的成績</p><h2>HKU 港大單課程計算器</h2><p>沿用 App 的課程數據及計分引擎。先核對公式及備註，再試算歷史收生位置。</p><UniversityCalculator client:visible programmes={programmes} metadata={snapshot.metadata} engineVersion={snapshot.engineSha256.slice(0, 16)} /></section>}
+
+    <section id="scores" class="article-section">
+      <p class="eyebrow">{isHku ? '03' : '02'} / 課程資料</p><h2>{school.code} 收生分數表：2023–2025</h2>
+      <p>共 {programmes.length} 個課程；有中位數的課程數分別為 2023 年 {coverage[0]} 個、2024 年 {coverage[1]} 個、2025 年 {coverage[2]} 個。空白以「—」表示，不代表零分或必然是新課程。</p>
+      <div class="table-tools"><label for="programme-search">搜尋課程名稱或 JS 代碼<input id="programme-search" type="search" placeholder="例如：醫學、JS6004" aria-controls="scores-table" /></label><p id="filter-count" role="status">顯示 {programmes.length} 個課程</p></div>
+      <p class="fine-print">手機可在表格內向左右捲動。點開課程名稱下方的「公式及備註」，查看 App 原有的年份差異及資料限制。</p>
+      <div class="score-table-scroll" tabindex="0" role="region" aria-label={`${school.shortName}歷年收生分數，可左右捲動`}>
+        <table id="scores-table"><caption>{school.name}課程收生統計；2023–2025 為學生入學年份，分數沿用 App 統一資料。</caption><thead><tr><th scope="col">課程及資料備註</th><th scope="col">2025<br />Median</th><th scope="col">2025<br />LQ</th><th scope="col">2025<br />UQ</th><th scope="col">2024<br />Median</th><th scope="col">2023<br />Median</th></tr></thead>
+        <tbody>{programmes.map(p => <tr id={p.js_code.toLowerCase()} data-search={`${p.js_code} ${p.title} ${p.faculty}`.toLowerCase()}><th scope="row"><a class="course-code" href={`#${p.js_code.toLowerCase()}`}>{p.js_code}</a><span class="course-title">{p.title}</span><span class="faculty-name">{p.faculty}</span><details><summary>公式及備註{p.data_remark ? ' · 有資料限制' : ''}</summary><p><strong>{p.scoring_method}</strong> · {p.weighting_detail || '資料未列額外科目比重。'}</p>{p.data_remark && <p class="data-note">{p.data_remark}</p>}{p.entry_req && <p>資料所載其他要求：{p.entry_req}</p>}<p class="fine-print">公式為 App 比較基準，並非逐年公式列表。2023／2024 的 LQ：{f(p.lq_2023)}／{f(p.lq_2024)}；UQ：{f(p.uq_2023)}／{f(p.uq_2024)}。</p><a href={school.official}>核對院校現行課程要求及計分 ↗</a></details></th><td class="latest-score">{f(p.median)}</td><td>{f(p.lq)}</td><td>{f(p.uq)}</td><td>{f(p.median_2024)}</td><td>{f(p.median_2023)}</td></tr>)}</tbody></table>
+      </div><p id="no-programmes" class="data-note" hidden>找不到符合的課程。請試用較短名稱或 JS 代碼。</p>
+    </section>
+
+    <section id="how-to-read" class="article-section article-copy"><h2>Median、LQ 同「最低收分」有甚麼不同？</h2><p>Median 是獲錄取者的中位數；LQ、UQ 是下、上四分位數，中間一半數值大致在 LQ 至 UQ 之間。LQ 並非最低錄取分數，Median 也不是考到便一定獲取錄的門檻。</p><p>例如某課程 LQ 是 28、Median 是 30、UQ 是 32，只能描述過往獲錄取學生的分布。這份資料沒有所有申請人的成績、面試及志願條件，不能由此算出你有幾多成錄取機會。Expected Score 則是院校另行公布的前瞻參考，不能放進實際收生年份欄當作新一年結果。</p><p>實際使用時，先核對一般及課程特定要求，再按相同公式計分，最後綜合興趣、面試和其他甄選因素整理志願。<a href="/blog/jupas-admission-scores-2026/">閱讀完整 Median／LQ 解讀</a>，或看<a href="/blog/jupas-band-a-strategy/">按真實喜好整理 Band A–E 的方法</a>。</p></section>
+
+    <aside class="app-next"><div><p class="eyebrow">下一步 / 整理自己的選擇</p><h2>由睇一間院校，到整理自己的志願</h2><p>在 App 保存心儀課程、比較不同選擇，配合個人分析及面試練習繼續準備。免費下載；部分功能及使用額度需升級。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>
+
+    <section id="sources" class="article-section article-copy"><h2>資料來源、更新及適用範圍</h2><p>本頁數字及課程備註由 DSE Jupas 神器 App 的統一核心資料產生，資料版本為 <code>{snapshot.version}</code>；同步時已核對 App 線上更新版本一致。統計涵蓋 2023–2025 入學年份。文章整理日期不代表院校剛公布新數據，亦不表示所有歷年數字已在當天重新向院校核實。</p><p>資料未提供某年份或已因公式不一致而留空，本頁會保留空白。課程加權、前身代碼及舊制比較限制沿用 App 原有備註；有備註不適合直接比較的課程，不會計算升跌排名或錄取概率。資料按版本同步，並非即時連接院校招生系統。</p><ul>{school.sources.map(([label, href]) => <li><a href={href}>{label} ↗</a></li>)}</ul><p>撰寫及整理：DSE Jupas 神器編輯組。<a href="/editorial-policy/">閱讀資料來源與編輯守則</a>。本網站並非 JUPAS 或院校官方服務；正式申請以各院校及 JUPAS 最新公布為準。</p></section>
+    <nav class="related-school" aria-label="繼續閱讀"><span>繼續比較</span><a href={`/universities/${other.code.toLowerCase()}/`}>{other.code} {other.shortName}歷年收生分數分析 →</a><a href="/universities/">返回院校收分目錄 →</a></nav>
+  </main>
+  <script>
+    const input = document.querySelector<HTMLInputElement>('#programme-search');
+    const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('#scores-table tbody tr'));
+    const count = document.querySelector('#filter-count');
+    const empty = document.querySelector<HTMLElement>('#no-programmes');
+    function filter() {
+      const term = input?.value.trim().toLowerCase() ?? '';
+      let visible = 0;
+      rows.forEach(row => { row.hidden = !row.dataset.search?.includes(term); if (!row.hidden) visible++; });
+      if (count) count.textContent = `顯示 ${visible} 個課程`;
+      if (empty) empty.hidden = visible !== 0;
+    }
+    input?.addEventListener('input', filter);
+    function revealCourse(id: string) {
+      const row = rows.find(r => r.id === id);
+      if (row) { if (input) input.value = ''; filter(); row.querySelector('details')?.setAttribute('open', ''); row.scrollIntoView({ block: 'start' }); }
+    }
+    function revealHash() { revealCourse(window.location.hash.slice(1)); }
+    document.addEventListener('click', event => {
+      const link = (event.target as Element)?.closest<HTMLAnchorElement>('a[href^="#js"]');
+      if (link) revealCourse(link.hash.slice(1));
+    });
+    window.addEventListener('hashchange', revealHash);
+    revealHash();
+  </script>
+</Layout>

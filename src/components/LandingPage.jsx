@@ -354,8 +354,8 @@ const BLOG_POSTS = [
         url: "/blog/jupas-admission-scores-2026/",
         image: "/blog-covers/jupas-admission-scores-2026.webp",
         category: "收生數據",
-            title: "你嘅 DSE 分數夠唔夠入八大熱門科？2026 JUPAS 收生 median、LQ 參考一覽",
-            desc: "距離熱門科 median 仲差幾多？醫科、法律、環球商業、計算機等收生分數懶人包。",
+            title: "JUPAS 收生 Median、LQ 點睇？歷年分數解讀與限制",
+            desc: "分清中位數、下四分位與錄取門檻，了解年份及計分公式不同時應如何比較。",
         readTime: "13 分鐘",
     },
     {
@@ -1018,6 +1018,18 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     </div>
                 </div>
             </section>
+
+            {lang === 'zh-HK' && <section className="py-12 bg-amber-50/60" aria-label="院校收生分數">
+                <div className="container mx-auto px-6 max-w-6xl">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-3">按院校睇歷年 JUPAS 收生分數</h2>
+                    <p className="text-gray-600 mb-6">2023–2025 數據沿用 App，附 Median、LQ 及公式變更備註。</p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                        <a href="/universities/hku/" className="block bg-white border border-amber-200 rounded-xl p-6 text-gray-900 hover:border-amber-500"><strong className="text-lg">HKU 港大收生分數及計算器 →</strong><p className="text-sm text-gray-600 mt-2">歷年分數分析、課程數據表及免費單課程試算。</p></a>
+                        <a href="/universities/cuhk/" className="block bg-white border border-amber-200 rounded-xl p-6 text-gray-900 hover:border-amber-500"><strong className="text-lg">CUHK 中大收生分數分析 →</strong><p className="text-sm text-gray-600 mt-2">解讀醫科通識斷層、科目加權調整及課程前身。</p></a>
+                    </div>
+                    <a href="/universities/" className="inline-block mt-5 text-sm font-semibold text-amber-800">查看院校收分目錄 →</a>
+                </div>
+            </section>}
 
             {/* ===== BLOG ===== */}
             <section id="blog" className="py-20 bg-white">
