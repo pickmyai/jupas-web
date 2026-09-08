@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 let enginePromise;
 function loadEngine(engineVersion) {
@@ -25,6 +25,8 @@ const notify = (name, programme) => {
 };
 
 export default function UniversityCalculator({ programmes, metadata, engineVersion }) {
+  const [ready, setReady] = useState(false);
+  useEffect(() => { setReady(true); }, []);
   const [code, setCode] = useState(programmes[0].js_code);
   const [grades, setGrades] = useState({});
   const [electives, setElectives] = useState(['', '', '']);
@@ -45,7 +47,7 @@ export default function UniversityCalculator({ programmes, metadata, engineVersi
   };
   const selectGrade = (subject, label, csd = false) => <label className="calc-field" key={subject}>
     <span>{label}</span>
-    <select aria-label={`${label}成績`} value={grades[subject] || ''} onChange={e => changeGrade(subject, e.target.value)} disabled={!subject || busy} required>
+    <select aria-label={`${label}成績`} value={grades[subject] || ''} onChange={e => changeGrade(subject, e.target.value)} disabled={!subject || busy || !ready} required>
       <option value="">請選成績</option>
       {(csd ? metadata.grades.filter(g => ['attained', 'untaken'].includes(g.key)) : metadata.grades.filter(g => g.key !== 'attained')).map(g =>
         <option key={g.key} value={g.key}>{csd && g.key === 'untaken' ? '未達標' : g.label}</option>)}
@@ -72,16 +74,17 @@ export default function UniversityCalculator({ programmes, metadata, engineVersi
 
   return <div className="university-calculator">
     <p className="calc-intro">選一個港大課程，睇清楚邊幾科計入、每科比重同試算結果。成績只在這個瀏覽器分頁處理。</p>
+    {!ready && <p className="fine-print" role="status">正在準備計分工具，課程數據表可先閱讀。</p>}
     <form onSubmit={calculate}>
       <label className="calc-field programme-select"><span>心儀課程</span>
-        <select value={code} disabled={busy} onChange={e => { setCode(e.target.value); clearResult(); }}>
+        <select value={code} disabled={busy || !ready} onChange={e => { setCode(e.target.value); clearResult(); }}>
           {programmes.map(p => <option key={p.js_code} value={p.js_code}>{p.js_code} · {p.title}</option>)}
         </select>
       </label>
       <p className="calc-formula"><strong>App 比較公式：</strong>{programme.scoring_method}。{programme.weighting_detail || '資料未列額外科目比重。'}</p>
       {programme.data_remark && <p className="data-note">{programme.data_remark}</p>}
-      <fieldset disabled={busy}><legend>核心科目</legend><div className="calc-grid">{core.map(s => selectGrade(s.key, s.display, s.csd))}</div></fieldset>
-      <fieldset disabled={busy}><legend>選修科目（最少兩科，可包括 M1 或 M2）</legend>
+      <fieldset disabled={busy || !ready}><legend>核心科目</legend><div className="calc-grid">{core.map(s => selectGrade(s.key, s.display, s.csd))}</div></fieldset>
+      <fieldset disabled={busy || !ready}><legend>選修科目（最少兩科，可包括 M1 或 M2）</legend>
         <div className="elective-grid">{electives.map((key, i) => <div className="elective-pair" key={i}>
           <label className="calc-field"><span>選修科 {i + 1}{i === 2 ? '（選填）' : ''}</span>
             <select value={key} onChange={e => changeElective(i, e.target.value)}>
@@ -97,8 +100,8 @@ export default function UniversityCalculator({ programmes, metadata, engineVersi
           </select>
         </label>{module && selectGrade(module, module)}</div>
       </fieldset>
-      <div className="calc-actions"><button type="submit" disabled={busy}>{busy ? '正在計算…' : '計算這個課程'}</button>
-        <button type="button" className="secondary-button" disabled={busy} onClick={() => { setGrades({}); setElectives(['', '', '']); setModule(''); clearResult(); }}>清除成績</button>
+      <div className="calc-actions"><button type="submit" disabled={busy || !ready}>{!ready ? '準備計分工具…' : busy ? '正在計算…' : '計算這個課程'}</button>
+        <button type="button" className="secondary-button" disabled={busy || !ready} onClick={() => { setGrades({}); setElectives(['', '', '']); setModule(''); clearResult(); }}>清除成績</button>
       </div>
       <p className="fine-print">本試算涵蓋畫面列出的科目，未處理丙類語言、替代中文資格及重考扣分。沿用 App 的歷史比較公式；如資料備註列明保留舊公式，結果並非該課程現行申請年度的官方計分。</p>
     </form>
