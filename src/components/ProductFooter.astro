@@ -36,7 +36,7 @@ const categorizedProducts = [
             { id: 'blnst',      name: '基本法及國安法APP',  slogan: '極致精選 BLNST 題庫 ・ 每題附詳細原文解釋',           logo: '/shared-logos/blnst_logo.png',   url: 'https://www.blnst.com' },
             { id: 'cre-chi',    name: 'CRE 中文運用 APP',    slogan: '嚴選 CRE 中文模擬題 ・ 極速掌握中文運用卷',           logo: '/shared-logos/crechi_logo.png',  url: 'https://www.10minquiz.com/zh-hant/cre-chinese-past-paper-question-app/' },
             { id: 'cre-eng',    name: 'CRE 英文運用 APP',    slogan: '精選 CRE 英文模擬題 ・ 助你高效備考',                 logo: '/shared-logos/10minquiz.png',    url: 'https://www.10minquiz.com/zh-hant/cre-english-past-paper-question-app/' },
-            { id: 'cre-apt',    name: 'CRE能力傾向測試 APP', slogan: '能力傾向 Aptitude Test 一站式題庫全面覆蓋', logo: '/shared-logos/creapt_logo.png',  url: 'https://www.10minquiz.com/zh-hant/cre-aptitude-test-question-app/' },
+            { id: 'cre-apt',    name: 'CRE 能力傾向測試 APP', slogan: '能力傾向 Aptitude Test 一站式題庫全面覆蓋', logo: '/shared-logos/creapt_logo.png',  url: 'https://www.10minquiz.com/zh-hant/cre-aptitude-test-question-app/' },
             { id: 'jre',        name: '聯合招聘考試 JRE APP', slogan: '最新時事議題 ・ 論點例子示例 ・ 香港公務員JRE備考',   logo: '/shared-logos/jre_logo.png',     url: 'https://www.jrehk.com' },
         ],
     },
@@ -54,7 +54,7 @@ const categorizedProducts = [
         title: labels.driving,
         items: [
             { id: 'pvo', name: 'PVO 遊樂船牌 APP', slogan: '精選遊樂船牌模擬題 ・ 二級遊樂船操作人考試', logo: '/shared-logos/pvo_logo.png', url: 'https://www.boathk.com' },
-            { id: 'taxi', name: '的士筆試 APP', slogan: '精選的士筆試模擬題 ・ 地方試題 / 路線 / 則例全覆蓋', logo: '/shared-logos/taxi_logo.png', url: 'https://www.taxihk.com' },
+            { id: 'taxi', name: '的士及網約車綜合筆試 APP', slogan: '精選的士筆試模擬題 ・ 地方試題 / 路線 / 則例全覆蓋', logo: '/shared-logos/taxi_logo.png', url: 'https://www.taxihk.com' },
         ],
     },
     {
@@ -79,12 +79,12 @@ const categorizedProducts = [
     {
         title: labels.aiTools,
         items: [
-            { id: 'offergod',     name: 'OfferGod 面試神器',    slogan: 'AI 語音模擬面試 ・ 公務員教育醫管局面試實戰練習', logo: '/shared-logos/offergod_logo.png', url: 'https://www.offergod.app' },
+            { id: 'offergod',     name: 'HA OfferGod 醫管局面試神器',    slogan: 'AI 語音模擬面試 ・ 醫管局護士專職醫療文職面試練習', logo: '/shared-logos/offergod_logo.png', url: 'https://www.offergod.app' },
             { id: 'tutu', name: '兔兔面試班', slogan: '升小一面試 ・ 直資私立叩門實戰練習', logo: '/shared-logos/tutu_logo.png', url: 'https://www.tutuinterview.com' },
             { id: 'picmyquiz',    name: 'PickMyQuiz',         slogan: 'AI 挖空 ・ AI 題庫 ・ 極速背誦溫習',             logo: '/shared-logos/picmyquiz.png',           url: 'https://www.pickmyquiz.com' },
             { id: 'bookdaddy',    name: 'bookdaddy 二手物品配對', slogan: '二手書交收新體驗 ・ 服務 AI 秒速配對買賣',      logo: '/shared-logos/bookdaddy.png',           url: 'https://www.bookdaddyhk.com' },
             { id: 'sparkmyclass', name: 'SparkMyClass',             slogan: '遊戲化課堂管理平台 ・ 以互動遊戲提升學生參與度', logo: '/shared-logos/sparkmyclass_logo.png',   url: 'https://www.sparkmyclass.com' },
-            { id: 'ai-dictation', name: 'AI默書王 智能默書APP', slogan: '24 小時 AI 默書導師 ・ 隨時隨地智能聽寫默寫', logo: '/shared-logos/ai-dictation.png', url: 'https://www.dictateboss.com/' },
+            { id: 'ai-dictation', name: 'AI默書神器 智能默書APP', slogan: '24 小時 AI 默書導師 ・ 隨時隨地智能聽寫默寫', logo: '/shared-logos/ai-dictation.png', url: 'https://www.dictateboss.com/' },
         ],
     },
 ].filter(cat => cat.items.some(p => p.id !== currentProductId));
