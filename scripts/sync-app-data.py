@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the website's HKU/CUHK projection and JS from the LIVE app data.
+"""Generate the website's admissions projection and JS from the LIVE app data.
 
 No independent admissions dataset or formula implementation is maintained here.
 Requires the matching sibling app checkout and Dart SDK. Fails if the app's
@@ -24,7 +24,11 @@ FIELDS = [
     'scoring_method', 'weighting_detail', 'bonus_system', 'score_rules',
     'median', 'uq', 'lq', 'median_2024', 'uq_2024', 'lq_2024',
     'median_2023', 'uq_2023', 'lq_2023', 'entry_req', 'interview',
-    'other_considerations', 'data_remark',
+    'other_considerations', 'data_remark', 'mean',
+    # 2026 official results (merged by the app's tool/merge_actual_scores_2026.py)
+    'actual_2026_median', 'actual_2026_lq', 'actual_2026_uq',
+    'actual_2026_source', 'actual_2026_note', 'actual_2026_no_score',
+    'actual_2026_comparable_to_calculator', 'actual_2026_prior_reference_is_2025',
 ]
 
 def digest(raw):
@@ -46,7 +50,9 @@ def main():
     section = live['sections']['core']
     assert digest(raw) == section['sha256'], 'STOP: local app core is not the published OTA core'
     assert len(rows) == section['count']
-    selected = [{k: row.get(k) for k in FIELDS} for row in rows if row['institution'] in ['HKU', 'CUHK']]
+    # Every institution gets score pages; the in-page calculator stays HKU-only
+    # (its JS/VM parity cases below are HKU programmes).
+    selected = [{k: row.get(k) for k in FIELDS} for row in rows]
     assert len({p['js_code'] for p in selected}) == len(selected)
     engine_hashes = {name: digest((app / name).read_bytes()) for name in FILES}
     with tempfile.TemporaryDirectory(prefix='jupas-web-engine-') as tmp:
@@ -93,13 +99,13 @@ def main():
         snapshot = {
             'source': 'https://www.pickmyquiz.com/jupas-data/meta.json',
             'version': section['version'], 'coreSha256': section['sha256'],
-            'sourceUpdatedAt': live['updated_at'], 'statisticsYear': 2025,
+            'sourceUpdatedAt': live['updated_at'], 'statisticsYear': 2026,
             'programmeSha256': digest(subprocess.check_output(['node', '-e', "process.stdout.write(JSON.stringify(JSON.parse(require('fs').readFileSync(0,'utf8'))))"], input=canonical(selected))),
             'engineSources': engine_hashes, 'engineSha256': digest(engine),
             'parityCases': len(cases), 'metadata': metadata, 'programmes': selected,
         }
         (generated / 'app-admissions.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + '\n')
-        print(f'Exported {len(selected)} HKU/CUHK rows; {len(cases)} JS/VM parity cases PASS. Live core v{section["version"]}.')
+        print(f'Exported {len(selected)} programme rows; {len(cases)} JS/VM parity cases PASS. Live core v{section["version"]}.')
 
 if __name__ == '__main__':
     main()

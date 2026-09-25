@@ -3,7 +3,29 @@ import snapshot from '../data/app-admissions.json';
 export { snapshot };
 export const formatScore = value => value == null ? '—' : Number(value).toLocaleString('en-HK', { maximumFractionDigits: 3 });
 export const years = [2023, 2024, 2025];
-export const medianFor = (p, year) => p[year === 2025 ? 'median' : `median_${year}`];
+
+// ── 2026 official results + the 2025 reference they sit next to ──
+// The raw `median/lq/uq` fields are the 2025 reference, except where the app
+// marks `actual_2026_prior_reference_is_2025: false` (then 2025 is unknown).
+export const has2026 = p => p.actual_2026_median != null || p.actual_2026_lq != null;
+export const median2025 = p => p.actual_2026_prior_reference_is_2025 === false ? null : p.median;
+export const lq2025 = p => p.actual_2026_prior_reference_is_2025 === false ? null : p.lq;
+export const uq2025 = p => p.uq;
+export const medianFor = (p, year) =>
+  year === 2026 ? p.actual_2026_median : year === 2025 ? median2025(p) : p[`median_${year}`];
+/** Every year with at least one published figure, newest first. */
+export function yearRows(p) {
+  const rows = [];
+  if (has2026(p)) rows.push({ year: 2026, uq: p.actual_2026_uq, median: p.actual_2026_median, lq: p.actual_2026_lq, formulaChanged: p.actual_2026_comparable_to_calculator === false });
+  const r25 = { year: 2025, uq: uq2025(p), median: median2025(p), lq: lq2025(p), mean: p.median == null ? p.mean : null };
+  if ([r25.uq, r25.median, r25.lq, r25.mean].some(v => v != null)) rows.push(r25);
+  for (const year of [2024, 2023]) {
+    const r = { year, uq: p[`uq_${year}`], median: p[`median_${year}`], lq: p[`lq_${year}`] };
+    if ([r.uq, r.median, r.lq].some(v => v != null)) rows.push(r);
+  }
+  return rows;
+}
+export const latestRow = p => yearRows(p)[0] ?? null;
 export const schools = {
   hku: {
     code: 'HKU', name: '香港大學', shortName: '港大',
@@ -33,4 +55,48 @@ export const schools = {
   },
 };
 
-export const programmesFor = code => snapshot.programmes.filter(p => p.institution === code);
+const JUPAS = ['JUPAS 官方網站：課程目錄及入學要求', 'https://www.jupas.edu.hk/'];
+const official2026 = code => [...new Set(snapshot.programmes
+  .filter(p => (schools[slugFor(p.institution)]?.code === code) && p.actual_2026_source)
+  .map(p => p.actual_2026_source))];
+
+// Institutions without a hand-written analysis: generic copy, sources limited
+// to JUPAS plus the 2026 documents the app itself cites.
+const generic = (code, name, shortName, match) => {
+  const last = snapshot.programmes.some(p => match.includes(p.institution) && has2026(p)) ? 2026 : 2025;
+  const title = `${code} JUPAS 收生分數｜${shortName} 2023–${last} Median、LQ 一覽`;
+  return {
+    code, name, shortName, match, title,
+    description: `查看${name}（${shortName}）各 JUPAS 課程 2023–${last} 收生中位數、LQ／UQ、計分方法及資料備註；數據沿用 DSE Jupas 神器 App 統一資料。`,
+    intro: `${shortName}各課程的計分方法（Best 5、Best 6、科目比重）不同，同一份成績在不同課程會得出不同分數。先找心儀課程，核對年份及公式，再與自己按同一方法計算的分數比較。`,
+    highlights: [], official: 'https://www.jupas.edu.hk/', sources: null,
+  };
+};
+Object.assign(schools, {
+  hkust: generic('HKUST', '香港科技大學', '科大', ['HKUST']),
+  polyu: generic('PolyU', '香港理工大學', '理大', ['PolyU']),
+  cityu: generic('CityU', '香港城市大學', '城大', ['CityU']),
+  hkbu: generic('HKBU', '香港浸會大學', '浸大', ['HKBU']),
+  lingu: generic('LingU', '嶺南大學', '嶺大', ['LingU']),
+  eduhk: generic('EdUHK', '香港教育大學', '教大', ['EdUHK']),
+  hkmu: generic('HKMU', '香港都會大學', '都大', ['HKMU', '都會大學']),
+  sssdp: { ...generic('SSSDP', '自資院校（指定專業／界別課程資助計劃）', '自資院校', ['THEi', '東華學院', '聖方濟各大學', '恒生大學', '伍倫貢學院', '樹仁大學', '珠海學院']),
+    title: 'SSSDP 自資課程 JUPAS 收生分數｜THEi、恒大、樹仁等歷年 Median、LQ 一覽' },
+});
+schools.hku.match = ['HKU'];
+schools.cuhk.match = ['CUHK'];
+for (const school of Object.values(schools)) {
+  if (!school.sources) school.sources = [JUPAS];
+  const docs = official2026(school.code);
+  school.sources = [...school.sources, ...docs.map(href => [`${school.shortName} 2026 年收生分數（官方公布）`, href])];
+}
+
+export function slugFor(institution) {
+  return Object.keys(schools).find(slug => schools[slug].match?.includes(institution)) ?? null;
+}
+export const programmePath = p => `/universities/${slugFor(p.institution)}/${p.js_code.toLowerCase()}/`;
+export const programmesFor = code => snapshot.programmes.filter(p => schools[slugFor(p.institution)]?.code === code);
+export const institutionNames = {
+  THEi: '香港高等教育科技學院', 東華學院: '東華學院', 聖方濟各大學: '聖方濟各大學', 恒生大學: '香港恒生大學',
+  伍倫貢學院: '香港伍倫貢學院', 樹仁大學: '香港樹仁大學', 珠海學院: '珠海學院', 都會大學: '香港都會大學（自資）',
+};

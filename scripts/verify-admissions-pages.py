@@ -36,30 +36,52 @@ class Page(HTMLParser):
         if tag == 'table': self.in_table = False
 
 snapshot = json.loads((ROOT / 'src/data/app-admissions.json').read_text())
+SCHOOLS = {'hku': ['HKU'], 'cuhk': ['CUHK'], 'hkust': ['HKUST'], 'polyu': ['PolyU'], 'cityu': ['CityU'],
+           'hkbu': ['HKBU'], 'lingu': ['LingU'], 'eduhk': ['EdUHK'], 'hkmu': ['HKMU', '都會大學'],
+           'sssdp': ['THEi', '東華學院', '聖方濟各大學', '恒生大學', '伍倫貢學院', '樹仁大學', '珠海學院']}
+
+def expected_cells(p):
+    prior = p.get('actual_2026_prior_reference_is_2025') is not False
+    m25 = p['median'] if prior else None
+    l25 = p['lq'] if prior else None
+    return [p.get('actual_2026_median'), p.get('actual_2026_lq'),
+            ('mean', p['mean']) if m25 is None and p.get('mean') is not None else m25,
+            l25, p['median_2024'], p['median_2023']]
+
 total = 0
-for school in ['HKU', 'CUHK']:
-    raw = (ROOT / f'dist/universities/{school.lower()}/index.html').read_text()
+covered = set()
+for slug, names in SCHOOLS.items():
+    raw = (ROOT / f'dist/universities/{slug}/index.html').read_text()
     assert '\0' not in raw
     page = Page(raw)
-    expected = {p['js_code']: p for p in snapshot['programmes'] if p['institution'] == school}
-    assert set(page.rows) == set(expected), 'Rendered programme coverage differs'
+    expected = {p['js_code']: p for p in snapshot['programmes'] if p['institution'] in names}
+    assert set(page.rows) == set(expected), f'{slug}: rendered programme coverage differs'
     assert page.h1_count == 1
-    assert page.canonical == f'https://www.jupascalculator.app/universities/{school.lower()}/'
+    assert page.canonical == f'https://www.jupascalculator.app/universities/{slug}/'
     assert '/universities/' in page.links
     for code, p in expected.items():
         row = page.rows[code]
         assert p['title'] in row['text'], code
-        for cell, field in zip(row['cells'], ['median', 'lq', 'uq', 'median_2024', 'median_2023'], strict=True):
-            if p[field] is None: assert cell == '—', (code, field, cell)
-            else: assert abs(float(cell.replace(',', '')) - p[field]) < 1e-8, (code, field, cell)
+        for cell, want in zip(row['cells'], expected_cells(p), strict=True):
+            if want is None: assert cell == '—', (code, cell)
+            elif isinstance(want, tuple): assert abs(float(cell.rstrip('*')) - want[1]) < 1e-8, (code, cell)
+            else: assert abs(float(cell.replace(',', '')) - want) < 1e-8, (code, cell)
         if p.get('data_remark'): assert p['data_remark'] in row['text'], f'{code} lost original caveat'
+        detail = ROOT / f'dist/universities/{slug}/{code.lower()}/index.html'
+        assert detail.exists(), f'{code}: programme page missing'
+        dpage = Page(detail.read_text())
+        assert dpage.h1_count == 1 and dpage.canonical == f'https://www.jupascalculator.app/universities/{slug}/{code.lower()}/', code
+        covered.add(code)
         total += 1
     assert 'noindex' not in raw
-    if school == 'CUHK': assert 'astro-island' not in raw, 'CUHK article should not need React hydration'
-    print(f'{school}: {len(expected)} full HTML rows, exact scores, caveats, canonical and one H1 PASS')
+    if slug == 'cuhk': assert 'astro-island' not in raw, 'CUHK article should not need React hydration'
+    print(f'{slug}: {len(expected)} rows + programme pages PASS')
+assert covered == {p['js_code'] for p in snapshot['programmes']}, 'Some programmes have no institution page'
 sitemap = (ROOT / 'dist/sitemap-0.xml').read_text()
-for path in ['universities/', 'universities/hku/', 'universities/cuhk/']:
-    assert f'https://www.jupascalculator.app/{path}' in sitemap, path
+for code in covered:
+    p = next(x for x in snapshot['programmes'] if x['js_code'] == code)
+    slug = next(s for s, n in SCHOOLS.items() if p['institution'] in n)
+    assert f'https://www.jupascalculator.app/universities/{slug}/{code.lower()}/' in sitemap, code
 home = Page((ROOT / 'dist/index.html').read_text())
 assert '/universities/hku/' in home.links and '/universities/cuhk/' in home.links
-print(f'PASS: {total} programme rows / {total * 5} score cells; sitemap and homepage links present.')
+print(f'PASS: {total} programme rows and pages; sitemap and homepage links present.')
