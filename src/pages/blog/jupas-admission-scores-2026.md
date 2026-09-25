@@ -1,18 +1,39 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "JUPAS 收生 median、LQ 點睇？歷年分數解讀與限制"
-description: "Median、LQ、UQ 反映過往獲錄取者的分數分布，不是今年 cut-off 或錄取概率。本文解釋統計意義、不同計分公式的比較限制及正確查證方法。"
+title: "JUPAS 收生分數 2026｜Median、LQ 意思點睇？附已公布院校數字"
+description: "港大、科大、理大、都大已公布 2026 年 JUPAS 收生分數（共 178 個課程）。本文附各院校代表課程 2026 Median、LQ，並解釋 Median、LQ、UQ 的意思、比較限制及查證方法。"
 image: "/blog-covers/jupas-admission-scores-2026.webp"
 category: "收生數據"
 readTime: "8 分鐘"
 pubDate: "2026-06-20"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 verifiedDate: "2026-07-12"
 ---
 
 不少院校會公布獲錄取學生的 median、lower quartile（LQ）或 upper quartile（UQ）。這些數字可以幫你理解**過往獲錄取者的分數分布**，但不是預先公布的 cut-off，更不是今年的錄取概率。
 
-想直接查課程數字，可以看 [HKU 港大 2023–2025 收生分數及單課程試算](/universities/hku/)，或 [CUHK 中大歷年收分變化分析](/universities/cuhk/)。兩頁沿用 App 統一資料，保留公式變更及缺年份的備註；以下先說明怎樣讀這些統計。
+## 2026 年收生分數：已公布院校
+
+截至 2026 年 9 月 25 日，以下院校已公布 2026 年 JUPAS 收生分數：[港大](/universities/hku/)（54 個課程）、[科大](/universities/hkust/)（33 個）、[理大](/universities/polyu/)（45 個）及[都大](/universities/hkmu/)（46 個，含自資課程）。中大、城大、浸大、嶺大、教大尚未公布，相關頁面暫列 2025 年數字，公布後更新。
+
+下表列出各院校 2026 年中位數較高的課程（只選計分公式與 2025 年相同、可以直接比較的課程）。各院校計分尺度不同（例如理大以數百分計），**不同院校之間的分數不能直接比較**。
+
+| 院校 | 課程 | 2026 Median | 2026 LQ | 2025 Median |
+|---|---|---|---|---|
+| 港大 | [JS6858 理學士及法學士(雙學位課程)](/universities/hku/js6858/) | 56 | 54 | 54 |
+| 港大 | [JS6896 工商管理學學士(國際商業及環球管理)](/universities/hku/js6896/) | 54 | 53 | 54 |
+| 港大 | [JS6884 理學士(計量金融)](/universities/hku/js6884/) | 51 | 50 | 51 |
+| 科大 | [JS5901 科技及管理學雙學位課程](/universities/hkust/js5901/) | 59.59 | 57.77 | 62.48 |
+| 科大 | [JS5332 理學士（量化金融學）](/universities/hkust/js5332/) | 58.5 | 57.38 | 58.13 |
+| 科大 | [JS5240 計算機科學及工程學系](/universities/hkust/js5240/) | 55.65 | 53.94 | 50 |
+| 理大 | [JS3612 放射學(榮譽)理學士](/universities/polyu/js3612/) | 339 | 328.5 | 339 |
+| 理大 | [JS3636 物理治療學(榮譽)理學士](/universities/polyu/js3636/) | 320 | 290 | 320 |
+| 理大 | [JS3478 醫療化驗科學(榮譽)理學士](/universities/polyu/js3478/) | 308.9 | 295.1 | 309 |
+| 都大 | [JS9011 中文榮譽文學士](/universities/hkmu/js9011/) | 22 | 21 | 22 |
+| 都大 | [JS9530 英語教學榮譽教育學士及英語研究榮譽學士](/universities/hkmu/js9530/) | 22 | 22 | 20 |
+| 都大 | [JS9560 教育榮譽學士（中國語文教學）及語言研究榮譽學士（應用中國語言）](/universities/hkmu/js9560/) | 22 | 21 | 22 |
+
+全部課程的 2023–2026 年分數、計分方法及資料備註，見[各大學 JUPAS 收生分數一覽](/universities/)；每個課程另有獨立頁面。以下說明怎樣讀這些統計。
 
 ## Median、LQ、UQ 代表甚麼？
 
