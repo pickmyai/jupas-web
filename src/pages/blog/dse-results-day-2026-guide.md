@@ -238,7 +238,7 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#f59e0b] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
     <div>
       <div class="text-lg font-bold text-slate-900 mb-1">放榜前入定分數，放榜日一改即有答案</div>
-      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器現有 413 個 JUPAS 課程資料，可按已整理公式計分、對照歷史 median／LQ 位置及練習面試。分析只供核對與規劃，唔係官方錄取概率；提交改選前要再查 JUPAS 同院校最新資料。</p>
+      <p class="text-slate-700 m-0 text-sm leading-relaxed">DSE Jupas 神器現有 417 個 JUPAS 課程資料，可按已整理公式計分、對照歷史 median／LQ 位置及練習面試。分析只供核對與規劃，唔係官方錄取概率；提交改選前要再查 JUPAS 同院校最新資料。</p>
     </div>
   </div>
 </div>

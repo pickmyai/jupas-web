@@ -474,7 +474,7 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                     <div className="grid md:grid-cols-3 gap-3">
                         {BLOG_POSTS.slice(0, 6).map((post) => (
                             <a key={post.url} href={post.url} className="group flex flex-col bg-white rounded-xl border border-gray-100 hover:border-amber-300 p-4">
-                                <span className="text-xs font-bold text-amber-600 mb-1.5">{lang === "en" ? post.en.category : post.category}</span>
+                                <span className="text-xs font-bold text-amber-800 mb-1.5">{lang === "en" ? post.en.category : post.category}</span>
                                 <span className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-amber-600">{lang === "en" ? post.en.title : post.title}</span>
                             </a>
                         ))}

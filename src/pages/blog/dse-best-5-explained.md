@@ -128,7 +128,7 @@ Best 5 指喺你**可計算嘅科目**入面，揀分數最高嘅五科計入 ad
 
 ## 想慳返逐個課程計嘅時間
 
-DSE Jupas 神器整理咗 413 個 JUPAS 課程嘅計分資料，輸入一次成績就可以按各課程已整理嘅公式計分，同時睇到歷史收生位置同出路評級。它可以減少重複計算，但**唔可以取代院校最新公布**——如有出入，一律以 JUPAS 及院校當年度頁面為準，並歡迎透過<a href="/editorial-policy/">編輯與更正政策</a>回報。
+DSE Jupas 神器整理咗 417 個 JUPAS 課程嘅計分資料，輸入一次成績就可以按各課程已整理嘅公式計分，同時睇到歷史收生位置同出路評級。它可以減少重複計算，但**唔可以取代院校最新公布**——如有出入，一律以 JUPAS 及院校當年度頁面為準，並歡迎透過<a href="/editorial-policy/">編輯與更正政策</a>回報。
 
 延伸閱讀：<a href="/blog/jupas-scoring-methods-explained/">JUPAS 點計分？Best 5、4C+2X、科目加權與院校換算差異</a>、<a href="/blog/jupas-admission-scores-2026/">2026 收生分數參考</a>、<a href="/blog/jupas-band-a-strategy/">Band A 排位策略</a>。
 

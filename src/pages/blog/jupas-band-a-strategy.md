@@ -91,6 +91,6 @@ Band A 只有三個位置，而且院校知道它們屬於 Band A。選擇時可
 
 ## 用 App 時應怎樣理解結果？
 
-DSE Jupas 神器目前整理 413 個 JUPAS 課程資料，讓你按課程公式計分，對照歷史 median／LQ，並查看課程與面試練習。分析應視為**歷史位置與決策提示**，不是入學概率、官方評核或 offer 保證。最終資料與派位結果以 JUPAS 和院校公布為準。
+DSE Jupas 神器目前整理 417 個 JUPAS 課程資料，讓你按課程公式計分，對照歷史 median／LQ，並查看課程與面試練習。分析應視為**歷史位置與決策提示**，不是入學概率、官方評核或 offer 保證。最終資料與派位結果以 JUPAS 和院校公布為準。
 
 <a href="https://apps.apple.com/app/id6780134101">在 App Store 查看 DSE Jupas 神器</a>
