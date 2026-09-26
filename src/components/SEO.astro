@@ -18,7 +18,7 @@ const {
     description,
     lang = "zh-HK",
     canonical,
-    ogImage = "/logo1024.png",
+    ogImage = "/og-image.jpg",
     ogType = "website",
     twitterCard = "summary_large_image",
     keywords = "DSE Jupas 神器,JUPAS 計分器,JUPAS 計分,JUPAS 計算機,DSE 計分,JUPAS 收生分數,JUPAS 入學機會,大學面試模擬,JUPAS Band A 策略,JUPAS 改選,DSE 升大學,香港聯招,Best 5,4C+2X,JUPAS calculator,JUPAS score calculator,DSE university admission,HK JUPAS app,大學入學面試",
@@ -56,6 +56,7 @@ const ogImageURL = new URL(ogImage, siteUrl);
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={ogImageURL} />
+{ogImage === "/og-image.jpg" && <><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /></>}
 <meta property="og:site_name" content="DSE Jupas 神器 - JUPAS 計分及面試 App" />
 <meta property="og:locale" content={lang.replace('-', '_').replace(/_([a-z]+)$/, (_, r) => '_' + r.toUpperCase())} />
 

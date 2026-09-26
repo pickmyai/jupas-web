@@ -219,7 +219,7 @@ const BLOG_POSTS = [
     },
 ];
 
-export default function LandingPage({ initialLang = "zh-HK" }) {
+export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
     const [lang, setLang] = useState(initialLang);
     const [langMenuOpen, setLangMenuOpen] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -446,6 +446,16 @@ export default function LandingPage({ initialLang = "zh-HK" }) {
                             </a>
                         ))}
                     </div>
+                    {popular.length > 0 && (
+                        <div className="mt-6">
+                            <h3 className="text-sm font-bold text-gray-700 mb-2">熱門課程收分</h3>
+                            <div className="flex flex-wrap gap-2">
+                                {popular.map((p) => (
+                                    <a key={p.code} href={p.href} className="text-sm bg-white border border-amber-200 rounded-lg px-3 py-1.5 text-gray-800 hover:border-amber-500">{p.label}</a>
+                                ))}
+                            </div>
+                        </div>
+                    )}
                     <a href="/universities/" className="inline-block mt-5 text-sm font-semibold text-amber-800">{tr(lang,"查看院校收分目錄 →")}</a>
                     {lang === "en" && <p className="text-xs text-gray-500 mt-2">Score pages are in Traditional Chinese.</p>}
                 </div>
