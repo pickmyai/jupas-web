@@ -29,7 +29,13 @@ FIELDS = [
     'actual_2026_median', 'actual_2026_lq', 'actual_2026_uq',
     'actual_2026_source', 'actual_2026_note', 'actual_2026_no_score',
     'actual_2026_comparable_to_calculator', 'actual_2026_prior_reference_is_2025',
+    # Official JUPAS 2025 intake statistics (competition on the programme pages)
+    'quota', 'band_a_apply', 'band_a_offer', 'admitted',
 ]
+# Public subset of the app's `enrichment` section. Ratings, editor's take,
+# MBTI, teaching/facilities notes and 10/20-year salaries stay app-only.
+ENRICHMENT_FIELDS = ['overview', 'careers', 'career_paths', 'tuition_annual', 'tuition_note']
+CAREER_PATH_FIELDS = ['title', 'salary_y1', 'needs_further_qualification']
 
 def digest(raw):
     return hashlib.sha256(raw).hexdigest()
@@ -50,6 +56,9 @@ def main():
     section = live['sections']['core']
     assert digest(raw) == section['sha256'], 'STOP: local app core is not the published OTA core'
     assert len(rows) == section['count']
+    enrichment = json.loads((assets / 'programme_enrichment.json').read_text())
+    enrichment_section = live['sections']['enrichment']
+    assert digest(canonical(enrichment)) == enrichment_section['sha256'], 'STOP: local app enrichment is not the published OTA enrichment'
     # Every institution gets score pages; the in-page calculator stays HKU-only
     # (its JS/VM parity cases below are HKU programmes).
     selected = [{k: row.get(k) for k in FIELDS} for row in rows]
@@ -105,6 +114,17 @@ def main():
             'parityCases': len(cases), 'metadata': metadata, 'programmes': selected,
         }
         (generated / 'app-admissions.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + '\n')
+        public_enrichment = {}
+        for code, entry in sorted(enrichment.items()):
+            item = {k: entry[k] for k in ENRICHMENT_FIELDS if entry.get(k) not in (None, '', [])}
+            if 'career_paths' in item:
+                item['career_paths'] = [{k: c[k] for k in CAREER_PATH_FIELDS if k in c} for c in item['career_paths']]
+            public_enrichment[code] = item
+        (generated / 'app-enrichment.json').write_text(json.dumps({
+            'source': snapshot['source'], 'version': enrichment_section['version'],
+            'enrichmentSha256': enrichment_section['sha256'], 'fields': ENRICHMENT_FIELDS,
+            'programmes': public_enrichment,
+        }, ensure_ascii=False, indent=1) + '\n')
         print(f'Exported {len(selected)} programme rows; {len(cases)} JS/VM parity cases PASS. Live core v{section["version"]}.')
 
 if __name__ == '__main__':

@@ -26,6 +26,8 @@ interface Props {
     breadcrumbItems?: Array<{ name: string; url: string }>;
     alternates?: Array<{ lang: string; url: string }>;
     showProductFooter?: boolean;
+    // false: keep the site footer but drop the family product showcase.
+    productShowcase?: boolean;
 }
 
 const {
@@ -40,6 +42,7 @@ const {
 	breadcrumbItems,
 	alternates: providedAlternates,
 	showProductFooter = true,
+	productShowcase = true,
 } = Astro.props;
 
 const isLocalizedHome = ['/', '/en/', '/zh-cn/'].includes(Astro.url.pathname);
@@ -76,7 +79,7 @@ import Analytics from '@vercel/analytics/astro';
 	</head>
 	<body class="bg-background text-foreground antialiased font-sans">
 		<slot />
-		{showProductFooter && <ProductFooter currentProductId="jupas" lang={lang} />}
+		{showProductFooter && <ProductFooter currentProductId="jupas" lang={lang} showcase={productShowcase} />}
 		<script is:inline>
 		document.addEventListener('click', function (e) {
 		  var a = e.target && e.target.closest && e.target.closest('a[href*="apps.apple.com"], a[href*="play.google.com"]');

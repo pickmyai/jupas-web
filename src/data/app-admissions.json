@@ -4,7 +4,7 @@
   "coreSha256": "bd8646596ec115e2f9a7aec8130920c6611a93ee68d3aa7984d8449940d4cd48",
   "sourceUpdatedAt": "2026-09-24T11:37:41.704590+00:00",
   "statisticsYear": 2026,
-  "programmeSha256": "bddf046562e29081368aa54e68c2f4d85329a7fbac5b1446b0a89dca0a731944",
+  "programmeSha256": "847f33a4bef29a6622b1b24cf170a808d58bb8bcf430eb965bfd6b0e60cda8ba",
   "engineSources": {
     "lib/services/jupas/score_calculator.dart": "0f725b1931af38e3cc3586712886c003844d9fc50384ea1a1e47c37eb3af9eee",
     "lib/models/jupas/programme.dart": "6c0a2e3a78744c3622165375157cdaea9f00f76c7a3734fa420cafef704f6ac4",
@@ -270,7 +270,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 81,
+      "band_a_offer": 2,
+      "admitted": 2
     },
     {
       "js_code": "JS1001",
@@ -303,7 +307,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 100,
+      "band_a_offer": 1,
+      "admitted": 4
     },
     {
       "js_code": "JS1002",
@@ -336,7 +344,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 148,
+      "band_a_apply": 1018,
+      "band_a_offer": 127,
+      "admitted": 131
     },
     {
       "js_code": "JS1005",
@@ -369,7 +381,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 58,
+      "band_a_apply": 711,
+      "band_a_offer": 37,
+      "admitted": 42
     },
     {
       "js_code": "JS1007",
@@ -402,7 +418,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 82,
+      "band_a_apply": 934,
+      "band_a_offer": 72,
+      "admitted": 76
     },
     {
       "js_code": "JS1012",
@@ -435,7 +455,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 29,
+      "band_a_apply": 247,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS1013",
@@ -468,7 +492,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 31,
+      "band_a_apply": 476,
+      "band_a_offer": 32,
+      "admitted": 32
     },
     {
       "js_code": "JS1014",
@@ -501,7 +529,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 96,
+      "band_a_apply": 756,
+      "band_a_offer": 102,
+      "admitted": 102
     },
     {
       "js_code": "JS1017",
@@ -534,7 +566,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 62,
+      "band_a_apply": 322,
+      "band_a_offer": 54,
+      "admitted": 59
     },
     {
       "js_code": "JS1018",
@@ -567,7 +603,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 63,
+      "band_a_offer": 6,
+      "admitted": 8
     },
     {
       "js_code": "JS1019",
@@ -600,7 +640,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 66,
+      "band_a_offer": 3,
+      "admitted": 7
     },
     {
       "js_code": "JS1026",
@@ -633,7 +677,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 24,
+      "band_a_apply": 154,
+      "band_a_offer": 20,
+      "admitted": 21
     },
     {
       "js_code": "JS1027",
@@ -666,7 +714,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 23,
+      "band_a_apply": 286,
+      "band_a_offer": 20,
+      "admitted": 21
     },
     {
       "js_code": "JS1040",
@@ -699,7 +751,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS1041",
@@ -732,7 +788,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 21,
+      "band_a_apply": 322,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS1042",
@@ -765,7 +825,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 253,
+      "band_a_offer": 14,
+      "admitted": 14
     },
     {
       "js_code": "JS1043",
@@ -798,7 +862,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 236,
+      "band_a_offer": 25,
+      "admitted": 25
     },
     {
       "js_code": "JS1044",
@@ -831,7 +899,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 179,
+      "band_a_offer": 18,
+      "admitted": 18
     },
     {
       "js_code": "JS1050",
@@ -864,7 +936,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS1051",
@@ -897,7 +973,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 32,
+      "band_a_apply": 389,
+      "band_a_offer": 41,
+      "admitted": 54
     },
     {
       "js_code": "JS1052",
@@ -930,7 +1010,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 49,
+      "band_a_offer": 3,
+      "admitted": 11
     },
     {
       "js_code": "JS1053",
@@ -963,7 +1047,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS1061",
@@ -996,7 +1084,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 42,
+      "band_a_apply": 129,
+      "band_a_offer": 26,
+      "admitted": 26
     },
     {
       "js_code": "JS1062",
@@ -1029,7 +1121,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 8,
+      "band_a_apply": 19,
+      "band_a_offer": 4,
+      "admitted": 5
     },
     {
       "js_code": "JS1070",
@@ -1062,7 +1158,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS1071",
@@ -1095,7 +1195,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 200,
+      "band_a_offer": 14,
+      "admitted": 16
     },
     {
       "js_code": "JS1072",
@@ -1128,7 +1232,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 27,
+      "band_a_apply": 195,
+      "band_a_offer": 17,
+      "admitted": 18
     },
     {
       "js_code": "JS1074",
@@ -1161,7 +1269,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 108,
+      "band_a_offer": 13,
+      "admitted": 16
     },
     {
       "js_code": "JS1102",
@@ -1194,7 +1306,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 274,
+      "band_a_offer": 13,
+      "admitted": 17
     },
     {
       "js_code": "JS1103",
@@ -1227,7 +1343,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 500,
+      "band_a_offer": 34,
+      "admitted": 37
     },
     {
       "js_code": "JS1104",
@@ -1260,7 +1380,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 172,
+      "band_a_offer": 20,
+      "admitted": 28
     },
     {
       "js_code": "JS1106",
@@ -1293,7 +1417,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": 505,
+      "band_a_offer": 36,
+      "admitted": 43
     },
     {
       "js_code": "JS1108",
@@ -1326,7 +1454,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 63,
+      "band_a_apply": 271,
+      "band_a_offer": 48,
+      "admitted": 59
     },
     {
       "js_code": "JS1109",
@@ -1359,7 +1491,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 130,
+      "band_a_offer": 20,
+      "admitted": 24
     },
     {
       "js_code": "JS1111",
@@ -1392,7 +1528,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 21,
+      "band_a_apply": 328,
+      "band_a_offer": 21,
+      "admitted": 23
     },
     {
       "js_code": "JS1112",
@@ -1425,7 +1565,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 16,
+      "band_a_apply": 319,
+      "band_a_offer": 27,
+      "admitted": 31
     },
     {
       "js_code": "JS1113",
@@ -1458,7 +1602,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 54,
+      "band_a_apply": 630,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS1123",
@@ -1491,7 +1639,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 91,
+      "band_a_offer": 9,
+      "admitted": 11
     },
     {
       "js_code": "JS1200",
@@ -1524,7 +1676,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 20,
+      "band_a_offer": 2,
+      "admitted": 4
     },
     {
       "js_code": "JS1201",
@@ -1557,7 +1713,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 87,
+      "band_a_apply": 507,
+      "band_a_offer": 98,
+      "admitted": 98
     },
     {
       "js_code": "JS1202",
@@ -1590,7 +1750,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 44,
+      "band_a_apply": 309,
+      "band_a_offer": 40,
+      "admitted": 48
     },
     {
       "js_code": "JS1204",
@@ -1623,7 +1787,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 87,
+      "band_a_apply": 882,
+      "band_a_offer": 78,
+      "admitted": 85
     },
     {
       "js_code": "JS1205",
@@ -1656,7 +1824,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 163,
+      "band_a_apply": 884,
+      "band_a_offer": 114,
+      "admitted": 126
     },
     {
       "js_code": "JS1206",
@@ -1689,7 +1861,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 36,
+      "band_a_apply": 373,
+      "band_a_offer": 21,
+      "admitted": 27
     },
     {
       "js_code": "JS1207",
@@ -1722,7 +1898,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 87,
+      "band_a_apply": 711,
+      "band_a_offer": 85,
+      "admitted": 109
     },
     {
       "js_code": "JS1208",
@@ -1755,7 +1935,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 214,
+      "band_a_offer": 13,
+      "admitted": 19
     },
     {
       "js_code": "JS1210",
@@ -1788,7 +1972,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 24,
+      "band_a_apply": 180,
+      "band_a_offer": 17,
+      "admitted": 31
     },
     {
       "js_code": "JS1211",
@@ -1848,7 +2036,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 44,
+      "band_a_apply": 334,
+      "band_a_offer": 47,
+      "admitted": 57
     },
     {
       "js_code": "JS1216",
@@ -1881,7 +2073,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 24,
+      "band_a_apply": 183,
+      "band_a_offer": 20,
+      "admitted": 21
     },
     {
       "js_code": "JS1217",
@@ -1914,7 +2110,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 23,
+      "band_a_offer": 6,
+      "admitted": 12
     },
     {
       "js_code": "JS1218",
@@ -1947,7 +2147,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 28,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS1219",
@@ -1980,7 +2184,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 16,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS1221",
@@ -2013,7 +2221,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 98,
+      "band_a_offer": 11,
+      "admitted": 11
     },
     {
       "js_code": "JS1300",
@@ -2046,7 +2258,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS1801",
@@ -2079,7 +2295,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 173,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS1805",
@@ -2112,7 +2332,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 124,
+      "band_a_offer": 19,
+      "admitted": 23
     },
     {
       "js_code": "JS1806",
@@ -2145,7 +2369,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 202,
+      "band_a_offer": 24,
+      "admitted": 29
     },
     {
       "js_code": "JS1807",
@@ -2178,7 +2406,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 130,
+      "band_a_offer": 26,
+      "admitted": 29
     },
     {
       "js_code": "JS2020",
@@ -2211,7 +2443,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 87,
+      "band_a_apply": 563,
+      "band_a_offer": 102,
+      "admitted": 106
     },
     {
       "js_code": "JS2025",
@@ -2244,7 +2480,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 11,
+      "band_a_apply": 157,
+      "band_a_offer": 9,
+      "admitted": 17
     },
     {
       "js_code": "JS2060",
@@ -2277,7 +2517,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 38,
+      "band_a_apply": 251,
+      "band_a_offer": 28,
+      "admitted": 28
     },
     {
       "js_code": "JS2110",
@@ -2310,7 +2554,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 49,
+      "band_a_apply": 513,
+      "band_a_offer": 40,
+      "admitted": 46
     },
     {
       "js_code": "JS2120",
@@ -2343,7 +2591,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 185,
+      "band_a_apply": 1519,
+      "band_a_offer": 124,
+      "admitted": 157
     },
     {
       "js_code": "JS2310",
@@ -2376,7 +2628,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 70,
+      "band_a_apply": 557,
+      "band_a_offer": 66,
+      "admitted": 74
     },
     {
       "js_code": "JS2330",
@@ -2409,7 +2665,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 18,
+      "band_a_apply": 387,
+      "band_a_offer": 17,
+      "admitted": 17
     },
     {
       "js_code": "JS2340",
@@ -2442,7 +2702,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 8,
+      "band_a_apply": 176,
+      "band_a_offer": 8,
+      "admitted": 8
     },
     {
       "js_code": "JS2370",
@@ -2475,7 +2739,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 550,
+      "band_a_offer": 16,
+      "admitted": 16
     },
     {
       "js_code": "JS2410",
@@ -2508,7 +2776,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 37,
+      "band_a_apply": 349,
+      "band_a_offer": 46,
+      "admitted": 46
     },
     {
       "js_code": "JS2420",
@@ -2541,7 +2813,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 23,
+      "band_a_apply": 339,
+      "band_a_offer": 29,
+      "admitted": 29
     },
     {
       "js_code": "JS2510",
@@ -2574,7 +2850,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 197,
+      "band_a_apply": 1296,
+      "band_a_offer": 121,
+      "admitted": 198
     },
     {
       "js_code": "JS2610",
@@ -2607,7 +2887,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 122,
+      "band_a_apply": 994,
+      "band_a_offer": 146,
+      "admitted": 155
     },
     {
       "js_code": "JS2620",
@@ -2640,7 +2924,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 667,
+      "band_a_offer": 15,
+      "admitted": 17
     },
     {
       "js_code": "JS2660",
@@ -2673,7 +2961,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 763,
+      "band_a_offer": 29,
+      "admitted": 29
     },
     {
       "js_code": "JS2810",
@@ -2706,7 +2998,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 605,
+      "band_a_offer": 37,
+      "admitted": 37
     },
     {
       "js_code": "JS2910",
@@ -2739,7 +3035,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 145,
+      "band_a_offer": 3,
+      "admitted": 15
     },
     {
       "js_code": "JS2920",
@@ -2772,7 +3072,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 317,
+      "band_a_offer": 35,
+      "admitted": 35
     },
     {
       "js_code": "JS2930",
@@ -2805,7 +3109,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 331,
+      "band_a_offer": 12,
+      "admitted": 12
     },
     {
       "js_code": "JS2940",
@@ -2838,7 +3146,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 332,
+      "band_a_offer": 30,
+      "admitted": 42
     },
     {
       "js_code": "JS2950",
@@ -2871,7 +3183,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 59,
+      "band_a_offer": 11,
+      "admitted": 15
     },
     {
       "js_code": "JS2960",
@@ -2904,7 +3220,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3000",
@@ -2944,7 +3264,11 @@
       "actual_2026_note": "理大 2026 正式遴選統計沒有公布本課程可參考分數。",
       "actual_2026_no_score": true,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3003",
@@ -2977,7 +3301,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 179.2,以及「中位數」(Percentile Median) 179 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 179。若你在理大官網見到 179.2,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3004",
@@ -3017,7 +3345,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 188.8,以及「中位數」(Percentile Median) 184 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 184。若你在理大官網見到 188.8,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 33,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3005",
@@ -3050,7 +3382,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(體育由 x5 升至 x7)。但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。2026 入學實際計法請以理大官方分數計算機為準。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 216.6,以及「中位數」(Percentile Median) 215 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 215。若你在理大官網見到 216.6,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3006",
@@ -3083,7 +3419,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(14 科文科及術科由 x5 升至 x7)。但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。2026 入學實際計法請以理大官方分數計算機為準。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 220.4,以及「中位數」(Percentile Median) 215 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 215。若你在理大官網見到 220.4,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 14,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3007",
@@ -3123,7 +3463,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 185.5,以及「中位數」(Percentile Median) 185 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 185。若你在理大官網見到 185.5,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 13,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3008",
@@ -3156,7 +3500,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 211.4,以及「中位數」(Percentile Median) 208 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 208。若你在理大官網見到 211.4,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3011",
@@ -3189,7 +3537,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大於 2024/25 學年將組合課程 JS3010 重組為本課程及 JS3255,故本課程並無 2023 年及之前的收生分數。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 212.2,以及「中位數」(Percentile Median) 209 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 209。若你在理大官網見到 212.2,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 55,
+      "band_a_apply": 252,
+      "band_a_offer": 43,
+      "admitted": 53
     },
     {
       "js_code": "JS3030",
@@ -3222,7 +3574,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 216.3,以及「中位數」(Percentile Median) 215 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 215。若你在理大官網見到 216.3,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 23,
+      "band_a_apply": 178,
+      "band_a_offer": 17,
+      "admitted": 22
     },
     {
       "js_code": "JS3050",
@@ -3262,7 +3618,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 170.4,以及「中位數」(Percentile Median) 177 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 177。若你在理大官網見到 170.4,那是平均分,不是中位數。理大官方 2023 年數據原文印「中位數 142、下四分位數 152」——下四分位數不可能高於中位數,兩數應屬互調。本頁按統計一致方向顯示(中位數 152、下四分位數 142),特此說明。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 101,
+      "band_a_apply": 837,
+      "band_a_offer": 77,
+      "admitted": 82
     },
     {
       "js_code": "JS3060",
@@ -3295,7 +3655,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 188.2,以及「中位數」(Percentile Median) 185.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 185.5。若你在理大官網見到 188.2,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 78,
+      "band_a_apply": 620,
+      "band_a_offer": 99,
+      "admitted": 108
     },
     {
       "js_code": "JS3070",
@@ -3328,7 +3692,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 180.9,以及「中位數」(Percentile Median) 179 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 179。若你在理大官網見到 180.9,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 43,
+      "band_a_apply": 515,
+      "band_a_offer": 42,
+      "admitted": 46
     },
     {
       "js_code": "JS3080",
@@ -3361,7 +3729,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 184,以及「中位數」(Percentile Median) 182.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 182.5。若你在理大官網見到 184,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 48,
+      "band_a_apply": 664,
+      "band_a_offer": 59,
+      "admitted": 65
     },
     {
       "js_code": "JS3130",
@@ -3394,7 +3766,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 211.1,以及「中位數」(Percentile Median) 206 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 206。若你在理大官網見到 211.1,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 173,
+      "band_a_offer": 26,
+      "admitted": 26
     },
     {
       "js_code": "JS3140",
@@ -3427,7 +3803,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 220.4,以及「中位數」(Percentile Median) 210 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 210。若你在理大官網見到 220.4,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 49,
+      "band_a_apply": 426,
+      "band_a_offer": 39,
+      "admitted": 48
     },
     {
       "js_code": "JS3150",
@@ -3460,7 +3840,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(設計與應用科技、ICT 由 x5 升至 x10)。但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。2026 入學實際計法請以理大官方分數計算機為準。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 226,以及「中位數」(Percentile Median) 218 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 218。若你在理大官網見到 226,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 22,
+      "band_a_apply": 108,
+      "band_a_offer": 28,
+      "admitted": 42
     },
     {
       "js_code": "JS3160",
@@ -3493,7 +3877,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程 2026 年新開辦。理大明言不能提供任何以往年度的收生分數作參考,故本頁不以往年分數作收生比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 18,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3170",
@@ -3526,7 +3914,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 221.9,以及「中位數」(Percentile Median) 215 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 215。若你在理大官網見到 221.9,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 49,
+      "band_a_apply": 494,
+      "band_a_offer": 48,
+      "admitted": 52
     },
     {
       "js_code": "JS3180",
@@ -3559,7 +3951,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 222.5,以及「中位數」(Percentile Median) 218 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 218。若你在理大官網見到 222.5,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 56,
+      "band_a_apply": 608,
+      "band_a_offer": 42,
+      "admitted": 50
     },
     {
       "js_code": "JS3211",
@@ -3592,7 +3988,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程 2024 年及之前以舊編號 JS3110 招生,歷年分數圖中的往年數字為 JS3110 的官方收生分數。理大並無明文交代兩者的承接關係,僅供參考。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 184.7,以及「中位數」(Percentile Median) 181.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 181.5。若你在理大官網見到 184.7,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 38,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3214",
@@ -3632,7 +4032,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 169.4,以及「中位數」(Percentile Median) 165.8 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 165.8。若你在理大官網見到 169.4,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 27,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3220",
@@ -3665,7 +4069,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(共 28 科變動,理科及商科選修由 x7 升至 x10、其餘由 x5 升至 x7);但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。本課程於 2025 年由組合課程 JS3020 拆分而成,理大並無公布本課程 2024 年及之前的收生分數。JS3020 當年的數字屬整個組合課程,不能代表本課程,故不予顯示。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 200.7,以及「中位數」(Percentile Median) 193.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 193.5。若你在理大官網見到 200.7,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3223",
@@ -3698,7 +4106,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(14 科文科及術科由 x5 升至 x7);但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。本課程於 2025 年由組合課程 JS3020 拆分而成,理大並無公布本課程 2024 年及之前的收生分數。JS3020 當年的數字屬整個組合課程,不能代表本課程,故不予顯示。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 220.4,以及「中位數」(Percentile Median) 220 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 220。若你在理大官網見到 220.4,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 32,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3236",
@@ -3731,7 +4143,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程 2024 年及之前以舊編號 JS3557 招生,歷年分數圖中的往年數字為 JS3557 的官方收生分數。理大並無明文交代兩者的承接關係,僅供參考。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 196.5,以及「中位數」(Percentile Median) 195 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 195。若你在理大官網見到 196.5,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 46,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3237",
@@ -3764,7 +4180,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(M1、M2 由 x5 升至 x10);但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。本課程 2024 年及之前以舊編號 JS3571 招生,歷年分數圖中的往年數字為 JS3571 的官方收生分數。理大並無明文交代兩者的承接關係,僅供參考。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 194.3,以及「中位數」(Percentile Median) 195 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 195。若你在理大官網見到 194.3,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 43,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3240",
@@ -3804,7 +4224,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 178.4,以及「中位數」(Percentile Median) 178 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 178。若你在理大官網見到 178.4,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 32,
+      "band_a_apply": 119,
+      "band_a_offer": 23,
+      "admitted": 28
     },
     {
       "js_code": "JS3243",
@@ -3844,7 +4268,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程 2026 年新開辦,由 JS3241 重組而成,理大並無公布本課程的收生分數。理大只列出前身 JS3241 於 2025 年的平均分 200.6 作參考,該數並非本課程的收生中位數,故本頁不以往年分數作收生比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3242",
@@ -3884,7 +4312,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程於 2025 年首度獨立招生,故沒有 2024 及之前的收生數據。本頁 2025 年中位數 264.3 為理大官方公布,與本頁計分基準一致。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 267,以及「中位數」(Percentile Median) 264.3 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 264.3。若你在理大官網見到 267,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3250",
@@ -3917,7 +4349,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 171.1,以及「中位數」(Percentile Median) 171.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 171.5。若你在理大官網見到 171.1,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 64,
+      "band_a_apply": 400,
+      "band_a_offer": 38,
+      "admitted": 38
     },
     {
       "js_code": "JS3255",
@@ -3950,7 +4386,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程 2024 年及之前以舊編號 JS3910 招生,歷年分數圖中的往年數字為 JS3910 的官方收生分數。理大並無明文交代兩者的承接關係,僅供參考。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 210.6,以及「中位數」(Percentile Median) 203 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 203。若你在理大官網見到 210.6,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 59,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3290",
@@ -3990,7 +4430,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(中文由 x7 升至 x10)。但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。2026 入學實際計法請以理大官方分數計算機為準。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 260.6,以及「中位數」(Percentile Median) 277.8 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 277.8。若你在理大官網見到 260.6,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 199,
+      "band_a_offer": 53,
+      "admitted": 55
     },
     {
       "js_code": "JS3310",
@@ -4023,7 +4467,11 @@
       "actual_2026_note": "理大 2026/27 已調整本課程科目比重(英文由 x10 降至 x7)。但官方公布的 2025 收生中位數仍以 2025/26 比重計算,故本頁分數亦沿用 2025/26 比重,令你的分數與中位數維持同一基準。2026 入學實際計法請以理大官方分數計算機為準。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 170.6,以及「中位數」(Percentile Median) 166.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 166.5。若你在理大官網見到 170.6,那是平均分,不是中位數。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 74,
+      "band_a_apply": 1086,
+      "band_a_offer": 75,
+      "admitted": 75
     },
     {
       "js_code": "JS3320",
@@ -4063,7 +4511,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 221.4,以及「中位數」(Percentile Median) 223 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 223。若你在理大官網見到 221.4,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 16,
+      "band_a_apply": 280,
+      "band_a_offer": 19,
+      "admitted": 23
     },
     {
       "js_code": "JS3337",
@@ -4096,7 +4548,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 216.1,以及「中位數」(Percentile Median) 209 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 209。若你在理大官網見到 216.1,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 70,
+      "band_a_apply": 482,
+      "band_a_offer": 58,
+      "admitted": 58
     },
     {
       "js_code": "JS3375",
@@ -4136,7 +4592,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程於 2025 年由組合課程 JS3120 拆分而成,理大並無公布本課程 2024 年及之前的收生分數。JS3120 當年的數字屬整個組合課程,不能代表本課程,故不予顯示。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 225.1,以及「中位數」(Percentile Median) 220 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 220。若你在理大官網見到 225.1,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3478",
@@ -4176,7 +4636,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 310.5,以及「中位數」(Percentile Median) 309 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 309。若你在理大官網見到 310.5,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 313,
+      "band_a_offer": 54,
+      "admitted": 56
     },
     {
       "js_code": "JS3569",
@@ -4209,7 +4673,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方文件將本課程 2025 年的中位數與下四分位數印反(中位數低於下四分位數)。本頁按數值大小顯示,中位數 190.0、下四分位數 178.0,與官方印刷的排列相反。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 200,以及「中位數」(Percentile Median) 190 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 190。若你在理大官網見到 200,那是平均分,不是中位數。理大官方 2025 年數據原文印「中位數 178、下四分位數 190」——下四分位數不可能高於中位數,兩數應屬互調。本頁按統計一致方向顯示(中位數 190、下四分位數 178),特此說明。理大官方 2024 年數據原文印「中位數 176、下四分位數 202.5」——下四分位數不可能高於中位數,兩數應屬互調。本頁按統計一致方向顯示(中位數 202.5、下四分位數 176),特此說明。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 83,
+      "band_a_apply": 822,
+      "band_a_offer": 80,
+      "admitted": 80
     },
     {
       "js_code": "JS3612",
@@ -4249,7 +4717,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 339.9,以及「中位數」(Percentile Median) 339 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 339。若你在理大官網見到 339.9,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 115,
+      "band_a_apply": 439,
+      "band_a_offer": 107,
+      "admitted": 108
     },
     {
       "js_code": "JS3624",
@@ -4282,7 +4754,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方文件將本課程 2025 年的中位數與下四分位數印反(中位數低於下四分位數)。本頁按數值大小顯示,中位數 279.5、下四分位數 278.0,與官方印刷的排列相反。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 285.6,以及「中位數」(Percentile Median) 279.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 279.5。若你在理大官網見到 285.6,那是平均分,不是中位數。理大官方 2025 年數據原文印「中位數 278、下四分位數 279.5」——下四分位數不可能高於中位數,兩數應屬互調。本頁按統計一致方向顯示(中位數 279.5、下四分位數 278),特此說明。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 100,
+      "band_a_apply": 343,
+      "band_a_offer": 78,
+      "admitted": 78
     },
     {
       "js_code": "JS3636",
@@ -4315,7 +4791,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 329.3,以及「中位數」(Percentile Median) 320 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 320。若你在理大官網見到 329.3,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 150,
+      "band_a_apply": 409,
+      "band_a_offer": 124,
+      "admitted": 128
     },
     {
       "js_code": "JS3648",
@@ -4348,7 +4828,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 222.7,以及「中位數」(Percentile Median) 218 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 218。若你在理大官網見到 222.7,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 193,
+      "band_a_apply": 1007,
+      "band_a_offer": 171,
+      "admitted": 176
     },
     {
       "js_code": "JS3739",
@@ -4381,7 +4865,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程於 2025 年由組合課程 JS3120 拆分而成,理大並無公布本課程 2024 年及之前的收生分數。JS3120 當年的數字屬整個組合課程,不能代表本課程,故不予顯示。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 218.5,以及「中位數」(Percentile Median) 216.5 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 216.5。若你在理大官網見到 218.5,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 87,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3741",
@@ -4414,7 +4902,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 216.6,以及「中位數」(Percentile Median) 208 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 208。若你在理大官網見到 216.6,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 51,
+      "band_a_apply": 365,
+      "band_a_offer": 34,
+      "admitted": 41
     },
     {
       "js_code": "JS3789",
@@ -4454,7 +4946,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程於 2025 年由組合課程 JS3100 拆分而成,理大並無公布本課程 2024 年及之前的收生分數。JS3100 當年的數字屬整個組合課程,不能代表本課程,故不予顯示。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 178.4,以及「中位數」(Percentile Median) 175.8 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 175.8。若你在理大官網見到 178.4,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 65,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3791",
@@ -4494,7 +4990,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】本課程於 2025 年由組合課程 JS3100 拆分而成,理大並無公布本課程 2024 年及之前的收生分數。JS3100 當年的數字屬整個組合課程,不能代表本課程,故不予顯示。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 192,以及「中位數」(Percentile Median) 188.1 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 188.1。若你在理大官網見到 192,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 22,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS3868",
@@ -4527,7 +5027,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 228.5,以及「中位數」(Percentile Median) 230 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 230。若你在理大官網見到 228.5,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 74,
+      "band_a_apply": 627,
+      "band_a_offer": 80,
+      "admitted": 90
     },
     {
       "js_code": "JS4006",
@@ -4560,7 +5064,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 18,
+      "band_a_apply": 130,
+      "band_a_offer": 22,
+      "admitted": 22
     },
     {
       "js_code": "JS4018",
@@ -4593,7 +5101,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 79,
+      "band_a_apply": 353,
+      "band_a_offer": 80,
+      "admitted": 80
     },
     {
       "js_code": "JS4032",
@@ -4626,7 +5138,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 55,
+      "band_a_apply": 258,
+      "band_a_offer": 49,
+      "admitted": 49
     },
     {
       "js_code": "JS4044",
@@ -4659,7 +5175,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": 294,
+      "band_a_offer": 19,
+      "admitted": 19
     },
     {
       "js_code": "JS4056",
@@ -4692,7 +5212,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 48,
+      "band_a_apply": 323,
+      "band_a_offer": 46,
+      "admitted": 46
     },
     {
       "js_code": "JS4068",
@@ -4725,7 +5249,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 22,
+      "band_a_apply": 331,
+      "band_a_offer": 22,
+      "admitted": 22
     },
     {
       "js_code": "JS4070",
@@ -4758,7 +5286,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 22,
+      "band_a_apply": 136,
+      "band_a_offer": 20,
+      "admitted": 23
     },
     {
       "js_code": "JS4082",
@@ -4791,7 +5323,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 27,
+      "band_a_apply": 177,
+      "band_a_offer": 26,
+      "admitted": 26
     },
     {
       "js_code": "JS4094",
@@ -4824,7 +5360,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": 181,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS4100",
@@ -4857,7 +5397,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 37,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS4109",
@@ -4890,7 +5434,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 160,
+      "band_a_offer": 16,
+      "admitted": 16
     },
     {
       "js_code": "JS4111",
@@ -4923,7 +5471,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 25,
+      "band_a_offer": 0,
+      "admitted": 0
     },
     {
       "js_code": "JS4123",
@@ -4956,7 +5508,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 32,
+      "band_a_apply": 214,
+      "band_a_offer": 29,
+      "admitted": 30
     },
     {
       "js_code": "JS4136",
@@ -4989,7 +5545,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 221,
+      "band_a_offer": 10,
+      "admitted": 10
     },
     {
       "js_code": "JS4202",
@@ -5022,7 +5582,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 222,
+      "band_a_apply": 1030,
+      "band_a_offer": 202,
+      "admitted": 202
     },
     {
       "js_code": "JS4214",
@@ -5055,7 +5619,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 55,
+      "band_a_offer": 15,
+      "admitted": 15
     },
     {
       "js_code": "JS4226",
@@ -5088,7 +5656,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 470,
+      "band_a_offer": 50,
+      "admitted": 50
     },
     {
       "js_code": "JS4238",
@@ -5121,7 +5693,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": 168,
+      "band_a_offer": 46,
+      "admitted": 46
     },
     {
       "js_code": "JS4240",
@@ -5154,7 +5730,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 126,
+      "band_a_apply": 415,
+      "band_a_offer": 110,
+      "admitted": 110
     },
     {
       "js_code": "JS4252",
@@ -5187,7 +5767,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 37,
+      "band_a_apply": 146,
+      "band_a_offer": 33,
+      "admitted": 33
     },
     {
       "js_code": "JS4254",
@@ -5220,7 +5804,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 24,
+      "band_a_apply": 53,
+      "band_a_offer": 14,
+      "admitted": 14
     },
     {
       "js_code": "JS4264",
@@ -5253,7 +5841,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 64,
+      "band_a_offer": 22,
+      "admitted": 22
     },
     {
       "js_code": "JS4276",
@@ -5286,7 +5878,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 46,
+      "band_a_offer": 15,
+      "admitted": 15
     },
     {
       "js_code": "JS4320",
@@ -5319,7 +5915,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS4329",
@@ -5352,7 +5952,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 447,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS4331",
@@ -5385,7 +5989,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 12,
+      "band_a_apply": 95,
+      "band_a_offer": 14,
+      "admitted": 14
     },
     {
       "js_code": "JS4343",
@@ -5418,7 +6026,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 12,
+      "band_a_apply": 60,
+      "band_a_offer": 14,
+      "admitted": 14
     },
     {
       "js_code": "JS4361",
@@ -5451,7 +6063,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 12,
+      "band_a_apply": 104,
+      "band_a_offer": 15,
+      "admitted": 15
     },
     {
       "js_code": "JS4372",
@@ -5484,7 +6100,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 21,
+      "band_a_apply": 438,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS4386",
@@ -5517,7 +6137,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 78,
+      "band_a_offer": 10,
+      "admitted": 14
     },
     {
       "js_code": "JS4408",
@@ -5550,7 +6174,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 53,
+      "band_a_apply": 357,
+      "band_a_offer": 53,
+      "admitted": 53
     },
     {
       "js_code": "JS4412",
@@ -5583,7 +6211,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 107,
+      "band_a_apply": 433,
+      "band_a_offer": 116,
+      "admitted": 116
     },
     {
       "js_code": "JS4416",
@@ -5616,7 +6248,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 46,
+      "band_a_offer": 12,
+      "admitted": 12
     },
     {
       "js_code": "JS4428",
@@ -5649,7 +6285,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 118,
+      "band_a_offer": 35,
+      "admitted": 35
     },
     {
       "js_code": "JS4434",
@@ -5682,7 +6322,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 53,
+      "band_a_apply": 246,
+      "band_a_offer": 39,
+      "admitted": 39
     },
     {
       "js_code": "JS4446",
@@ -5715,7 +6359,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 75,
+      "band_a_apply": 216,
+      "band_a_offer": 67,
+      "admitted": 67
     },
     {
       "js_code": "JS4458",
@@ -5748,7 +6396,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 53,
+      "band_a_apply": 310,
+      "band_a_offer": 54,
+      "admitted": 54
     },
     {
       "js_code": "JS4460",
@@ -5781,7 +6433,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 44,
+      "band_a_apply": 127,
+      "band_a_offer": 26,
+      "admitted": 26
     },
     {
       "js_code": "JS4462",
@@ -5814,7 +6470,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 28,
+      "band_a_apply": 185,
+      "band_a_offer": 29,
+      "admitted": 29
     },
     {
       "js_code": "JS4468",
@@ -5847,7 +6507,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 108,
+      "band_a_offer": 29,
+      "admitted": 29
     },
     {
       "js_code": "JS4470",
@@ -5880,7 +6544,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS4501",
@@ -5913,7 +6581,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 295,
+      "band_a_apply": 527,
+      "band_a_offer": 170,
+      "admitted": 170
     },
     {
       "js_code": "JS4502",
@@ -5946,7 +6618,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 82,
+      "band_a_offer": 32,
+      "admitted": 32
     },
     {
       "js_code": "JS4513",
@@ -5979,7 +6655,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 217,
+      "band_a_apply": 694,
+      "band_a_offer": 212,
+      "admitted": 212
     },
     {
       "js_code": "JS4525",
@@ -6012,7 +6692,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 59,
+      "band_a_apply": 343,
+      "band_a_offer": 59,
+      "admitted": 59
     },
     {
       "js_code": "JS4537",
@@ -6045,7 +6729,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 31,
+      "band_a_apply": 94,
+      "band_a_offer": 15,
+      "admitted": 15
     },
     {
       "js_code": "JS4542",
@@ -6078,7 +6766,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 202,
+      "band_a_offer": 25,
+      "admitted": 25
     },
     {
       "js_code": "JS4550",
@@ -6135,7 +6827,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": 165,
+      "band_a_offer": 17,
+      "admitted": 17
     },
     {
       "js_code": "JS4601",
@@ -6168,7 +6864,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 352,
+      "band_a_apply": 1428,
+      "band_a_offer": 361,
+      "admitted": 361
     },
     {
       "js_code": "JS4648",
@@ -6201,7 +6901,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 168,
+      "band_a_offer": 35,
+      "admitted": 35
     },
     {
       "js_code": "JS4682",
@@ -6234,7 +6938,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 144,
+      "band_a_offer": 38,
+      "admitted": 38
     },
     {
       "js_code": "JS4690",
@@ -6267,7 +6975,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 72,
+      "band_a_offer": 18,
+      "admitted": 19
     },
     {
       "js_code": "JS4719",
@@ -6300,7 +7012,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 125,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS4725",
@@ -6333,7 +7049,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 51,
+      "band_a_offer": 14,
+      "admitted": 14
     },
     {
       "js_code": "JS4733",
@@ -6366,7 +7086,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 13,
+      "band_a_apply": 34,
+      "band_a_offer": 7,
+      "admitted": 7
     },
     {
       "js_code": "JS4750",
@@ -6399,7 +7123,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 64,
+      "band_a_offer": 15,
+      "admitted": 16
     },
     {
       "js_code": "JS4760",
@@ -6432,7 +7160,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 87,
+      "band_a_offer": 22,
+      "admitted": 22
     },
     {
       "js_code": "JS4801",
@@ -6465,7 +7197,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 63,
+      "band_a_apply": 642,
+      "band_a_offer": 25,
+      "admitted": 25
     },
     {
       "js_code": "JS4812",
@@ -6498,7 +7234,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 31,
+      "band_a_apply": 140,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS4824",
@@ -6531,7 +7271,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 65,
+      "band_a_apply": 334,
+      "band_a_offer": 55,
+      "admitted": 55
     },
     {
       "js_code": "JS4836",
@@ -6564,7 +7308,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 39,
+      "band_a_apply": 305,
+      "band_a_offer": 44,
+      "admitted": 44
     },
     {
       "js_code": "JS4838",
@@ -6597,7 +7345,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": 184,
+      "band_a_offer": 23,
+      "admitted": 23
     },
     {
       "js_code": "JS4848",
@@ -6630,7 +7382,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 37,
+      "band_a_apply": 284,
+      "band_a_offer": 39,
+      "admitted": 39
     },
     {
       "js_code": "JS4850",
@@ -6663,7 +7419,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 43,
+      "band_a_apply": 150,
+      "band_a_offer": 43,
+      "admitted": 43
     },
     {
       "js_code": "JS4858",
@@ -6696,7 +7456,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 9,
+      "band_a_apply": 23,
+      "band_a_offer": 4,
+      "admitted": 4
     },
     {
       "js_code": "JS4862",
@@ -6729,7 +7493,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 56,
+      "band_a_apply": 342,
+      "band_a_offer": 60,
+      "admitted": 60
     },
     {
       "js_code": "JS4874",
@@ -6762,7 +7530,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": 323,
+      "band_a_offer": 37,
+      "admitted": 37
     },
     {
       "js_code": "JS4886",
@@ -6795,7 +7567,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 38,
+      "band_a_apply": 236,
+      "band_a_offer": 37,
+      "admitted": 38
     },
     {
       "js_code": "JS4892",
@@ -6828,7 +7604,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": 62,
+      "band_a_offer": 20,
+      "admitted": 20
     },
     {
       "js_code": "JS4893",
@@ -6861,7 +7641,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": 91,
+      "band_a_offer": 19,
+      "admitted": 19
     },
     {
       "js_code": "JS4903",
@@ -6894,7 +7678,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 73,
+      "band_a_apply": 233,
+      "band_a_offer": 40,
+      "admitted": 40
     },
     {
       "js_code": "JS5101",
@@ -6945,7 +7733,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 69,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS5102",
@@ -6978,7 +7770,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 927,
+      "band_a_offer": 181,
+      "admitted": 188
     },
     {
       "js_code": "JS5103",
@@ -7011,7 +7807,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 1057,
+      "band_a_offer": 193,
+      "admitted": 203
     },
     {
       "js_code": "JS5118",
@@ -7044,7 +7844,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5181",
@@ -7077,7 +7881,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 145,
+      "band_a_offer": 36,
+      "admitted": 36
     },
     {
       "js_code": "JS5212",
@@ -7138,7 +7946,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 93,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5220",
@@ -7203,7 +8015,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 47,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5230",
@@ -7264,7 +8080,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 121,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5240",
@@ -7325,7 +8145,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 119,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5250",
@@ -7386,7 +8210,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 72,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5260",
@@ -7447,7 +8275,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": false
+      "actual_2026_prior_reference_is_2025": false,
+      "quota": 37,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5270",
@@ -7508,7 +8340,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 79,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS5282",
@@ -7569,7 +8405,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 116,
+      "band_a_apply": 522,
+      "band_a_offer": 158,
+      "admitted": 161
     },
     {
       "js_code": "JS5300",
@@ -7602,7 +8442,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 350,
+      "band_a_apply": 1035,
+      "band_a_offer": 235,
+      "admitted": 235
     },
     {
       "js_code": "JS5311",
@@ -7635,7 +8479,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 108,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS5312",
@@ -7668,7 +8516,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": 141,
+      "band_a_offer": 45,
+      "admitted": 45
     },
     {
       "js_code": "JS5313",
@@ -7701,7 +8553,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 64,
+      "band_a_offer": 18,
+      "admitted": 18
     },
     {
       "js_code": "JS5314",
@@ -7734,7 +8590,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 92,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS5315",
@@ -7767,7 +8627,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 67,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS5316",
@@ -7800,7 +8664,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 73,
+      "band_a_offer": 17,
+      "admitted": 17
     },
     {
       "js_code": "JS5317",
@@ -7833,7 +8701,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 28,
+      "band_a_offer": 10,
+      "admitted": 10
     },
     {
       "js_code": "JS5318",
@@ -7866,7 +8738,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 173,
+      "band_a_offer": 56,
+      "admitted": 56
     },
     {
       "js_code": "JS5331",
@@ -7899,7 +8775,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 105,
+      "band_a_offer": 33,
+      "admitted": 33
     },
     {
       "js_code": "JS5332",
@@ -7932,7 +8812,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 65,
+      "band_a_offer": 18,
+      "admitted": 18
     },
     {
       "js_code": "JS5411",
@@ -7965,7 +8849,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 50,
+      "band_a_apply": 242,
+      "band_a_offer": 51,
+      "admitted": 53
     },
     {
       "js_code": "JS5412",
@@ -7998,7 +8886,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 26,
+      "band_a_apply": 77,
+      "band_a_offer": 27,
+      "admitted": 28
     },
     {
       "js_code": "JS5711",
@@ -8031,7 +8923,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 25,
+      "band_a_offer": 7,
+      "admitted": 7
     },
     {
       "js_code": "JS5811",
@@ -8064,7 +8960,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 65,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS5812",
@@ -8097,7 +8997,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 21,
+      "band_a_apply": 149,
+      "band_a_offer": 23,
+      "admitted": 23
     },
     {
       "js_code": "JS5813",
@@ -8130,7 +9034,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 49,
+      "band_a_offer": 14,
+      "admitted": 14
     },
     {
       "js_code": "JS5814",
@@ -8163,7 +9071,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 22,
+      "band_a_apply": 68,
+      "band_a_offer": 23,
+      "admitted": 23
     },
     {
       "js_code": "JS5822",
@@ -8196,7 +9108,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 18,
+      "band_a_apply": 31,
+      "band_a_offer": 17,
+      "admitted": 17
     },
     {
       "js_code": "JS5901",
@@ -8229,7 +9145,11 @@
       "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自科大官方公布，包含第六科獎勵。歷年分數可能採用不同公式；學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】歷年分數圖的每一年,均為科大官方公布的當年數字,而科大每年按當年的課程計分公式計算,各年並非同一把尺,宜看水平、不宜看升跌。科大不公布上四分位數。科大官方設「第六科獎勵」:最佳五科以外,第六科按成績可額外加最高 5% 分數(官方公布的收生中位數亦已包含此獎勵)。故本頁分數解構表所列五科之總和以外,總分或會另加第六科獎勵,並非計錯六科。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 22,
+      "band_a_apply": 51,
+      "band_a_offer": 20,
+      "admitted": 20
     },
     {
       "js_code": "JS6004",
@@ -8262,7 +9182,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2023 年度此課程以「Best 6 Subjects」計分,與本年度的「Best 5 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。港大官方公布本課程 2026 年 Expected Score 為 24 分,屬前瞻性參考指標,並非收生中位數(2025 年實際收生中位數為 29 分;2025 年該指標為 26 分,亦同樣低於當年實際中位數)。兩者不宜直接比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 56,
+      "band_a_apply": 102,
+      "band_a_offer": 37,
+      "admitted": 37
     },
     {
       "js_code": "JS6016",
@@ -8295,7 +9219,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 42,
+      "band_a_apply": 178,
+      "band_a_offer": 61,
+      "admitted": 61
     },
     {
       "js_code": "JS6028",
@@ -8328,7 +9256,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 12,
+      "band_a_apply": 38,
+      "band_a_offer": 7,
+      "admitted": 7
     },
     {
       "js_code": "JS6042",
@@ -8361,7 +9293,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 100,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS6054",
@@ -8394,7 +9330,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 217,
+      "band_a_apply": 884,
+      "band_a_offer": 176,
+      "admitted": 176
     },
     {
       "js_code": "JS6274",
@@ -8427,7 +9367,11 @@
       "actual_2026_note": "院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6286",
@@ -8460,7 +9404,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 46,
+      "band_a_offer": 15,
+      "admitted": 15
     },
     {
       "js_code": "JS6298",
@@ -8493,7 +9441,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6755",
@@ -8526,7 +9478,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2023 年度此課程以「Best 4 Subjects」計分,與本年度的「Best 3 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 472,
+      "band_a_offer": 53,
+      "admitted": 53
     },
     {
       "js_code": "JS6767",
@@ -8559,7 +9515,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2023 年度此課程以「Best 4 Subjects」計分,與本年度的「Best 3 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 282,
+      "band_a_offer": 56,
+      "admitted": 56
     },
     {
       "js_code": "JS6781",
@@ -8592,7 +9552,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2023 年度此課程以「Best 4 Subjects」計分,與本年度的「Best 3 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 257,
+      "band_a_offer": 83,
+      "admitted": 83
     },
     {
       "js_code": "JS6860",
@@ -8625,7 +9589,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 104,
+      "band_a_offer": 17,
+      "admitted": 17
     },
     {
       "js_code": "JS6793",
@@ -8658,7 +9626,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2023 年度此課程以「Best 4 Subjects」計分,與本年度的「Best 3 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 81,
+      "band_a_offer": 23,
+      "admitted": 23
     },
     {
       "js_code": "JS6808",
@@ -8691,7 +9663,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 80,
+      "band_a_apply": 100,
+      "band_a_offer": 40,
+      "admitted": 40
     },
     {
       "js_code": "JS6846",
@@ -8724,7 +9700,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2023 年度此課程以「Best 4 Subjects」計分,與本年度的「Best 3 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 87,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS6884",
@@ -8757,7 +9737,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 123,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS6896",
@@ -8790,7 +9774,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 52,
+      "band_a_offer": 18,
+      "admitted": 18
     },
     {
       "js_code": "JS6107",
@@ -8843,7 +9831,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 90,
+      "band_a_apply": 203,
+      "band_a_offer": 55,
+      "admitted": 55
     },
     {
       "js_code": "JS6066",
@@ -8876,7 +9868,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 138,
+      "band_a_offer": 17,
+      "admitted": 17
     },
     {
       "js_code": "JS6080",
@@ -8909,7 +9905,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 102,
+      "band_a_offer": 17,
+      "admitted": 17
     },
     {
       "js_code": "JS6092",
@@ -8942,7 +9942,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 16,
+      "band_a_apply": 178,
+      "band_a_offer": 13,
+      "admitted": 13
     },
     {
       "js_code": "JS6119",
@@ -9007,7 +10011,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 16,
+      "band_a_apply": 143,
+      "band_a_offer": 13,
+      "admitted": 13
     },
     {
       "js_code": "JS6157",
@@ -9040,7 +10048,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2023 年度此課程以「Best 6 Subjects」計分,與本年度的「Best 5 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 48,
+      "band_a_apply": 223,
+      "band_a_offer": 49,
+      "admitted": 49
     },
     {
       "js_code": "JS6303",
@@ -9073,7 +10085,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6315",
@@ -9106,7 +10122,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6339",
@@ -9139,7 +10159,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6353",
@@ -9172,7 +10196,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6377",
@@ -9205,7 +10233,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6925",
@@ -9238,7 +10270,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 75,
+      "band_a_apply": 119,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS6937",
@@ -9271,7 +10307,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 96,
+      "band_a_offer": 26,
+      "admitted": 26
     },
     {
       "js_code": "JS6987",
@@ -9304,7 +10344,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6078",
@@ -9337,7 +10381,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 42,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS6406",
@@ -9370,7 +10418,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 92,
+      "band_a_apply": 237,
+      "band_a_offer": 61,
+      "admitted": 62
     },
     {
       "js_code": "JS6418",
@@ -9403,7 +10455,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 63,
+      "band_a_offer": 4,
+      "admitted": 4
     },
     {
       "js_code": "JS6456",
@@ -9436,7 +10492,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 300,
+      "band_a_apply": 482,
+      "band_a_offer": 155,
+      "admitted": 155
     },
     {
       "js_code": "JS6468",
@@ -9469,7 +10529,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": 769,
+      "band_a_offer": 189,
+      "admitted": 189
     },
     {
       "js_code": "JS6482",
@@ -9502,7 +10566,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 166,
+      "band_a_offer": 22,
+      "admitted": 22
     },
     {
       "js_code": "JS6494",
@@ -9535,7 +10603,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 121,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS6949",
@@ -9568,7 +10640,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 53,
+      "band_a_apply": 122,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS6688",
@@ -9637,7 +10713,11 @@
       "actual_2026_note": "院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 26,
+      "band_a_apply": 105,
+      "band_a_offer": 25,
+      "admitted": 25
     },
     {
       "js_code": "JS6729",
@@ -9670,7 +10750,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 50,
+      "band_a_apply": 239,
+      "band_a_offer": 54,
+      "admitted": 54
     },
     {
       "js_code": "JS6858",
@@ -9740,7 +10824,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 51,
+      "band_a_offer": 24,
+      "admitted": 24
     },
     {
       "js_code": "JS6901",
@@ -9805,7 +10893,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 253,
+      "band_a_apply": 1473,
+      "band_a_offer": 211,
+      "admitted": 211
     },
     {
       "js_code": "JS6705",
@@ -9838,7 +10930,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 74,
+      "band_a_apply": 247,
+      "band_a_offer": 34,
+      "admitted": 35
     },
     {
       "js_code": "JS6717",
@@ -9871,7 +10967,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 72,
+      "band_a_apply": 359,
+      "band_a_offer": 81,
+      "admitted": 81
     },
     {
       "js_code": "JS6731",
@@ -9904,7 +11004,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 202,
+      "band_a_offer": 23,
+      "admitted": 23
     },
     {
       "js_code": "JS6810",
@@ -9937,7 +11041,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 64,
+      "band_a_offer": 35,
+      "admitted": 35
     },
     {
       "js_code": "JS6822",
@@ -9970,7 +11078,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】港大 2024 年度此課程以「Best 5 Subjects」計分,與本年度的「Best 4 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2024 年數據。港大 2023 年度此課程以「Best 5 Subjects」計分,與本年度的「Best 4 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 19,
+      "band_a_apply": 99,
+      "band_a_offer": 10,
+      "admitted": 10
     },
     {
       "js_code": "JS6779",
@@ -10003,7 +11115,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6999",
@@ -10036,7 +11152,11 @@
       "actual_2026_note": "院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 91,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS6224",
@@ -10069,7 +11189,11 @@
       "actual_2026_note": "院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 37,
+      "band_a_apply": 92,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS6236",
@@ -10102,7 +11226,11 @@
       "actual_2026_note": "港大 2026 年收生分數表註明本課程「Insufficient Reference Data」，沒有公布可參考分數。",
       "actual_2026_no_score": true,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 35,
+      "band_a_offer": 1,
+      "admitted": 1
     },
     {
       "js_code": "JS6248",
@@ -10135,7 +11263,11 @@
       "actual_2026_note": "港大 2023 年度此課程以「Best 4 Subjects」計分,與本年度的「Best 3 Subjects」並非同一把尺,兩年分數不可直接比較,故不顯示 2023 年數據。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 24,
+      "band_a_apply": 85,
+      "band_a_offer": 26,
+      "admitted": 26
     },
     {
       "js_code": "JS6250",
@@ -10168,7 +11300,11 @@
       "actual_2026_note": "2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 18,
+      "band_a_apply": 24,
+      "band_a_offer": 9,
+      "admitted": 9
     },
     {
       "js_code": "JS6602",
@@ -10201,7 +11337,11 @@
       "actual_2026_note": "港大 2026 年已將本課程的計分公式由「2×英文 + 2×數學 + 最佳四科」(共六科)改為「2×英文 + 2×數學 + 最佳三科」(共五科),科目加權名單不變(理科/科技科 x2、其他科目 x1.5)。惟官方公布的 2025 年收生分數(中位數 55)仍按六科公式計算,故本頁沿用六科公式,讓你的分數與中位數在同一把尺上比較。按五科新公式計出的分數必然較本頁顯示的低,屬計法不同,不代表機會下降。港大官方 2026 Expected Score 為 48 分(五科公式的前瞻性指標,並非收生中位數),不宜與本頁分數直接比較。 院校已公布 2026 年正式遴選分數，但本課程 2026 年科目比重改動；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS7101",
@@ -10234,7 +11374,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 39,
+      "band_a_apply": 506,
+      "band_a_offer": 42,
+      "admitted": 45
     },
     {
       "js_code": "JS7123",
@@ -10267,7 +11411,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 313,
+      "band_a_offer": 15,
+      "admitted": 15
     },
     {
       "js_code": "JS7133",
@@ -10300,7 +11448,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 441,
+      "band_a_offer": 10,
+      "admitted": 10
     },
     {
       "js_code": "JS7204",
@@ -10333,7 +11485,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 34,
+      "band_a_apply": 237,
+      "band_a_offer": 27,
+      "admitted": 44
     },
     {
       "js_code": "JS7211",
@@ -10366,7 +11522,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 42,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS7212",
@@ -10399,7 +11559,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 7,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS7213",
@@ -10432,7 +11596,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS7214",
@@ -10465,7 +11633,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS7215",
@@ -10498,7 +11670,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 36,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS7216",
@@ -10531,7 +11707,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 252,
+      "band_a_offer": 11,
+      "admitted": 37
     },
     {
       "js_code": "JS7225",
@@ -10564,7 +11744,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 234,
+      "band_a_offer": 17,
+      "admitted": 40
     },
     {
       "js_code": "JS7301",
@@ -10597,7 +11781,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 14,
+      "band_a_apply": 156,
+      "band_a_offer": 12,
+      "admitted": 15
     },
     {
       "js_code": "JS7302",
@@ -10630,7 +11818,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 14,
+      "band_a_apply": 142,
+      "band_a_offer": 8,
+      "admitted": 25
     },
     {
       "js_code": "JS7303",
@@ -10663,7 +11855,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 330,
+      "band_a_offer": 23,
+      "admitted": 31
     },
     {
       "js_code": "JS7304",
@@ -10696,7 +11892,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 18,
+      "band_a_apply": 262,
+      "band_a_offer": 17,
+      "admitted": 21
     },
     {
       "js_code": "JS7305",
@@ -10729,7 +11929,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 8,
+      "band_a_apply": 191,
+      "band_a_offer": 8,
+      "admitted": 16
     },
     {
       "js_code": "JS7306",
@@ -10762,7 +11966,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 16,
+      "band_a_apply": 143,
+      "band_a_offer": 8,
+      "admitted": 22
     },
     {
       "js_code": "JS7307",
@@ -10795,7 +12003,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS7503",
@@ -10828,7 +12040,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 99,
+      "band_a_offer": 11,
+      "admitted": 18
     },
     {
       "js_code": "JS7606",
@@ -10861,7 +12077,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 28,
+      "band_a_apply": 329,
+      "band_a_offer": 24,
+      "admitted": 33
     },
     {
       "js_code": "JS7709",
@@ -10894,7 +12114,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 29,
+      "band_a_apply": 507,
+      "band_a_offer": 27,
+      "admitted": 41
     },
     {
       "js_code": "JS7802",
@@ -10927,7 +12151,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 197,
+      "band_a_offer": 17,
+      "admitted": 27
     },
     {
       "js_code": "JS7905",
@@ -10960,7 +12188,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 361,
+      "band_a_offer": 16,
+      "admitted": 20
     },
     {
       "js_code": "JS8003",
@@ -10993,7 +12225,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 64,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8004",
@@ -11026,7 +12262,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 33,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8013",
@@ -11059,7 +12299,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8009",
@@ -11092,7 +12336,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 44,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8010",
@@ -11125,7 +12373,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8008",
@@ -11158,7 +12410,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 13,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8007",
@@ -11191,7 +12447,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 12,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8005",
@@ -11224,7 +12484,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 12,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8006",
@@ -11257,7 +12521,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8012",
@@ -11290,7 +12558,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 12,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8011",
@@ -11323,7 +12595,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 29,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8507",
@@ -11356,7 +12632,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 264,
+      "band_a_apply": 1389,
+      "band_a_offer": 319,
+      "admitted": 416
     },
     {
       "js_code": "JS8674",
@@ -11389,7 +12669,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 21,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8685",
@@ -11422,7 +12706,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8686",
@@ -11455,7 +12743,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8651",
@@ -11488,7 +12780,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 386,
+      "band_a_offer": 17,
+      "admitted": 20
     },
     {
       "js_code": "JS8663",
@@ -11521,7 +12817,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 268,
+      "band_a_offer": 18,
+      "admitted": 18
     },
     {
       "js_code": "JS8675",
@@ -11554,7 +12854,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 17,
+      "band_a_apply": 75,
+      "band_a_offer": 5,
+      "admitted": 14
     },
     {
       "js_code": "JS8687",
@@ -11587,7 +12891,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 22,
+      "band_a_apply": 296,
+      "band_a_offer": 26,
+      "admitted": 26
     },
     {
       "js_code": "JS8688",
@@ -11620,7 +12928,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8702",
@@ -11653,7 +12965,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 21,
+      "band_a_apply": 239,
+      "band_a_offer": 21,
+      "admitted": 21
     },
     {
       "js_code": "JS8714",
@@ -11686,7 +13002,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 240,
+      "band_a_offer": 17,
+      "admitted": 22
     },
     {
       "js_code": "JS8726",
@@ -11719,7 +13039,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 29,
+      "band_a_apply": 860,
+      "band_a_offer": 30,
+      "admitted": 30
     },
     {
       "js_code": "JS8727",
@@ -11752,7 +13076,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8001",
@@ -11785,7 +13113,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 32,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS8002",
@@ -11818,7 +13150,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 32,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS9009",
@@ -11851,7 +13187,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 100,
+      "band_a_apply": 601,
+      "band_a_offer": 178,
+      "admitted": 277
     },
     {
       "js_code": "JS9010",
@@ -11884,7 +13224,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 120,
+      "band_a_apply": 722,
+      "band_a_offer": 193,
+      "admitted": 378
     },
     {
       "js_code": "JS9011",
@@ -11917,7 +13261,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 189,
+      "band_a_offer": 57,
+      "admitted": 130
     },
     {
       "js_code": "JS9013",
@@ -11950,7 +13298,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": 108,
+      "band_a_offer": 35,
+      "admitted": 82
     },
     {
       "js_code": "JS9016",
@@ -11983,7 +13335,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 70,
+      "band_a_apply": 370,
+      "band_a_offer": 93,
+      "admitted": 177
     },
     {
       "js_code": "JS9019",
@@ -12016,7 +13372,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 230,
+      "band_a_offer": 43,
+      "admitted": 64
     },
     {
       "js_code": "JS9220",
@@ -12049,7 +13409,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 207,
+      "band_a_offer": 52,
+      "admitted": 149
     },
     {
       "js_code": "JS9230",
@@ -12082,7 +13446,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 468,
+      "band_a_offer": 80,
+      "admitted": 80
     },
     {
       "js_code": "JS9240",
@@ -12115,7 +13483,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 145,
+      "band_a_offer": 46,
+      "admitted": 110
     },
     {
       "js_code": "JS9262",
@@ -12148,7 +13520,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 199,
+      "band_a_offer": 25,
+      "admitted": 73
     },
     {
       "js_code": "JS9266",
@@ -12181,7 +13557,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 207,
+      "band_a_offer": 49,
+      "admitted": 80
     },
     {
       "js_code": "JS9276",
@@ -12214,7 +13594,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS9280",
@@ -12247,7 +13631,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 237,
+      "band_a_offer": 35,
+      "admitted": 84
     },
     {
       "js_code": "JS9291",
@@ -12280,7 +13668,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 590,
+      "band_a_offer": 65,
+      "admitted": 106
     },
     {
       "js_code": "JS9294",
@@ -12313,7 +13705,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 245,
+      "band_a_offer": 20,
+      "admitted": 66
     },
     {
       "js_code": "JS9520",
@@ -12346,7 +13742,11 @@
       "actual_2026_note": "都大官方計分器已列出本課程 2026 年收生中位數及下四分位數，但計分器現時顯示中文 x2 比重，與本 App 沿用的 2025 年計法不同，未能確定兩年是否同一把尺；目前「你的分數／入圍機會」仍與 2025 年參考分數比較，不能直接與下表 2026 年分數比較。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": false,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 165,
+      "band_a_offer": 20,
+      "admitted": 25
     },
     {
       "js_code": "JS9530",
@@ -12379,7 +13779,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 142,
+      "band_a_offer": 31,
+      "admitted": 36
     },
     {
       "js_code": "JS9540",
@@ -12412,7 +13816,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 52,
+      "band_a_offer": 11,
+      "admitted": 33
     },
     {
       "js_code": "JS9550",
@@ -12445,7 +13853,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 36,
+      "band_a_offer": 3,
+      "admitted": 21
     },
     {
       "js_code": "JS9555",
@@ -12478,7 +13890,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JS9560",
@@ -12511,7 +13927,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 165,
+      "band_a_offer": 26,
+      "admitted": 29
     },
     {
       "js_code": "JS9580",
@@ -12544,7 +13964,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 390,
+      "band_a_offer": 23,
+      "admitted": 26
     },
     {
       "js_code": "JS9719",
@@ -12577,7 +14001,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 379,
+      "band_a_offer": 36,
+      "admitted": 74
     },
     {
       "js_code": "JS9720",
@@ -12610,7 +14038,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 214,
+      "band_a_offer": 39,
+      "admitted": 50
     },
     {
       "js_code": "JS9731",
@@ -12643,7 +14075,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 190,
+      "band_a_offer": 45,
+      "admitted": 85
     },
     {
       "js_code": "JS9732",
@@ -12676,7 +14112,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 237,
+      "band_a_offer": 70,
+      "admitted": 70
     },
     {
       "js_code": "JS9733",
@@ -12709,7 +14149,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 72,
+      "band_a_offer": 11,
+      "admitted": 36
     },
     {
       "js_code": "JS9776",
@@ -12742,7 +14186,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JSSA01",
@@ -12775,7 +14223,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 640,
+      "band_a_apply": 2705,
+      "band_a_offer": 613,
+      "admitted": 720
     },
     {
       "js_code": "JSSA02",
@@ -12808,7 +14260,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 235,
+      "band_a_offer": 17,
+      "admitted": 28
     },
     {
       "js_code": "JSSA03",
@@ -12841,7 +14297,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 624,
+      "band_a_offer": 60,
+      "admitted": 60
     },
     {
       "js_code": "JSSA04",
@@ -12874,7 +14334,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 208,
+      "band_a_offer": 19,
+      "admitted": 66
     },
     {
       "js_code": "JSSA05",
@@ -12907,7 +14371,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 5,
+      "band_a_apply": 56,
+      "band_a_offer": 4,
+      "admitted": 22
     },
     {
       "js_code": "JSSA06",
@@ -12940,7 +14408,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 482,
+      "band_a_offer": 39,
+      "admitted": 81
     },
     {
       "js_code": "JSSC02",
@@ -12973,7 +14445,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 85,
+      "band_a_offer": 15,
+      "admitted": 27
     },
     {
       "js_code": "JSSH01",
@@ -13006,7 +14482,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 105,
+      "band_a_apply": 529,
+      "band_a_offer": 147,
+      "admitted": 227
     },
     {
       "js_code": "JSSH02",
@@ -13039,7 +14519,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 121,
+      "band_a_offer": 29,
+      "admitted": 64
     },
     {
       "js_code": "JSSH03",
@@ -13072,7 +14556,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 55,
+      "band_a_apply": 312,
+      "band_a_offer": 53,
+      "admitted": 70
     },
     {
       "js_code": "JSSH04",
@@ -13105,7 +14593,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 258,
+      "band_a_offer": 49,
+      "admitted": 89
     },
     {
       "js_code": "JSSH05",
@@ -13138,7 +14630,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 50,
+      "band_a_apply": 182,
+      "band_a_offer": 39,
+      "admitted": 70
     },
     {
       "js_code": "JSSH06",
@@ -13171,7 +14667,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 374,
+      "band_a_offer": 61,
+      "admitted": 76
     },
     {
       "js_code": "JSST01",
@@ -13204,7 +14704,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 400,
+      "band_a_apply": 1889,
+      "band_a_offer": 443,
+      "admitted": 545
     },
     {
       "js_code": "JSST02",
@@ -13237,7 +14741,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": 257,
+      "band_a_offer": 41,
+      "admitted": 46
     },
     {
       "js_code": "JSST03",
@@ -13270,7 +14778,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 141,
+      "band_a_offer": 21,
+      "admitted": 22
     },
     {
       "js_code": "JSST04",
@@ -13303,7 +14815,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 343,
+      "band_a_offer": 65,
+      "admitted": 65
     },
     {
       "js_code": "JSST05",
@@ -13336,7 +14852,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 369,
+      "band_a_offer": 48,
+      "admitted": 48
     },
     {
       "js_code": "JSST06",
@@ -13369,7 +14889,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 54,
+      "band_a_offer": 10,
+      "admitted": 23
     },
     {
       "js_code": "JSST07",
@@ -13402,7 +14926,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 67,
+      "band_a_offer": 14,
+      "admitted": 24
     },
     {
       "js_code": "JSST08",
@@ -13435,7 +14963,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JSSU12",
@@ -13468,7 +15000,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 50,
+      "band_a_apply": 298,
+      "band_a_offer": 66,
+      "admitted": 119
     },
     {
       "js_code": "JSSU14",
@@ -13501,7 +15037,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 80,
+      "band_a_apply": 450,
+      "band_a_offer": 83,
+      "admitted": 118
     },
     {
       "js_code": "JSSU15",
@@ -13534,7 +15074,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": 307,
+      "band_a_offer": 35,
+      "admitted": 54
     },
     {
       "js_code": "JSSU18",
@@ -13567,7 +15111,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 128,
+      "band_a_offer": 20,
+      "admitted": 34
     },
     {
       "js_code": "JSSU40",
@@ -13600,7 +15148,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 410,
+      "band_a_apply": 2046,
+      "band_a_offer": 390,
+      "admitted": 390
     },
     {
       "js_code": "JSSU50",
@@ -13633,7 +15185,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 130,
+      "band_a_apply": 1029,
+      "band_a_offer": 135,
+      "admitted": 135
     },
     {
       "js_code": "JSSU55",
@@ -13666,7 +15222,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 55,
+      "band_a_apply": 295,
+      "band_a_offer": 50,
+      "admitted": 50
     },
     {
       "js_code": "JSSU61",
@@ -13699,7 +15259,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 80,
+      "band_a_apply": 306,
+      "band_a_offer": 87,
+      "admitted": 90
     },
     {
       "js_code": "JSSU67",
@@ -13732,7 +15296,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 60,
+      "band_a_apply": 432,
+      "band_a_offer": 63,
+      "admitted": 63
     },
     {
       "js_code": "JSSU69",
@@ -13765,7 +15333,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 398,
+      "band_a_offer": 55,
+      "admitted": 65
     },
     {
       "js_code": "JSSU70",
@@ -13798,7 +15370,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 35,
+      "band_a_apply": 253,
+      "band_a_offer": 44,
+      "admitted": 60
     },
     {
       "js_code": "JSSU72",
@@ -13831,7 +15407,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 50,
+      "band_a_apply": 286,
+      "band_a_offer": 64,
+      "admitted": 70
     },
     {
       "js_code": "JSSU77",
@@ -13864,7 +15444,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 86,
+      "band_a_offer": 12,
+      "admitted": 28
     },
     {
       "js_code": "JSSU78",
@@ -13897,7 +15481,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 104,
+      "band_a_offer": 8,
+      "admitted": 17
     },
     {
       "js_code": "JSSU79",
@@ -13930,7 +15518,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 45,
+      "band_a_apply": 237,
+      "band_a_offer": 48,
+      "admitted": 65
     },
     {
       "js_code": "JSSU90",
@@ -13963,7 +15555,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": 374,
+      "band_a_offer": 47,
+      "admitted": 81
     },
     {
       "js_code": "JSSU93",
@@ -13996,7 +15592,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 40,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JSSU95",
@@ -14029,7 +15629,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 50,
+      "band_a_apply": 402,
+      "band_a_offer": 70,
+      "admitted": 70
     },
     {
       "js_code": "JSSU96",
@@ -14062,7 +15666,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 205,
+      "band_a_offer": 38,
+      "admitted": 67
     },
     {
       "js_code": "JSSU97",
@@ -14095,7 +15703,11 @@
       "actual_2026_note": "2026 年收生中位數及下四分位數來自都大官方 JUPAS 計分器所列「2026 Intake」數字。學額及 Band A 申請／取錄數字未同步更新至 2026。",
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 147,
+      "band_a_offer": 19,
+      "admitted": 43
     },
     {
       "js_code": "JSSV01",
@@ -14128,7 +15740,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 269,
+      "band_a_offer": 24,
+      "admitted": 51
     },
     {
       "js_code": "JSSV02",
@@ -14161,7 +15777,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 152,
+      "band_a_offer": 10,
+      "admitted": 17
     },
     {
       "js_code": "JSSV03",
@@ -14194,7 +15814,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 67,
+      "band_a_offer": 8,
+      "admitted": 15
     },
     {
       "js_code": "JSSV04",
@@ -14227,7 +15851,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 218,
+      "band_a_offer": 12,
+      "admitted": 24
     },
     {
       "js_code": "JSSV05",
@@ -14260,7 +15888,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 112,
+      "band_a_offer": 5,
+      "admitted": 26
     },
     {
       "js_code": "JSSV07",
@@ -14293,7 +15925,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 67,
+      "band_a_offer": 7,
+      "admitted": 12
     },
     {
       "js_code": "JSSV08",
@@ -14326,7 +15962,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 82,
+      "band_a_offer": 16,
+      "admitted": 26
     },
     {
       "js_code": "JSSV09",
@@ -14359,7 +15999,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 20,
+      "band_a_apply": 267,
+      "band_a_offer": 34,
+      "admitted": 63
     },
     {
       "js_code": "JSSV10",
@@ -14392,7 +16036,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 50,
+      "band_a_offer": 3,
+      "admitted": 5
     },
     {
       "js_code": "JSSV13",
@@ -14425,7 +16073,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     },
     {
       "js_code": "JSSW01",
@@ -14458,7 +16110,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 15,
+      "band_a_apply": 165,
+      "band_a_offer": 18,
+      "admitted": 31
     },
     {
       "js_code": "JSSW02",
@@ -14491,7 +16147,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 10,
+      "band_a_apply": 72,
+      "band_a_offer": 5,
+      "admitted": 8
     },
     {
       "js_code": "JSSY01",
@@ -14524,7 +16184,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 25,
+      "band_a_apply": 167,
+      "band_a_offer": 26,
+      "admitted": 62
     },
     {
       "js_code": "JSSY02",
@@ -14557,7 +16221,11 @@
       "actual_2026_note": null,
       "actual_2026_no_score": null,
       "actual_2026_comparable_to_calculator": null,
-      "actual_2026_prior_reference_is_2025": null
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": 30,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null
     }
   ]
 }

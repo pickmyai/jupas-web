@@ -10,7 +10,13 @@ const data = JSON.parse(read('src/data/app-admissions.json'));
 assert.equal(sha(JSON.stringify(data.programmes)), data.programmeSha256, 'Generated rows changed: run sync-app-data.py instead of hand-editing');
 assert.equal(sha(read('public/tools/app-score-engine.js')), data.engineSha256, 'Generated engine changed');
 assert.equal(new Set(data.programmes.map(p => p.js_code)).size, data.programmes.length);
-assert(data.programmes.every(p => !('grad_salary_k' in p) && !('band_a_apply' in p)));
+assert(data.programmes.every(p => !('grad_salary_k' in p) && !('weightings' in p)));
+// Enrichment is a public subset only: no ratings / editor's take / MBTI / long-run salaries.
+const enrichment = JSON.parse(read('src/data/app-enrichment.json'));
+for (const entry of Object.values(enrichment.programmes)) {
+  assert(Object.keys(entry).every(k => enrichment.fields.includes(k)), 'App-only enrichment field leaked into the website');
+  for (const c of entry.career_paths ?? []) assert(!('salary_y10' in c) && !('salary_y20' in c));
+}
 assert.equal(data.statisticsYear, 2026, 'Update year mapping and article interpretation together');
 assert(data.parityCases >= data.programmes.filter(p => p.institution === 'HKU').length * 15);
 // The sibling app need not exist on Vercel. Where it does, also reject engine

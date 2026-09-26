@@ -20,7 +20,7 @@ const lastYear = with2026 ? 2026 : 2025;
 const url = `https://www.jupascalculator.app/universities/${school.code.toLowerCase()}/`;
 const others = Object.entries(schools).filter(([, s]) => s.code !== school.code);
 ---
-<Layout title={school.title} description={school.description} schemaType="article"
+<Layout title={school.title} description={school.description} schemaType="article" productShowcase={false}
   articleData={{ title: school.title, description: school.description, url, datePublished: published, dateModified: modified }}
   breadcrumbItems={[{ name: '首頁', url: 'https://www.jupascalculator.app/' }, { name: '院校收生分數', url: 'https://www.jupascalculator.app/universities/' }, { name: `${school.shortName}收生分數`, url }]}>
   <a class="skip-link" href="#article">跳到收生分析</a>

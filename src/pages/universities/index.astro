@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { schools, programmesFor, has2026 } from '../../lib/admissions';
 import '../../styles/universities.css';
 ---
-<Layout title="2026 JUPAS 收生分數｜各大學課程 Median、LQ、UQ 一覽（港大、中大、科大、理大…）" description="按院校查閱 400+ 個 JUPAS 課程 2023–2026 收生分數：科大、理大、港大、都大已更新 2026 年 Median 及 LQ，其餘院校列 2025 年數字；附計分方法及資料備註。" schemaType="website">
+<Layout title="2026 JUPAS 收生分數｜各大學課程 Median、LQ、UQ 一覽（港大、中大、科大、理大…）" description="按院校查閱 400+ 個 JUPAS 課程 2023–2026 收生分數：科大、理大、港大、都大已更新 2026 年 Median 及 LQ，其餘院校列 2025 年數字；附計分方法及資料備註。" schemaType="website" productShowcase={false}>
   <header class="uni-nav"><a class="uni-brand" href="/"><img src="/logo-transparent-96.webp" alt="" width="40" height="40" /><span>DSE Jupas 神器</span></a><a href="/blog/">升學攻略</a></header>
   <main class="uni-main"><nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><span>院校收生分數</span></nav><header class="hub-hero"><p class="eyebrow">JUPAS / 按院校看數據</p><h1>你心儀嘅大學，<br />近年收幾多分？</h1><p class="hero-intro">科大、理大、港大、都大已公布 2026 年收生分數，其餘院校公布後更新。先按院校及課程查閱過往收生位置，再核對計分方法。數字沿用 App 統一資料，公式有變、年份缺項，都會一併交代。</p></header>
   <div class="school-grid">{Object.entries(schools).map(([slug, school]) => <a class="school-card" href={`/universities/${slug}/`}><span class="eyebrow">{school.name}</span><h2>{school.code}</h2><p>{school.intro}</p><div><span>{programmesFor(school.code).length} 個課程 · 2023–{programmesFor(school.code).some(has2026) ? 2026 : 2025}</span><strong>查看分析 →</strong></div></a>)}</div>

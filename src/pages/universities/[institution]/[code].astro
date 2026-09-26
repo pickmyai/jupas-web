@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { schools, snapshot, formatScore as f, slugFor, programmePath, programmesFor, yearRows, latestRow, institutionNames } from '../../../lib/admissions';
+import { schools, snapshot, formatScore as f, slugFor, programmePath, programmesFor, yearRows, latestRow, institutionNames, enrichmentFor, enrichmentVersion, popularityFor } from '../../../lib/admissions';
 import '../../../styles/universities.css';
 
 // One page per JUPAS programme, generated from the app's unified data
@@ -20,7 +20,15 @@ const latest = latestRow(p);
 const usesMean = latest && latest.median == null && latest.mean != null;
 const path = programmePath(p);
 const url = `https://www.jupascalculator.app${path}`;
-const modified = '2026-09-25';
+const modified = '2026-09-26';
+const info = enrichmentFor(p);
+const pop = popularityFor(p);
+const paths = info.career_paths ?? [];
+const perPlace = pop && pop.perPlace.toFixed(1);
+// Applicants per place measures how many people apply, not how hard it is to
+// get in: top programmes (e.g. medicine) draw fewer but higher-scoring
+// applicants. Say so rather than calling them "less contested".
+const popRead = pop && `2025 年每個學額約有 ${perPlace} 名 Band A 申請者。`;
 
 function describe(r) {
   if (!r) return `${uni}並未公布此課程的收生分數`;
@@ -34,7 +42,7 @@ function describe(r) {
 const lead = `${uni}「${p.title}」（${p.js_code}）${describe(latest)}${p.scoring_method ? `，計分方法為 ${p.scoring_method}` : ''}。`;
 const headline = latest ? (usesMean ? `平均分 ${f(latest.mean)}` : `Median ${f(latest.median)}${latest.lq != null ? `・LQ ${f(latest.lq)}` : ''}`) : '收生分數';
 const title = `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} ${p.title} ${latest?.year ?? ''} 收生分數｜${headline}`;
-const description = `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法及科目比重，並可用 DSE Jupas 神器按你的成績計算此課程分數。`;
+const description = `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法${pop ? '、Band A 申請人數' : ''}${paths.length ? '、畢業出路及起薪' : ''}。`;
 
 const notes = [
   rows[0]?.formulaChanged && '2026 年的計分公式與往年不同，2026 年分數不宜直接與之前年份比較。',
@@ -51,9 +59,10 @@ const siblings = programmesFor(school.code)
 const faqPairs = [
   latest && { question: `${p.js_code} ${p.title} ${latest.year} 年收生分數是多少？`, answer: `${describe(latest)}。數字為已取錄學生的分數分布，不是最低錄取線，亦不能預測下一年。` },
   p.scoring_method && { question: `${p.js_code} 用甚麼計分方法？`, answer: `${p.scoring_method}${p.weighting_detail ? `；${p.weighting_detail}` : ''}。` },
+  pop && { question: `${p.js_code} ${p.title}有幾多人報？`, answer: `2025 年有 ${pop.applicants} 名 Band A 申請者，學額 ${pop.places} 個，即每個學額約 ${perPlace} 人。申請人數不代表入學難度，須同時參考收生分數。` },
 ].filter(Boolean);
 ---
-<Layout title={title} description={description} schemaType="article"
+<Layout title={title} description={description} schemaType="article" productShowcase={false}
   articleData={{ title, description, url, datePublished: modified, dateModified: modified }}
   faqPairs={faqPairs}
   breadcrumbItems={[{ name: '首頁', url: 'https://www.jupascalculator.app/' }, { name: '院校收生分數', url: 'https://www.jupascalculator.app/universities/' }, { name: `${school.shortName}收生分數`, url: `https://www.jupascalculator.app/universities/${slug}/` }, { name: p.js_code, url }]}>
@@ -80,6 +89,24 @@ const faqPairs = [
       {p.actual_2026_source && <p class="fine-print">2026 年資料來源：<a href={p.actual_2026_source} rel="nofollow">{uni}官方公布 ↗</a></p>}
     </section>
 
+    {pop && <section id="popularity" class="article-section">
+      <h2>{p.js_code} 申請熱度：<span class={`pop-tier pop-${pop.percentile >= 75 ? 'hot' : pop.percentile >= 25 ? 'mid' : 'low'}`}>{pop.tier}</span></h2>
+      <dl class="pop-stats">
+        <div><dt>Band A 申請</dt><dd>{pop.applicants}</dd></div>
+        <div><dt>學額</dt><dd>{pop.places}</dd></div>
+        <div><dt>每學額人數</dt><dd>{perPlace}</dd></div>
+        {pop.offers != null && <div><dt>Band A 取錄</dt><dd>{pop.offers}</dd></div>}
+      </dl>
+      <p>{popRead}在{school.shortName === '自資院校' ? uni : school.shortName} {pop.peers} 個有數據的課程中，每學額申請人數排第 {pop.rank}。申請熱度只反映報讀人數，不代表入學難度：分數要求高的課程，申請者多數本身成績已高，應同時參考上面的 Median 及 LQ。</p>
+      <p class="fine-print">數字為 JUPAS 2025 年官方統計；申請熱度按每學額 Band A 申請人數，與全部有數據的 JUPAS 課程比較分級。</p>
+    </section>}
+
+    {info.overview?.length > 0 && <section id="overview" class="article-section article-copy">
+      <h2>{p.title}課程簡介</h2>
+      <ul>{info.overview.map(x => <li>{x}</li>)}</ul>
+      {info.tuition_annual && <p><strong>學費：</strong>每年約 HK${Number(info.tuition_annual).toLocaleString('en-HK')}{info.tuition_note ? `（${info.tuition_note}）` : ''}</p>}
+    </section>}
+
     <section id="scoring" class="article-section article-copy">
       <h2>{p.js_code} 計分方法</h2>
       {p.scoring_method && <p><strong>計分：</strong>{p.scoring_method}</p>}
@@ -91,7 +118,18 @@ const faqPairs = [
       <p>Median 是已取錄學生分數的中位數；LQ、UQ 是下、上四分位數。LQ 並非最低錄取線，分數高於 Median 也不代表一定取錄。<a href="/blog/jupas-admission-scores-2026/">閱讀 Median／LQ 的完整讀法</a>。</p>
     </section>
 
-    <aside class="app-next"><div><p class="eyebrow">用你的成績計算</p><h2>{p.js_code} 你有幾多分？</h2><p>DSE Jupas 神器按{uni}此課程的計分方法計算你的分數，並與歷年 Median、LQ 比較；還可以反推哪幾科需要進步多少才達標。計分器免費使用。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>
+    {(paths.length > 0 || info.careers?.length > 0) && <section id="careers" class="article-section">
+      <h2>{p.title}畢業出路及起薪</h2>
+      {info.careers?.length > 0 && <ul class="career-notes">{info.careers.map(x => <li>{x}</li>)}</ul>}
+      {paths.length > 0 && <div class="score-table-scroll" tabindex="0" role="region" aria-label={`${p.js_code} 畢業出路起薪`}>
+        <table class="programme-years"><caption>首年月薪為港幣參考範圍（k＝千元），整理自公開招聘及薪級資料。</caption>
+          <thead><tr><th scope="col">出路</th><th scope="col">首年月薪</th></tr></thead>
+          <tbody>{paths.map(c => <tr><th scope="row">{c.title}{c.needs_further_qualification && <span class="path-note">需另考專業資格</span>}</th><td>{c.salary_y1 ? `$${c.salary_y1}` : '—'}</td></tr>)}</tbody>
+        </table>
+      </div>}
+    </section>}
+
+    <aside class="app-next"><div><p class="eyebrow">用你的成績計算</p><h2>{p.js_code} 你有幾多分？</h2><p>DSE Jupas 神器按{uni}此課程的計分方法計算你的分數，並與歷年 Median、LQ 比較；還可以反推哪幾科需要進步多少才達標。App 內另有六項出路評級，以及入職 10 年、20 年的薪酬走勢。計分器免費使用。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>
 
     {siblings.length > 0 && <section class="article-section">
       <h2>{school.shortName}其他課程收生分數</h2>
@@ -99,6 +137,6 @@ const faqPairs = [
       <p><a href={`/universities/${slug}/`}>查看{school.shortName}全部 {programmesFor(school.code).length} 個課程 →</a></p>
     </section>}
 
-    <p class="fine-print">本頁數字及備註由 DSE Jupas 神器 App 的統一資料產生（資料版本 <code>{snapshot.version}</code>）。本網站並非 JUPAS 或院校官方服務；正式申請以各院校及 JUPAS 最新公布為準。</p>
+    <p class="fine-print">本頁數字及備註由 DSE Jupas 神器 App 的統一資料產生（資料版本 <code>{snapshot.version}</code>；課程簡介及出路 <code>{enrichmentVersion}</code>）。本網站並非 JUPAS 或院校官方服務；正式申請以各院校及 JUPAS 最新公布為準。</p>
   </main>
 </Layout>

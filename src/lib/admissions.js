@@ -1,4 +1,5 @@
 import snapshot from '../data/app-admissions.json';
+import enrichmentSnapshot from '../data/app-enrichment.json';
 
 export { snapshot };
 export const formatScore = value => value == null ? '—' : Number(value).toLocaleString('en-HK', { maximumFractionDigits: 3 });
@@ -100,3 +101,25 @@ export const institutionNames = {
   THEi: '香港高等教育科技學院', 東華學院: '東華學院', 聖方濟各大學: '聖方濟各大學', 恒生大學: '香港恒生大學',
   伍倫貢學院: '香港伍倫貢學院', 樹仁大學: '香港樹仁大學', 珠海學院: '珠海學院', 都會大學: '香港都會大學（自資）',
 };
+
+// ── Public subset of the app's enrichment section (see sync-app-data.py) ──
+export const enrichmentFor = p => enrichmentSnapshot.programmes[p.js_code] ?? {};
+export const enrichmentVersion = enrichmentSnapshot.version;
+
+// ── 申請熱度: same percentile rule as the app's PopularityIndex ──
+// Band A applicants per place, as a percentile of every programme that has
+// both official figures; ties count half. Tiers: ≥90 / ≥75 / ≥25 / rest.
+const perPlace = p => (p.band_a_apply > 0 && p.quota > 0) ? p.band_a_apply / p.quota : null;
+const ratios = snapshot.programmes.map(perPlace).filter(r => r != null).sort((a, b) => a - b);
+export function popularityFor(p) {
+  const r = perPlace(p);
+  if (r == null) return null;
+  const below = ratios.filter(x => x < r).length;
+  const equal = ratios.filter(x => x === r).length;
+  const percentile = (below + equal / 2) / ratios.length * 100;
+  const tier = percentile >= 90 ? '極熱門' : percentile >= 75 ? '熱門' : percentile >= 25 ? '適中' : '較少人報';
+  const peers = snapshot.programmes.filter(x => x.institution === p.institution && perPlace(x) != null)
+    .map(perPlace).sort((a, b) => b - a);
+  return { applicants: p.band_a_apply, places: p.quota, offers: p.band_a_offer, admitted: p.admitted,
+    perPlace: r, percentile, tier, rank: peers.indexOf(r) + 1, peers: peers.length };
+}
