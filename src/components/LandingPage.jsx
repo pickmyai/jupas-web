@@ -27,7 +27,7 @@ export const translations = {
             tagline: "JUPAS 計分器 · 入學分析 · 面試模擬",
             title: "JUPAS 計分器：一秒計好 DSE 分數",
             titleHighlight: "再睇清入學機會同出路",
-            subtitle: "輸入 DSE 成績，按 417 個課程各自嘅院校公式計分，再同歷年 Median、LQ 比較。",
+            subtitle: "DSE Jupas 神器：輸入一次 DSE 成績，即按 417 個課程各自嘅院校公式計分，再同歷年 Median、LQ 比較。",
             bullets: [
                 "八大及自資院校 417 個課程公式",
                 "歷年收生位置、熱門程度同出路評級",
@@ -63,7 +63,7 @@ export const translations = {
             tagline: "JUPAS 计分器 · 入学分析 · 面试模拟",
             title: "JUPAS 计分器：一秒算好 DSE 分数",
             titleHighlight: "再看清入学机会和出路",
-            subtitle: "输入 DSE 成绩，按 417 个课程各自的院校公式计分，再与历年 Median、LQ 比较。",
+            subtitle: "DSE Jupas 神器：输入一次 DSE 成绩，即按 417 个课程各自的院校公式计分，再与历年 Median、LQ 比较。",
             bullets: [
                 "八大及自资院校 417 个课程公式",
                 "历年收生位置、热门程度和出路评级",
@@ -99,7 +99,7 @@ export const translations = {
             tagline: "JUPAS Calculator · Admission Analysis · Interview Sim",
             title: "JUPAS Calculator: Score Your DSE Results in a Second",
             titleHighlight: "Then Compare Admission Chances and Outcomes",
-            subtitle: "Enter your DSE results, score them against each of 417 programmes' own formula, and compare with past median and LQ.",
+            subtitle: "DSE Jupas: enter your DSE results once and score them against each of 417 programmes' own formula, then compare with past median and LQ.",
             bullets: [
                 "Formulas for 417 programmes at the eight universities and self-financing institutions",
                 "Past admission positions, competition and outcome ratings",
@@ -396,10 +396,10 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
                             )}
                             <FadeUp delay={0.26} className="flex flex-wrap gap-3" reveal={false}>
                                 <a href="https://apps.apple.com/app/id6780134101" className="hover:opacity-90 transition-opacity">
-                                    <img src="/ios-icon.png" alt="Download on App Store" className="h-12 w-auto" width="288" height="86" />
+                                    <img src="/ios-icon.png" alt={lang === "en" ? "Download DSE Jupas on the App Store" : tr(lang,"喺 App Store 免費下載 DSE Jupas 神器")} className="h-12 w-auto" width="288" height="86" />
                                 </a>
                                 <a href="https://play.google.com/store/apps/details?id=app.jupas.dse" className="hover:opacity-90 transition-opacity">
-                                    <img src="/android-icon.png" alt="Get it on Google Play" className="h-12 w-auto" width="289" height="86" />
+                                    <img src="/android-icon.png" alt={lang === "en" ? "Get DSE Jupas on Google Play" : tr(lang,"喺 Google Play 免費下載 DSE Jupas 神器")} className="h-12 w-auto" width="289" height="86" />
                                 </a>
                             </FadeUp>
                         </div>
@@ -517,10 +517,10 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
                         <p className="text-amber-50 mb-8">{t.cta.subtitle}</p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <a href="https://apps.apple.com/app/id6780134101" className="hover:opacity-90 transition-opacity">
-                                <img src="/ios-icon.png" alt="Download on App Store" className="h-12 w-auto" width="288" height="86" loading="lazy" />
+                                <img src="/ios-icon.png" alt={lang === "en" ? "Download DSE Jupas on the App Store" : tr(lang,"喺 App Store 免費下載 DSE Jupas 神器")} className="h-12 w-auto" width="288" height="86" loading="lazy" />
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=app.jupas.dse" className="hover:opacity-90 transition-opacity">
-                                <img src="/android-icon.png" alt="Get it on Google Play" className="h-12 w-auto" width="289" height="86" loading="lazy" />
+                                <img src="/android-icon.png" alt={lang === "en" ? "Get DSE Jupas on Google Play" : tr(lang,"喺 Google Play 免費下載 DSE Jupas 神器")} className="h-12 w-auto" width="289" height="86" loading="lazy" />
                             </a>
                         </div>
                     </div>
