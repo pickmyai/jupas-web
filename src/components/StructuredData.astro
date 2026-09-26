@@ -60,7 +60,7 @@ const schemas = {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "DSE Jupas 神器",
-        "alternateName": ["JUPAS 計分器", "JUPAS Calculator", "DSE Jupas"],
+        "alternateName": ["Jupas 神器", "JUPAS神器", "DSE Jupas", "JUPAS 計分器", "JUPAS Calculator"],
         "url": baseUrl.toString()
     },
 
@@ -82,6 +82,8 @@ const schemaList = [schemas.organization];
 
 if (type === 'mobileApplication') {
     schemaList.push(schemas.mobileApplication);
+    // Homepage: Google reads the site name from WebSite markup here.
+    schemaList.push(schemas.website);
 }
 
 if (type === 'website') {

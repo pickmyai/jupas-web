@@ -45,6 +45,10 @@ const {
 	productShowcase = true,
 } = Astro.props;
 
+// Every page title carries the brand so the site owns the "jupas 神器" query.
+const brand = lang.startsWith('zh') ? 'DSE Jupas 神器' : 'DSE Jupas';
+const fullTitle = title.includes(brand) ? title : `${title}｜${brand}`;
+
 const isLocalizedHome = ['/', '/en/', '/zh-cn/'].includes(Astro.url.pathname);
 const alternates = providedAlternates ?? (isLocalizedHome
     ? LANGUAGES.map(l => ({
@@ -64,7 +68,7 @@ import Analytics from '@vercel/analytics/astro';
 		<meta name="google-site-verification" content="vvhtX6UkDycwd5jxCOf5IdoJeHAheh_w-VpFmqIx3BM" />
 
 		<SEO
-			title={title}
+			title={fullTitle}
 			description={description}
 			lang={lang}
 			ogImage={ogImage}
@@ -75,7 +79,7 @@ import Analytics from '@vercel/analytics/astro';
 
 		<StructuredData type={schemaType} articleData={articleData} breadcrumbItems={breadcrumbItems} />
 
-		<title>{title}</title>
+		<title>{fullTitle}</title>
 	</head>
 	<body class="bg-background text-foreground antialiased font-sans">
 		<slot />
