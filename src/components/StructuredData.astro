@@ -12,9 +12,10 @@ interface Props {
     type?: 'website' | 'mobileApplication' | 'article';
     articleData?: ArticleData;
     breadcrumbItems?: Array<{ name: string; url: string }>;
+    faqItems?: Array<{ q: string; a: string }>;
 }
 
-const { type = 'website', articleData, breadcrumbItems } = Astro.props;
+const { type = 'website', articleData, breadcrumbItems, faqItems } = Astro.props;
 
 const baseUrl = Astro.site || new URL(Astro.url.origin);
 
@@ -119,6 +120,17 @@ if (breadcrumbItems && breadcrumbItems.length > 0) {
             "position": i + 1,
             "name": item.name,
             "item": new URL(item.url, baseUrl).toString()
+        }))
+    });
+}
+if (faqItems && faqItems.length > 0) {
+    schemaList.push({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqItems.map(({ q, a }) => ({
+            "@type": "Question",
+            "name": q,
+            "acceptedAnswer": { "@type": "Answer", "text": a }
         }))
     });
 }

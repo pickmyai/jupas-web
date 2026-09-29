@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { planB, routeByKey, faqFromMyths, researched } from '../lib/guides';
+import '../styles/universities.css';
+import '../styles/guides.css';
+
+// Content is generated from the app (app/tool/guides/gen_guides.py), so the
+// website and the app's Plan B page always say the same thing.
+const url = 'https://www.jupascalculator.app/dse-plan-b/';
+const title = 'DSE 放榜 Plan B｜副學士、自資學士、應用教育文憑、內地及海外升學出路比較';
+const description = '2026 年只有 36.8% 日校考生達資助學士一般要求。按你的文憑試成績，比較自資學士、副學士／高級文憑、VTC、應用教育文憑（DAE，取代毅進）、重考、內地、台灣及海外升學的入學要求、學費、資助及陷阱，並附放榜後時序及留位費退款規則。';
+const faq = faqFromMyths(planB.myths);
+---
+<Layout title={title} description={description} schemaType="article" productShowcase={false}
+  articleData={{ title, description, url, datePublished: researched, dateModified: researched }}
+  breadcrumbItems={[{ name: '首頁', url: 'https://www.jupascalculator.app/' }, { name: 'DSE 放榜 Plan B', url }]}
+  faqItems={faq}>
+  <header class="uni-nav"><a class="uni-brand" href="/"><img src="/logo-transparent-96.webp" alt="" width="40" height="40" /><span>DSE Jupas 神器</span></a><a href="/universities/">院校收生分數</a><a href="/blog/">升學攻略</a></header>
+  <main class="uni-main">
+    <nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><span>DSE 放榜 Plan B</span></nav>
+    <header class="hub-hero">
+      <p class="eyebrow">JUPAS 以外的升學出路</p>
+      <h1>DSE 放榜 Plan B<span>按成績揀路線，先看清學費、資助和陷阱</span></h1>
+      <p class="hero-intro">資助學士學額有限，大部分考生最終都會考慮其他路線。以下按考評局、教育局、專上教育資訊平台（CSPE）、學生資助處及各院校公布整理。</p>
+      <div class="stat-cards">
+        {planB.stats.map((s) => <div class="stat-card"><strong>{s.value.zh}</strong><p>{s.label.zh}</p><small>{s.foot.zh}</small></div>)}
+      </div>
+      <p class="data-note" style="margin-top:20px">{planB.residency.text.zh} <a href={planB.residency.url} rel="noopener" target="_blank">政府新聞公報</a></p>
+    </header>
+
+    <nav class="section-nav" aria-label="本頁內容">
+      <a href="#by-grades">按成績揀路線</a><a href="#routes">十條路線比較</a><a href="#after-results">放榜後部署</a><a href="#myths">常見迷思</a><a href="#sources">資料來源</a>
+    </nav>
+
+    <section class="article-section" id="by-grades">
+      <h2>按你的成績，先看這幾條路</h2>
+      <div class="guide-cards">
+        {planB.profiles.map((p) => (
+          <div class="guide-card">
+            <h3>{p.label.zh}</h3>
+            <p><span class="tag">{p.condition.zh}</span></p>
+            <p>{p.advice.zh}</p>
+            <p><strong>可考慮：</strong>{p.routes.map((k, i) => <>{i > 0 && '、'}<a href={`#route-${k}`}>{routeByKey[k].title.zh}</a></>)}</p>
+          </div>
+        ))}
+      </div>
+      <p class="article-copy">想知道自己的成績距離各課程收生分數有多遠，可先查閱<a href="/universities/">院校收生分數</a>。</p>
+    </section>
+
+    <section class="article-section" id="routes">
+      <h2>十條路線：入學要求、學費、資助及要留意的地方</h2>
+      {planB.routes.map((r) => (
+        <div class="route" id={`route-${r.key}`}>
+          <h3>{r.title.zh}</h3>
+          <p class="tagline">{r.tagline.zh}</p>
+          <dl>{r.fields.map((f) => <><dt>{f.label.zh}</dt><dd>{f.value.zh}</dd></>)}</dl>
+          <ul class="pitfalls">{r.pitfalls.map((x) => <li>{x.zh}</li>)}</ul>
+          <p class="src"><a href={r.url} rel="noopener" target="_blank">官方資料</a></p>
+        </div>
+      ))}
+    </section>
+
+    <section class="article-section" id="after-results">
+      <h2>放榜後部署</h2>
+      <h3>放榜後時序</h3>
+      <ol class="after-list">{planB.afterResults.map((s) => <li><strong>{s.when.zh}</strong>{s.what.zh}</li>)}</ol>
+      <div class="article-copy">
+        <h3>副學位留位費退款規則</h3>
+        <ul>{planB.refundRules.map((x) => <li>{x.zh}</li>)}</ul>
+        <h3>報讀副學士前要問院校的問題</h3>
+        <ol style="padding-left:24px;list-style:decimal">{planB.adQuestions.map((x) => <li>{x.zh}</li>)}</ol>
+        <h3>決定重考前的自我檢查</h3>
+        <ul>{planB.retakeCheck.map((x) => <li>{x.zh}</li>)}</ul>
+        <p>各項截止日子見 <a href="/jupas-key-dates/">JUPAS 2027 重要日子</a>；放榜後改選步驟見<a href="/blog/jupas-change-of-choices-guide/">JUPAS 改選攻略</a>。</p>
+      </div>
+    </section>
+
+    <section class="article-section" id="myths">
+      <h2>常見迷思</h2>
+      {planB.myths.map((m) => (
+        <div class="myth">
+          <h3><span class="label no">迷思</span>{m.myth.zh}</h3>
+          <p><span class="label yes">事實</span>{m.fact.zh}</p>
+        </div>
+      ))}
+    </section>
+
+    <aside class="app-next"><div><p class="eyebrow">DSE Jupas 神器 App</p><h2>輸入成績，即時配對路線</h2><p>App 內 Plan B 會按你輸入的文憑試成績，判斷你屬於哪一級，並列出適合的路線；同時可計算 417 個 JUPAS 課程的分數，與歷年 Median、LQ 比較。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>
+
+    <section class="article-section" id="sources">
+      <h2>資料來源</h2>
+      <ul class="source-list">{planB.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.label.zh}</a></li>)}</ul>
+      <p class="fine-print">資料整理於 {researched}。非官方資訊，學費、資助額及日期以各院校及政府部門公布為準。</p>
+    </section>
+  </main>
+</Layout>

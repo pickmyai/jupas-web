@@ -24,6 +24,7 @@ interface Props {
     schemaType?: 'website' | 'mobileApplication' | 'article';
     articleData?: ArticleData;
     breadcrumbItems?: Array<{ name: string; url: string }>;
+    faqItems?: Array<{ q: string; a: string }>;
     alternates?: Array<{ lang: string; url: string }>;
     showProductFooter?: boolean;
     // false: keep the site footer but drop the family product showcase.
@@ -40,6 +41,7 @@ const {
 	schemaType = 'mobileApplication',
 	articleData,
 	breadcrumbItems,
+	faqItems,
 	alternates: providedAlternates,
 	showProductFooter = true,
 	productShowcase = true,
@@ -77,7 +79,7 @@ import Analytics from '@vercel/analytics/astro';
 			alternates={alternates}
 		/>
 
-		<StructuredData type={schemaType} articleData={articleData} breadcrumbItems={breadcrumbItems} />
+		<StructuredData type={schemaType} articleData={articleData} breadcrumbItems={breadcrumbItems} faqItems={faqItems} />
 
 		<title>{fullTitle}</title>
 	</head>

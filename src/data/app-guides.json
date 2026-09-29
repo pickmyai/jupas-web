@@ -1,0 +1,1867 @@
+{
+ "generated_by": "app/tool/guides/gen_guides.py",
+ "researched": "2026-09-29",
+ "keyDates": {
+  "dates": [
+   {
+    "phase": "apply",
+    "tag": "dse",
+    "start": "2026-09-11",
+    "end": "2026-10-07",
+    "url": "https://www.hkeaa.edu.hk/en/hkdse/event_timetable/",
+    "tentative": false,
+    "short": {
+     "zh": "DSE 報名",
+     "en": "DSE entry"
+    },
+    "title": {
+     "zh": "文憑試報名",
+     "en": "HKDSE registration"
+    },
+    "action": {
+     "zh": "學校考生由學校代為報名；自修生須於 10 月 7 日前自行網上報名，並於 10 月 14 日前繳費。",
+     "en": "School candidates are entered by their school. Private candidates register online by 7 Oct and pay by 14 Oct."
+    },
+    "missed": {
+     "zh": "自修生於 10 月 15–20 日逾期繳費，須另付 HK$321。",
+     "en": "Private candidates paying late (15–20 Oct) pay an extra HK$321."
+    },
+    "fee": null
+   },
+   {
+    "phase": "apply",
+    "tag": "jupas",
+    "start": "2026-10-07",
+    "end": "2026-12-02",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-period-and-fee",
+    "tentative": false,
+    "short": {
+     "zh": "JUPAS 報名",
+     "en": "JUPAS opens"
+    },
+    "title": {
+     "zh": "遞交 JUPAS 申請",
+     "en": "Submit your JUPAS application"
+    },
+    "action": {
+     "zh": "開設及啟動帳戶、繳交申請費，並遞交最多 20 個課程選擇。",
+     "en": "Create and activate your account, pay the fee and submit up to 20 programme choices."
+    },
+    "missed": {
+     "zh": "12 月 2 日後只能逾期申請，費用增至 HK$1,000。",
+     "en": "After 2 Dec you can only apply late, for HK$1,000."
+    },
+    "fee": {
+     "zh": "申請費 HK$500",
+     "en": "Application fee HK$500"
+    }
+   },
+   {
+    "phase": "apply",
+    "tag": "overseas",
+    "start": "2026-10-15",
+    "end": null,
+    "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+    "tentative": false,
+    "short": {
+     "zh": "UCAS 牛劍醫科",
+     "en": "UCAS Oxbridge"
+    },
+    "title": {
+     "zh": "UCAS 截止（牛津、劍橋及大部分醫科）",
+     "en": "UCAS deadline: Oxford, Cambridge and most medicine"
+    },
+    "action": {
+     "zh": "計劃報讀英國牛劍或醫科、牙科、獸醫的同學須於當日前遞交。",
+     "en": "Submit by today if you are applying to Oxford, Cambridge or most medicine, dentistry or veterinary courses."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "apply",
+    "tag": "eapp",
+    "start": "2026-12-03",
+    "end": "2027-05-18",
+    "url": "https://www.eapp.gov.hk/en/about/key-dates/",
+    "tentative": false,
+    "short": {
+     "zh": "E-APP 首輪",
+     "en": "E-APP round 1"
+    },
+    "title": {
+     "zh": "E-APP 首輪申請（副學位及自資學士）",
+     "en": "E-APP main round (sub-degrees and self-financed degrees)"
+    },
+    "action": {
+     "zh": "經 E-APP 報讀非聯招的副學士、高級文憑及自資學士，最多 20 個課程。",
+     "en": "Apply to non-JUPAS associate degrees, higher diplomas and self-financed degrees through E-APP, up to 20 programmes."
+    },
+    "missed": null,
+    "fee": {
+     "zh": "各院校自訂申請費",
+     "en": "Each institution sets its own application fee"
+    }
+   },
+   {
+    "phase": "apply",
+    "tag": "jupas",
+    "start": "2026-12-04",
+    "end": "2027-01-13",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-period-and-fee",
+    "tentative": false,
+    "short": {
+     "zh": "JUPAS 逾期申請",
+     "en": "JUPAS late entry"
+    },
+    "title": {
+     "zh": "JUPAS 逾期申請",
+     "en": "JUPAS late applications"
+    },
+    "action": {
+     "zh": "錯過 12 月 2 日的同學，仍可在此期間遞交申請。",
+     "en": "If you missed 2 Dec, you can still apply in this window."
+    },
+    "missed": {
+     "zh": "1 月 13 日後不再接受任何申請。",
+     "en": "No applications are accepted after 13 Jan."
+    },
+    "fee": {
+     "zh": "HK$1,000（申請費 HK$500＋逾期附加費 HK$500）",
+     "en": "HK$1,000 (HK$500 fee + HK$500 late charge)"
+    }
+   },
+   {
+    "phase": "apply",
+    "tag": "overseas",
+    "start": "2027-01-13",
+    "end": null,
+    "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+    "tentative": false,
+    "short": {
+     "zh": "UCAS 截止",
+     "en": "UCAS deadline"
+    },
+    "title": {
+     "zh": "UCAS 截止（其他英國課程）",
+     "en": "UCAS deadline: all other UK courses"
+    },
+    "action": {
+     "zh": "牛劍及醫科以外的英國學士課程，須於當日前遞交。",
+     "en": "Submit applications for all other UK undergraduate courses by today."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "prepare",
+    "tag": "jupas",
+    "start": "2026-10-07",
+    "end": "2027-01-20",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines",
+    "tentative": false,
+    "short": {
+     "zh": "OEA 截止",
+     "en": "OEA due"
+    },
+    "title": {
+     "zh": "遞交比賽／活動經驗及成就（OEA）",
+     "en": "Submit Other Experiences and Achievements (OEA)"
+    },
+    "action": {
+     "zh": "在 JUPAS 帳戶填寫比賽、活動及獎項，最多 10 項。",
+     "en": "Enter competitions, activities and awards in your JUPAS account."
+    },
+    "missed": {
+     "zh": "截止後不接受遞交或修改。",
+     "en": "No submissions or changes are accepted after the deadline."
+    },
+    "fee": null
+   },
+   {
+    "phase": "prepare",
+    "tag": "jupas",
+    "start": "2026-12-04",
+    "end": "2027-05-26",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines",
+    "tentative": false,
+    "short": {
+     "zh": "考前改選截止",
+     "en": "Choices lock"
+    },
+    "title": {
+     "zh": "更新課程選擇（放榜前）及 SLP 截止",
+     "en": "Update choices before results; SLP deadline"
+    },
+    "action": {
+     "zh": "可增刪或調動次序，最多 20 個；5 月 26 日的名單就是放榜前的定案。同日亦是學生學習概覽（SLP）截止。",
+     "en": "Add, drop or reorder up to 20 choices; the list at 26 May is what counts before results. The Student Learning Profile (SLP) is also due."
+    },
+    "missed": null,
+    "fee": {
+     "zh": "每次遞交 HK$100",
+     "en": "HK$100 per submission"
+    }
+   },
+   {
+    "phase": "prepare",
+    "tag": "jupas",
+    "start": "2027-01-20",
+    "end": "2027-03-17",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines",
+    "tentative": false,
+    "short": {
+     "zh": "學校評核報告",
+     "en": "School reference"
+    },
+    "title": {
+     "zh": "學校評核報告（SRR）",
+     "en": "School Reference Report (SRR)"
+    },
+    "action": {
+     "zh": "由學校遞交。宜及早與班主任或升學老師傾談你的志向和強項。",
+     "en": "Your school submits it. Talk to your class or careers teacher early about your goals and strengths."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "prepare",
+    "tag": "jupas",
+    "start": "2027-01-20",
+    "end": "2027-05-10",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines",
+    "tentative": false,
+    "short": {
+     "zh": "校長推薦",
+     "en": "Principal nomination"
+    },
+    "title": {
+     "zh": "校長推薦計劃（SPN）",
+     "en": "School Principal's Nominations (SPN)"
+    },
+    "action": {
+     "zh": "由學校遞交，學生不能自行申請。只有 5 月 26 日時仍在 Band A 的課程才獲考慮。",
+     "en": "Submitted by the school, not the student. Only choices still in Band A on 26 May are considered."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "exam",
+    "tag": "dse",
+    "start": "2027-03-09",
+    "end": "2027-03-18",
+    "url": "https://www.hkeaa.edu.hk/en/hkdse/event_timetable/",
+    "tentative": true,
+    "short": {
+     "zh": "英文口試",
+     "en": "English oral"
+    },
+    "title": {
+     "zh": "英國語文科口試",
+     "en": "English Language speaking exam"
+    },
+    "action": {
+     "zh": "按准考證編排的場次應考。",
+     "en": "Attend your assigned session."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "exam",
+    "tag": "dse",
+    "start": "2027-04-06",
+    "end": "2027-05-03",
+    "url": "https://www.hkeaa.edu.hk/doclibrary/hkdse/exam_timetable/2027_dse_timetable.pdf",
+    "tentative": true,
+    "short": {
+     "zh": "DSE 筆試",
+     "en": "DSE written"
+    },
+    "title": {
+     "zh": "文憑試筆試",
+     "en": "HKDSE written exams"
+    },
+    "action": {
+     "zh": "核心科：中文 4 月 8 日、英文 4 月 9–10 日、數學 4 月 12 日、公民 4 月 13 日。英語文學、科技與生活、體育及音樂的日期於 11 月初確定。",
+     "en": "Core: Chinese 8 Apr, English 9–10 Apr, Maths 12 Apr, CSD 13 Apr. Literature in English, Technology & Living, PE and Music are confirmed in early November."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "exam",
+    "tag": "jupas",
+    "start": "2027-06-16",
+    "end": null,
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines",
+    "tentative": false,
+    "short": {
+     "zh": "確認考試年份",
+     "en": "Confirm exam year"
+    },
+    "title": {
+     "zh": "確認文憑試考試年份",
+     "en": "Confirm your HKDSE exam year(s)"
+    },
+    "action": {
+     "zh": "在 JUPAS 帳戶完成第 5 步，確認應考年份。這是必須完成的步驟。",
+     "en": "Complete Step 5 in your JUPAS account to confirm your exam year(s). This step is mandatory."
+    },
+    "missed": {
+     "zh": "截止後不接受遞交。",
+     "en": "Late submissions are not accepted."
+    },
+    "fee": null
+   },
+   {
+    "phase": "results",
+    "tag": "eapp",
+    "start": "2027-05-21",
+    "end": "2027-07-06",
+    "url": "https://www.eapp.gov.hk/en/about/key-dates/",
+    "tentative": false,
+    "short": {
+     "zh": "E-APP 次輪",
+     "en": "E-APP round 2"
+    },
+    "title": {
+     "zh": "E-APP 次輪申請",
+     "en": "E-APP second round"
+    },
+    "action": {
+     "zh": "首輪錯過或想多報幾個課程，可在次輪申請。",
+     "en": "Apply here if you missed the main round or want to add programmes."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "results",
+    "tag": "dse",
+    "start": "2027-07-14",
+    "end": null,
+    "url": "https://www.hkeaa.edu.hk/en/hkdse/event_timetable/",
+    "tentative": true,
+    "short": {
+     "zh": "放榜",
+     "en": "Results"
+    },
+    "title": {
+     "zh": "文憑試放榜",
+     "en": "HKDSE results released"
+    },
+    "action": {
+     "zh": "回校領取成績，先見升學老師，再決定是否修改課程選擇。",
+     "en": "Collect results at school and see your careers teacher before changing any choices."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "results",
+    "tag": "jupas",
+    "start": "2027-07-14",
+    "end": "2027-07-16",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/modification-of-programme-choices-after-release-of-hkdse-examination-results",
+    "tentative": false,
+    "short": {
+     "zh": "放榜後改選",
+     "en": "Post-results changes"
+    },
+    "title": {
+     "zh": "放榜後修改課程選擇",
+     "en": "Modify choices after results"
+    },
+    "action": {
+     "zh": "7 月 14 日下午 3 時至 16 日下午 3 時。可免費修改一次：新增或替換最多 5 個課程，並可調動次序或刪除。不作修改即沿用 5 月 26 日的名單。",
+     "en": "3pm 14 Jul to 3pm 16 Jul. One free change: add or replace up to 5 programmes, reorder or delete. If you do nothing, the 26 May list stands."
+    },
+    "missed": {
+     "zh": "限期後不能再修改。院校於 7 月 14–16 日不提供諮詢，有疑問須於 13 日前查詢。",
+     "en": "No changes after the deadline. Institutions give no advice on 14–16 Jul, so ask by 13 Jul."
+    },
+    "fee": {
+     "zh": "第二次遞交 HK$250",
+     "en": "A second submission costs HK$250"
+    }
+   },
+   {
+    "phase": "offer",
+    "tag": "jupas",
+    "start": "2027-08-04",
+    "end": null,
+    "url": "https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/main-round-offer",
+    "tentative": false,
+    "short": {
+     "zh": "正式遴選",
+     "en": "Main Round"
+    },
+    "title": {
+     "zh": "正式遴選結果",
+     "en": "Main Round offer results"
+    },
+    "action": {
+     "zh": "上午 9 時登入 JUPAS 查看結果。每人最多只獲一個取錄。",
+     "en": "Log in at 9am to see your result. You receive at most one offer."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "offer",
+    "tag": "jupas",
+    "start": "2027-08-04",
+    "end": "2027-08-05",
+    "url": "https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/main-round-offer",
+    "tentative": false,
+    "short": {
+     "zh": "繳留位費",
+     "en": "Pay deposit"
+    },
+    "title": {
+     "zh": "接受取錄：繳交留位費",
+     "en": "Accept your offer: pay the acceptance fee"
+    },
+    "action": {
+     "zh": "8 月 5 日下午 5 時前繳費，再按院校安排註冊。",
+     "en": "Pay by 5pm on 5 Aug, then register as your institution instructs."
+    },
+    "missed": {
+     "zh": "不繳費即作放棄論，而且同一學年不會再獲 JUPAS 考慮，亦不能參加補選。",
+     "en": "Not paying means you decline the offer and will not be considered again through JUPAS this year, including the Clearing Round."
+    },
+    "fee": {
+     "zh": "HK$5,000，不予退還",
+     "en": "HK$5,000, non-refundable"
+    }
+   },
+   {
+    "phase": "offer",
+    "tag": "dse",
+    "start": "2027-08-11",
+    "end": null,
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines",
+    "tentative": false,
+    "short": {
+     "zh": "覆核結果",
+     "en": "Remark results"
+    },
+    "title": {
+     "zh": "文憑試覆核結果公布",
+     "en": "HKDSE rechecking and remarking results"
+    },
+    "action": {
+     "zh": "2027 年覆核申請日期未公布；2026 年是放榜後約一星期內經學校申請。",
+     "en": "The 2027 remark application window is not yet published; in 2026 it was within about a week after results, through schools."
+    },
+    "missed": null,
+    "fee": null
+   },
+   {
+    "phase": "offer",
+    "tag": "jupas",
+    "start": "2027-08-12",
+    "end": null,
+    "url": "https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/main-round-offer/request-for-reconsideration-of-application",
+    "tentative": false,
+    "short": {
+     "zh": "重新審核",
+     "en": "Reconsideration"
+    },
+    "title": {
+     "zh": "重新審核申請",
+     "en": "Request reconsideration"
+    },
+    "action": {
+     "zh": "只適用於覆核後成績提升的同學：上午 9 時至下午 5 時提出，並可免費修改課程選擇一次。",
+     "en": "Only if remarking raised your grades: submit between 9am and 5pm, with one free change of choices."
+    },
+    "missed": null,
+    "fee": {
+     "zh": "再次修改 HK$250",
+     "en": "A further change costs HK$250"
+    }
+   },
+   {
+    "phase": "offer",
+    "tag": "jupas",
+    "start": "2027-08-19",
+    "end": null,
+    "url": "https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/main-round-offer/request-for-reconsideration-of-application",
+    "tentative": false,
+    "short": {
+     "zh": "重審結果",
+     "en": "Reconsideration result"
+    },
+    "title": {
+     "zh": "重新審核後遴選結果",
+     "en": "Offer results after reconsideration"
+    },
+    "action": {
+     "zh": "如獲新取錄，須即日下午 5 時前繳交留位費；新取錄會取代原有正式遴選取錄。",
+     "en": "If you get a new offer, pay by 5pm the same day; it replaces your Main Round offer."
+    },
+    "missed": null,
+    "fee": {
+     "zh": "HK$5,000",
+     "en": "HK$5,000"
+    }
+   },
+   {
+    "phase": "offer",
+    "tag": "jupas",
+    "start": "2027-08-24",
+    "end": null,
+    "url": "https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/clearing-round-offer",
+    "tentative": false,
+    "short": {
+     "zh": "補選",
+     "en": "Clearing"
+    },
+    "title": {
+     "zh": "補選結果",
+     "en": "Clearing Round results"
+    },
+    "action": {
+     "zh": "只適用於正式遴選未獲取錄的同學，由原有課程選擇中自動考慮。獲取錄須即日繳費及註冊。",
+     "en": "Only for applicants without a Main Round offer, considered automatically from existing choices. Pay and register the same day if you get one."
+    },
+    "missed": {
+     "zh": "不繳費或不註冊即作放棄論。",
+     "en": "Not paying or not registering counts as declining."
+    },
+    "fee": {
+     "zh": "HK$5,000",
+     "en": "HK$5,000"
+    }
+   }
+  ],
+  "phases": [
+   {
+    "key": "apply",
+    "name": {
+     "zh": "報名",
+     "en": "Apply"
+    },
+    "span": {
+     "zh": "9月–1月",
+     "en": "Sep–Jan"
+    }
+   },
+   {
+    "key": "prepare",
+    "name": {
+     "zh": "準備",
+     "en": "Prepare"
+    },
+    "span": {
+     "zh": "1月–5月",
+     "en": "Jan–May"
+    }
+   },
+   {
+    "key": "exam",
+    "name": {
+     "zh": "考試",
+     "en": "Exams"
+    },
+    "span": {
+     "zh": "3月–6月",
+     "en": "Mar–Jun"
+    }
+   },
+   {
+    "key": "results",
+    "name": {
+     "zh": "放榜",
+     "en": "Results"
+    },
+    "span": {
+     "zh": "7月",
+     "en": "Jul"
+    }
+   },
+   {
+    "key": "offer",
+    "name": {
+     "zh": "派位",
+     "en": "Offers"
+    },
+    "span": {
+     "zh": "8月",
+     "en": "Aug"
+    }
+   }
+  ],
+  "checklists": {
+   "apply": [
+    {
+     "zh": "以各次模擬試的平均分定位，不要用最好的一次。例如模擬試介乎 24–28 分，就按 25–26 分揀選。",
+     "en": "Plan from your average mock score, not your best. If mocks range 24–28, plan around 25–26."
+    },
+    {
+     "zh": "Band A 採用「搏前穩後」：A1、A2 放預計分數接近往年 LQ 的課程，A3 放一個分數達往年中位數再高約 5% 的課程。",
+     "en": "Order Band A from ambitious to safe: A1 and A2 near last year's LQ, A3 at or about 5% above last year's median."
+    },
+    {
+     "zh": "需要面試的課程宜放 Band A，部分課程只會邀請 Band A 申請人面試。",
+     "en": "Put programmes with interviews in Band A; some only interview Band A applicants."
+    },
+    {
+     "zh": "逐個課程核對指定科目及計分比重；學額少於 20 個的課程，收生分數每年波動較大。",
+     "en": "Check each programme's required subjects and weightings; small programmes (under 20 places) swing more year to year."
+    },
+    {
+     "zh": "不要只看名氣或收生分數揀科，先問自己是否喜歡該學科的內容。",
+     "en": "Don't pick by prestige or cut-off alone; check you actually like what the programme teaches."
+    },
+    {
+     "zh": "考慮內地或台灣升學的同學，須在 12 月前完成報名，放榜後才決定已經太遲。",
+     "en": "If Mainland or Taiwan study is an option, register before December; deciding after results is too late."
+    }
+   ],
+   "prepare": [
+    {
+     "zh": "盡早完成 OEA 和 SLP。分數相近時，這些資料可能成為取捨依據。",
+     "en": "Finish your OEA and SLP early; they can decide close cases."
+    },
+    {
+     "zh": "及早與升學老師傾談學校評核報告及校長推薦。",
+     "en": "Talk to your careers teacher early about the school reference and principal nomination."
+    },
+    {
+     "zh": "準備面試：熟讀課程結構，準備「為何選讀此課程」的答案；小組討論是最常見的形式。",
+     "en": "Prepare for interviews: know the programme structure and your 'why this programme' answer; group discussion is the most common format."
+    },
+    {
+     "zh": "5 月 26 日前定好課程選擇，之後直至放榜都不能再改。",
+     "en": "Finalise your choices by 26 May; nothing can change until results."
+    }
+   ],
+   "exam": [
+    {
+     "zh": "考試期間不要作升學決定，專心應考。",
+     "en": "Don't make application decisions during exams."
+    },
+    {
+     "zh": "把 JUPAS、E-APP 等帳戶登入資料及截止日期記錄在同一處。",
+     "en": "Keep JUPAS, E-APP and other logins and deadlines in one place."
+    },
+    {
+     "zh": "6 月 16 日前在 JUPAS 確認考試年份，這一步不可遺漏。",
+     "en": "Confirm your exam year in JUPAS by 16 Jun; it is mandatory."
+    }
+   ],
+   "results": [
+    {
+     "zh": "放榜前按 18、22、26 分等情況，預先擬定改選方案。",
+     "en": "Before results day, draft change plans for different outcomes, e.g. 18, 22 and 26 points."
+    },
+    {
+     "zh": "預備 HK$5,000 及設定轉數快，並核對身份證號碼，以便日後繳交留位費。",
+     "en": "Have HK$5,000 ready, set up FPS and double-check your HKID number for the deposit."
+    },
+    {
+     "zh": "放榜當日帶備身份證、成績通知書、中四至中六成績表及 SLP／OEA 副本。",
+     "en": "On results day bring your HKID, results slip, S4–S6 report cards and copies of your SLP/OEA."
+    },
+    {
+     "zh": "先見升學老師，再修改課程選擇；按實際成績重新計算各課程的比重分。",
+     "en": "See your careers teacher before changing choices, and recalculate weighted scores with your real results."
+    },
+    {
+     "zh": "以「覆核不會成功」為前提作決定，覆核結果要到 8 月才公布。",
+     "en": "Decide as if remarking won't help; remark results only come out in August."
+    },
+    {
+     "zh": "只作針對性修改，並在 A3 保留一個有把握的選擇。",
+     "en": "Make targeted changes only and keep a safe choice at A3."
+    },
+    {
+     "zh": "放榜後才加入需面試的課程，未必會獲邀面試。",
+     "en": "Adding an interview programme after results does not guarantee an interview."
+    },
+    {
+     "zh": "不要在最後一刻才遞交；遞交後保存確認頁，並留意電郵及短訊通知。",
+     "en": "Don't submit at the last minute; save the confirmation page and check your email and SMS."
+    }
+   ],
+   "offer": [
+    {
+     "zh": "正式遴選每人最多一個取錄。可以接受的話，須按時繳費及註冊。",
+     "en": "You get at most one Main Round offer. If it is acceptable, pay and register on time."
+    },
+    {
+     "zh": "拒絕取錄後，同一學年不會再獲 JUPAS 考慮，不能「等補選」。",
+     "en": "Declining ends JUPAS for the year; you cannot wait for Clearing instead."
+    },
+    {
+     "zh": "留位費 HK$5,000 一般不獲退還。",
+     "en": "The HK$5,000 acceptance fee is generally non-refundable."
+    },
+    {
+     "zh": "覆核後成績提升，可於 8 月 12 日申請重新審核，已繳留位費可轉用。",
+     "en": "If remarking raises your grades, request reconsideration on 12 Aug; the fee you paid carries over."
+    },
+    {
+     "zh": "正式遴選未獲取錄者會自動進入補選；在此之前，先保留已繳留位費的副學位學額。",
+     "en": "Applicants without an offer go into Clearing automatically; keep any sub-degree place you have secured until then."
+    }
+   ]
+  },
+  "parallel": [
+   {
+    "title": {
+     "zh": "E-APP（副學士、高級文憑、自資學士）",
+     "en": "E-APP (associate degrees, higher diplomas, self-financed degrees)"
+    },
+    "when": {
+     "zh": "首輪 2026年12月3日–2027年5月18日；次輪 2027年5月21日–7月6日",
+     "en": "Main round 3 Dec 2026–18 May 2027; second round 21 May–6 Jul 2027"
+    },
+    "note": {
+     "zh": "與 JUPAS 分開，可同時申請。各院校自訂申請費。",
+     "en": "Separate from JUPAS; you can use both. Each institution sets its own fee."
+    },
+    "published": true,
+    "url": "https://www.eapp.gov.hk/en/about/key-dates/"
+   },
+   {
+    "title": {
+     "zh": "內地高校招收香港中學文憑考試學生計劃（免試）",
+     "en": "Mainland universities' DSE-based admission scheme"
+    },
+    "when": {
+     "zh": "2027/28 未公布；2026/27 於 2025年12月1–31日網上報名",
+     "en": "2027/28 not yet published; 2026/27 registration was 1–31 Dec 2025"
+    },
+    "note": {
+     "zh": "在考試前報名，放榜後才決定已經太遲。最低要求為 332A。",
+     "en": "Register before the exam; deciding after results is too late. Minimum requirement 332A."
+    },
+    "published": false,
+    "url": "https://www.edb.gov.hk/en/edu-system/postsecondary/policy-doc/pilot-scheme.html"
+   },
+   {
+    "title": {
+     "zh": "台灣 港澳生聯合招生",
+     "en": "Taiwan joint admission for Hong Kong students"
+    },
+    "when": {
+     "zh": "2027 年未公布；2026 年個人申請為 2025年11月1日–12月15日，聯合分發為 2026年2月1日–3月15日",
+     "en": "2027 not yet published; for 2026, individual applications ran 1 Nov–15 Dec 2025 and joint distribution 1 Feb–15 Mar 2026"
+    },
+    "note": {
+     "zh": "同樣要在考試前報名。",
+     "en": "Also requires registration before the exam."
+    },
+    "published": false,
+    "url": "https://cmn-hant.overseas.ncnu.edu.tw/further-study-area/national-area/hong-kong-area/"
+   },
+   {
+    "title": {
+     "zh": "英國 UCAS",
+     "en": "UK UCAS"
+    },
+    "when": {
+     "zh": "牛劍及醫科 2026年10月15日；其他課程 2027年1月13日",
+     "en": "Oxbridge and medicine 15 Oct 2026; other courses 13 Jan 2027"
+    },
+    "note": {
+     "zh": "持 BN(O) 簽證未獲定居身分者，須繳付海外生學費。",
+     "en": "BN(O) visa holders without settled status pay international fees."
+    },
+    "published": true,
+    "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications"
+   },
+   {
+    "title": {
+     "zh": "VTC 高級文憑及基礎課程",
+     "en": "VTC higher diplomas and foundation diploma"
+    },
+    "when": {
+     "zh": "2027/28 報名資料將於 2026 年 11 月公布",
+     "en": "2027/28 application details will be announced in November 2026"
+    },
+    "note": {
+     "zh": "高級文憑要求中英文 2 級及另外三科 2 級。",
+     "en": "Higher Diploma requires Chinese 2, English 2 and three more subjects at Level 2."
+    },
+    "published": false,
+    "url": "https://www.vtc.edu.hk/admission/en/admission-s6/"
+   },
+   {
+    "title": {
+     "zh": "應用教育文憑（DAE，取代毅進）",
+     "en": "Diploma of Applied Education (DAE, replaces Yi Jin)"
+    },
+    "when": {
+     "zh": "2027/28 未公布；2026/27 於 2025年12月1日開始接受報名",
+     "en": "2027/28 not yet published; 2026/27 opened 1 Dec 2025"
+    },
+    "note": {
+     "zh": "完成後等同文憑試五科 2 級（包括中英文），可升讀副學位。",
+     "en": "Equivalent to five HKDSE subjects at Level 2 including Chinese and English, for sub-degree entry."
+    },
+    "published": false,
+    "url": "https://www.dae.edu.hk"
+   }
+  ],
+  "myths": [
+   {
+    "myth": {
+     "zh": "拒絕正式遴選的取錄，可以等補選再搏更好的課程。",
+     "en": "I can decline my Main Round offer and wait for a better one in Clearing."
+    },
+    "fact": {
+     "zh": "正式遴選的取錄不論接受與否，同一學年都不會再獲 JUPAS 考慮。補選只給完全未獲取錄的申請人。",
+     "en": "Once you get a Main Round offer, accepted or not, JUPAS will not consider you again that year. Clearing is only for applicants with no offer."
+    }
+   },
+   {
+    "myth": {
+     "zh": "HK$5,000 留位費可以退，或者會撥作學費。",
+     "en": "The HK$5,000 fee is refundable or goes towards tuition."
+    },
+    "fact": {
+     "zh": "留位費不予退還，只有重複繳費等極少數情況例外。",
+     "en": "It is non-refundable, except in a few cases such as duplicate payment."
+    }
+   },
+   {
+    "myth": {
+     "zh": "放榜後可以隨意改選。",
+     "en": "I can change my choices freely after results."
+    },
+    "fact": {
+     "zh": "只有 7 月 14–16 日一次免費修改，最多新增或替換 5 個課程；再改一次須付 HK$250。",
+     "en": "You get one free change on 14–16 Jul, adding or replacing up to 5 programmes; a second change costs HK$250."
+    }
+   },
+   {
+    "myth": {
+     "zh": "放榜後加入需面試的課程，一定會獲邀面試。",
+     "en": "Adding an interview programme after results guarantees an interview."
+    },
+    "fact": {
+     "zh": "不一定。部分課程只面試 Band A 申請人，或只取錄放榜前已面試的申請人。",
+     "en": "Not guaranteed. Some programmes only interview Band A applicants, or only admit those interviewed before results."
+    }
+   },
+   {
+    "myth": {
+     "zh": "校長推薦可以放榜後才加入 Band A。",
+     "en": "I can move a programme into Band A after results for my principal nomination."
+    },
+    "fact": {
+     "zh": "校長推薦只考慮 5 月 26 日時已在 Band A 的課程。",
+     "en": "Nominations only count for programmes in Band A as at 26 May."
+    }
+   },
+   {
+    "myth": {
+     "zh": "內地及台灣升學可以放榜後才考慮。",
+     "en": "Mainland and Taiwan study can wait until after results."
+    },
+    "fact": {
+     "zh": "兩者都要在考試前（約 11 至 12 月）報名。",
+     "en": "Both require registration before the exam, around November to December."
+    }
+   },
+   {
+    "myth": {
+     "zh": "重考後舊成績會被取代。",
+     "en": "Retaking the DSE wipes out my old results."
+    },
+    "fact": {
+     "zh": "院校會看到所有年份的成績，部分課程對合併成績或重考生另有扣分或限制。",
+     "en": "Institutions see all your results; some programmes deduct marks for combined results or restrict repeaters."
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": {
+     "zh": "JUPAS 2027 重要日期及截止日期",
+     "en": "JUPAS 2027 key dates and deadlines"
+    },
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines"
+   },
+   {
+    "label": {
+     "zh": "JUPAS 申請期及費用",
+     "en": "JUPAS application period and fees"
+    },
+    "url": "https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-period-and-fee"
+   },
+   {
+    "label": {
+     "zh": "JUPAS 放榜後修改課程選擇",
+     "en": "JUPAS modification after results"
+    },
+    "url": "https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/modification-of-programme-choices-after-release-of-hkdse-examination-results"
+   },
+   {
+    "label": {
+     "zh": "考評局 2027 文憑試重要日期",
+     "en": "HKEAA 2027 HKDSE key dates"
+    },
+    "url": "https://www.hkeaa.edu.hk/en/hkdse/event_timetable/"
+   },
+   {
+    "label": {
+     "zh": "考評局 2027 文憑試時間表",
+     "en": "HKEAA 2027 HKDSE timetable"
+    },
+    "url": "https://www.hkeaa.edu.hk/doclibrary/hkdse/exam_timetable/2027_dse_timetable.pdf"
+   },
+   {
+    "label": {
+     "zh": "E-APP 重要日期",
+     "en": "E-APP key dates"
+    },
+    "url": "https://www.eapp.gov.hk/en/about/key-dates/"
+   }
+  ]
+ },
+ "planB": {
+  "stats": [
+   {
+    "value": {
+     "zh": "36.8%",
+     "en": "36.8%"
+    },
+    "label": {
+     "zh": "日校考生達資助學士一般要求（332A＋兩科選修 3 級）",
+     "en": "of day-school candidates met the UGC general requirement (332A + two electives at Level 3)"
+    },
+    "foot": {
+     "zh": "約 15,000 個資助學士學額",
+     "en": "About 15,000 UGC first-year places"
+    }
+   },
+   {
+    "value": {
+     "zh": "73.2%",
+     "en": "73.2%"
+    },
+    "label": {
+     "zh": "日校考生達副學位最低要求（五科 2 級，包括中英文）",
+     "en": "of day-school candidates met the sub-degree minimum (five subjects at Level 2 incl. Chinese and English)"
+    },
+    "foot": {
+     "zh": "2026 年文憑試",
+     "en": "2026 HKDSE"
+    }
+   },
+   {
+    "value": {
+     "zh": "約 5,000",
+     "en": "~5,000"
+    },
+    "label": {
+     "zh": "每年資助學士高年級學額（副學位畢業生升讀）",
+     "en": "UGC senior-year places a year for sub-degree graduates"
+    },
+    "foot": {
+     "zh": "約為副學位入學人數的五分之一（推算）",
+     "en": "Roughly one per five sub-degree entrants (derived)"
+    }
+   }
+  ],
+  "residency": {
+   "text": {
+    "zh": "2027/28 學年起，以就業或入境計劃簽證來港者不再視為本地學生；受養人簽證持有人須在課程開始前已在港居住滿 1 年（2028/29 起為 2 年），否則須繳付較高學費，並影響各項資助資格。",
+    "en": "From 2027/28, students on employment or talent-scheme visas no longer count as local. Dependant-visa holders need 1 year of residence before their programme starts (2 years from 2028/29), or they pay higher fees and may lose subsidies."
+   },
+   "url": "https://www.info.gov.hk/gia/general/202507/31/P2025073100290.htm"
+  },
+  "profiles": [
+   {
+    "key": "ugc",
+    "label": {
+     "zh": "達資助學士一般要求",
+     "en": "Meets the UGC general requirement"
+    },
+    "condition": {
+     "zh": "332A＋兩科選修 3 級或以上",
+     "en": "332A plus two electives at Level 3+"
+    },
+    "routes": [
+     "selfdegree",
+     "mainland",
+     "taiwan",
+     "overseas",
+     "adhd"
+    ],
+    "advice": {
+     "zh": "JUPAS 仍是首選；未獲理想取錄時，自資或資助自資學士、內地及海外都可考慮。",
+     "en": "JUPAS is still your main route. If the offer disappoints, look at self-financed or SSSDP degrees, the Mainland or overseas."
+    }
+   },
+   {
+    "key": "core",
+    "label": {
+     "zh": "達 332A，但選修未達兩科 3 級",
+     "en": "332A met, electives short"
+    },
+    "condition": {
+     "zh": "中文 3、英文 3、數學 2、公民達標",
+     "en": "Chinese 3, English 3, Maths 2, CSD Attained"
+    },
+    "routes": [
+     "selfdegree",
+     "applied",
+     "mainland",
+     "adhd",
+     "retake"
+    ],
+    "advice": {
+     "zh": "可報讀自資學士（部分選修要求較低）及內地免試；想讀資助學士，可經副學士升讀高年級。",
+     "en": "Self-financed degrees (some need lower electives) and the Mainland scheme are open. For a UGC degree, go via an associate degree to senior-year entry."
+    }
+   },
+   {
+    "key": "subdegree",
+    "label": {
+     "zh": "達副學位要求",
+     "en": "Meets the sub-degree minimum"
+    },
+    "condition": {
+     "zh": "五科 2 級，包括中英文",
+     "en": "Five subjects at Level 2 incl. Chinese and English"
+    },
+    "routes": [
+     "adhd",
+     "vtc",
+     "retake"
+    ],
+    "advice": {
+     "zh": "副學士或高級文憑是主要路線。目標讀學位就揀副學士，並以第一年 GPA 3.3 以上為目標；目標就業則揀高級文憑。",
+     "en": "Associate degree or higher diploma is the main route. Aim for a degree? Choose an AD and target a first-year GPA of 3.3+. Aim for a job? Choose an HD."
+    }
+   },
+   {
+    "key": "below",
+    "label": {
+     "zh": "未達五科 2 級",
+     "en": "Below five subjects at Level 2"
+    },
+    "condition": {
+     "zh": "中英文或其他科目未達 2 級",
+     "en": "Chinese, English or other subjects below Level 2"
+    },
+    "routes": [
+     "dae",
+     "vtc",
+     "retake"
+    ],
+    "advice": {
+     "zh": "應用教育文憑（一年）完成後等同五科 2 級，可升讀副學位；亦可考慮 VTC 基礎文憑或重考個別科目。",
+     "en": "The one-year Diploma of Applied Education counts as five Level 2 passes for sub-degree entry. VTC's foundation diploma or retaking a few subjects are alternatives."
+    }
+   }
+  ],
+  "routes": [
+   {
+    "key": "selfdegree",
+    "title": {
+     "zh": "自資學士（包括資助自資學士 SSSDP）",
+     "en": "Self-financed degrees (incl. SSSDP)"
+    },
+    "tagline": {
+     "zh": "與資助學士同屬資歷架構第 5 級",
+     "en": "Same QF Level 5 as UGC degrees"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "入學要求",
+       "en": "Entry"
+      },
+      "value": {
+       "zh": "一般為 332A 加選修，按院校而定。",
+       "en": "Usually 332A plus electives, varying by institution."
+      }
+     },
+     {
+      "label": {
+       "zh": "年期",
+       "en": "Duration"
+      },
+      "value": {
+       "zh": "四年（銜接學位兩年）",
+       "en": "Four years (two for top-up degrees)"
+      }
+     },
+     {
+      "label": {
+       "zh": "學費",
+       "en": "Fees"
+      },
+      "value": {
+       "zh": "例如都大 2027/28 每年 HK$85,340–123,740；恒大 2026/27 一年級 HK$93,230（未扣資助）。",
+       "en": "e.g. HKMU 2027/28 HK$85,340–123,740 a year; HSUHK 2026/27 Year 1 HK$93,230 (before subsidies)."
+      }
+     },
+     {
+      "label": {
+       "zh": "資助",
+       "en": "Aid"
+      },
+      "value": {
+       "zh": "SSSDP 每年最高 HK$81,450（實驗室）／HK$46,780（非實驗室）；非 SSSDP 可獲免入息審查資助 HK$35,120（2026/27）；另有入息審查的學費助學金及免入息審查貸款。",
+       "en": "SSSDP up to HK$81,450 (lab) / HK$46,780 (non-lab) a year; otherwise the non-means-tested subsidy of HK$35,120 (2026/27); plus means-tested grants and non-means-tested loans."
+      }
+     },
+     {
+      "label": {
+       "zh": "報名",
+       "en": "How to apply"
+      },
+      "value": {
+       "zh": "SSSDP 一年級學額經 JUPAS；其他課程經 E-APP 或直接向院校申請。",
+       "en": "SSSDP first-year places via JUPAS; others via E-APP or directly."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "扣除資助後，每年仍要自付約 HK$50,000–90,000。",
+      "en": "Even after subsidy, expect to pay about HK$50,000–90,000 a year."
+     },
+     {
+      "zh": "副學位及自資課程的留位費約在放榜後一星期截止，早於 JUPAS 正式遴選；退款條件各院校不同。",
+      "en": "Deposits fall due about a week after results, before JUPAS offers; refund rules vary."
+     }
+    ],
+    "url": "https://www.cspe.edu.hk/en/sssdp/study-subsidy-scheme-for-designated-professions-sectors/"
+   },
+   {
+    "key": "adhd",
+    "title": {
+     "zh": "副學士／高級文憑",
+     "en": "Associate Degree / Higher Diploma"
+    },
+    "tagline": {
+     "zh": "兩年，之後可申請升讀學士高年級",
+     "en": "Two years, then apply for senior-year degree entry"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "入學要求",
+       "en": "Entry"
+      },
+      "value": {
+       "zh": "五科 2 級，包括中英文。",
+       "en": "Five subjects at Level 2 including Chinese and English."
+      }
+     },
+     {
+      "label": {
+       "zh": "分別",
+       "en": "AD vs HD"
+      },
+      "value": {
+       "zh": "副學士偏重通識，升學選擇較多；高級文憑最少六成屬職業內容，較適合目標明確、想就業的同學。",
+       "en": "ADs are broader and keep more degree options open; at least 60% of an HD is vocational, suiting students with a clear career goal."
+      }
+     },
+     {
+      "label": {
+       "zh": "學費",
+       "en": "Fees"
+      },
+      "value": {
+       "zh": "例如理大 HKCC 2026/27 全個課程 HK$151,500–164,125。",
+       "en": "e.g. PolyU HKCC 2026/27 HK$151,500–164,125 for the whole programme."
+      }
+     },
+     {
+      "label": {
+       "zh": "資助",
+       "en": "Aid"
+      },
+      "value": {
+       "zh": "指定課程設 SSSDP 資助，每年 HK$40,730／HK$23,390；另有學費助學金及貸款。",
+       "en": "Designated programmes get SSSDP HK$40,730 / HK$23,390 a year; grants and loans also apply."
+      }
+     },
+     {
+      "label": {
+       "zh": "升學",
+       "en": "Progression"
+      },
+      "value": {
+       "zh": "每年約 5,000 個資助學士高年級學額，另有約 8,300 個自資銜接學額（2026/27）。GPA 3.0 只是門檻，3.3 以上才較有機會，熱門課程要 3.7–4.0。",
+       "en": "About 5,000 UGC senior-year places a year plus about 8,300 self-financed top-up places (2026/27). GPA 3.0 is only the floor; 3.3+ is realistic and popular programmes want 3.7–4.0."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "院校公布的「升學率」通常包括自資、銜接及海外學位。例如 HKCC 2025 年升學率 90.4%，當中升讀資助學士高年級的只有 53.2%。",
+      "en": "Published 'articulation rates' usually include self-financed, top-up and overseas degrees. HKCC's 2025 rate was 90.4%, but only 53.2% went to UGC senior-year places."
+     },
+     {
+      "zh": "第二年上學期已要申請升學，所以主要看第一年 GPA。",
+      "en": "You apply early in Year 2, so your Year 1 GPA does most of the work."
+     },
+     {
+      "zh": "部分學士課程仍會看文憑試個別科目成績。",
+      "en": "Some degree programmes still check specific DSE subject grades."
+     }
+    ],
+    "url": "https://www.cspe.edu.hk/en/overview/multiple-pathways/senior-year-places-top-up-degree/"
+   },
+   {
+    "key": "vtc",
+    "title": {
+     "zh": "VTC 高級文憑／基礎文憑",
+     "en": "VTC Higher Diploma / Foundation Diploma"
+    },
+    "tagline": {
+     "zh": "職業導向，學費較低",
+     "en": "Career-focused and lower fees"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "入學要求",
+       "en": "Entry"
+      },
+      "value": {
+       "zh": "高級文憑：中英文 2 級及另外三科 2 級；基礎文憑：完成中六。",
+       "en": "HD: Chinese 2, English 2 and three more subjects at Level 2. Foundation diploma: completion of S6."
+      }
+     },
+     {
+      "label": {
+       "zh": "學費",
+       "en": "Fees"
+      },
+      "value": {
+       "zh": "資助高級文憑每期 HK$17,570；基礎文憑全年 HK$22,820（2026/27）。",
+       "en": "Subvented HD HK$17,570 per instalment; foundation diploma HK$22,820 for the year (2026/27)."
+      }
+     },
+     {
+      "label": {
+       "zh": "資助",
+       "en": "Aid"
+      },
+      "value": {
+       "zh": "資助高級文憑可申請學生資助及生活費貸款。",
+       "en": "Subvented HDs qualify for student finance and living-expense loans."
+      }
+     },
+     {
+      "label": {
+       "zh": "報名",
+       "en": "How to apply"
+      },
+      "value": {
+       "zh": "2027/28 報名資料於 2026 年 11 月公布。",
+       "en": "2027/28 details are announced in November 2026."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "基礎文憑只令你有資格申請高級文憑，並不保證取錄。",
+      "en": "The foundation diploma only makes you eligible to apply for an HD; it does not guarantee a place."
+     },
+     {
+      "zh": "醫療、工程等範疇，須先確認課程獲相關註冊局或專業團體認可。",
+      "en": "In health care or engineering, check the programme is recognised by the relevant professional body."
+     }
+    ],
+    "url": "https://www.vtc.edu.hk/admission/en/admission-s6/"
+   },
+   {
+    "key": "dae",
+    "title": {
+     "zh": "應用教育文憑（DAE，取代毅進）",
+     "en": "Diploma of Applied Education (DAE)"
+    },
+    "tagline": {
+     "zh": "一年完成，等同五科 2 級",
+     "en": "One year, equivalent to five Level 2 passes"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "性質",
+       "en": "What it is"
+      },
+      "value": {
+       "zh": "2023/24 學年起取代毅進文憑，屬資歷架構第 3 級；完成後等同文憑試五科 2 級（包括中英文）。",
+       "en": "Replaced Diploma Yi Jin from 2023/24; QF Level 3, equivalent to five HKDSE Level 2 passes including Chinese and English."
+      }
+     },
+     {
+      "label": {
+       "zh": "學費",
+       "en": "Fees"
+      },
+      "value": {
+       "zh": "HK$38,660–44,680（2026/27）。",
+       "en": "HK$38,660–44,680 (2026/27)."
+      }
+     },
+     {
+      "label": {
+       "zh": "資助",
+       "en": "Aid"
+      },
+      "value": {
+       "zh": "合格且出席率達八成可獲退還三成學費；通過入息審查可獲退還全數或一半。",
+       "en": "30% refunded for a pass with 80% attendance; 100% or 50% for students passing the means test."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "完成後只能升讀副學位，距離學位最少再多三年。",
+      "en": "It leads only to sub-degree study, adding at least three years before a degree."
+     }
+    ],
+    "url": "https://www.dae.edu.hk"
+   },
+   {
+    "key": "retake",
+    "title": {
+     "zh": "以自修生身分重考文憑試",
+     "en": "Retake the HKDSE as a private candidate"
+    },
+    "tagline": {
+     "zh": "適合只差一兩科、自律性高的同學",
+     "en": "Suits near-misses with strong self-discipline"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "報名",
+       "en": "Registration"
+      },
+      "value": {
+       "zh": "2027 年自修生報名於 2026 年 10 月 7 日截止，10 月 14 日前繳費。",
+       "en": "2027 private-candidate registration closes 7 Oct 2026; pay by 14 Oct."
+      }
+     },
+     {
+      "label": {
+       "zh": "費用",
+       "en": "Fees"
+      },
+      "value": {
+       "zh": "基本費 HK$619；中文或英文每科 HK$808，其他每科 HK$540。",
+       "en": "HK$619 base fee; HK$808 each for Chinese or English, HK$540 per other subject."
+      }
+     },
+     {
+      "label": {
+       "zh": "數據",
+       "en": "Data"
+      },
+      "value": {
+       "zh": "2025 年重考生中，約 2% 達 332A22；中文及數學由 3 級以下升至 3 級或以上的比率約四成，英文只有約兩成。",
+       "en": "In 2025 about 2% of retakers reached 332A22; around 40% of Chinese and Maths retakers rose to Level 3+, but only about 20% in English."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "院校會看到所有年份的成績，部分課程對合併成績或重考生扣分。",
+      "en": "Institutions see all sittings; some programmes deduct marks for combined results or repeaters."
+     },
+     {
+      "zh": "重考前先找出失手的真正原因；原因未解決，重考很難進步。",
+      "en": "Identify why you missed first; without fixing that, a retake rarely helps."
+     }
+    ],
+    "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Exam_Fees/2027ExamFees_HKDSE_Eng.pdf"
+   },
+   {
+    "key": "mainland",
+    "title": {
+     "zh": "內地升學（免試收生計劃）",
+     "en": "Mainland universities (DSE-based scheme)"
+    },
+    "tagline": {
+     "zh": "165 所院校，學費低",
+     "en": "165 institutions, low fees"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "入學要求",
+       "en": "Entry"
+      },
+      "value": {
+       "zh": "最低 332A；理工醫等專業另有指定科目要求。",
+       "en": "Minimum 332A; science, engineering and medicine majors require specific subjects."
+      }
+     },
+     {
+      "label": {
+       "zh": "報名",
+       "en": "How to apply"
+      },
+      "value": {
+       "zh": "考試前報名：2026/27 為 2025 年 12 月 1–31 日；2027/28 未公布。",
+       "en": "Register before the exam: 1–31 Dec 2025 for 2026/27; 2027/28 not yet published."
+      }
+     },
+     {
+      "label": {
+       "zh": "學費",
+       "en": "Fees"
+      },
+      "value": {
+       "zh": "每年人民幣 4,500–8,000。",
+       "en": "RMB 4,500–8,000 a year."
+      }
+     },
+     {
+      "label": {
+       "zh": "資助",
+       "en": "Aid"
+      },
+      "value": {
+       "zh": "內地升學資助計劃：入息審查全額每年 HK$17,700–19,400；免入息審查 HK$5,900–6,500（2026/27）。",
+       "en": "MUSSS: means-tested full rate HK$17,700–19,400 a year; non-means-tested HK$5,900–6,500 (2026/27)."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "社工、護理、法律、獸醫等專業與香港沒有互認；醫科畢業生須考香港執業試。",
+      "en": "Social work, nursing, law and vet degrees are not mutually recognised; medics must pass HK's licensing exam."
+     },
+     {
+      "zh": "剔選「服從調劑」較易獲取錄，但可能被編到冷門專業。",
+      "en": "Agreeing to reassignment raises your chance but may land you in an unpopular major."
+     }
+    ],
+    "url": "https://www.edb.gov.hk/en/edu-system/postsecondary/policy-doc/pilot-scheme.html"
+   },
+   {
+    "key": "taiwan",
+    "title": {
+     "zh": "台灣升學（港澳生聯合招生）",
+     "en": "Taiwan (joint admission)"
+    },
+    "tagline": {
+     "zh": "可填最多 70 個志願",
+     "en": "Up to 70 choices"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "報名",
+       "en": "How to apply"
+      },
+      "value": {
+       "zh": "考試前報名；2027 年日期未公布，2026 年聯合分發為 2026 年 2 月 1 日–3 月 15 日，報名費新台幣 2,000 元。",
+       "en": "Register before the exam; 2027 dates not yet published. For 2026, joint distribution ran 1 Feb–15 Mar 2026, fee NT$2,000."
+      }
+     },
+     {
+      "label": {
+       "zh": "計分",
+       "en": "Scoring"
+      },
+      "value": {
+       "zh": "中英數各乘 1.3，另計最佳兩科選修。",
+       "en": "Chinese, English and Maths ×1.3, plus the best two electives."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "正式最低成績要求及學費以台灣官方公布為準。",
+      "en": "Check the official minimum requirement and fees with the Taiwan committee."
+     }
+    ],
+    "url": "https://cmn-hant.overseas.ncnu.edu.tw/further-study-area/national-area/hong-kong-area/"
+   },
+   {
+    "key": "overseas",
+    "title": {
+     "zh": "海外升學（英國等）",
+     "en": "Overseas (UK and others)"
+    },
+    "tagline": {
+     "zh": "文憑試成績可直接申請",
+     "en": "Apply directly with DSE results"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "換算",
+       "en": "Equivalence"
+      },
+      "value": {
+       "zh": "考評局與 UCAS 對照：5 級約等於 A-Level A，555 約等於 AAA。",
+       "en": "HKEAA/UCAS: Level 5 ≈ A-level A; 555 ≈ AAA."
+      }
+     },
+     {
+      "label": {
+       "zh": "報名",
+       "en": "How to apply"
+      },
+      "value": {
+       "zh": "UCAS：牛劍及醫科 10 月 15 日，其他 1 月 13 日。",
+       "en": "UCAS: 15 Oct for Oxbridge and medicine, 13 Jan for others."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "持 BN(O) 簽證未獲定居身分者，須繳付海外生學費。",
+      "en": "BN(O) visa holders without settled status pay international fees."
+     },
+     {
+      "zh": "放榜後才申請，要預留時間辦理學生簽證及資金證明。",
+      "en": "Applying after results leaves little time for the student visa and proof of funds."
+     }
+    ],
+    "url": "https://www.hkeaa.edu.hk/en/recognition/benchmarking/hkdse/ucas/"
+   },
+   {
+    "key": "nonjupas",
+    "title": {
+     "zh": "Non-JUPAS（非聯招）",
+     "en": "Non-JUPAS"
+    },
+    "tagline": {
+     "zh": "適用於持其他學歷或副學位的申請人",
+     "en": "For other qualifications or sub-degree holders"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "適用",
+       "en": "Who"
+      },
+      "value": {
+       "zh": "只持文憑試成績的本地學生必須經 JUPAS 報讀資助學士；Non-JUPAS 適用於持 IB、A-Level 等其他學歷或副學位的申請人。",
+       "en": "Local applicants with only HKDSE results must use JUPAS; Non-JUPAS is for IB, A-level or sub-degree holders."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "同一年不可同時經 JUPAS 及 Non-JUPAS 報讀同一課程，兩者都可能被拒。",
+      "en": "You cannot use both routes for the same programme in one year; both may be rejected."
+     }
+    ],
+    "url": "https://www.polyu.edu.hk/study/ug/admissions/non-jupas-year-1/non-jupas-year-1-frequently-asked-questions"
+   },
+   {
+    "key": "applied",
+    "title": {
+     "zh": "應用學位（職業專才教育學位）",
+     "en": "Applied degrees"
+    },
+    "tagline": {
+     "zh": "SSSDP 之下，資助額較高",
+     "en": "Under SSSDP with a higher subsidy"
+    },
+    "fields": [
+     {
+      "label": {
+       "zh": "資助",
+       "en": "Aid"
+      },
+      "value": {
+       "zh": "每年最高 HK$89,620（實驗室）／HK$51,880（非實驗室），2026/27 有 16 個課程。",
+       "en": "Up to HK$89,620 (lab) / HK$51,880 (non-lab) a year; 16 programmes in 2026/27."
+      }
+     },
+     {
+      "label": {
+       "zh": "入學要求",
+       "en": "Entry"
+      },
+      "value": {
+       "zh": "與其他 SSSDP 學位相同；例如 VTC／THEi 要求中文 3、英文 3、數學 2、一科選修 2 級及公民達標。",
+       "en": "As for other SSSDP degrees, e.g. VTC/THEi: Chinese 3, English 3, Maths 2, one elective at Level 2 and CSD Attained."
+      }
+     }
+    ],
+    "pitfalls": [
+     {
+      "zh": "確認課程獲相關行業或專業團體認可。",
+      "en": "Check the programme is recognised by the relevant industry or professional body."
+     }
+    ],
+    "url": "https://www.cspe.edu.hk/en/sssdp/study-subsidy-scheme-for-designated-professions-sectors/"
+   }
+  ],
+  "afterResults": [
+   {
+    "when": {
+     "zh": "7月14日 放榜",
+     "en": "14 Jul · Results"
+    },
+    "what": {
+     "zh": "見升學老師；如有需要，即日到副學位院校即場報名及面試。",
+     "en": "See your careers teacher; if needed, apply and interview on the spot at sub-degree colleges."
+    }
+   },
+   {
+    "when": {
+     "zh": "7月14–16日",
+     "en": "14–16 Jul"
+    },
+    "what": {
+     "zh": "修改 JUPAS 課程選擇（一次免費）。",
+     "en": "Modify your JUPAS choices (one free change)."
+    }
+   },
+   {
+    "when": {
+     "zh": "約放榜後一星期",
+     "en": "About a week after results"
+    },
+    "what": {
+     "zh": "副學位及自資課程要求繳交留位費（約 HK$5,000 或首期學費），早於 JUPAS 結果公布。",
+     "en": "Sub-degree and self-financed programmes ask for a deposit (about HK$5,000 or the first instalment), before JUPAS results."
+    }
+   },
+   {
+    "when": {
+     "zh": "8月4日",
+     "en": "4 Aug"
+    },
+    "what": {
+     "zh": "JUPAS 正式遴選結果；接受須於 8 月 5 日前繳交 HK$5,000。",
+     "en": "JUPAS Main Round results; pay HK$5,000 by 5 Aug to accept."
+    }
+   },
+   {
+    "when": {
+     "zh": "獲 JUPAS 取錄後",
+     "en": "After a JUPAS offer"
+    },
+    "what": {
+     "zh": "立即向已繳費的副學位院校申請退還留位費，並在限期前遞交證明。",
+     "en": "Claim back the sub-degree deposit at once, with proof, before the deadline."
+    }
+   },
+   {
+    "when": {
+     "zh": "8月24日",
+     "en": "24 Aug"
+    },
+    "what": {
+     "zh": "未獲正式遴選取錄者的補選結果；在此之前保留副學位學額。",
+     "en": "Clearing results for those without an offer; keep your sub-degree place until then."
+    }
+   }
+  ],
+  "refundRules": [
+   {
+    "zh": "一般只有獲 JUPAS 資助學士或 SSSDP 課程取錄，才可申請退還副學位留位費。",
+    "en": "Deposits are generally refundable only if you get a JUPAS offer for a UGC-funded or SSSDP programme."
+   },
+   {
+    "zh": "須自行在限期前申請，並附上接受取錄及註冊證明。",
+    "en": "You must apply yourself before the deadline, with proof of acceptance and registration."
+   },
+   {
+    "zh": "申請費（約 HK$100–500）一概不退。",
+    "en": "Application fees (about HK$100–500) are never refunded."
+   },
+   {
+    "zh": "每間院校的留位費分開繳付，退款條件亦各有不同，報名前先查清楚。",
+    "en": "Each institution's deposit is separate and refund rules differ; check before applying."
+   }
+  ],
+  "adQuestions": [
+   {
+    "zh": "畢業生升讀「資助學士」的比率是多少？不要只看總升學率。",
+    "en": "What share of graduates reached UGC-funded degrees, not just the headline rate?"
+   },
+   {
+    "zh": "這個課程的畢業生，實際升讀了哪些學士課程？",
+    "en": "Which degree programmes did this programme's graduates actually enter?"
+   },
+   {
+    "zh": "獲取錄升學的同學，GPA 大約多少？是否按比例評分？",
+    "en": "What GPA did successful graduates have? Is grading on a curve?"
+   },
+   {
+    "zh": "所謂「保證銜接」是否只限自資銜接學位？",
+    "en": "Is any 'guaranteed articulation' only a self-financed top-up?"
+   },
+   {
+    "zh": "高級文憑是否獲相關註冊局或專業團體認可？",
+    "en": "Is the higher diploma recognised by the relevant registration board or professional body?"
+   },
+   {
+    "zh": "兩年總費用多少？可申請哪些資助及貸款？",
+    "en": "What is the two-year total cost, and what grants and loans apply?"
+   },
+   {
+    "zh": "何時計算第一年 GPA？第二年何時申請升學？",
+    "en": "When is Year 1 GPA assessed, and when do you apply for degrees in Year 2?"
+   }
+  ],
+  "retakeCheck": [
+   {
+    "zh": "我能清楚說出失手的原因，而且有具體改善方法。",
+    "en": "I can name why I missed and have a concrete fix."
+   },
+   {
+    "zh": "我只差一兩科，而不是全面落後。",
+    "en": "I am short in one or two subjects, not across the board."
+   },
+   {
+    "zh": "我能在沒有學校督促下，自律溫習一整年。",
+    "en": "I can study on my own for a year without school structure."
+   },
+   {
+    "zh": "我明白院校會看到兩年成績，而目標課程接受合併成績。",
+    "en": "I understand institutions see both years and my target programmes accept combined results."
+   },
+   {
+    "zh": "我已考慮一邊讀副學位、一邊重考個別科目的做法。",
+    "en": "I have considered studying a sub-degree while retaking a subject."
+   }
+  ],
+  "myths": [
+   {
+    "myth": {
+     "zh": "副學士升學率 90%，即是有九成機會升讀大學。",
+     "en": "A 90% articulation rate means a 90% chance of a university place."
+    },
+    "fact": {
+     "zh": "升學率包括自資、銜接及海外學位。以 HKCC 為例，升讀資助學士高年級的只有 53.2%。",
+     "en": "It includes self-financed, top-up and overseas degrees. At HKCC only 53.2% went to UGC senior-year places."
+    }
+   },
+   {
+    "myth": {
+     "zh": "GPA 3.0 就夠升大學。",
+     "en": "GPA 3.0 is enough for a degree."
+    },
+    "fact": {
+     "zh": "3.0 只是門檻，3.3 以上才較有機會，熱門課程要 3.7–4.0。",
+     "en": "3.0 is the floor; 3.3+ is realistic and popular programmes want 3.7–4.0."
+    }
+   },
+   {
+    "myth": {
+     "zh": "讀咗副學士，文憑試成績就不再重要。",
+     "en": "Once in an AD, DSE results no longer matter."
+    },
+    "fact": {
+     "zh": "部分學士課程仍設文憑試科目要求，例如港大個別主修要求中文 5 級。",
+     "en": "Some degrees still set DSE subject requirements, e.g. Chinese Level 5 for some HKU majors."
+    }
+   },
+   {
+    "myth": {
+     "zh": "自資學士不獲認可。",
+     "en": "Self-financed degrees aren't recognised."
+    },
+    "fact": {
+     "zh": "自資學士與資助學士同屬資歷架構第 5 級，分別在於學費及部分僱主觀感。",
+     "en": "They are the same QF Level 5; the difference is cost and some employer perception."
+    }
+   },
+   {
+    "myth": {
+     "zh": "毅進是成績未達五科 2 級的出路。",
+     "en": "Yi Jin is the route below five Level 2 passes."
+    },
+    "fact": {
+     "zh": "毅進已於 2023/24 由應用教育文憑取代，完成後只能升讀副學位。",
+     "en": "Yi Jin was replaced by the DAE in 2023/24, which leads only to sub-degrees."
+    }
+   },
+   {
+    "myth": {
+     "zh": "內地學位可在香港從事任何專業。",
+     "en": "A Mainland degree lets me practise any profession in Hong Kong."
+    },
+    "fact": {
+     "zh": "社工、護理、法律、獸醫沒有互認；醫科須考香港執業試。",
+     "en": "Social work, nursing, law and vet are not recognised; medicine needs the licensing exam."
+    }
+   },
+   {
+    "myth": {
+     "zh": "接受 JUPAS Band E，讀一年再重新報 JUPAS 就可以。",
+     "en": "Accept a Band E offer, study a year, then re-apply through JUPAS."
+    },
+    "fact": {
+     "zh": "正在修讀 JUPAS 學士課程的同學，須先完成退學手續才可再次申請。",
+     "en": "Students enrolled in a JUPAS degree must withdraw before re-applying."
+    }
+   },
+   {
+    "myth": {
+     "zh": "副學位留位費拿到 JUPAS 取錄就一定可以退。",
+     "en": "Sub-degree deposits are always refunded once I get a JUPAS offer."
+    },
+    "fact": {
+     "zh": "一般只限資助學士或 SSSDP 取錄，並須在限期前自行申請；申請費不退。",
+     "en": "Usually only for UGC or SSSDP offers, you must claim before the deadline, and application fees are never refunded."
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": {
+     "zh": "考評局 2026 年放榜新聞稿",
+     "en": "HKEAA 2026 results press release"
+    },
+    "url": "https://www.hkeaa.edu.hk/DocLibrary/Media/PR/HKDSE26_ResultsReleased_en.pdf"
+   },
+   {
+    "label": {
+     "zh": "教育局 資助學位課程",
+     "en": "EDB publicly-funded programmes"
+    },
+    "url": "https://www.edb.gov.hk/en/edu-system/postsecondary/local-higher-edu/publicly-funded-programmes/index.html"
+   },
+   {
+    "label": {
+     "zh": "專上教育資訊平台（CSPE）",
+     "en": "Concourse for Self-financing Post-secondary Education"
+    },
+    "url": "https://www.cspe.edu.hk/"
+   },
+   {
+    "label": {
+     "zh": "學生資助處 專上學生資助",
+     "en": "WFSFAA post-secondary student finance"
+    },
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/level.php"
+   },
+   {
+    "label": {
+     "zh": "政府新聞公報：2027/28 本地生定義",
+     "en": "Gov news: 2027/28 local student definition"
+    },
+    "url": "https://www.info.gov.hk/gia/general/202507/31/P2025073100290.htm"
+   },
+   {
+    "label": {
+     "zh": "HKCC 畢業生升學數據",
+     "en": "HKCC graduate articulation"
+    },
+    "url": "https://www.hkcc-polyu.edu.hk/en/about-hkcc/graduate-articulation-overview/graduate-articulation-overview/index.html"
+   }
+  ]
+ }
+}

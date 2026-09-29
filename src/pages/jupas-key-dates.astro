@@ -1,0 +1,134 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { keyDates, datesByPhase, zhRange, TAG_LABELS, faqFromMyths, researched } from '../lib/guides';
+import '../styles/universities.css';
+import '../styles/guides.css';
+
+// Content is generated from the app (app/tool/guides/gen_guides.py), so the
+// website and the app's 重要日子 page always say the same thing.
+const url = 'https://www.jupascalculator.app/jupas-key-dates/';
+const title = 'JUPAS 2027 重要日子｜報名、改選、放榜、派位時間表及錯過的後果';
+const description = 'JUPAS 2027 及 2027 文憑試全年日程：10 月 7 日開始報名、12 月 2 日截止，7 月 14 日放榜及改選，8 月 4 日正式遴選結果。逐項列出要做甚麼、費用、錯過的後果，以及 E-APP、內地、台灣、UCAS 報名日期。';
+const faq = faqFromMyths(keyDates.myths);
+const phases = datesByPhase();
+---
+<Layout title={title} description={description} schemaType="article" productShowcase={false}
+  articleData={{ title, description, url, datePublished: researched, dateModified: researched }}
+  breadcrumbItems={[{ name: '首頁', url: 'https://www.jupascalculator.app/' }, { name: 'JUPAS 2027 重要日子', url }]}
+  faqItems={faq}>
+  <header class="uni-nav"><a class="uni-brand" href="/"><img src="/logo-transparent-96.webp" alt="" width="40" height="40" /><span>DSE Jupas 神器</span></a><a href="/universities/">院校收生分數</a><a href="/blog/">升學攻略</a></header>
+  <main class="uni-main">
+    <nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><span>JUPAS 2027 重要日子</span></nav>
+    <header class="hub-hero">
+      <p class="eyebrow">JUPAS 2027 · 文憑試 2027</p>
+      <h1>JUPAS 2027 重要日子<span>由報名到派位，每一步要做甚麼、錯過會怎樣</span></h1>
+      <p class="hero-intro">按 JUPAS 2027 重要日期（v1.1）、考評局 2027 文憑試日程及 E-APP 公布整理。標示「暫定」的日子，以官方最終公布為準。</p>
+      <div class="guide-next" id="guide-next" hidden>
+        <p class="eyebrow">下一個日子</p>
+        <strong id="guide-next-countdown"></strong>
+        <p id="guide-next-title"></p>
+      </div>
+    </header>
+
+    <nav class="section-nav" aria-label="本頁內容">
+      <a href="#timeline">時間表</a><a href="#checklist">各階段行動清單</a><a href="#parallel">聯招以外</a><a href="#myths">常見誤解</a><a href="#sources">資料來源</a>
+    </nav>
+
+    <section class="article-section" id="timeline">
+      <h2>全年時間表</h2>
+      <p class="article-copy">JUPAS 申請分五個階段。報名及排序在考試前完成，放榜後只有一次免費修改機會，所以大部分決定都要在 5 月 26 日前做好。</p>
+      {phases.map((p) => (
+        <div class="phase-block">
+          <h3>{p.name.zh}（{p.span.zh}）</h3>
+          <ol class="date-list">
+            {p.dates.map((d) => (
+              <li class="date-item" data-start={d.start} data-end={d.end ?? ''} data-title={d.title.zh}>
+                <div class="date-head">
+                  <span>{zhRange(d.start, d.end)}</span>
+                  <span class={`tag ${d.tag}`}>{TAG_LABELS[d.tag]}</span>
+                  {d.tentative && <span class="tag warn">暫定</span>}
+                  <span class="countdown"></span>
+                </div>
+                <h4>{d.title.zh}</h4>
+                <p>{d.action.zh}</p>
+                {d.fee && <p class="fee">費用：{d.fee.zh}</p>}
+                {d.missed && <p class="missed">錯過：{d.missed.zh}</p>}
+                <p class="src"><a href={d.url} rel="noopener" target="_blank">官方資料</a></p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </section>
+
+    <section class="article-section" id="checklist">
+      <h2>各階段行動清單</h2>
+      <div class="article-copy">
+        {phases.map((p) => (
+          <>
+            <h3>{p.name.zh}（{p.span.zh}）</h3>
+            <ul>{keyDates.checklists[p.key].map((i) => <li>{i.zh}</li>)}</ul>
+          </>
+        ))}
+        <p>排 Band A 的方法可參考<a href="/blog/jupas-band-a-strategy/">JUPAS 志願排序指南</a>；放榜後改選的步驟見<a href="/blog/jupas-change-of-choices-guide/">JUPAS 改選攻略</a>。</p>
+      </div>
+    </section>
+
+    <section class="article-section" id="parallel">
+      <h2>聯招以外的報名日期</h2>
+      <p class="article-copy">內地免試收生及台灣聯招都要在考試前報名，放榜後才考慮已經太遲。E-APP 與 JUPAS 分開，可以同時申請。成績未如理想時可走的路線，見 <a href="/dse-plan-b/">DSE 放榜 Plan B</a>。</p>
+      <div class="guide-cards">
+        {keyDates.parallel.map((r) => (
+          <div class="guide-card">
+            <h3>{r.title.zh}</h3>
+            <p><span class={`tag ${r.published ? 'eapp' : 'warn'}`}>{r.published ? '已公布' : '未公布・列出往年日期'}</span></p>
+            <p><strong>{r.when.zh}</strong></p>
+            <p>{r.note.zh}</p>
+            <p class="src"><a href={r.url} rel="noopener" target="_blank">官方資料</a></p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="article-section" id="myths">
+      <h2>常見誤解</h2>
+      {keyDates.myths.map((m) => (
+        <div class="myth">
+          <h3><span class="label no">誤解</span>{m.myth.zh}</h3>
+          <p><span class="label yes">事實</span>{m.fact.zh}</p>
+        </div>
+      ))}
+    </section>
+
+    <aside class="app-next"><div><p class="eyebrow">DSE Jupas 神器 App</p><h2>倒數及清單放在手機</h2><p>App 內「重要日子」會顯示下一個日子的倒數，各階段行動清單可以逐項剔選；另可按你的成績計算 417 個課程的分數，並與歷年 Median、LQ 比較。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>
+
+    <section class="article-section" id="sources">
+      <h2>資料來源</h2>
+      <ul class="source-list">{keyDates.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.label.zh}</a></li>)}</ul>
+      <p class="fine-print">資料整理於 {researched}。非官方資訊，日期及費用以 JUPAS、考評局及各院校公布為準。</p>
+    </section>
+  </main>
+  <script is:inline>
+    (function () {
+      var today = new Date(); today.setHours(0, 0, 0, 0);
+      var day = 86400000;
+      function d(s) { var p = s.split('-'); return new Date(+p[0], p[1] - 1, +p[2]); }
+      var next = null;
+      document.querySelectorAll('.date-item').forEach(function (el) {
+        var start = d(el.dataset.start), end = el.dataset.end ? d(el.dataset.end) : start;
+        var cd = el.querySelector('.countdown'), text;
+        if (end < today) { el.classList.add('is-passed'); text = '已過'; }
+        else if (start <= today) { var left = Math.round((end - today) / day); text = left === 0 ? '今日截止' : '尚餘 ' + left + ' 日截止'; }
+        else { var n = Math.round((start - today) / day); text = n === 1 ? '明日' : n + ' 日後'; }
+        cd.textContent = text;
+        if (end >= today && (!next || end < next.end)) next = { el: el, end: end, text: text };
+      });
+      if (next) {
+        next.el.classList.add('is-next');
+        document.getElementById('guide-next-countdown').textContent = next.text;
+        document.getElementById('guide-next-title').textContent = next.el.dataset.title;
+        document.getElementById('guide-next').hidden = false;
+      }
+    })();
+  </script>
+</Layout>
