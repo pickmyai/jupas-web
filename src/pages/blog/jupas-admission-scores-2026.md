@@ -6,11 +6,13 @@ image: "/blog-covers/jupas-admission-scores-2026.webp"
 category: "收生數據"
 readTime: "8 分鐘"
 pubDate: "2026-06-20"
-updatedDate: "2026-09-25"
+updatedDate: "2026-10-04"
 verifiedDate: "2026-07-12"
 ---
 
 不少院校會公布獲錄取學生的 median、lower quartile（LQ）或 upper quartile（UQ）。這些數字可以幫你理解**過往獲錄取者的分數分布**，但不是預先公布的 cut-off，更不是今年的錄取概率。
+
+**想直接查課程收幾多分？** 前往 [JUPAS 收分 2026：熱門課程速查及各院校完整目錄](/universities/)，可直接查看已公布的 2026 Median、LQ、資料年份及官方來源。本文繼續說明怎樣讀這些數字。
 
 ## 2026 年收生分數：已公布院校
 

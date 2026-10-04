@@ -1,12 +1,74 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { schools, programmesFor, has2026 } from '../../lib/admissions';
+import { snapshot, schools, programmesFor, has2026, formatScore, programmePath } from '../../lib/admissions';
 import '../../styles/universities.css';
+import '../../styles/score-hub.css';
+
+const schoolEntries = Object.entries(schools).map(([slug, school]) => {
+  const programmes = programmesFor(school.code);
+  const published = programmes.filter(has2026);
+  const popular = published
+    .filter(p => p.actual_2026_median != null && p.actual_2026_lq != null && p.actual_2026_source && p.band_a_apply > 0)
+    .sort((a, b) => b.band_a_apply - a.band_a_apply || a.js_code.localeCompare(b.js_code))
+    .slice(0, 3);
+  return { slug, school, programmes, published, popular };
+});
+const publishedSchools = schoolEntries.filter(({ published }) => published.length > 0);
+const publishedCount = snapshot.programmes.filter(has2026).length;
+const popularCount = publishedSchools.reduce((total, { popular }) => total + popular.length, 0);
+const updatedDate = snapshot.sourceUpdatedAt.slice(0, 10);
+const displayDate = updatedDate.replaceAll('-', ' / ');
+const sources = publishedSchools.flatMap(({ slug, school, published }) =>
+  [...new Set(published.map(p => p.actual_2026_source).filter(Boolean))]
+    .map((href, index) => ({ href, id: `source-${slug}-${index}`, school }))
+);
 ---
-<Layout title="2026 JUPAS 收生分數｜各大學課程 Median、LQ、UQ 一覽（港大、中大、科大、理大…）" description="按院校查閱 400+ 個 JUPAS 課程 2023–2026 收生分數：科大、理大、港大、都大已更新 2026 年 Median 及 LQ，其餘院校列 2025 年數字；附計分方法及資料備註。" schemaType="website" productShowcase={false}>
+<Layout title="JUPAS 收分 2026｜各大學收生分數、熱門課程 Median／LQ 速查" description={`直接查閱 ${popularCount} 個熱門課程的 2026 JUPAS 收分、Median、LQ 及官方來源。全站 ${snapshot.programmes.length} 個課程中，港大、科大、理大、都大共 ${publishedCount} 個已更新 2026 收生數字；其餘課程清楚標明資料年份。`} schemaType="website" productShowcase={false} breadcrumbItems={[{ name: '首頁', url: '/' }, { name: 'JUPAS 收分 2026', url: '/universities/' }]}>
+  <a class="skip-link" href="#quick-scores">跳至收分速查表</a>
   <header class="uni-nav"><a class="uni-brand" href="/"><img src="/logo-transparent-96.webp" alt="" width="40" height="40" /><span>DSE Jupas 神器</span></a><a href="/blog/">升學攻略</a></header>
-  <main class="uni-main"><nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><span>院校收生分數</span></nav><header class="hub-hero"><p class="eyebrow">JUPAS / 按院校看數據</p><h1>你心儀嘅大學，<br />近年收幾多分？</h1><p class="hero-intro">科大、理大、港大、都大已公布 2026 年收生分數，其餘院校公布後更新。先按院校及課程查閱過往收生位置，再核對計分方法。數字沿用 App 統一資料，公式有變、年份缺項，都會一併交代。</p></header>
-  <div class="school-grid">{Object.entries(schools).map(([slug, school]) => <a class="school-card" href={`/universities/${slug}/`}><span class="eyebrow">{school.name}</span><h2>{school.code}</h2><p>{school.intro}</p><div><span>{programmesFor(school.code).length} 個課程 · 2023–{programmesFor(school.code).some(has2026) ? 2026 : 2025}</span><strong>查看分析 →</strong></div></a>)}</div>
-  <section class="article-section article-copy"><h2>查數據之前，先分清三件事</h2><p>年份指學生入學年份，不一定等於招生手冊封面的年份。Median 和 LQ 描述已獲錄取者，並非最低錄取線。不同課程的 Best N、加權及改制會改變分數尺度，不能直接排成全校難易榜。</p><p>各院校頁列出全部課程，點入課程可查看歷年分數及計分方法；港大及中大另有歷年變化分析，港大頁設免費單課程試算。<a href="/blog/jupas-admission-scores-2026/">了解 Median／LQ 的完整讀法</a>，或<a href="/blog/jupas-band-a-strategy/">閱讀 JUPAS 志願排序指南</a>。報名及截止日子見<a href="/jupas-key-dates/">JUPAS 2027 重要日子</a>；成績未達資助學士要求，可參考 <a href="/dse-plan-b/">DSE 放榜 Plan B</a>。</p></section>
+  <main class="uni-main score-hub">
+    <nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><span>JUPAS 收分 2026</span></nav>
+    <header class="hub-hero">
+      <p class="eyebrow">院校收生數據 / 2026 入學</p>
+      <h1>JUPAS 收分 2026</h1>
+      <p class="hero-intro">港大、科大、理大及都大已公布 2026 收分；其餘課程按實際資料年份列出。</p>
+      <p class="hub-update">{snapshot.programmes.length} 個課程 · {publishedCount} 個已有 2026 數據 · 收分資料更新 <time datetime={updatedDate}>{displayDate}</time></p>
+      <nav class="section-nav" aria-label="本頁內容"><a href="#quick-scores">熱門課程速查</a><a href="#schools">全部院校及年份</a><a href="#sources">官方資料來源</a></nav>
+    </header>
+
+    <section id="quick-scores" aria-labelledby="quick-scores-title" class="quick-scores-section">
+      <h2 id="quick-scores-title">熱門課程收分速查</h2>
+      <p class="quick-scores-intro">以下 {popularCount} 個課程均為 2026 入學數字。<strong>不同院校的分數不能直接比較</strong>；Median／LQ 是獲錄取者的統計，並非最低錄取線。</p>
+      <nav class="quick-school-nav" aria-label="跳至院校速查">{publishedSchools.map(({ slug, school }) => <a href={`#quick-${slug}`}>{school.shortName}</a>)}</nav>
+      <table id="quick-scores-table" class="quick-scores-table">
+        <caption>2026 入學數字；每間院校選三個課程，按現有 2025 年 Band A 申請人次由多至少選取，並非 2026 熱門排名。</caption>
+        <thead><tr><th scope="col">院校及課程</th><th id="quick-median" scope="col">2026 Median<br /><span>中位數</span></th><th id="quick-lq" scope="col">2026 LQ<br /><span>下四分位數</span></th><th scope="col">資料來源</th></tr></thead>
+        {publishedSchools.map(({ slug, school, popular }) => <tbody>
+          <tr class="quick-school-heading"><th id={`quick-${slug}`} colspan="4" scope="rowgroup"><div><span>{school.shortName} <span class="quick-school-code">{school.code}</span></span><a href={`/universities/${slug}/`}>全部課程收分 →</a></div></th></tr>
+          {popular.map(p => <tr id={`quick-${p.js_code.toLowerCase()}`} data-programme={p.js_code} data-year="2026">
+            <th id={`quick-course-${p.js_code}`} scope="row"><span class="course-code">{p.js_code}{p.js_code.startsWith('JSS') && ' · SSSDP'}</span><a class="course-title" href={programmePath(p)}>{p.title}</a>{p.actual_2026_comparable_to_calculator === false && <span class="quick-formula-note">科目比重有改動，請按 2026 公式核對</span>}</th>
+            <td headers={`quick-median quick-course-${p.js_code}`} data-score="median"><span class="quick-score-label" aria-hidden="true">2026 Median · 中位數</span><strong>{formatScore(p.actual_2026_median)}</strong></td>
+            <td headers={`quick-lq quick-course-${p.js_code}`} data-score="lq"><span class="quick-score-label" aria-hidden="true">2026 LQ · 下四分位數</span><strong>{formatScore(p.actual_2026_lq)}</strong></td>
+            <td class="quick-source"><a href={p.actual_2026_source} rel="external" aria-label={`${school.shortName} ${p.js_code} 2026 收分官方原文`}>官方原文 ↗</a></td>
+          </tr>)}
+        </tbody>)}
+      </table>
+      <p class="fine-print quick-scores-followup">點選課程查看歷年分數、計分方法及資料備註。<a href="/blog/jupas-admission-scores-2026/">Median、LQ、UQ 是甚麼？查看完整讀法 →</a></p>
+    </section>
+
+    <section id="schools" class="article-section" aria-labelledby="schools-title">
+      <h2 id="schools-title">各大學 JUPAS 收分：全部課程及資料年份</h2>
+      <p>院校有公布 2026 數字，不代表每個課程都有數據。各課程頁會標明實際年份；未有 2026 數字的課程保留較早年份供參考。</p>
+      <div class="school-grid">{schoolEntries.map(({ slug, school, programmes, published }) => <a class="school-card" href={`/universities/${slug}/`}><span class="eyebrow">{school.name}</span><h3>{school.code}</h3><p>{school.intro}</p><div><span>{programmes.length} 個課程<br /><strong class="school-data-status">{published.length ? `${published.length} 個有 2026 數據` : '現有資料至 2025；未有 2026 數字'}</strong></span><strong>查看收分 →</strong></div></a>)}</div>
+    </section>
+
+    <section id="sources" class="article-section article-copy" aria-labelledby="sources-title">
+      <h2 id="sources-title">2026 收生分數官方來源</h2>
+      <p>速查表沿用院校公布的 2026 入學數字。公布文件及招生年度可能更新，查閱原文時請確認標示的入學年份。</p>
+      <ul class="hub-source-list">{sources.map(({ href, id, school }) => <li id={id}><a href={href} rel="external">{school.shortName} {school.code} · 2026 收生分數{href.endsWith('.pdf') ? '（PDF）' : '及官方計分器'}</a></li>)}</ul>
+      <p><a href="https://www.jupas.edu.hk/tc/page/detail/3667/" rel="external">JUPAS 官方：參與院校新生入學成績 →</a></p>
+    </section>
+
+    <section class="article-section article-copy"><h2>怎樣用收分表安排下一步？</h2><p>先確認課程最低要求，再按該年度公式計算自己的分數，與同一課程、同一口徑的 Median／LQ 比較。面試、作品集、志願 Band 及年度學額亦可能影響甄選。</p><p>港大頁設免費單課程試算；<a href="/blog/jupas-band-a-strategy/">JUPAS 志願排序指南</a>協助整理課程選擇。下一屆報名日子見<a href="/jupas-key-dates/">JUPAS 2027 重要日子</a>；其他升學路線見<a href="/dse-plan-b/">DSE 放榜 Plan B</a>。</p></section>
   </main>
 </Layout>

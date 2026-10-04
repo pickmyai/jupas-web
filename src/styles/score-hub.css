@@ -1,0 +1,58 @@
+.score-hub .hub-hero{padding:36px 0 28px}
+.hub-update{margin:18px 0 0;font-size:13px;color:#56696e;line-height:1.8}
+.score-hub .section-nav{margin-top:12px;border-bottom:0;padding:14px 0 0;gap:8px 24px}
+.score-hub .section-nav a,.quick-school-nav a{display:inline-flex;align-items:center;min-height:44px}
+.quick-scores-section,#schools,#sources{scroll-margin-top:24px}
+.quick-scores-section h2{margin-bottom:12px}
+.quick-scores-intro{max-width:790px;margin:0;font-size:14px;color:#425a60}
+.quick-school-nav{display:flex;flex-wrap:wrap;gap:8px 24px;margin:12px 0;font-size:14px;font-weight:650}
+.quick-scores-table{width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed}
+.quick-scores-table caption{text-align:left;caption-side:bottom;padding:14px 16px;background:#f5f5f5;color:#56696e;font-size:12px;line-height:1.8}
+.quick-scores-table th,.quick-scores-table td{padding:16px;border-bottom:1px solid #dedede;vertical-align:top;text-align:left}
+.quick-scores-table thead th{font-size:13px;color:#425a60;background:#f5f5f5;font-weight:700}
+.quick-scores-table thead th:first-child{width:55%}
+.quick-scores-table thead th:nth-child(2),.quick-scores-table thead th:nth-child(3){width:15%}
+.quick-scores-table thead th:last-child{width:15%}
+.quick-scores-table thead span{font-size:11px;font-weight:500}
+.quick-scores-table tbody th[scope=row]{font-weight:400}
+.quick-scores-table .course-title{display:block;color:#22636a;text-decoration:underline;min-height:44px;padding:4px 0;line-height:1.6}
+.quick-scores-table .course-code{color:#56696e}
+.quick-scores-table td[data-score]{font-variant-numeric:tabular-nums}
+.quick-scores-table td[data-score] strong{font-size:22px;line-height:1.4;color:#172b36}
+.quick-score-label{display:none}
+.quick-school-heading th{background:#eeeeee;padding:12px 16px;scroll-margin-top:24px}
+.quick-school-heading th>div{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.quick-school-heading th>div>span{font-size:18px;font-weight:750}
+.quick-school-code{font-size:13px;color:#56696e;margin-left:6px;font-weight:650}
+.quick-school-heading a,.quick-source a{display:inline-flex;align-items:center;min-height:44px;font-size:13px;text-decoration:underline;line-height:1.5}
+.quick-formula-note{display:block;font-size:12px;line-height:1.7;color:#684b18;margin-top:2px}
+.quick-scores-followup{font-size:13px;margin-top:18px}
+.score-hub .school-card{border-radius:0;border:0;border-top:3px solid #dfac45;background:#f5f5f5}
+.score-hub .school-card:hover{background:#eeeeee}
+.score-hub .school-card h3{font-size:32px;line-height:1.2;margin:8px 0 16px}
+.score-hub .school-card p{font-size:14px;margin-bottom:18px}
+.school-data-status{font-size:12px;font-weight:600;color:#425a60}
+.score-hub .hub-source-list li{padding:4px 0;scroll-margin-top:24px}
+.score-hub .hub-source-list a{display:inline-block;min-height:44px;line-height:1.8;padding:8px 0}
+@media(max-width:640px){
+ .score-hub .hub-hero{padding:20px 0 20px}
+ .score-hub h1{font-size:32px}
+ .hub-update{font-size:12px;margin-top:14px}
+ .score-hub .section-nav{gap:4px 18px;font-size:13px}
+ .quick-scores-table{display:flex;flex-direction:column}
+ .quick-scores-table caption{display:block;order:1;width:100%;font-size:12px;padding:12px 14px}
+ .quick-scores-table thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .quick-scores-table tbody{display:block}
+ .quick-scores-table tr:not(.quick-school-heading){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-bottom:1px solid #dedede;padding:16px 14px;gap:8px 16px}
+ .quick-scores-table .quick-school-heading{display:block}
+ .quick-scores-table .quick-school-heading th{display:block;padding:10px 14px}
+ .quick-scores-table tr:not(.quick-school-heading)>th{grid-column:1/-1}
+ .quick-scores-table tr:not(.quick-school-heading)>th,.quick-scores-table tr:not(.quick-school-heading)>td{border:0;padding:0;min-width:0}
+ .quick-scores-table .course-title{min-height:44px;padding-top:4px}
+ .quick-score-label{display:block;font-size:11px;font-weight:500;color:#56696e;margin-bottom:4px}
+ .quick-scores-table td[data-score]{background:#f5f5f5;padding:10px 12px!important}
+ .quick-source{grid-column:1/-1}
+ .quick-scores-table .quick-source a{min-height:44px}
+ .quick-school-nav{gap:8px 28px}
+ .score-hub .school-card{padding:22px}
+}

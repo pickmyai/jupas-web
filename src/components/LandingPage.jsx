@@ -456,7 +456,7 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
                             </div>
                         </div>
                     )}
-                    <a href="/universities/" className="inline-block mt-5 text-sm font-semibold text-amber-800">{tr(lang,"查看院校收分目錄 →")}</a>
+                    <a href="/universities/" className="inline-flex items-center min-h-[44px] mt-5 text-sm font-semibold text-amber-800">{tr(lang,"JUPAS 收分 2026：熱門課程速查 →")}</a>
                     {lang === "en" && <p className="text-xs text-gray-500 mt-2">Score pages are in Traditional Chinese.</p>}
                 </div>
             </section>

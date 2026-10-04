@@ -2,14 +2,16 @@
 """Read final HTML (without JS) and compare every rendered score with the app projection."""
 from html.parser import HTMLParser
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
 class Page(HTMLParser):
-    def __init__(self, raw):
+    def __init__(self, raw, table_id='scores-table'):
         super().__init__()
         self.rows, self.row, self.cell, self.in_table = {}, None, None, False
+        self.table_id, self.score_kind = table_id, None
         self.h1_count, self.canonical, self.links = 0, None, []
         self.feed(raw)
 
@@ -17,12 +19,16 @@ class Page(HTMLParser):
         attrs = dict(attributes)
         if tag == 'h1': self.h1_count += 1
         if tag == 'link' and attrs.get('rel') == 'canonical': self.canonical = attrs['href']
-        if tag == 'a': self.links.append(attrs.get('href', ''))
-        if tag == 'table' and attrs.get('id') == 'scores-table': self.in_table = True
+        if tag == 'a':
+            self.links.append(attrs.get('href', ''))
+            if self.row is not None: self.row['links'].append(attrs.get('href', ''))
+        if tag == 'table' and attrs.get('id') == self.table_id: self.in_table = True
         if self.in_table and tag == 'tr' and attrs.get('id'):
-            self.row = {'cells': [], 'text': ''}
+            self.row = {'cells': [], 'text': '', 'links': [], 'scores': {}, 'year': attrs.get('data-year'), 'programme': attrs.get('data-programme')}
             self.rows[attrs['id'].upper()] = self.row
-        if self.row is not None and tag == 'td': self.cell = ''
+        if self.row is not None and tag == 'td':
+            self.cell = ''
+            self.score_kind = attrs.get('data-score')
 
     def handle_data(self, data):
         if self.row is not None: self.row['text'] += data
@@ -31,7 +37,10 @@ class Page(HTMLParser):
     def handle_endtag(self, tag):
         if tag == 'td' and self.cell is not None:
             self.row['cells'].append(self.cell.strip())
+            if self.score_kind:
+                self.row['scores'][self.score_kind] = float(re.findall(r'\d+(?:\.\d+)?', self.cell.replace(',', ''))[-1])
             self.cell = None
+            self.score_kind = None
         if tag == 'tr': self.row = None
         if tag == 'table': self.in_table = False
 
@@ -84,4 +93,25 @@ for code in covered:
     assert f'https://www.jupascalculator.app/universities/{slug}/{code.lower()}/' in sitemap, code
 home = Page((ROOT / 'dist/index.html').read_text())
 assert '/universities/hku/' in home.links and '/universities/cuhk/' in home.links
+hub_raw = (ROOT / 'dist/universities/index.html').read_text()
+hub = Page(hub_raw, table_id='quick-scores-table')
+assert hub.h1_count == 1 and hub.canonical == 'https://www.jupascalculator.app/universities/'
+assert 'JUPAS 收分 2026' in hub_raw and '2025 年 Band A' in hub_raw
+by_code = {p['js_code']: p for p in snapshot['programmes']}
+assert hub.rows, 'The hub must render actual scores without JavaScript'
+for row in hub.rows.values():
+    code = row['programme']
+    p = by_code[code]
+    assert row['year'] == '2026', code
+    assert p['title'] in row['text'], code
+    assert row['scores'] == {'median': p['actual_2026_median'], 'lq': p['actual_2026_lq']}, f'{code}: hub shows wrong year or score'
+    assert p['actual_2026_source'] in row['links'], f'{code}: official source lost'
+    slug = next(s for s, names in SCHOOLS.items() if p['institution'] in names)
+    assert f'/universities/{slug}/{code.lower()}/' in row['links'], f'{code}: programme link lost'
+    if p.get('actual_2026_comparable_to_calculator') is False:
+        assert '科目比重有改動' in row['text'], f'{code}: formula change caveat lost'
+assert '/universities/' in home.links
+blog = Page((ROOT / 'dist/blog/jupas-admission-scores-2026/index.html').read_text())
+assert '/universities/' in blog.links, 'Keep the explainer linked to the score hub'
+print(f'Hub: {len(hub.rows)} 2026 score rows, official sources, formula notes and entry links PASS')
 print(f'PASS: {total} programme rows and pages; sitemap and homepage links present.')
