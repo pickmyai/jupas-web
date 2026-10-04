@@ -10,8 +10,9 @@
 .quick-scores-table caption{text-align:left;caption-side:bottom;padding:14px 16px;background:#f5f5f5;color:#56696e;font-size:12px;line-height:1.8}
 .quick-scores-table th,.quick-scores-table td{padding:16px;border-bottom:1px solid #dedede;vertical-align:top;text-align:left}
 .quick-scores-table thead th{font-size:13px;color:#425a60;background:#f5f5f5;font-weight:700}
-.quick-scores-table thead th:first-child{width:55%}
-.quick-scores-table thead th:nth-child(2),.quick-scores-table thead th:nth-child(3){width:15%}
+.quick-scores-table thead th:first-child{width:45%}
+.quick-scores-table thead th:nth-child(2){width:14%}
+.quick-scores-table thead th:nth-child(3),.quick-scores-table thead th:nth-child(4){width:13%}
 .quick-scores-table thead th:last-child{width:15%}
 .quick-scores-table thead span{font-size:11px;font-weight:500}
 .quick-scores-table tbody th[scope=row]{font-weight:400}
@@ -20,6 +21,17 @@
 .quick-scores-table td[data-score]{font-variant-numeric:tabular-nums}
 .quick-scores-table td[data-score] strong{font-size:22px;line-height:1.4;color:#172b36}
 .quick-score-label{display:none}
+.quick-nav-count{font-size:11px;color:#56696e;margin-left:6px;font-weight:500}
+.quick-year span{font-weight:700}.quick-year small{display:block;font-size:11px;color:#56696e;margin-top:4px}
+.quick-mean-note,.quick-institution-name{display:block;font-size:12px;color:#56696e;margin-top:4px;line-height:1.6}
+.hub-filters{display:grid;grid-template-columns:1fr 1fr 2fr auto;gap:14px;align-items:end;margin:20px 0 12px}
+.hub-filters label{font-size:12px;font-weight:650;min-width:0}
+.hub-filters input,.hub-filters select{display:block;width:100%;min-height:44px;margin-top:6px;padding:10px 12px;border:1px solid #b5c4c6;border-radius:6px;background:#fff;color:#172b36;font-size:16px}
+.hub-filters button{min-height:44px;padding:10px 14px;background:#f5f5f5;border:1px solid #dedede;border-radius:6px;font-size:13px;color:#22636a;cursor:pointer}
+.hub-filters[hidden],.quick-scores-table [hidden],.hub-empty[hidden]{display:none!important}
+.hub-school-jumps{margin:10px 0 16px;font-size:13px;color:#22636a}
+.hub-school-jumps summary{cursor:pointer;min-height:44px;display:list-item;line-height:44px}
+.hub-empty{padding:18px;background:#f5f5f5;font-size:14px;color:#425a60}
 .quick-school-heading th{background:#eeeeee;padding:12px 16px;scroll-margin-top:24px}
 .quick-school-heading th>div{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 .quick-school-heading th>div>span{font-size:18px;font-weight:750}
@@ -51,6 +63,11 @@
  .quick-scores-table .course-title{min-height:44px;padding-top:4px}
  .quick-score-label{display:block;font-size:11px;font-weight:500;color:#56696e;margin-bottom:4px}
  .quick-scores-table td[data-score]{background:#f5f5f5;padding:10px 12px!important}
+ .quick-scores-table .quick-year{grid-column:1/-1;display:flex;align-items:center;gap:10px;font-size:13px}
+ .quick-scores-table .quick-year small{margin:0;font-size:11px}
+ .hub-filters{grid-template-columns:1fr 1fr;gap:12px}
+ .hub-search-label{grid-column:1/-1}
+ .hub-filters button{justify-self:start}
  .quick-source{grid-column:1/-1}
  .quick-scores-table .quick-source a{min-height:44px}
  .quick-school-nav{gap:8px 28px}

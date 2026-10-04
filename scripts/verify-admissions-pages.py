@@ -2,7 +2,6 @@
 """Read final HTML (without JS) and compare every rendered score with the app projection."""
 from html.parser import HTMLParser
 import json
-import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -12,6 +11,7 @@ class Page(HTMLParser):
         super().__init__()
         self.rows, self.row, self.cell, self.in_table = {}, None, None, False
         self.table_id, self.score_kind = table_id, None
+        self.in_score_value, self.score_value = False, ''
         self.h1_count, self.canonical, self.links = 0, None, []
         self.feed(raw)
 
@@ -29,18 +29,23 @@ class Page(HTMLParser):
         if self.row is not None and tag == 'td':
             self.cell = ''
             self.score_kind = attrs.get('data-score')
+        if tag == 'strong' and self.score_kind:
+            self.in_score_value, self.score_value = True, ''
 
     def handle_data(self, data):
         if self.row is not None: self.row['text'] += data
         if self.cell is not None: self.cell += data
+        if self.in_score_value: self.score_value += data
 
     def handle_endtag(self, tag):
         if tag == 'td' and self.cell is not None:
             self.row['cells'].append(self.cell.strip())
-            if self.score_kind:
-                self.row['scores'][self.score_kind] = float(re.findall(r'\d+(?:\.\d+)?', self.cell.replace(',', ''))[-1])
             self.cell = None
             self.score_kind = None
+        if tag == 'strong' and self.in_score_value:
+            value = self.score_value.strip().replace(',', '')
+            self.row['scores'][self.score_kind] = None if value == '—' else float(value)
+            self.in_score_value = False
         if tag == 'tr': self.row = None
         if tag == 'table': self.in_table = False
 
@@ -96,22 +101,38 @@ assert '/universities/hku/' in home.links and '/universities/cuhk/' in home.link
 hub_raw = (ROOT / 'dist/universities/index.html').read_text()
 hub = Page(hub_raw, table_id='quick-scores-table')
 assert hub.h1_count == 1 and hub.canonical == 'https://www.jupascalculator.app/universities/'
-assert 'JUPAS 收分 2026' in hub_raw and '2025 年 Band A' in hub_raw
+assert 'JUPAS 收分 2026' in hub_raw
 by_code = {p['js_code']: p for p in snapshot['programmes']}
-assert hub.rows, 'The hub must render actual scores without JavaScript'
+assert {row['programme'] for row in hub.rows.values()} == set(by_code), 'The hub must list every programme without JavaScript'
+assert len(hub.rows) == len(by_code), 'A programme is repeated in the hub'
 for row in hub.rows.values():
     code = row['programme']
     p = by_code[code]
-    assert row['year'] == '2026', code
+    if p.get('actual_2026_median') is not None or p.get('actual_2026_lq') is not None:
+        year, median, lq = 2026, p['actual_2026_median'], p['actual_2026_lq']
+    elif any(value is not None for value in [p.get('uq'), *expected_cells(p)[2:4]]):
+        year = 2025
+        median = p['median'] if p.get('actual_2026_prior_reference_is_2025') is not False else None
+        lq = p['lq'] if p.get('actual_2026_prior_reference_is_2025') is not False else None
+    else:
+        year = next((y for y in [2024, 2023] if any(p.get(f'{key}_{y}') is not None for key in ['uq', 'median', 'lq'])), None)
+        median = p.get(f'median_{year}') if year else None
+        lq = p.get(f'lq_{year}') if year else None
+    assert row['year'] == (str(year) if year else 'none'), code
     assert p['title'] in row['text'], code
-    assert row['scores'] == {'median': p['actual_2026_median'], 'lq': p['actual_2026_lq']}, f'{code}: hub shows wrong year or score'
-    assert p['actual_2026_source'] in row['links'], f'{code}: official source lost'
+    assert row['scores'] == {'median': median, 'lq': lq}, f'{code}: hub shows wrong year or score'
+    if year == 2026:
+        assert p['actual_2026_source'] in row['links'], f'{code}: official source lost'
+    elif year:
+        assert '未有 2026 數字' in row['text'], f'{code}: historical year must be explicit'
+    if year == 2025 and median is None and p.get('mean') is not None:
+        assert '只有平均分' in row['text'], f'{code}: mean must not become median'
     slug = next(s for s, names in SCHOOLS.items() if p['institution'] in names)
     assert f'/universities/{slug}/{code.lower()}/' in row['links'], f'{code}: programme link lost'
-    if p.get('actual_2026_comparable_to_calculator') is False:
+    if year == 2026 and p.get('actual_2026_comparable_to_calculator') is False:
         assert '科目比重有改動' in row['text'], f'{code}: formula change caveat lost'
 assert '/universities/' in home.links
 blog = Page((ROOT / 'dist/blog/jupas-admission-scores-2026/index.html').read_text())
 assert '/universities/' in blog.links, 'Keep the explainer linked to the score hub'
-print(f'Hub: {len(hub.rows)} 2026 score rows, official sources, formula notes and entry links PASS')
+print(f'Hub: all {len(hub.rows)} programmes, correct latest years/scores, mean labels, sources and entry links PASS')
 print(f'PASS: {total} programme rows and pages; sitemap and homepage links present.')
