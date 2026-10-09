@@ -88,7 +88,15 @@ def main():
         ])
         cases = [{'programme': p, 'grades': grades} for p in selected if p['institution'] == 'HKU' for grades in scenarios]
         payload = b'\n'.join(canonical(c) for c in cases) + b'\n'
-        native = subprocess.check_output(['dart', 'run', str(temp / 'cli.dart')], input=payload, cwd=temp)
+        # File-backed input/output lets the synchronous Dart reader finish at
+        # EOF without stalling a large bidirectional pipe on macOS.
+        cases_file = temp / 'parity-cases.jsonl'
+        native_file = temp / 'parity-native.jsonl'
+        cases_file.write_bytes(payload)
+        with cases_file.open('rb') as source, native_file.open('wb') as result:
+            subprocess.run(['dart', 'run', str(temp / 'cli.dart')],
+                           stdin=source, stdout=result, cwd=temp, check=True)
+        native = native_file.read_bytes()
         harness = temp / 'parity.cjs'
         harness.write_text("global.self = global; require('./app-score-engine.js'); const fs = require('fs'); for (const line of fs.readFileSync(0,'utf8').trim().split('\\n')) console.log(global.jupasCompute(line));")
         javascript = subprocess.check_output(['node', str(harness)], input=payload, cwd=temp)
