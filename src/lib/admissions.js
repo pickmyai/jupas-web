@@ -27,7 +27,7 @@ export function yearRows(p) {
   if ([r25.uq, r25.median, r25.lq, r25.mean].some(v => v != null)) rows.push(r25);
   for (const year of [2024, 2023]) {
     const meanOnly = p.median == null && p.mean != null;
-    const r = { year, uq: p[`uq_${year}`], median: meanOnly ? null : p[`median_${year}`], mean: p[`mean_${year}`] ?? (meanOnly ? p[`median_${year}`] : null), lq: p[`lq_${year}`] };
+    const r = { year, formulaYear: p.score_history_formula_years?.[String(year)], uq: p[`uq_${year}`], median: meanOnly ? null : p[`median_${year}`], mean: p[`mean_${year}`] ?? (meanOnly ? p[`median_${year}`] : null), lq: p[`lq_${year}`] };
     if ([r.uq, r.median, r.mean, r.lq].some(v => v != null)) rows.push(r);
   }
   return rows;
