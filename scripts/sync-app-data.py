@@ -30,7 +30,7 @@ FIELDS = [
     'actual_2026_source', 'actual_2026_note', 'actual_2026_no_score', 'actual_2026_mean',
     'actual_2026_formula_year', 'scoring_formula_year', 'score_history_formula_years',
     'actual_2026_shared_programme_codes', 'historical_reference_unverified',
-    'scoring_2027', 'actual_2026_requires_engine',
+    'scoring_2027', 'actual_2026_requires_engine', 'mean_2024', 'score_history_metrics',
     'actual_2026_comparable_to_calculator', 'actual_2026_prior_reference_is_2025',
     # Official JUPAS 2025 intake statistics (competition on the programme pages)
     'quota', 'band_a_apply', 'band_a_offer', 'admitted',
