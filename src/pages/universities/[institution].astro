@@ -14,7 +14,7 @@ const programmes = programmesFor(school.code);
 const byCode = Object.fromEntries(programmes.map(p => [p.js_code, p]));
 const coverage = years.map(year => programmes.filter(p => medianFor(p, year) != null).length);
 const published = '2026-09-08';
-const modified = '2026-09-25';
+const modified = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(snapshot.sourceUpdatedAt));
 const with2026 = programmes.filter(has2026).length;
 const lastYear = with2026 ? 2026 : 2025;
 const url = `https://www.jupascalculator.app/universities/${school.code.toLowerCase()}/`;
@@ -33,10 +33,10 @@ const others = Object.entries(schools).filter(([, s]) => s.code !== school.code)
         <p class="hero-intro">{school.intro}</p>
         <div class="hero-links"><a class="primary-link" href="#scores">查看 {programmes.length} 個課程</a><a href={isHku ? '#calculator' : '#analysis'}>{isHku ? '免費單課程試算 ↓' : '先睇收分變化分析 ↓'}</a></div>
       </div>
-      <aside class="edition-card"><span>收生統計年份</span><strong>2023—{lastYear}</strong><p>沿用 App 統一數據</p><p>更新：2026 年 9 月 25 日<br />資料版本：{String(snapshot.version).slice(0, 4)}-{String(snapshot.version).slice(4, 6)}-{String(snapshot.version).slice(6, 8)}</p><a href="#sources">來源及年份讀法 ↗</a></aside>
+      <aside class="edition-card"><span>收生統計年份</span><strong>2023—{lastYear}</strong><p>沿用 App 統一數據</p><p>更新：{modified}<br />資料版本：{String(snapshot.version).slice(0, 4)}-{String(snapshot.version).slice(4, 6)}-{String(snapshot.version).slice(6, 8)}</p><a href="#sources">來源及年份讀法 ↗</a></aside>
     </header>
 
-    <div class="reading-note"><strong>{with2026 ? `${school.shortName}已公布 2026 年收生分數（${with2026} 個課程）。` : `${school.shortName}尚未公布 2026 年收生分數，下表暫列 2025 年數字。`}</strong>所有數字都是已取錄學生的分數分布，並非下一年的收分預測；部分課程 2026 年改了計分公式，請閱讀各課程備註。</div>
+    <div class="reading-note"><strong>{with2026 ? `${school.shortName}已公布 2026 年收生分數（${with2026} 個課程）。` : `${school.shortName}目前未有已核實的 2026 分數，下表列最近有資料的年份。`}</strong>所有數字都是已取錄學生的分數分布，並非下一年的收分預測；部分課程 2026 年改了計分公式，請閱讀各課程備註。</div>
     <nav class="section-nav" aria-label="文章目錄">{hasAnalysis && <a href="#analysis">近年數據分析</a>}<a href="#scores">課程分數表</a>{isHku && <a href="#calculator">港大計算器</a>}<a href="#how-to-read">Median／LQ 點睇</a><a href="#sources">資料來源</a></nav>
 
     {hasAnalysis && <section id="analysis" class="article-section">
@@ -70,12 +70,12 @@ const others = Object.entries(schools).filter(([, s]) => s.code !== school.code)
 
     <section id="scores" class="article-section">
       <p class="eyebrow">課程資料</p><h2>{school.code} 收生分數表：2023–{lastYear}</h2>
-      <p>共 {programmes.length} 個課程；有中位數的課程數分別為 2023 年 {coverage[0]} 個、2024 年 {coverage[1]} 個、2025 年 {coverage[2]} 個{with2026 ? `、2026 年 ${with2026} 個` : ''}。點課程名稱可查看該課程的歷年分數及計分方法。空白以「—」表示，不代表零分或必然是新課程。</p>
+      <p>共 {programmes.length} 個課程；有中位數的課程數分別為 2023 年 {coverage[0]} 個、2024 年 {coverage[1]} 個、2025 年 {coverage[2]} 個{with2026 ? `；2026 年共有 ${with2026} 個課程公布至少一項統計數字` : ''}。點課程名稱可查看該課程的歷年分數及計分方法。空白以「—」表示，不代表零分或必然是新課程。</p>
       <div class="table-tools"><label for="programme-search">搜尋課程名稱或 JS 代碼<input id="programme-search" type="search" placeholder="例如：醫學、JS6004" aria-controls="scores-table" /></label><p id="filter-count" role="status">顯示 {programmes.length} 個課程</p></div>
       <p class="fine-print">手機可在表格內向左右捲動。點開課程名稱下方的「公式及備註」，查看 App 原有的年份差異及資料限制。</p>
       <div class="score-table-scroll" tabindex="0" role="region" aria-label={`${school.shortName}歷年收生分數，可左右捲動`}>
-        <table id="scores-table"><caption>{school.name}課程收生統計；年份為學生入學年份，分數沿用 App 統一資料。</caption><thead><tr><th scope="col">課程及資料備註</th><th scope="col">2026<br />Median</th><th scope="col">2026<br />LQ</th><th scope="col">2025<br />Median</th><th scope="col">2025<br />LQ</th><th scope="col">2024<br />Median</th><th scope="col">2023<br />Median</th></tr></thead>
-        <tbody>{programmes.map(p => <tr id={p.js_code.toLowerCase()} data-search={`${p.js_code} ${p.title} ${p.faculty}`.toLowerCase()}><th scope="row"><a class="course-code" href={`#${p.js_code.toLowerCase()}`}>{p.js_code}</a><a class="course-title" href={programmePath(p)}>{p.title}</a><span class="faculty-name">{institutionNames[p.institution] ? `${institutionNames[p.institution]} · ` : ''}{p.faculty}</span><details><summary>公式及備註{p.data_remark ? ' · 有資料限制' : ''}</summary><p><strong>{p.scoring_method}</strong> · {p.weighting_detail || '資料未列額外科目比重。'}</p>{p.actual_2026_comparable_to_calculator === false && <p class="data-note">2026 年計分公式與往年不同，2026 年分數不宜直接與之前年份比較。</p>}{p.data_remark && <p class="data-note">{p.data_remark}</p>}{p.entry_req && <p>資料所載其他要求：{p.entry_req}</p>}<p class="fine-print">公式為 App 比較基準，並非逐年公式列表。2023／2024 的 LQ：{f(p.lq_2023)}／{f(p.lq_2024)}；UQ：{f(p.uq_2023)}／{f(p.uq_2024)}。</p><a href={school.official}>核對院校現行課程要求及計分 ↗</a></details></th><td class="latest-score">{f(p.actual_2026_median)}</td><td>{f(p.actual_2026_lq)}</td><td>{median2025(p) == null && p.mean != null ? `${f(p.mean)}*` : f(median2025(p))}</td><td>{f(lq2025(p))}</td><td>{f(p.median_2024)}</td><td>{f(p.median_2023)}</td></tr>)}</tbody></table>
+        <table id="scores-table"><caption>{school.name}課程收生統計；年份為學生入學年份，分數沿用 App 統一資料。</caption><thead><tr><th scope="col">課程及資料備註</th><th scope="col">2026<br />中位數／平均分</th><th scope="col">2026<br />LQ／UQ</th><th scope="col">2025<br />中位數／平均分</th><th scope="col">2025<br />LQ</th><th scope="col">2024<br />中位數／平均分</th><th scope="col">2023<br />中位數／平均分</th></tr></thead>
+        <tbody>{programmes.map(p => <tr id={p.js_code.toLowerCase()} data-search={`${p.js_code} ${p.title} ${p.faculty}`.toLowerCase()}><th scope="row"><a class="course-code" href={`#${p.js_code.toLowerCase()}`}>{p.js_code}</a><a class="course-title" href={programmePath(p)}>{p.title}</a><span class="faculty-name">{institutionNames[p.institution] ? `${institutionNames[p.institution]} · ` : ''}{p.faculty}</span><span class="faculty-name">{p.actual_2026_formula_year === 2027 && '2026 錄取者・按 2027 公式重算'}</span><details><summary>公式及備註{p.data_remark ? ' · 有資料限制' : ''}</summary><p><strong>{p.scoring_method}</strong> · {p.weighting_detail || '資料未列額外科目比重。'}</p>{p.actual_2026_comparable_to_calculator === false && <p class="data-note">公布數字與 App 計分參考分開列示；請核對參考年份及計分基準。</p>}{(p.actual_2026_note ?? p.data_remark) && <p class="data-note">{p.actual_2026_note ?? p.data_remark}</p>}{p.entry_req && <p>資料所載其他要求：{p.entry_req}</p>}<p class="fine-print">公式為 App 比較基準，並非逐年公式列表。2023／2024 的 LQ：{f(p.lq_2023)}／{f(p.lq_2024)}；UQ：{f(p.uq_2023)}／{f(p.uq_2024)}。</p><a href={school.official}>核對院校現行課程要求及計分 ↗</a></details></th><td class="latest-score" data-score="reference-2026">{p.actual_2026_mean != null ? `${f(p.actual_2026_mean)}（平均分）` : f(p.actual_2026_median)}</td><td data-score="lq-2026">{f(p.actual_2026_lq)}{p.actual_2026_uq != null && <small class="quick-mean-note">UQ {f(p.actual_2026_uq)}</small>}</td><td>{median2025(p) == null && p.mean != null ? `${f(p.mean)}（平均分）` : f(median2025(p))}</td><td>{f(lq2025(p))}</td><td>{p.median == null && p.mean != null && p.median_2024 != null ? `${f(p.median_2024)}（平均分）` : f(p.median_2024)}</td><td>{p.median == null && p.mean != null && p.median_2023 != null ? `${f(p.median_2023)}（平均分）` : f(p.median_2023)}</td></tr>)}</tbody></table>
       </div><p id="no-programmes" class="data-note" hidden>找不到符合的課程。請試用較短名稱或 JS 代碼。</p>
     </section>
 

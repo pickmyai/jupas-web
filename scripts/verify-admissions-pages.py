@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Read final HTML (without JS) and compare every rendered score with the app projection."""
 from html.parser import HTMLParser
+import re
 import json
 from pathlib import Path
 
@@ -58,9 +59,13 @@ def expected_cells(p):
     prior = p.get('actual_2026_prior_reference_is_2025') is not False
     m25 = p['median'] if prior else None
     l25 = p['lq'] if prior else None
-    return [p.get('actual_2026_median'), p.get('actual_2026_lq'),
+    mean_only = p.get('median') is None and p.get('mean') is not None
+    return [('mean', p['actual_2026_mean']) if p.get('actual_2026_mean') is not None else p.get('actual_2026_median'),
+            ('quartiles', p.get('actual_2026_lq'), p.get('actual_2026_uq')) if p.get('actual_2026_uq') is not None else p.get('actual_2026_lq'),
             ('mean', p['mean']) if m25 is None and p.get('mean') is not None else m25,
-            l25, p['median_2024'], p['median_2023']]
+            l25, ('mean', p['median_2024']) if mean_only and p.get('median_2024') is not None else p['median_2024'],
+            ('mean', p['median_2023']) if mean_only and p.get('median_2023') is not None else p['median_2023']]
+
 
 total = 0
 covered = set()
@@ -78,9 +83,16 @@ for slug, names in SCHOOLS.items():
         assert p['title'] in row['text'], code
         for cell, want in zip(row['cells'], expected_cells(p), strict=True):
             if want is None: assert cell == '—', (code, cell)
-            elif isinstance(want, tuple): assert abs(float(cell.rstrip('*')) - want[1]) < 1e-8, (code, cell)
+            elif isinstance(want, tuple):
+                if want[0] == 'mean':
+                    assert '平均分' in cell, (code, cell)
+                    assert abs(float(cell.split('（')[0].replace(',', '')) - want[1]) < 1e-8, (code, cell)
+                else:
+                    assert 'UQ' in cell, (code, cell)
+                    values = [float(v) for v in re.findall(r'\d+(?:\.\d+)?', cell.replace(',', ''))]
+                    assert values == [float(v) for v in want[1:] if v is not None], (code, cell, want)
             else: assert abs(float(cell.replace(',', '')) - want) < 1e-8, (code, cell)
-        if p.get('data_remark'): assert p['data_remark'] in row['text'], f'{code} lost original caveat'
+        if p.get('actual_2026_note') or p.get('data_remark'): assert (p.get('actual_2026_note') or p['data_remark']) in row['text'], f'{code} lost original caveat'
         detail = ROOT / f'dist/universities/{slug}/{code.lower()}/index.html'
         assert detail.exists(), f'{code}: programme page missing'
         dpage = Page(detail.read_text())
@@ -108,8 +120,8 @@ assert len(hub.rows) == len(by_code), 'A programme is repeated in the hub'
 for row in hub.rows.values():
     code = row['programme']
     p = by_code[code]
-    if p.get('actual_2026_median') is not None or p.get('actual_2026_lq') is not None:
-        year, median, lq = 2026, p['actual_2026_median'], p['actual_2026_lq']
+    if any(p.get('actual_2026_' + metric) is not None for metric in ['median', 'mean', 'lq', 'uq']):
+        year, median, lq = 2026, p.get('actual_2026_median'), p.get('actual_2026_lq')
     elif any(value is not None for value in [p.get('uq'), *expected_cells(p)[2:4]]):
         year = 2025
         median = p['median'] if p.get('actual_2026_prior_reference_is_2025') is not False else None
@@ -120,17 +132,22 @@ for row in hub.rows.values():
         lq = p.get(f'lq_{year}') if year else None
     assert row['year'] == (str(year) if year else 'none'), code
     assert p['title'] in row['text'], code
-    assert row['scores'] == {'median': median, 'lq': lq}, f'{code}: hub shows wrong year or score'
+    mean = p.get('actual_2026_mean') if year == 2026 else p.get('mean') if year == 2025 and median is None else None
+    assert row['scores'] == {'reference': median if median is not None else mean, 'lq': lq}, f'{code}: hub shows wrong year or score'
+    if year == 2026 and p.get('actual_2026_formula_year') == 2027:
+        assert '按 2027 公式重算' in row['text'], code
+    if mean is not None:
+        assert '平均分' in row['text'], code
     if year == 2026:
         assert p['actual_2026_source'] in row['links'], f'{code}: official source lost'
     elif year:
         assert '未有 2026 數字' in row['text'], f'{code}: historical year must be explicit'
     if year == 2025 and median is None and p.get('mean') is not None:
-        assert '只有平均分' in row['text'], f'{code}: mean must not become median'
+        assert '只公布平均分' in row['text'], f'{code}: mean must not become median'
     slug = next(s for s, names in SCHOOLS.items() if p['institution'] in names)
     assert f'/universities/{slug}/{code.lower()}/' in row['links'], f'{code}: programme link lost'
-    if year == 2026 and p.get('actual_2026_comparable_to_calculator') is False:
-        assert '科目比重有改動' in row['text'], f'{code}: formula change caveat lost'
+    if year == 2026 and p.get('actual_2026_comparable_to_calculator') is False and p.get('actual_2026_requires_engine') != 'cityu_2027':
+        assert '公布數字與 App 計分參考分開列示' in row['text'], f'{code}: formula change caveat lost'
 assert '/universities/' in home.links
 blog = Page((ROOT / 'dist/blog/jupas-admission-scores-2026/index.html').read_text())
 assert '/universities/' in blog.links, 'Keep the explainer linked to the score hub'

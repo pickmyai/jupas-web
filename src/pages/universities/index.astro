@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { snapshot, schools, programmesFor, has2026, formatScore, programmePath, latestRow, institutionNames } from '../../lib/admissions';
+import { snapshot, schools, programmesFor, has2026, formatScore, programmePath, latestRow, institutionNames, scoreMetric, scoreBasis } from '../../lib/admissions';
 import '../../styles/universities.css';
 import '../../styles/score-hub.css';
 
@@ -11,7 +11,7 @@ const schoolEntries = Object.entries(schools).map(([slug, school]) => {
 });
 const publishedSchools = schoolEntries.filter(({ published }) => published.length > 0);
 const publishedCount = snapshot.programmes.filter(has2026).length;
-const updatedDate = snapshot.sourceUpdatedAt.slice(0, 10);
+const updatedDate = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(snapshot.sourceUpdatedAt));
 const displayDate = updatedDate.replaceAll('-', ' / ');
 const sources = publishedSchools.flatMap(({ slug, school, published }) =>
   [...new Set(published.map(p => p.actual_2026_source).filter(Boolean))]
@@ -26,7 +26,7 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
     <header class="hub-hero">
       <p class="eyebrow">院校收生數據 / 2026 入學</p>
       <h1>JUPAS 收分 2026</h1>
-      <p class="hero-intro">港大、科大、理大及都大已公布 2026 收分；其餘課程按實際資料年份列出。</p>
+      <p class="hero-intro">查看各院校已公布的 2026 取錄分數，分清中位數、平均分和四分位數；城大按 2027 公式重算的分數另有標示。</p>
       <p class="hub-update">{snapshot.programmes.length} 個課程 · {publishedCount} 個已有 2026 數據 · 收分資料更新 <time datetime={updatedDate}>{displayDate}</time></p>
       <nav class="section-nav" aria-label="本頁內容"><a href="#quick-scores">全部課程收分</a><a href="#schools">院校介紹及年份</a><a href="#sources">官方資料來源</a></nav>
     </header>
@@ -44,7 +44,7 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
       <details class="hub-school-jumps"><summary>按院校跳至完整表格</summary><nav class="quick-school-nav" aria-label="跳至院校收分">{schoolEntries.map(({ slug, school, programmes }) => <a href={`#quick-${slug}`}>{school.shortName}<span class="quick-nav-count">{programmes.length}</span></a>)}</nav></details>
       <table id="quick-scores-table" class="quick-scores-table">
         <caption>完整列出網站現有課程，按院校及 JS 代碼排列。年份指學生入學年份；未有 2026 數字時列最近有資料的年份。只公布平均分的課程會另標「平均分」，不當作 Median。</caption>
-        <thead><tr><th scope="col">院校及課程</th><th id="quick-year" scope="col">收分年份</th><th id="quick-median" scope="col">Median<br /><span>中位數</span></th><th id="quick-lq" scope="col">LQ<br /><span>下四分位數</span></th><th scope="col">來源／要求</th></tr></thead>
+        <thead><tr><th scope="col">院校及課程</th><th id="quick-year" scope="col">取錄年份<br /><span>計分基準</span></th><th id="quick-median" scope="col">中位數／平均分</th><th id="quick-lq" scope="col">LQ／UQ<br /><span>下／上四分位數</span></th><th scope="col">來源／要求</th></tr></thead>
         {schoolEntries.map(({ slug, school, programmes }) => <tbody data-school-group={slug}>
           <tr class="quick-school-heading"><th id={`quick-${slug}`} colspan="5" scope="rowgroup"><div><span>{school.shortName} <span class="quick-school-code">{school.code} · {programmes.length} 個課程</span></span><a href={`/universities/${slug}/`}>院校分析及歷年分數 →</a></div></th></tr>
           {programmes.map(p => {
@@ -52,10 +52,10 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
             const source = latest?.year === 2026 && p.actual_2026_source ? p.actual_2026_source : school.official;
             const sourceLabel = latest?.year === 2026 && p.actual_2026_source ? '收分原文 ↗' : '官方要求 ↗';
             return <tr id={`quick-${p.js_code.toLowerCase()}`} data-programme={p.js_code} data-year={latest?.year ?? 'none'} data-school={slug} data-search={`${p.js_code} ${p.title} ${p.faculty ?? ''} ${school.name} ${school.shortName} ${school.code} ${institutionNames[p.institution] ?? ''}`.toLowerCase()}>
-              <th id={`quick-course-${p.js_code}`} scope="row"><span class="course-code">{p.js_code}{p.js_code.startsWith('JSS') && ' · SSSDP'}</span><a class="course-title" href={programmePath(p)}>{p.title}</a>{slug === 'sssdp' && <span class="quick-institution-name">{institutionNames[p.institution] ?? p.institution}</span>}{latest?.year === 2026 && p.actual_2026_comparable_to_calculator === false && <span class="quick-formula-note">科目比重有改動，請按 2026 公式核對</span>}</th>
-              <td headers={`quick-year quick-course-${p.js_code}`} class="quick-year"><span>{latest?.year ?? '未有數據'}</span>{latest && latest.year !== 2026 && <small>未有 2026 數字</small>}</td>
-              <td headers={`quick-median quick-course-${p.js_code}`} data-score="median"><span class="quick-score-label" aria-hidden="true">Median · 中位數</span><strong>{formatScore(latest?.median)}</strong>{latest?.mean != null && <span class="quick-mean-note">只有平均分：{formatScore(latest.mean)}</span>}</td>
-              <td headers={`quick-lq quick-course-${p.js_code}`} data-score="lq"><span class="quick-score-label" aria-hidden="true">LQ · 下四分位數</span><strong>{formatScore(latest?.lq)}</strong></td>
+              <th id={`quick-course-${p.js_code}`} scope="row"><span class="course-code">{p.js_code}{p.js_code.startsWith('JSS') && ' · SSSDP'}</span><a class="course-title" href={programmePath(p)}>{p.title}</a>{slug === 'sssdp' && <span class="quick-institution-name">{institutionNames[p.institution] ?? p.institution}</span>}{latest?.year === 2026 && p.actual_2026_comparable_to_calculator === false && <span class="quick-formula-note">公布數字與 App 計分參考分開列示</span>}</th>
+              <td headers={`quick-year quick-course-${p.js_code}`} class="quick-year"><span>{latest?.year ?? '未有數據'}</span>{latest?.formulaYear && latest.formulaYear !== latest.year && <small>按 {latest.formulaYear} 公式重算</small>}{latest && latest.year !== 2026 && <small>未有 2026 數字</small>}</td>
+              <td headers={`quick-median quick-course-${p.js_code}`} data-score="reference" data-metric={latest?.median != null ? 'median' : latest?.mean != null ? 'mean' : 'none'}><span class="quick-score-label">{scoreMetric(latest)}</span><strong>{formatScore(latest?.median ?? latest?.mean)}</strong>{latest?.mean != null && <span class="quick-mean-note">只公布平均分</span>}</td>
+              <td headers={`quick-lq quick-course-${p.js_code}`} data-score="lq"><span class="quick-score-label">LQ · 下四分位數</span><strong>{formatScore(latest?.lq)}</strong>{latest?.uq != null && <span class="quick-mean-note">UQ · 上四分位數 {formatScore(latest.uq)}</span>}</td>
               <td class="quick-source"><a href={source} rel="external" aria-label={`${school.shortName} ${p.js_code} ${latest?.year === 2026 ? '2026 收分官方原文' : '官方課程要求'}`}>{sourceLabel}</a></td>
             </tr>;
           })}

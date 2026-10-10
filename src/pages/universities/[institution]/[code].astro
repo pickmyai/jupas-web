@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { schools, snapshot, formatScore as f, slugFor, programmePath, programmesFor, yearRows, latestRow, institutionNames, enrichmentFor, enrichmentVersion, popularityFor } from '../../../lib/admissions';
+import { schools, snapshot, formatScore as f, slugFor, programmePath, programmesFor, yearRows, latestRow, institutionNames, enrichmentFor, enrichmentVersion, popularityFor, scoreBasis } from '../../../lib/admissions';
 import '../../../styles/universities.css';
 
 // One page per JUPAS programme, generated from the app's unified data
@@ -20,7 +20,7 @@ const latest = latestRow(p);
 const usesMean = latest && latest.median == null && latest.mean != null;
 const path = programmePath(p);
 const url = `https://www.jupascalculator.app${path}`;
-const modified = '2026-09-26';
+const modified = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(snapshot.sourceUpdatedAt));
 const info = enrichmentFor(p);
 const pop = popularityFor(p);
 const paths = info.career_paths ?? [];
@@ -37,17 +37,15 @@ function describe(r) {
   else if (r.mean != null) parts.push(`平均分 ${f(r.mean)} 分`);
   if (r.lq != null) parts.push(`下四分位數（LQ）${f(r.lq)} 分`);
   if (r.uq != null) parts.push(`上四分位數（UQ）${f(r.uq)} 分`);
-  return `${r.year} 年收生${parts.join('、')}`;
+  return `${scoreBasis(r)}：${parts.join('、')}`;
 }
 const lead = `${uni}「${p.title}」（${p.js_code}）${describe(latest)}${p.scoring_method ? `，計分方法為 ${p.scoring_method}` : ''}。`;
-const headline = latest ? (usesMean ? `平均分 ${f(latest.mean)}` : `Median ${f(latest.median)}${latest.lq != null ? `・LQ ${f(latest.lq)}` : ''}`) : '收生分數';
+const headline = latest ? (usesMean ? `平均分 ${f(latest.mean)}` : latest.median != null ? `Median ${f(latest.median)}${latest.lq != null ? `・LQ ${f(latest.lq)}` : ''}` : `LQ ${f(latest.lq)}・UQ ${f(latest.uq)}`) : '收生分數';
 const title = `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} ${p.title} ${latest?.year ?? ''} 收生分數｜${headline}`;
 const description = `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法${pop ? '、Band A 申請人數' : ''}${paths.length ? '、畢業出路及起薪' : ''}。`;
 
 const notes = [
-  rows[0]?.formulaChanged && '2026 年的計分公式與往年不同，2026 年分數不宜直接與之前年份比較。',
-  p.actual_2026_note,
-  p.data_remark,
+  p.actual_2026_note ?? p.data_remark,
 ].filter(Boolean);
 
 const siblings = programmesFor(school.code)
@@ -74,15 +72,15 @@ const faqPairs = [
         <h1>{p.title}<span>{p.js_code} 收生分數</span></h1>
         <p class="hero-intro">{lead}</p>
       </div>
-      {latest && <aside class="edition-card"><span>{latest.year} 年收生</span><strong>{usesMean ? f(latest.mean) : f(latest.median)}</strong><p>{usesMean ? '平均分' : 'Median（中位數）'}</p><p>{latest.lq != null && `LQ ${f(latest.lq)}`}{latest.lq != null && latest.uq != null && ' · '}{latest.uq != null && `UQ ${f(latest.uq)}`}</p></aside>}
+      {latest && <aside class="edition-card"><span>{scoreBasis(latest)}</span><strong>{usesMean ? f(latest.mean) : f(latest.median)}</strong><p>{usesMean ? '平均分' : latest.median != null ? 'Median（中位數）' : '未公布中位數／平均分'}</p><p>{latest.lq != null && `LQ ${f(latest.lq)}`}{latest.lq != null && latest.uq != null && ' · '}{latest.uq != null && `UQ ${f(latest.uq)}`}</p></aside>}
     </header>
 
     <section id="scores" class="article-section">
       <h2>歷年收生分數</h2>
       {rows.length ? <div class="score-table-scroll" tabindex="0" role="region" aria-label={`${p.js_code} 歷年收生分數`}>
-        <table class="programme-years"><caption>年份為學生入學年份；數字沿用 App 統一資料。</caption>
-          <thead><tr><th scope="col">年份</th><th scope="col">UQ</th><th scope="col">{usesMean ? 'Median／平均分' : 'Median'}</th><th scope="col">LQ</th></tr></thead>
-          <tbody>{rows.map(r => <tr><th scope="row">{r.year}{r.formulaChanged && ' · 新公式'}</th><td>{f(r.uq)}</td><td class="latest-score">{r.median != null ? f(r.median) : r.mean != null ? `${f(r.mean)}（平均）` : '—'}</td><td>{f(r.lq)}</td></tr>)}</tbody>
+        <table class="programme-years"><caption>取錄年份、計分公式及統計種類分開標示；「—」為未公布。</caption>
+          <thead><tr><th scope="col">取錄年份／基準</th><th scope="col">UQ</th><th scope="col">中位數</th><th scope="col">平均分</th><th scope="col">LQ</th></tr></thead>
+          <tbody>{rows.map(r => <tr><th scope="row">{scoreBasis(r)}</th><td>{f(r.uq)}</td><td class="latest-score">{f(r.median)}</td><td class="latest-score">{f(r.mean)}</td><td>{f(r.lq)}</td></tr>)}</tbody>
         </table>
       </div> : <p>{p.actual_2026_no_score ? '院校未有公布此課程的收生分數（例如取錄人數不足）。' : '暫未有此課程的收生分數。'}</p>}
       {notes.map(n => <p class="data-note">{n}</p>)}
@@ -108,7 +106,7 @@ const faqPairs = [
     </section>}
 
     <section id="scoring" class="article-section article-copy">
-      <h2>{p.js_code} 計分方法</h2>
+      <h2>{p.js_code} 計分方法{p.scoring_formula_year ? `（${p.scoring_formula_year} 公式）` : ''}</h2>
       {p.scoring_method && <p><strong>計分：</strong>{p.scoring_method}</p>}
       <p><strong>科目要求及比重：</strong>{p.weighting_detail || '資料未列額外科目比重。'}</p>
       <p><strong>等級換算：</strong>{p.bonus_system ? '5** = 8.5、5* = 7、5 = 5.5、4 = 4、3 = 3（加分制）。' : '5** = 7、5* = 6、5 = 5、4 = 4、3 = 3。'}</p>

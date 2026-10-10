@@ -1,4 +1,9 @@
-import snapshot from '../data/app-admissions.json';
+import sourceSnapshot from '../data/app-admissions.json';
+// The current web engine understands this formula; older installed apps keep
+// the legacy fields in the identical OTA dataset.
+const snapshot = { ...sourceSnapshot, programmes: sourceSnapshot.programmes.map(p =>
+  p.actual_2026_requires_engine === 'cityu_2027' && p.scoring_2027
+    ? { ...p, ...p.scoring_2027, actual_2026_comparable_to_calculator: true } : p) };
 import enrichmentSnapshot from '../data/app-enrichment.json';
 
 export { snapshot };
@@ -8,7 +13,7 @@ export const years = [2023, 2024, 2025];
 // ── 2026 official results + the 2025 reference they sit next to ──
 // The raw `median/lq/uq` fields are the 2025 reference, except where the app
 // marks `actual_2026_prior_reference_is_2025: false` (then 2025 is unknown).
-export const has2026 = p => p.actual_2026_median != null || p.actual_2026_lq != null;
+export const has2026 = p => ['median', 'mean', 'lq', 'uq'].some(key => p[`actual_2026_${key}`] != null);
 export const median2025 = p => p.actual_2026_prior_reference_is_2025 === false ? null : p.median;
 export const lq2025 = p => p.actual_2026_prior_reference_is_2025 === false ? null : p.lq;
 export const uq2025 = p => p.uq;
@@ -17,21 +22,24 @@ export const medianFor = (p, year) =>
 /** Every year with at least one published figure, newest first. */
 export function yearRows(p) {
   const rows = [];
-  if (has2026(p)) rows.push({ year: 2026, uq: p.actual_2026_uq, median: p.actual_2026_median, lq: p.actual_2026_lq, formulaChanged: p.actual_2026_comparable_to_calculator === false });
-  const r25 = { year: 2025, uq: uq2025(p), median: median2025(p), lq: lq2025(p), mean: p.median == null ? p.mean : null };
+  if (has2026(p)) rows.push({ year: 2026, uq: p.actual_2026_uq, median: p.actual_2026_median, mean: p.actual_2026_mean, lq: p.actual_2026_lq, formulaYear: p.actual_2026_formula_year, formulaChanged: p.actual_2026_comparable_to_calculator === false });
+  const r25 = { year: 2025, formulaYear: p.score_history_formula_years?.['2025'], uq: uq2025(p), median: median2025(p), lq: lq2025(p), mean: p.median == null ? p.mean : null };
   if ([r25.uq, r25.median, r25.lq, r25.mean].some(v => v != null)) rows.push(r25);
   for (const year of [2024, 2023]) {
-    const r = { year, uq: p[`uq_${year}`], median: p[`median_${year}`], lq: p[`lq_${year}`] };
-    if ([r.uq, r.median, r.lq].some(v => v != null)) rows.push(r);
+    const meanOnly = p.median == null && p.mean != null;
+    const r = { year, uq: p[`uq_${year}`], median: meanOnly ? null : p[`median_${year}`], mean: meanOnly ? p[`median_${year}`] : null, lq: p[`lq_${year}`] };
+    if ([r.uq, r.median, r.mean, r.lq].some(v => v != null)) rows.push(r);
   }
   return rows;
 }
 export const latestRow = p => yearRows(p)[0] ?? null;
+export const scoreMetric = row => row?.median != null ? '中位數' : row?.mean != null ? '平均分' : '未公布中位數／平均分';
+export const scoreBasis = row => row?.formulaYear && row.formulaYear !== row.year ? `${row.year} 錄取者・按 ${row.formulaYear} 公式重算` : row ? `${row.year} 年取錄分數` : '未有數據';
 export const schools = {
   hku: {
     code: 'HKU', name: '香港大學', shortName: '港大',
-    title: 'HKU JUPAS 收生分數｜港大 2023–2025 Median、LQ 分析及計算器',
-    description: '查看港大 HKU 課程 2023–2025 收生中位數、2025 LQ／UQ、計分公式及改制備註。免費單課程試算沿用 DSE Jupas 神器 App 計分引擎。',
+    title: 'HKU JUPAS 收生分數｜港大 2023–2026 收生中位數、LQ 及計算器',
+    description: '查看港大 HKU 課程 2023–2026 收生中位數、LQ／UQ、計分公式及改制備註。免費單課程試算沿用 DSE Jupas 神器 App 計分引擎。',
     intro: '港大收分要按課程睇。同樣寫 Best 5，指定科、科目比重同額外科加分都可能不同。先搵心儀課程，核對年份同公式，再將自己的分數放返同一基準比較。',
     highlights: ['JS6016', 'JS6028', 'JS6004'],
     official: 'https://admissions.hku.hk/apply/jupas/score-calculator',
@@ -43,8 +51,8 @@ export const schools = {
   },
   cuhk: {
     code: 'CUHK', name: '香港中文大學', shortName: '中大',
-    title: 'CUHK JUPAS 收生分數｜中大 2023–2025 Median、LQ 變化分析',
-    description: '查看中大 CUHK 課程 2023–2025 收生中位數、2025 LQ／UQ 及科目加權。拆解醫科通識斷層、改公式及課程前身，避免誤讀收分升跌。',
+    title: 'CUHK JUPAS 收生分數｜中大歷年 Median、LQ 及 2026 醫科收分',
+    description: '查看中大各課程歷年收生分數及 2026 醫科中位數，分清取錄年份、科目加權與未公布項目。',
     intro: '中大歷年收分最容易睇錯嘅地方，係將不同年份嘅公式當成一樣。醫科嘅通識科斷層、商科加權調整、新課程承接前身，都要連同數字一齊睇。',
     highlights: ['JS4018', 'JS4501', 'JS4238'],
     official: 'https://admission.cuhk.edu.hk/application/jupas/programme-specific-requirements-and-score-calculator/',
@@ -65,10 +73,14 @@ const official2026 = code => [...new Set(snapshot.programmes
 // to JUPAS plus the 2026 documents the app itself cites.
 const generic = (code, name, shortName, match) => {
   const last = snapshot.programmes.some(p => match.includes(p.institution) && has2026(p)) ? 2026 : 2025;
-  const title = `${code} JUPAS 收生分數｜${shortName} 2023–${last} Median、LQ 一覽`;
+  const own = snapshot.programmes.filter(p => match.includes(p.institution));
+  const hasMean = own.some(p => p.actual_2026_mean != null || p.mean != null);
+  const hasMedian = own.some(p => p.actual_2026_median != null || p.median != null);
+  const metrics = hasMean && hasMedian ? '中位數、平均分及四分位數' : hasMean ? '平均分及四分位數' : '中位數及四分位數';
+  const title = `${code} JUPAS 收生分數｜${shortName} 2023–${last} ${metrics}`;
   return {
     code, name, shortName, match, title,
-    description: `查看${name}（${shortName}）各 JUPAS 課程 2023–${last} 收生中位數、LQ／UQ、計分方法及資料備註；數據沿用 DSE Jupas 神器 App 統一資料。`,
+    description: `查看${name}（${shortName}）各 JUPAS 課程 2023–${last} ${metrics}、計分方法及資料備註。每個數字分開標明錄取年份與公式基準，未公布項目留空。`,
     intro: `${shortName}各課程的計分方法（Best 5、Best 6、科目比重）不同，同一份成績在不同課程會得出不同分數。先找心儀課程，核對年份及公式，再與自己按同一方法計算的分數比較。`,
     highlights: [], official: 'https://www.jupas.edu.hk/', sources: null,
   };

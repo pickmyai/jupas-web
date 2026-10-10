@@ -27,7 +27,10 @@ FIELDS = [
     'other_considerations', 'data_remark', 'mean',
     # 2026 official results (merged by the app's tool/merge_actual_scores_2026.py)
     'actual_2026_median', 'actual_2026_lq', 'actual_2026_uq',
-    'actual_2026_source', 'actual_2026_note', 'actual_2026_no_score',
+    'actual_2026_source', 'actual_2026_note', 'actual_2026_no_score', 'actual_2026_mean',
+    'actual_2026_formula_year', 'scoring_formula_year', 'score_history_formula_years',
+    'actual_2026_shared_programme_codes', 'historical_reference_unverified',
+    'scoring_2027', 'actual_2026_requires_engine',
     'actual_2026_comparable_to_calculator', 'actual_2026_prior_reference_is_2025',
     # Official JUPAS 2025 intake statistics (competition on the programme pages)
     'quota', 'band_a_apply', 'band_a_offer', 'admitted',
