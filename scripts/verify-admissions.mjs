@@ -10,6 +10,11 @@ const data = JSON.parse(read('src/data/app-admissions.json'));
 assert.equal(sha(JSON.stringify(data.programmes)), data.programmeSha256, 'Generated rows changed: run sync-app-data.py instead of hand-editing');
 assert.equal(sha(read('public/tools/app-score-engine.js')), data.engineSha256, 'Generated engine changed');
 assert.equal(new Set(data.programmes.map(p => p.js_code)).size, data.programmes.length);
+assert(data.programmes.every(p => typeof p.scoring_method_label === 'string'), 'Re-run sync-app-data.py for shared display labels');
+for (const code of ['JS3290', 'JS6468']) {
+  const p = data.programmes.find(p => p.js_code === code);
+  assert(p.scoring_method_label.includes('6th'), `${code} sixth-subject bonus is missing from the display`);
+}
 assert(data.programmes.every(p => !('grad_salary_k' in p) && !('weightings' in p)));
 // Enrichment is a public subset only: no ratings / editor's take / MBTI / long-run salaries.
 const enrichment = JSON.parse(read('src/data/app-enrichment.json'));

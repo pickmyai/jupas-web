@@ -40,7 +40,7 @@ function describe(r) {
   if (r.uq != null) parts.push(`上四分位數（UQ）${f(r.uq)} 分`);
   return `${scoreBasis(r)}：${parts.join('、')}`;
 }
-const lead = `${uni}「${p.title}」（${p.js_code}）${describe(latest)}${p.scoring_method ? `；${earlierFormula ? "較早參考計法" : "計分方法"}為 ${p.scoring_method}` : ''}。`;
+const lead = `${uni}「${p.title}」（${p.js_code}）${describe(latest)}${(p.scoring_method_label ?? p.scoring_method) ? `；${earlierFormula ? "較早參考計法" : "計分方法"}為 ${(p.scoring_method_label ?? p.scoring_method)}` : ''}。`;
 const headline = latest ? (usesMean ? `平均分 ${f(latest.mean)}` : latest.median != null ? `Median ${f(latest.median)}${latest.lq != null ? `・LQ ${f(latest.lq)}` : ''}` : `LQ ${f(latest.lq)}・UQ ${f(latest.uq)}`) : '收生分數';
 const title = `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} ${p.title} ${latest?.year ?? ''} 收生分數｜${headline}`;
 const description = `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法${pop ? '、Band A 申請人數' : ''}${paths.length ? '、畢業出路及起薪' : ''}。`;
@@ -57,7 +57,7 @@ const siblings = programmesFor(school.code)
 
 const faqPairs = [
   latest && { question: `${p.js_code} ${p.title} ${latest.year} 年收生分數是多少？`, answer: `${describe(latest)}。數字為已取錄學生的分數分布，不是最低錄取線，亦不能預測下一年。` },
-  p.scoring_method && { question: `${p.js_code} 用甚麼計分方法？`, answer: `${p.scoring_method}${p.weighting_detail ? `；${p.weighting_detail}` : ''}。` },
+  (p.scoring_method_label ?? p.scoring_method) && { question: `${p.js_code} 用甚麼計分方法？`, answer: `${(p.scoring_method_label ?? p.scoring_method)}${p.weighting_detail ? `；${p.weighting_detail}` : ''}。` },
   pop && { question: `${p.js_code} ${p.title}有幾多人報？`, answer: `2025 年有 ${pop.applicants} 名 Band A 申請者，學額 ${pop.places} 個，即每個學額約 ${perPlace} 人。申請人數不代表入學難度，須同時參考收生分數。` },
 ].filter(Boolean);
 ---
@@ -109,7 +109,7 @@ const faqPairs = [
     <section id="scoring" class="article-section article-copy">
       <h2>{p.js_code} 計分方法{earlierFormula ? '（較早參考）' : p.scoring_formula_year ? `（${p.scoring_formula_year} 公式）` : ''}</h2>
       {earlierFormula && <p class="data-note">以下列出較早的參考計法；尚未確認可與上方 2026 分數直接比較，請先核對院校最新公式。</p>}
-      {p.scoring_method && <p><strong>計分：</strong>{p.scoring_method}</p>}
+      {(p.scoring_method_label ?? p.scoring_method) && <p><strong>計分：</strong>{(p.scoring_method_label ?? p.scoring_method)}</p>}
       <p><strong>科目要求及比重：</strong>{p.weighting_detail || '資料未列額外科目比重。'}</p>
       <p><strong>等級換算：</strong>{p.bonus_system ? '5** = 8.5、5* = 7、5 = 5.5、4 = 4、3 = 3（加分制）。' : '5** = 7、5* = 6、5 = 5、4 = 4、3 = 3。'}</p>
       {p.interview && <p><strong>面試：</strong>此課程設面試。</p>}

@@ -8,6 +8,6 @@ void main(List<String> args) {
     return;
   }
   for (String? line; (line = stdin.readLineSync()) != null;) {
-    stdout.writeln(handle(line!));
+    stdout.writeln(args.contains('--labels') ? methodLabel(line!) : handle(line!));
   }
 }

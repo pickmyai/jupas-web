@@ -76,6 +76,22 @@ def main():
         for src in (ROOT / 'scripts/dart').glob('*.dart'):
             shutil.copyfile(src, temp / src.name)
         metadata = json.loads(subprocess.check_output(['dart', 'run', str(temp / 'cli.dart'), '--metadata'], cwd=temp))
+        # Display the same conditional add-ons as the app before entering grades.
+        # Include the effective CityU formula used by admissions.js, while the
+        # original source rows and OTA checksum remain unchanged.
+        label_input = [dict(p, **p['scoring_2027'])
+                       if p.get('actual_2026_requires_engine') == 'cityu_2027' and p.get('scoring_2027')
+                       else p for p in selected]
+        label_cases = temp / 'labels.jsonl'
+        label_output = temp / 'labels-output.jsonl'
+        label_cases.write_bytes(b'\n'.join(canonical(p) for p in label_input) + b'\n')
+        with label_cases.open('rb') as source, label_output.open('wb') as result:
+            subprocess.run(['dart', 'run', str(temp / 'cli.dart'), '--labels'],
+                           stdin=source, stdout=result, cwd=temp, check=True)
+        labels = [json.loads(line) for line in label_output.read_bytes().splitlines()]
+        for p, label in zip(selected, labels, strict=True):
+            assert isinstance(label, str)
+            p['scoring_method_label'] = label
         out = temp / 'app-score-engine.js'
         subprocess.run(['dart', 'compile', 'js', '-O2', '--no-source-maps', '-o', str(out), str(temp / 'web.dart')], cwd=temp, check=True)
         # Check JS/VM parity on EVERY pilot calculator programme, across grades,

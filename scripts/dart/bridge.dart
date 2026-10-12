@@ -29,6 +29,11 @@ Map<String, dynamic> calculate(Map<String, dynamic> input) {
 
 String handle(String raw) => jsonEncode(calculate(jsonDecode(raw) as Map<String, dynamic>));
 
+String methodLabel(String raw) {
+  final p = Programme.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+  return jsonEncode(const ScoreCalculator().scoringMethodLabel(p));
+}
+
 Map<String, dynamic> metadata() => {
   'subjects': [for (final s in Subject.all) {
     'key': s.key, 'display': s.display, 'core': s.isCore,

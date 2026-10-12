@@ -4,9 +4,9 @@
   "coreSha256": "f045637893a451a6fe0021a5050ae0cad7fb1d07a37dd0567535edbf9af5f17d",
   "sourceUpdatedAt": "2026-10-11T02:28:45.590681+00:00",
   "statisticsYear": 2026,
-  "programmeSha256": "763a9f62c482da9e437f5af4a7f27adbea4fb2dfccf60129cdd056c55e7cfc7c",
+  "programmeSha256": "34cebc0c9981079f6b630a772b7408b1971cb71973dbeafe141b2491e7078b07",
   "engineSources": {
-    "lib/services/jupas/score_calculator.dart": "36f5b0c4357298773e913b830bae3655ee92344857cfc4c94e8071de62dd0a4b",
+    "lib/services/jupas/score_calculator.dart": "7fdc40e09dad0ad4f73cb539583c3706bf05449803c736bb48fb6e3832b703a2",
     "lib/models/jupas/programme.dart": "366ce1fa3c0952fec93644e5ea2c3847acb0db9fb9c5cca67faf4c3a5f5ea377",
     "lib/models/jupas/dse_result.dart": "49bb5ff8685649ec9de9660d39cc882e0b11cebe0a0d5909077edba2d241800e",
     "lib/models/jupas/subject.dart": "87d7f1872eba23cafc6313ad4e608ee31ff651686edbab1eb28651654437f9f8",
@@ -296,7 +296,8 @@
       "quota": 10,
       "band_a_apply": 81,
       "band_a_offer": 2,
-      "admitted": 2
+      "admitted": 2,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1001",
@@ -355,7 +356,8 @@
       "quota": 15,
       "band_a_apply": 100,
       "band_a_offer": 1,
-      "admitted": 4
+      "admitted": 4,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1002",
@@ -414,7 +416,8 @@
       "quota": 148,
       "band_a_apply": 1018,
       "band_a_offer": 127,
-      "admitted": 131
+      "admitted": 131,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1005",
@@ -473,7 +476,8 @@
       "quota": 58,
       "band_a_apply": 711,
       "band_a_offer": 37,
-      "admitted": 42
+      "admitted": 42,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1007",
@@ -532,7 +536,8 @@
       "quota": 82,
       "band_a_apply": 934,
       "band_a_offer": 72,
-      "admitted": 76
+      "admitted": 76,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1012",
@@ -591,7 +596,8 @@
       "quota": 29,
       "band_a_apply": 247,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1013",
@@ -650,7 +656,8 @@
       "quota": 31,
       "band_a_apply": 476,
       "band_a_offer": 32,
-      "admitted": 32
+      "admitted": 32,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1014",
@@ -709,7 +716,8 @@
       "quota": 96,
       "band_a_apply": 756,
       "band_a_offer": 102,
-      "admitted": 102
+      "admitted": 102,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1017",
@@ -768,7 +776,8 @@
       "quota": 62,
       "band_a_apply": 322,
       "band_a_offer": 54,
-      "admitted": 59
+      "admitted": 59,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1018",
@@ -827,7 +836,8 @@
       "quota": 10,
       "band_a_apply": 63,
       "band_a_offer": 6,
-      "admitted": 8
+      "admitted": 8,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1019",
@@ -886,7 +896,8 @@
       "quota": 10,
       "band_a_apply": 66,
       "band_a_offer": 3,
-      "admitted": 7
+      "admitted": 7,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1026",
@@ -945,7 +956,8 @@
       "quota": 24,
       "band_a_apply": 154,
       "band_a_offer": 20,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1027",
@@ -1004,7 +1016,8 @@
       "quota": 23,
       "band_a_apply": 286,
       "band_a_offer": 20,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1040",
@@ -1063,7 +1076,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1041",
@@ -1122,7 +1136,8 @@
       "quota": 21,
       "band_a_apply": 322,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1042",
@@ -1181,7 +1196,8 @@
       "quota": 17,
       "band_a_apply": 253,
       "band_a_offer": 14,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1043",
@@ -1240,7 +1256,8 @@
       "quota": 25,
       "band_a_apply": 236,
       "band_a_offer": 25,
-      "admitted": 25
+      "admitted": 25,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1044",
@@ -1299,7 +1316,8 @@
       "quota": 17,
       "band_a_apply": 179,
       "band_a_offer": 18,
-      "admitted": 18
+      "admitted": 18,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1050",
@@ -1394,7 +1412,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1051",
@@ -1489,7 +1508,8 @@
       "quota": 32,
       "band_a_apply": 389,
       "band_a_offer": 41,
-      "admitted": 54
+      "admitted": 54,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1052",
@@ -1584,7 +1604,8 @@
       "quota": 10,
       "band_a_apply": 49,
       "band_a_offer": 3,
-      "admitted": 11
+      "admitted": 11,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1053",
@@ -1683,7 +1704,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1061",
@@ -1742,7 +1764,8 @@
       "quota": 42,
       "band_a_apply": 129,
       "band_a_offer": 26,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1062",
@@ -1801,7 +1824,8 @@
       "quota": 8,
       "band_a_apply": 19,
       "band_a_offer": 4,
-      "admitted": 5
+      "admitted": 5,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1070",
@@ -1860,7 +1884,8 @@
       "quota": 15,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1071",
@@ -1919,7 +1944,8 @@
       "quota": 20,
       "band_a_apply": 200,
       "band_a_offer": 14,
-      "admitted": 16
+      "admitted": 16,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1072",
@@ -1978,7 +2004,8 @@
       "quota": 27,
       "band_a_apply": 195,
       "band_a_offer": 17,
-      "admitted": 18
+      "admitted": 18,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1074",
@@ -2037,7 +2064,8 @@
       "quota": 17,
       "band_a_apply": 108,
       "band_a_offer": 13,
-      "admitted": 16
+      "admitted": 16,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1102",
@@ -2096,7 +2124,8 @@
       "quota": 20,
       "band_a_apply": 274,
       "band_a_offer": 13,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1103",
@@ -2155,7 +2184,8 @@
       "quota": 40,
       "band_a_apply": 500,
       "band_a_offer": 34,
-      "admitted": 37
+      "admitted": 37,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1104",
@@ -2214,7 +2244,8 @@
       "quota": 25,
       "band_a_apply": 172,
       "band_a_offer": 20,
-      "admitted": 28
+      "admitted": 28,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1106",
@@ -2273,7 +2304,8 @@
       "quota": 45,
       "band_a_apply": 505,
       "band_a_offer": 36,
-      "admitted": 43
+      "admitted": 43,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1108",
@@ -2332,7 +2364,8 @@
       "quota": 63,
       "band_a_apply": 271,
       "band_a_offer": 48,
-      "admitted": 59
+      "admitted": 59,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1109",
@@ -2391,7 +2424,8 @@
       "quota": 25,
       "band_a_apply": 130,
       "band_a_offer": 20,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1111",
@@ -2450,7 +2484,8 @@
       "quota": 21,
       "band_a_apply": 328,
       "band_a_offer": 21,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1112",
@@ -2509,7 +2544,8 @@
       "quota": 16,
       "band_a_apply": 319,
       "band_a_offer": 27,
-      "admitted": 31
+      "admitted": 31,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1113",
@@ -2568,7 +2604,8 @@
       "quota": 54,
       "band_a_apply": 630,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1123",
@@ -2627,7 +2664,8 @@
       "quota": 10,
       "band_a_apply": 91,
       "band_a_offer": 9,
-      "admitted": 11
+      "admitted": 11,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1200",
@@ -2686,7 +2724,8 @@
       "quota": 15,
       "band_a_apply": 20,
       "band_a_offer": 2,
-      "admitted": 4
+      "admitted": 4,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1201",
@@ -2745,7 +2784,8 @@
       "quota": 87,
       "band_a_apply": 507,
       "band_a_offer": 98,
-      "admitted": 98
+      "admitted": 98,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1202",
@@ -2804,7 +2844,8 @@
       "quota": 44,
       "band_a_apply": 309,
       "band_a_offer": 40,
-      "admitted": 48
+      "admitted": 48,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1204",
@@ -2863,7 +2904,8 @@
       "quota": 87,
       "band_a_apply": 882,
       "band_a_offer": 78,
-      "admitted": 85
+      "admitted": 85,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1205",
@@ -2922,7 +2964,8 @@
       "quota": 163,
       "band_a_apply": 884,
       "band_a_offer": 114,
-      "admitted": 126
+      "admitted": 126,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1206",
@@ -2981,7 +3024,8 @@
       "quota": 36,
       "band_a_apply": 373,
       "band_a_offer": 21,
-      "admitted": 27
+      "admitted": 27,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1207",
@@ -3040,7 +3084,8 @@
       "quota": 87,
       "band_a_apply": 711,
       "band_a_offer": 85,
-      "admitted": 109
+      "admitted": 109,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1208",
@@ -3099,7 +3144,8 @@
       "quota": 20,
       "band_a_apply": 214,
       "band_a_offer": 13,
-      "admitted": 19
+      "admitted": 19,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1210",
@@ -3158,7 +3204,8 @@
       "quota": 24,
       "band_a_apply": 180,
       "band_a_offer": 17,
-      "admitted": 31
+      "admitted": 31,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1211",
@@ -3244,7 +3291,8 @@
       "quota": 44,
       "band_a_apply": 334,
       "band_a_offer": 47,
-      "admitted": 57
+      "admitted": 57,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1216",
@@ -3303,7 +3351,8 @@
       "quota": 24,
       "band_a_apply": 183,
       "band_a_offer": 20,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1217",
@@ -3362,7 +3411,8 @@
       "quota": 15,
       "band_a_apply": 23,
       "band_a_offer": 6,
-      "admitted": 12
+      "admitted": 12,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1218",
@@ -3421,7 +3471,8 @@
       "quota": 28,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1219",
@@ -3480,7 +3531,8 @@
       "quota": 16,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1221",
@@ -3539,7 +3591,8 @@
       "quota": 10,
       "band_a_apply": 98,
       "band_a_offer": 11,
-      "admitted": 11
+      "admitted": 11,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1300",
@@ -3598,7 +3651,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1801",
@@ -3657,7 +3711,8 @@
       "quota": 30,
       "band_a_apply": 173,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS1805",
@@ -3716,7 +3771,8 @@
       "quota": 20,
       "band_a_apply": 124,
       "band_a_offer": 19,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1806",
@@ -3775,7 +3831,8 @@
       "quota": 30,
       "band_a_apply": 202,
       "band_a_offer": 24,
-      "admitted": 29
+      "admitted": 29,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS1807",
@@ -3834,7 +3891,8 @@
       "quota": 30,
       "band_a_apply": 130,
       "band_a_offer": 26,
-      "admitted": 29
+      "admitted": 29,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS2020",
@@ -3884,7 +3942,8 @@
       "quota": 87,
       "band_a_apply": 563,
       "band_a_offer": 102,
-      "admitted": 106
+      "admitted": 106,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2025",
@@ -3934,7 +3993,8 @@
       "quota": 11,
       "band_a_apply": 157,
       "band_a_offer": 9,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2060",
@@ -3987,7 +4047,8 @@
       "quota": 38,
       "band_a_apply": 251,
       "band_a_offer": 28,
-      "admitted": 28
+      "admitted": 28,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2110",
@@ -4037,7 +4098,8 @@
       "quota": 49,
       "band_a_apply": 513,
       "band_a_offer": 40,
-      "admitted": 46
+      "admitted": 46,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2120",
@@ -4087,7 +4149,8 @@
       "quota": 185,
       "band_a_apply": 1519,
       "band_a_offer": 124,
-      "admitted": 157
+      "admitted": 157,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2310",
@@ -4137,7 +4200,8 @@
       "quota": 70,
       "band_a_apply": 557,
       "band_a_offer": 66,
-      "admitted": 74
+      "admitted": 74,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2330",
@@ -4187,7 +4251,8 @@
       "quota": 18,
       "band_a_apply": 387,
       "band_a_offer": 17,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2340",
@@ -4237,7 +4302,8 @@
       "quota": 8,
       "band_a_apply": 176,
       "band_a_offer": 8,
-      "admitted": 8
+      "admitted": 8,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2370",
@@ -4287,7 +4353,8 @@
       "quota": 20,
       "band_a_apply": 550,
       "band_a_offer": 16,
-      "admitted": 16
+      "admitted": 16,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2410",
@@ -4337,7 +4404,8 @@
       "quota": 37,
       "band_a_apply": 349,
       "band_a_offer": 46,
-      "admitted": 46
+      "admitted": 46,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2420",
@@ -4387,7 +4455,8 @@
       "quota": 23,
       "band_a_apply": 339,
       "band_a_offer": 29,
-      "admitted": 29
+      "admitted": 29,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2510",
@@ -4437,7 +4506,8 @@
       "quota": 197,
       "band_a_apply": 1296,
       "band_a_offer": 121,
-      "admitted": 198
+      "admitted": 198,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2610",
@@ -4487,7 +4557,8 @@
       "quota": 122,
       "band_a_apply": 994,
       "band_a_offer": 146,
-      "admitted": 155
+      "admitted": 155,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2620",
@@ -4537,7 +4608,8 @@
       "quota": 35,
       "band_a_apply": 667,
       "band_a_offer": 15,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2660",
@@ -4587,7 +4659,8 @@
       "quota": 30,
       "band_a_apply": 763,
       "band_a_offer": 29,
-      "admitted": 29
+      "admitted": 29,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2810",
@@ -4637,7 +4710,8 @@
       "quota": 35,
       "band_a_apply": 605,
       "band_a_offer": 37,
-      "admitted": 37
+      "admitted": 37,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2910",
@@ -4687,7 +4761,8 @@
       "quota": 15,
       "band_a_apply": 145,
       "band_a_offer": 3,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2920",
@@ -4737,7 +4812,8 @@
       "quota": 40,
       "band_a_apply": 317,
       "band_a_offer": 35,
-      "admitted": 35
+      "admitted": 35,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2930",
@@ -4787,7 +4863,8 @@
       "quota": 25,
       "band_a_apply": 331,
       "band_a_offer": 12,
-      "admitted": 12
+      "admitted": 12,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2940",
@@ -4837,7 +4914,8 @@
       "quota": 35,
       "band_a_apply": 332,
       "band_a_offer": 30,
-      "admitted": 42
+      "admitted": 42,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2950",
@@ -4887,7 +4965,8 @@
       "quota": 15,
       "band_a_apply": 59,
       "band_a_offer": 11,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS2960",
@@ -4937,7 +5016,8 @@
       "quota": 40,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3000",
@@ -4991,7 +5071,8 @@
       "quota": 30,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3003",
@@ -5038,7 +5119,8 @@
       "quota": 19,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3004",
@@ -5092,7 +5174,8 @@
       "quota": 33,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3005",
@@ -5139,7 +5222,8 @@
       "quota": 35,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3006",
@@ -5186,7 +5270,8 @@
       "quota": 14,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3007",
@@ -5240,7 +5325,8 @@
       "quota": 13,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3008",
@@ -5287,7 +5373,8 @@
       "quota": 15,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3011",
@@ -5334,7 +5421,8 @@
       "quota": 55,
       "band_a_apply": 252,
       "band_a_offer": 43,
-      "admitted": 53
+      "admitted": 53,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3030",
@@ -5381,7 +5469,8 @@
       "quota": 23,
       "band_a_apply": 178,
       "band_a_offer": 17,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3050",
@@ -5435,7 +5524,8 @@
       "quota": 101,
       "band_a_apply": 837,
       "band_a_offer": 77,
-      "admitted": 82
+      "admitted": 82,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3060",
@@ -5482,7 +5572,8 @@
       "quota": 78,
       "band_a_apply": 620,
       "band_a_offer": 99,
-      "admitted": 108
+      "admitted": 108,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3070",
@@ -5529,7 +5620,8 @@
       "quota": 43,
       "band_a_apply": 515,
       "band_a_offer": 42,
-      "admitted": 46
+      "admitted": 46,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3080",
@@ -5576,7 +5668,8 @@
       "quota": 48,
       "band_a_apply": 664,
       "band_a_offer": 59,
-      "admitted": 65
+      "admitted": 65,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3130",
@@ -5623,7 +5716,8 @@
       "quota": 35,
       "band_a_apply": 173,
       "band_a_offer": 26,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3140",
@@ -5670,7 +5764,8 @@
       "quota": 49,
       "band_a_apply": 426,
       "band_a_offer": 39,
-      "admitted": 48
+      "admitted": 48,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3150",
@@ -5717,7 +5812,8 @@
       "quota": 22,
       "band_a_apply": 108,
       "band_a_offer": 28,
-      "admitted": 42
+      "admitted": 42,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3160",
@@ -5764,7 +5860,8 @@
       "quota": 18,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3170",
@@ -5811,7 +5908,8 @@
       "quota": 49,
       "band_a_apply": 494,
       "band_a_offer": 48,
-      "admitted": 52
+      "admitted": 52,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3180",
@@ -5858,7 +5956,8 @@
       "quota": 56,
       "band_a_apply": 608,
       "band_a_offer": 42,
-      "admitted": 50
+      "admitted": 50,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3211",
@@ -5905,7 +6004,8 @@
       "quota": 38,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3214",
@@ -5959,7 +6059,8 @@
       "quota": 27,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3220",
@@ -6006,7 +6107,8 @@
       "quota": 19,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3223",
@@ -6053,7 +6155,8 @@
       "quota": 32,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3236",
@@ -6100,7 +6203,8 @@
       "quota": 46,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3237",
@@ -6147,7 +6251,8 @@
       "quota": 43,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3240",
@@ -6201,7 +6306,8 @@
       "quota": 32,
       "band_a_apply": 119,
       "band_a_offer": 23,
-      "admitted": 28
+      "admitted": 28,
+      "scoring_method_label": "中英Best3 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3243",
@@ -6255,7 +6361,8 @@
       "quota": 15,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3242",
@@ -6309,7 +6416,8 @@
       "quota": 30,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3250",
@@ -6356,7 +6464,8 @@
       "quota": 64,
       "band_a_apply": 400,
       "band_a_offer": 38,
-      "admitted": 38
+      "admitted": 38,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3255",
@@ -6403,7 +6512,8 @@
       "quota": 59,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3290",
@@ -6457,7 +6567,8 @@
       "quota": 60,
       "band_a_apply": 199,
       "band_a_offer": 53,
-      "admitted": 55
+      "admitted": 55,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3310",
@@ -6504,7 +6615,8 @@
       "quota": 74,
       "band_a_apply": 1086,
       "band_a_offer": 75,
-      "admitted": 75
+      "admitted": 75,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3320",
@@ -6558,7 +6670,8 @@
       "quota": 16,
       "band_a_apply": 280,
       "band_a_offer": 19,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3337",
@@ -6605,7 +6718,8 @@
       "quota": 70,
       "band_a_apply": 482,
       "band_a_offer": 58,
-      "admitted": 58
+      "admitted": 58,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3375",
@@ -6659,7 +6773,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3478",
@@ -6713,7 +6828,8 @@
       "quota": 60,
       "band_a_apply": 313,
       "band_a_offer": 54,
-      "admitted": 56
+      "admitted": 56,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3569",
@@ -6760,7 +6876,8 @@
       "quota": 83,
       "band_a_apply": 822,
       "band_a_offer": 80,
-      "admitted": 80
+      "admitted": 80,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3612",
@@ -6814,7 +6931,8 @@
       "quota": 115,
       "band_a_apply": 439,
       "band_a_offer": 107,
-      "admitted": 108
+      "admitted": 108,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3624",
@@ -6861,7 +6979,8 @@
       "quota": 100,
       "band_a_apply": 343,
       "band_a_offer": 78,
-      "admitted": 78
+      "admitted": 78,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3636",
@@ -6908,7 +7027,8 @@
       "quota": 150,
       "band_a_apply": 409,
       "band_a_offer": 124,
-      "admitted": 128
+      "admitted": 128,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3648",
@@ -6955,7 +7075,8 @@
       "quota": 193,
       "band_a_apply": 1007,
       "band_a_offer": 171,
-      "admitted": 176
+      "admitted": 176,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3739",
@@ -7002,7 +7123,8 @@
       "quota": 87,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3741",
@@ -7049,7 +7171,8 @@
       "quota": 51,
       "band_a_apply": 365,
       "band_a_offer": 34,
-      "admitted": 41
+      "admitted": 41,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS3789",
@@ -7103,7 +7226,8 @@
       "quota": 65,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3791",
@@ -7157,7 +7281,8 @@
       "quota": 22,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
       "js_code": "JS3868",
@@ -7204,7 +7329,8 @@
       "quota": 74,
       "band_a_apply": 627,
       "band_a_offer": 80,
-      "admitted": 90
+      "admitted": 90,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4006",
@@ -7251,7 +7377,8 @@
       "quota": 18,
       "band_a_apply": 130,
       "band_a_offer": 22,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4018",
@@ -7298,7 +7425,8 @@
       "quota": 79,
       "band_a_apply": 353,
       "band_a_offer": 80,
-      "admitted": 80
+      "admitted": 80,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4032",
@@ -7345,7 +7473,8 @@
       "quota": 55,
       "band_a_apply": 258,
       "band_a_offer": 49,
-      "admitted": 49
+      "admitted": 49,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4044",
@@ -7392,7 +7521,8 @@
       "quota": 19,
       "band_a_apply": 294,
       "band_a_offer": 19,
-      "admitted": 19
+      "admitted": 19,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4056",
@@ -7439,7 +7569,8 @@
       "quota": 48,
       "band_a_apply": 323,
       "band_a_offer": 46,
-      "admitted": 46
+      "admitted": 46,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4068",
@@ -7486,7 +7617,8 @@
       "quota": 22,
       "band_a_apply": 331,
       "band_a_offer": 22,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4070",
@@ -7533,7 +7665,8 @@
       "quota": 22,
       "band_a_apply": 136,
       "band_a_offer": 20,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4082",
@@ -7580,7 +7713,8 @@
       "quota": 27,
       "band_a_apply": 177,
       "band_a_offer": 26,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4094",
@@ -7627,7 +7761,8 @@
       "quota": 19,
       "band_a_apply": 181,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4100",
@@ -7674,7 +7809,8 @@
       "quota": 37,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4109",
@@ -7721,7 +7857,8 @@
       "quota": null,
       "band_a_apply": 160,
       "band_a_offer": 16,
-      "admitted": 16
+      "admitted": 16,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4111",
@@ -7768,7 +7905,8 @@
       "quota": null,
       "band_a_apply": 25,
       "band_a_offer": 0,
-      "admitted": 0
+      "admitted": 0,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4123",
@@ -7815,7 +7953,8 @@
       "quota": 32,
       "band_a_apply": 214,
       "band_a_offer": 29,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4136",
@@ -7862,7 +8001,8 @@
       "quota": 10,
       "band_a_apply": 221,
       "band_a_offer": 10,
-      "admitted": 10
+      "admitted": 10,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4202",
@@ -7909,7 +8049,8 @@
       "quota": 222,
       "band_a_apply": 1030,
       "band_a_offer": 202,
-      "admitted": 202
+      "admitted": 202,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4214",
@@ -7956,7 +8097,8 @@
       "quota": 15,
       "band_a_apply": 55,
       "band_a_offer": 15,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4226",
@@ -8003,7 +8145,8 @@
       "quota": 60,
       "band_a_apply": 470,
       "band_a_offer": 50,
-      "admitted": 50
+      "admitted": 50,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4238",
@@ -8050,7 +8193,8 @@
       "quota": 45,
       "band_a_apply": 168,
       "band_a_offer": 46,
-      "admitted": 46
+      "admitted": 46,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4240",
@@ -8097,7 +8241,8 @@
       "quota": 126,
       "band_a_apply": 415,
       "band_a_offer": 110,
-      "admitted": 110
+      "admitted": 110,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4252",
@@ -8144,7 +8289,8 @@
       "quota": 37,
       "band_a_apply": 146,
       "band_a_offer": 33,
-      "admitted": 33
+      "admitted": 33,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4254",
@@ -8191,7 +8337,8 @@
       "quota": 24,
       "band_a_apply": 53,
       "band_a_offer": 14,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4264",
@@ -8238,7 +8385,8 @@
       "quota": 25,
       "band_a_apply": 64,
       "band_a_offer": 22,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS4276",
@@ -8285,7 +8433,8 @@
       "quota": 20,
       "band_a_apply": 46,
       "band_a_offer": 15,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4320",
@@ -8332,7 +8481,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4329",
@@ -8379,7 +8529,8 @@
       "quota": 17,
       "band_a_apply": 447,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4331",
@@ -8426,7 +8577,8 @@
       "quota": 12,
       "band_a_apply": 95,
       "band_a_offer": 14,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4343",
@@ -8473,7 +8625,8 @@
       "quota": 12,
       "band_a_apply": 60,
       "band_a_offer": 14,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4361",
@@ -8520,7 +8673,8 @@
       "quota": 12,
       "band_a_apply": 104,
       "band_a_offer": 15,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4372",
@@ -8567,7 +8721,8 @@
       "quota": 21,
       "band_a_apply": 438,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4386",
@@ -8614,7 +8769,8 @@
       "quota": 20,
       "band_a_apply": 78,
       "band_a_offer": 10,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4408",
@@ -8661,7 +8817,8 @@
       "quota": 53,
       "band_a_apply": 357,
       "band_a_offer": 53,
-      "admitted": 53
+      "admitted": 53,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4412",
@@ -8708,7 +8865,8 @@
       "quota": 107,
       "band_a_apply": 433,
       "band_a_offer": 116,
-      "admitted": 116
+      "admitted": 116,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4416",
@@ -8755,7 +8913,8 @@
       "quota": 20,
       "band_a_apply": 46,
       "band_a_offer": 12,
-      "admitted": 12
+      "admitted": 12,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4428",
@@ -8802,7 +8961,8 @@
       "quota": 35,
       "band_a_apply": 118,
       "band_a_offer": 35,
-      "admitted": 35
+      "admitted": 35,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4434",
@@ -8849,7 +9009,8 @@
       "quota": 53,
       "band_a_apply": 246,
       "band_a_offer": 39,
-      "admitted": 39
+      "admitted": 39,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4446",
@@ -8896,7 +9057,8 @@
       "quota": 75,
       "band_a_apply": 216,
       "band_a_offer": 67,
-      "admitted": 67
+      "admitted": 67,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4458",
@@ -8943,7 +9105,8 @@
       "quota": 53,
       "band_a_apply": 310,
       "band_a_offer": 54,
-      "admitted": 54
+      "admitted": 54,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4460",
@@ -8990,7 +9153,8 @@
       "quota": 44,
       "band_a_apply": 127,
       "band_a_offer": 26,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4462",
@@ -9037,7 +9201,8 @@
       "quota": 28,
       "band_a_apply": 185,
       "band_a_offer": 29,
-      "admitted": 29
+      "admitted": 29,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4468",
@@ -9084,7 +9249,8 @@
       "quota": 30,
       "band_a_apply": 108,
       "band_a_offer": 29,
-      "admitted": 29
+      "admitted": 29,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4470",
@@ -9131,7 +9297,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4501",
@@ -9178,7 +9345,8 @@
       "quota": 295,
       "band_a_apply": 527,
       "band_a_offer": 170,
-      "admitted": 170
+      "admitted": 170,
+      "scoring_method_label": "6Graded"
     },
     {
       "js_code": "JS4502",
@@ -9225,7 +9393,8 @@
       "quota": 30,
       "band_a_apply": 82,
       "band_a_offer": 32,
-      "admitted": 32
+      "admitted": 32,
+      "scoring_method_label": "6Graded"
     },
     {
       "js_code": "JS4513",
@@ -9272,7 +9441,8 @@
       "quota": 217,
       "band_a_apply": 694,
       "band_a_offer": 212,
-      "admitted": 212
+      "admitted": 212,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4525",
@@ -9319,7 +9489,8 @@
       "quota": 59,
       "band_a_apply": 343,
       "band_a_offer": 59,
-      "admitted": 59
+      "admitted": 59,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4537",
@@ -9366,7 +9537,8 @@
       "quota": 31,
       "band_a_apply": 94,
       "band_a_offer": 15,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4542",
@@ -9413,7 +9585,8 @@
       "quota": 20,
       "band_a_apply": 202,
       "band_a_offer": 25,
-      "admitted": 25
+      "admitted": 25,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4550",
@@ -9484,7 +9657,8 @@
       "quota": 19,
       "band_a_apply": 165,
       "band_a_offer": 17,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS4601",
@@ -9531,7 +9705,8 @@
       "quota": 352,
       "band_a_apply": 1428,
       "band_a_offer": 361,
-      "admitted": 361
+      "admitted": 361,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4648",
@@ -9578,7 +9753,8 @@
       "quota": 35,
       "band_a_apply": 168,
       "band_a_offer": 35,
-      "admitted": 35
+      "admitted": 35,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4682",
@@ -9625,7 +9801,8 @@
       "quota": 35,
       "band_a_apply": 144,
       "band_a_offer": 38,
-      "admitted": 38
+      "admitted": 38,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4690",
@@ -9672,7 +9849,8 @@
       "quota": 20,
       "band_a_apply": 72,
       "band_a_offer": 18,
-      "admitted": 19
+      "admitted": 19,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4719",
@@ -9719,7 +9897,8 @@
       "quota": 25,
       "band_a_apply": 125,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4725",
@@ -9766,7 +9945,8 @@
       "quota": 15,
       "band_a_apply": 51,
       "band_a_offer": 14,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4733",
@@ -9813,7 +9993,8 @@
       "quota": 13,
       "band_a_apply": 34,
       "band_a_offer": 7,
-      "admitted": 7
+      "admitted": 7,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4750",
@@ -9860,7 +10041,8 @@
       "quota": 20,
       "band_a_apply": 64,
       "band_a_offer": 15,
-      "admitted": 16
+      "admitted": 16,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4760",
@@ -9907,7 +10089,8 @@
       "quota": 20,
       "band_a_apply": 87,
       "band_a_offer": 22,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4801",
@@ -9954,7 +10137,8 @@
       "quota": 63,
       "band_a_apply": 642,
       "band_a_offer": 25,
-      "admitted": 25
+      "admitted": 25,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4812",
@@ -10001,7 +10185,8 @@
       "quota": 31,
       "band_a_apply": 140,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4824",
@@ -10048,7 +10233,8 @@
       "quota": 65,
       "band_a_apply": 334,
       "band_a_offer": 55,
-      "admitted": 55
+      "admitted": 55,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4836",
@@ -10095,7 +10281,8 @@
       "quota": 39,
       "band_a_apply": 305,
       "band_a_offer": 44,
-      "admitted": 44
+      "admitted": 44,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4838",
@@ -10142,7 +10329,8 @@
       "quota": 19,
       "band_a_apply": 184,
       "band_a_offer": 23,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4848",
@@ -10189,7 +10377,8 @@
       "quota": 37,
       "band_a_apply": 284,
       "band_a_offer": 39,
-      "admitted": 39
+      "admitted": 39,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4850",
@@ -10236,7 +10425,8 @@
       "quota": 43,
       "band_a_apply": 150,
       "band_a_offer": 43,
-      "admitted": 43
+      "admitted": 43,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4858",
@@ -10283,7 +10473,8 @@
       "quota": 9,
       "band_a_apply": 23,
       "band_a_offer": 4,
-      "admitted": 4
+      "admitted": 4,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4862",
@@ -10330,7 +10521,8 @@
       "quota": 56,
       "band_a_apply": 342,
       "band_a_offer": 60,
-      "admitted": 60
+      "admitted": 60,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4874",
@@ -10377,7 +10569,8 @@
       "quota": 45,
       "band_a_apply": 323,
       "band_a_offer": 37,
-      "admitted": 37
+      "admitted": 37,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4886",
@@ -10424,7 +10617,8 @@
       "quota": 38,
       "band_a_apply": 236,
       "band_a_offer": 37,
-      "admitted": 38
+      "admitted": 38,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4892",
@@ -10471,7 +10665,8 @@
       "quota": 19,
       "band_a_apply": 62,
       "band_a_offer": 20,
-      "admitted": 20
+      "admitted": 20,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4893",
@@ -10518,7 +10713,8 @@
       "quota": 19,
       "band_a_apply": 91,
       "band_a_offer": 19,
-      "admitted": 19
+      "admitted": 19,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS4903",
@@ -10565,7 +10761,8 @@
       "quota": 73,
       "band_a_apply": 233,
       "band_a_offer": 40,
-      "admitted": 40
+      "admitted": 40,
+      "scoring_method_label": "3C2X"
     },
     {
       "js_code": "JS5101",
@@ -10630,7 +10827,8 @@
       "quota": 20,
       "band_a_apply": 69,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5102",
@@ -10677,7 +10875,8 @@
       "quota": null,
       "band_a_apply": 927,
       "band_a_offer": 181,
-      "admitted": 188
+      "admitted": 188,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5103",
@@ -10724,7 +10923,8 @@
       "quota": null,
       "band_a_apply": 1057,
       "band_a_offer": 193,
-      "admitted": 203
+      "admitted": 203,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5118",
@@ -10771,7 +10971,8 @@
       "quota": 25,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5181",
@@ -10818,7 +11019,8 @@
       "quota": 40,
       "band_a_apply": 145,
       "band_a_offer": 36,
-      "admitted": 36
+      "admitted": 36,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5212",
@@ -10893,7 +11095,8 @@
       "quota": 93,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5220",
@@ -10972,7 +11175,8 @@
       "quota": 47,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5230",
@@ -11047,7 +11251,8 @@
       "quota": 121,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5240",
@@ -11122,7 +11327,8 @@
       "quota": 119,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5250",
@@ -11197,7 +11403,8 @@
       "quota": 72,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5260",
@@ -11272,7 +11479,8 @@
       "quota": 37,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5270",
@@ -11347,7 +11555,8 @@
       "quota": 79,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5282",
@@ -11422,7 +11631,8 @@
       "quota": 116,
       "band_a_apply": 522,
       "band_a_offer": 158,
-      "admitted": 161
+      "admitted": 161,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5300",
@@ -11469,7 +11679,8 @@
       "quota": 350,
       "band_a_apply": 1035,
       "band_a_offer": 235,
-      "admitted": 235
+      "admitted": 235,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5311",
@@ -11516,7 +11727,8 @@
       "quota": null,
       "band_a_apply": 108,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5312",
@@ -11563,7 +11775,8 @@
       "quota": 45,
       "band_a_apply": 141,
       "band_a_offer": 45,
-      "admitted": 45
+      "admitted": 45,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5313",
@@ -11610,7 +11823,8 @@
       "quota": 30,
       "band_a_apply": 64,
       "band_a_offer": 18,
-      "admitted": 18
+      "admitted": 18,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5314",
@@ -11657,7 +11871,8 @@
       "quota": null,
       "band_a_apply": 92,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5315",
@@ -11704,7 +11919,8 @@
       "quota": null,
       "band_a_apply": 67,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5316",
@@ -11751,7 +11967,8 @@
       "quota": null,
       "band_a_apply": 73,
       "band_a_offer": 17,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5317",
@@ -11798,7 +12015,8 @@
       "quota": null,
       "band_a_apply": 28,
       "band_a_offer": 10,
-      "admitted": 10
+      "admitted": 10,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5318",
@@ -11845,7 +12063,8 @@
       "quota": 60,
       "band_a_apply": 173,
       "band_a_offer": 56,
-      "admitted": 56
+      "admitted": 56,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5331",
@@ -11892,7 +12111,8 @@
       "quota": 30,
       "band_a_apply": 105,
       "band_a_offer": 33,
-      "admitted": 33
+      "admitted": 33,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5332",
@@ -11939,7 +12159,8 @@
       "quota": 20,
       "band_a_apply": 65,
       "band_a_offer": 18,
-      "admitted": 18
+      "admitted": 18,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5411",
@@ -11986,7 +12207,8 @@
       "quota": 50,
       "band_a_apply": 242,
       "band_a_offer": 51,
-      "admitted": 53
+      "admitted": 53,
+      "scoring_method_label": "中英Best3"
     },
     {
       "js_code": "JS5412",
@@ -12033,7 +12255,8 @@
       "quota": 26,
       "band_a_apply": 77,
       "band_a_offer": 27,
-      "admitted": 28
+      "admitted": 28,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5711",
@@ -12080,7 +12303,8 @@
       "quota": 20,
       "band_a_apply": 25,
       "band_a_offer": 7,
-      "admitted": 7
+      "admitted": 7,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5811",
@@ -12127,7 +12351,8 @@
       "quota": 25,
       "band_a_apply": 65,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5812",
@@ -12174,7 +12399,8 @@
       "quota": 21,
       "band_a_apply": 149,
       "band_a_offer": 23,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5813",
@@ -12221,7 +12447,8 @@
       "quota": 15,
       "band_a_apply": 49,
       "band_a_offer": 14,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5814",
@@ -12268,7 +12495,8 @@
       "quota": 22,
       "band_a_apply": 68,
       "band_a_offer": 23,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5822",
@@ -12315,7 +12543,8 @@
       "quota": 18,
       "band_a_apply": 31,
       "band_a_offer": 17,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS5901",
@@ -12362,7 +12591,8 @@
       "quota": 22,
       "band_a_apply": 51,
       "band_a_offer": 20,
-      "admitted": 20
+      "admitted": 20,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS6004",
@@ -12409,7 +12639,8 @@
       "quota": 56,
       "band_a_apply": 102,
       "band_a_offer": 37,
-      "admitted": 37
+      "admitted": 37,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6016",
@@ -12456,7 +12687,8 @@
       "quota": 42,
       "band_a_apply": 178,
       "band_a_offer": 61,
-      "admitted": 61
+      "admitted": 61,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6028",
@@ -12503,7 +12735,8 @@
       "quota": 12,
       "band_a_apply": 38,
       "band_a_offer": 7,
-      "admitted": 7
+      "admitted": 7,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6042",
@@ -12550,7 +12783,8 @@
       "quota": 17,
       "band_a_apply": 100,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6054",
@@ -12597,7 +12831,8 @@
       "quota": 217,
       "band_a_apply": 884,
       "band_a_offer": 176,
-      "admitted": 176
+      "admitted": 176,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6274",
@@ -12644,7 +12879,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6286",
@@ -12691,7 +12927,8 @@
       "quota": 30,
       "band_a_apply": 46,
       "band_a_offer": 15,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6298",
@@ -12738,7 +12975,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6755",
@@ -12785,7 +13023,8 @@
       "quota": null,
       "band_a_apply": 472,
       "band_a_offer": 53,
-      "admitted": 53
+      "admitted": 53,
+      "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
       "js_code": "JS6767",
@@ -12832,7 +13071,8 @@
       "quota": null,
       "band_a_apply": 282,
       "band_a_offer": 56,
-      "admitted": 56
+      "admitted": 56,
+      "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
       "js_code": "JS6781",
@@ -12879,7 +13119,8 @@
       "quota": null,
       "band_a_apply": 257,
       "band_a_offer": 83,
-      "admitted": 83
+      "admitted": 83,
+      "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
       "js_code": "JS6860",
@@ -12926,7 +13167,8 @@
       "quota": 30,
       "band_a_apply": 104,
       "band_a_offer": 17,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6793",
@@ -12973,7 +13215,8 @@
       "quota": 15,
       "band_a_apply": 81,
       "band_a_offer": 23,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
       "js_code": "JS6808",
@@ -13020,7 +13263,8 @@
       "quota": 80,
       "band_a_apply": 100,
       "band_a_offer": 40,
-      "admitted": 40
+      "admitted": 40,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6846",
@@ -13067,7 +13311,8 @@
       "quota": 25,
       "band_a_apply": 87,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
       "js_code": "JS6884",
@@ -13114,7 +13359,8 @@
       "quota": 25,
       "band_a_apply": 123,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6896",
@@ -13161,7 +13407,8 @@
       "quota": 25,
       "band_a_apply": 52,
       "band_a_offer": 18,
-      "admitted": 18
+      "admitted": 18,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6107",
@@ -13228,7 +13475,8 @@
       "quota": 90,
       "band_a_apply": 203,
       "band_a_offer": 55,
-      "admitted": 55
+      "admitted": 55,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6066",
@@ -13275,7 +13523,8 @@
       "quota": 17,
       "band_a_apply": 138,
       "band_a_offer": 17,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6080",
@@ -13322,7 +13571,8 @@
       "quota": 17,
       "band_a_apply": 102,
       "band_a_offer": 17,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6092",
@@ -13369,7 +13619,8 @@
       "quota": 16,
       "band_a_apply": 178,
       "band_a_offer": 13,
-      "admitted": 13
+      "admitted": 13,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6119",
@@ -13448,7 +13699,8 @@
       "quota": 16,
       "band_a_apply": 143,
       "band_a_offer": 13,
-      "admitted": 13
+      "admitted": 13,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6157",
@@ -13495,7 +13747,8 @@
       "quota": 48,
       "band_a_apply": 223,
       "band_a_offer": 49,
-      "admitted": 49
+      "admitted": 49,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6303",
@@ -13542,7 +13795,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6315",
@@ -13589,7 +13843,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6339",
@@ -13636,7 +13891,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6353",
@@ -13683,7 +13939,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6377",
@@ -13730,7 +13987,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6925",
@@ -13777,7 +14035,8 @@
       "quota": 75,
       "band_a_apply": 119,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6937",
@@ -13824,7 +14083,8 @@
       "quota": null,
       "band_a_apply": 96,
       "band_a_offer": 26,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6987",
@@ -13871,7 +14131,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6078",
@@ -13918,7 +14179,8 @@
       "quota": 20,
       "band_a_apply": 42,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6406",
@@ -13965,7 +14227,8 @@
       "quota": 92,
       "band_a_apply": 237,
       "band_a_offer": 61,
-      "admitted": 62
+      "admitted": 62,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6418",
@@ -14012,7 +14275,8 @@
       "quota": null,
       "band_a_apply": 63,
       "band_a_offer": 4,
-      "admitted": 4
+      "admitted": 4,
+      "scoring_method_label": "Best 5 + 6th × 0.5"
     },
     {
       "js_code": "JS6456",
@@ -14059,7 +14323,8 @@
       "quota": 300,
       "band_a_apply": 482,
       "band_a_offer": 155,
-      "admitted": 155
+      "admitted": 155,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6468",
@@ -14106,7 +14371,8 @@
       "quota": null,
       "band_a_apply": 769,
       "band_a_offer": 189,
-      "admitted": 189
+      "admitted": 189,
+      "scoring_method_label": "Best 5 + 6th × 0.5"
     },
     {
       "js_code": "JS6482",
@@ -14153,7 +14419,8 @@
       "quota": 25,
       "band_a_apply": 166,
       "band_a_offer": 22,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5 + 6th × 0.5"
     },
     {
       "js_code": "JS6494",
@@ -14200,7 +14467,8 @@
       "quota": 35,
       "band_a_apply": 121,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6949",
@@ -14247,7 +14515,8 @@
       "quota": 53,
       "band_a_apply": 122,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6688",
@@ -14330,7 +14599,8 @@
       "quota": 26,
       "band_a_apply": 105,
       "band_a_offer": 25,
-      "admitted": 25
+      "admitted": 25,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6729",
@@ -14377,7 +14647,8 @@
       "quota": 50,
       "band_a_apply": 239,
       "band_a_offer": 54,
-      "admitted": 54
+      "admitted": 54,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6858",
@@ -14461,7 +14732,8 @@
       "quota": 20,
       "band_a_apply": 51,
       "band_a_offer": 24,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6901",
@@ -14540,7 +14812,8 @@
       "quota": 253,
       "band_a_apply": 1473,
       "band_a_offer": 211,
-      "admitted": 211
+      "admitted": 211,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6705",
@@ -14587,7 +14860,8 @@
       "quota": 74,
       "band_a_apply": 247,
       "band_a_offer": 34,
-      "admitted": 35
+      "admitted": 35,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6717",
@@ -14634,7 +14908,8 @@
       "quota": 72,
       "band_a_apply": 359,
       "band_a_offer": 81,
-      "admitted": 81
+      "admitted": 81,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6731",
@@ -14681,7 +14956,8 @@
       "quota": 35,
       "band_a_apply": 202,
       "band_a_offer": 23,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6810",
@@ -14728,7 +15004,8 @@
       "quota": 40,
       "band_a_apply": 64,
       "band_a_offer": 35,
-      "admitted": 35
+      "admitted": 35,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS6822",
@@ -14775,7 +15052,8 @@
       "quota": 19,
       "band_a_apply": 99,
       "band_a_offer": 10,
-      "admitted": 10
+      "admitted": 10,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6779",
@@ -14822,7 +15100,8 @@
       "quota": 30,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6999",
@@ -14869,7 +15148,8 @@
       "quota": 91,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6224",
@@ -14916,7 +15196,8 @@
       "quota": 37,
       "band_a_apply": 92,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6236",
@@ -14963,7 +15244,8 @@
       "quota": 20,
       "band_a_apply": 35,
       "band_a_offer": 1,
-      "admitted": 1
+      "admitted": 1,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6248",
@@ -15010,7 +15292,8 @@
       "quota": 24,
       "band_a_apply": 85,
       "band_a_offer": 26,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6250",
@@ -15057,7 +15340,8 @@
       "quota": 18,
       "band_a_apply": 24,
       "band_a_offer": 9,
-      "admitted": 9
+      "admitted": 9,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6602",
@@ -15104,7 +15388,8 @@
       "quota": 25,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 6"
     },
     {
       "js_code": "JS7101",
@@ -15151,7 +15436,8 @@
       "quota": 39,
       "band_a_apply": 506,
       "band_a_offer": 42,
-      "admitted": 45
+      "admitted": 45,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7123",
@@ -15198,7 +15484,8 @@
       "quota": 20,
       "band_a_apply": 313,
       "band_a_offer": 15,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7133",
@@ -15245,7 +15532,8 @@
       "quota": 20,
       "band_a_apply": 441,
       "band_a_offer": 10,
-      "admitted": 10
+      "admitted": 10,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7204",
@@ -15292,7 +15580,8 @@
       "quota": 34,
       "band_a_apply": 237,
       "band_a_offer": 27,
-      "admitted": 44
+      "admitted": 44,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7211",
@@ -15339,7 +15628,8 @@
       "quota": 42,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7212",
@@ -15386,7 +15676,8 @@
       "quota": 7,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7213",
@@ -15433,7 +15724,8 @@
       "quota": 25,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7214",
@@ -15480,7 +15772,8 @@
       "quota": 17,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7215",
@@ -15527,7 +15820,8 @@
       "quota": 36,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7216",
@@ -15574,7 +15868,8 @@
       "quota": 30,
       "band_a_apply": 252,
       "band_a_offer": 11,
-      "admitted": 37
+      "admitted": 37,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7225",
@@ -15621,7 +15916,8 @@
       "quota": 25,
       "band_a_apply": 234,
       "band_a_offer": 17,
-      "admitted": 40
+      "admitted": 40,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7301",
@@ -15668,7 +15964,8 @@
       "quota": 14,
       "band_a_apply": 156,
       "band_a_offer": 12,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7302",
@@ -15715,7 +16012,8 @@
       "quota": 14,
       "band_a_apply": 142,
       "band_a_offer": 8,
-      "admitted": 25
+      "admitted": 25,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7303",
@@ -15762,7 +16060,8 @@
       "quota": 20,
       "band_a_apply": 330,
       "band_a_offer": 23,
-      "admitted": 31
+      "admitted": 31,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7304",
@@ -15809,7 +16108,8 @@
       "quota": 18,
       "band_a_apply": 262,
       "band_a_offer": 17,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7305",
@@ -15856,7 +16156,8 @@
       "quota": 8,
       "band_a_apply": 191,
       "band_a_offer": 8,
-      "admitted": 16
+      "admitted": 16,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7306",
@@ -15903,7 +16204,8 @@
       "quota": 16,
       "band_a_apply": 143,
       "band_a_offer": 8,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7307",
@@ -15950,7 +16252,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7503",
@@ -15997,7 +16300,8 @@
       "quota": 20,
       "band_a_apply": 99,
       "band_a_offer": 11,
-      "admitted": 18
+      "admitted": 18,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7606",
@@ -16044,7 +16348,8 @@
       "quota": 28,
       "band_a_apply": 329,
       "band_a_offer": 24,
-      "admitted": 33
+      "admitted": 33,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7709",
@@ -16091,7 +16396,8 @@
       "quota": 29,
       "band_a_apply": 507,
       "band_a_offer": 27,
-      "admitted": 41
+      "admitted": 41,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7802",
@@ -16138,7 +16444,8 @@
       "quota": 25,
       "band_a_apply": 197,
       "band_a_offer": 17,
-      "admitted": 27
+      "admitted": 27,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS7905",
@@ -16185,7 +16492,8 @@
       "quota": 20,
       "band_a_apply": 361,
       "band_a_offer": 16,
-      "admitted": 20
+      "admitted": 20,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8003",
@@ -16232,7 +16540,8 @@
       "quota": 64,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8004",
@@ -16279,7 +16588,8 @@
       "quota": 33,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8013",
@@ -16326,7 +16636,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8009",
@@ -16373,7 +16684,8 @@
       "quota": 44,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8010",
@@ -16420,7 +16732,8 @@
       "quota": 25,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8008",
@@ -16467,7 +16780,8 @@
       "quota": 13,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8007",
@@ -16514,7 +16828,8 @@
       "quota": 12,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8005",
@@ -16561,7 +16876,8 @@
       "quota": 12,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8006",
@@ -16608,7 +16924,8 @@
       "quota": 45,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8012",
@@ -16655,7 +16972,8 @@
       "quota": 12,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8011",
@@ -16702,7 +17020,8 @@
       "quota": 29,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8507",
@@ -16749,7 +17068,8 @@
       "quota": 264,
       "band_a_apply": 1389,
       "band_a_offer": 319,
-      "admitted": 416
+      "admitted": 416,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8674",
@@ -16796,7 +17116,8 @@
       "quota": 21,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8685",
@@ -16843,7 +17164,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8686",
@@ -16890,7 +17212,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8651",
@@ -16937,7 +17260,8 @@
       "quota": 20,
       "band_a_apply": 386,
       "band_a_offer": 17,
-      "admitted": 20
+      "admitted": 20,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8663",
@@ -16984,7 +17308,8 @@
       "quota": 20,
       "band_a_apply": 268,
       "band_a_offer": 18,
-      "admitted": 18
+      "admitted": 18,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8675",
@@ -17031,7 +17356,8 @@
       "quota": 17,
       "band_a_apply": 75,
       "band_a_offer": 5,
-      "admitted": 14
+      "admitted": 14,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8687",
@@ -17078,7 +17404,8 @@
       "quota": 22,
       "band_a_apply": 296,
       "band_a_offer": 26,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8688",
@@ -17125,7 +17452,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8702",
@@ -17172,7 +17500,8 @@
       "quota": 21,
       "band_a_apply": 239,
       "band_a_offer": 21,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8714",
@@ -17219,7 +17548,8 @@
       "quota": 30,
       "band_a_apply": 240,
       "band_a_offer": 17,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8726",
@@ -17266,7 +17596,8 @@
       "quota": 29,
       "band_a_apply": 860,
       "band_a_offer": 30,
-      "admitted": 30
+      "admitted": 30,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8727",
@@ -17313,7 +17644,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8001",
@@ -17360,7 +17692,8 @@
       "quota": 32,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS8002",
@@ -17407,7 +17740,8 @@
       "quota": 32,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9009",
@@ -17454,7 +17788,8 @@
       "quota": 100,
       "band_a_apply": 601,
       "band_a_offer": 178,
-      "admitted": 277
+      "admitted": 277,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9010",
@@ -17501,7 +17836,8 @@
       "quota": 120,
       "band_a_apply": 722,
       "band_a_offer": 193,
-      "admitted": 378
+      "admitted": 378,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9011",
@@ -17548,7 +17884,8 @@
       "quota": 40,
       "band_a_apply": 189,
       "band_a_offer": 57,
-      "admitted": 130
+      "admitted": 130,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9013",
@@ -17595,7 +17932,8 @@
       "quota": 45,
       "band_a_apply": 108,
       "band_a_offer": 35,
-      "admitted": 82
+      "admitted": 82,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9016",
@@ -17642,7 +17980,8 @@
       "quota": 70,
       "band_a_apply": 370,
       "band_a_offer": 93,
-      "admitted": 177
+      "admitted": 177,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9019",
@@ -17689,7 +18028,8 @@
       "quota": 30,
       "band_a_apply": 230,
       "band_a_offer": 43,
-      "admitted": 64
+      "admitted": 64,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9220",
@@ -17736,7 +18076,8 @@
       "quota": 40,
       "band_a_apply": 207,
       "band_a_offer": 52,
-      "admitted": 149
+      "admitted": 149,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9230",
@@ -17783,7 +18124,8 @@
       "quota": 40,
       "band_a_apply": 468,
       "band_a_offer": 80,
-      "admitted": 80
+      "admitted": 80,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9240",
@@ -17830,7 +18172,8 @@
       "quota": 10,
       "band_a_apply": 145,
       "band_a_offer": 46,
-      "admitted": 110
+      "admitted": 110,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9262",
@@ -17877,7 +18220,8 @@
       "quota": 20,
       "band_a_apply": 199,
       "band_a_offer": 25,
-      "admitted": 73
+      "admitted": 73,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9266",
@@ -17924,7 +18268,8 @@
       "quota": 20,
       "band_a_apply": 207,
       "band_a_offer": 49,
-      "admitted": 80
+      "admitted": 80,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9276",
@@ -17971,7 +18316,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9280",
@@ -18018,7 +18364,8 @@
       "quota": 25,
       "band_a_apply": 237,
       "band_a_offer": 35,
-      "admitted": 84
+      "admitted": 84,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9291",
@@ -18065,7 +18412,8 @@
       "quota": 25,
       "band_a_apply": 590,
       "band_a_offer": 65,
-      "admitted": 106
+      "admitted": 106,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9294",
@@ -18112,7 +18460,8 @@
       "quota": 25,
       "band_a_apply": 245,
       "band_a_offer": 20,
-      "admitted": 66
+      "admitted": 66,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9520",
@@ -18159,7 +18508,8 @@
       "quota": 30,
       "band_a_apply": 165,
       "band_a_offer": 20,
-      "admitted": 25
+      "admitted": 25,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9530",
@@ -18206,7 +18556,8 @@
       "quota": 30,
       "band_a_apply": 142,
       "band_a_offer": 31,
-      "admitted": 36
+      "admitted": 36,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9540",
@@ -18253,7 +18604,8 @@
       "quota": 20,
       "band_a_apply": 52,
       "band_a_offer": 11,
-      "admitted": 33
+      "admitted": 33,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9550",
@@ -18300,7 +18652,8 @@
       "quota": 20,
       "band_a_apply": 36,
       "band_a_offer": 3,
-      "admitted": 21
+      "admitted": 21,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9555",
@@ -18347,7 +18700,8 @@
       "quota": 20,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9560",
@@ -18394,7 +18748,8 @@
       "quota": 30,
       "band_a_apply": 165,
       "band_a_offer": 26,
-      "admitted": 29
+      "admitted": 29,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9580",
@@ -18441,7 +18796,8 @@
       "quota": 25,
       "band_a_apply": 390,
       "band_a_offer": 23,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9719",
@@ -18488,7 +18844,8 @@
       "quota": 30,
       "band_a_apply": 379,
       "band_a_offer": 36,
-      "admitted": 74
+      "admitted": 74,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9720",
@@ -18535,7 +18892,8 @@
       "quota": 30,
       "band_a_apply": 214,
       "band_a_offer": 39,
-      "admitted": 50
+      "admitted": 50,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9731",
@@ -18582,7 +18940,8 @@
       "quota": 35,
       "band_a_apply": 190,
       "band_a_offer": 45,
-      "admitted": 85
+      "admitted": 85,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9732",
@@ -18629,7 +18988,8 @@
       "quota": 30,
       "band_a_apply": 237,
       "band_a_offer": 70,
-      "admitted": 70
+      "admitted": 70,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9733",
@@ -18676,7 +19036,8 @@
       "quota": 30,
       "band_a_apply": 72,
       "band_a_offer": 11,
-      "admitted": 36
+      "admitted": 36,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS9776",
@@ -18723,7 +19084,8 @@
       "quota": 30,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSA01",
@@ -18770,7 +19132,8 @@
       "quota": 640,
       "band_a_apply": 2705,
       "band_a_offer": 613,
-      "admitted": 720
+      "admitted": 720,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSA02",
@@ -18817,7 +19180,8 @@
       "quota": 15,
       "band_a_apply": 235,
       "band_a_offer": 17,
-      "admitted": 28
+      "admitted": 28,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSA03",
@@ -18864,7 +19228,8 @@
       "quota": 60,
       "band_a_apply": 624,
       "band_a_offer": 60,
-      "admitted": 60
+      "admitted": 60,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSA04",
@@ -18911,7 +19276,8 @@
       "quota": 25,
       "band_a_apply": 208,
       "band_a_offer": 19,
-      "admitted": 66
+      "admitted": 66,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSA05",
@@ -18958,7 +19324,8 @@
       "quota": 5,
       "band_a_apply": 56,
       "band_a_offer": 4,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSA06",
@@ -19005,7 +19372,8 @@
       "quota": 25,
       "band_a_apply": 482,
       "band_a_offer": 39,
-      "admitted": 81
+      "admitted": 81,
+      "scoring_method_label": "Best 4"
     },
     {
       "js_code": "JSSC02",
@@ -19052,7 +19420,8 @@
       "quota": 20,
       "band_a_apply": 85,
       "band_a_offer": 15,
-      "admitted": 27
+      "admitted": 27,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSH01",
@@ -19099,7 +19468,8 @@
       "quota": 105,
       "band_a_apply": 529,
       "band_a_offer": 147,
-      "admitted": 227
+      "admitted": 227,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSH02",
@@ -19146,7 +19516,8 @@
       "quota": 35,
       "band_a_apply": 121,
       "band_a_offer": 29,
-      "admitted": 64
+      "admitted": 64,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSH03",
@@ -19193,7 +19564,8 @@
       "quota": 55,
       "band_a_apply": 312,
       "band_a_offer": 53,
-      "admitted": 70
+      "admitted": 70,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSH04",
@@ -19240,7 +19612,8 @@
       "quota": 60,
       "band_a_apply": 258,
       "band_a_offer": 49,
-      "admitted": 89
+      "admitted": 89,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSH05",
@@ -19287,7 +19660,8 @@
       "quota": 50,
       "band_a_apply": 182,
       "band_a_offer": 39,
-      "admitted": 70
+      "admitted": 70,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSH06",
@@ -19334,7 +19708,8 @@
       "quota": 40,
       "band_a_apply": 374,
       "band_a_offer": 61,
-      "admitted": 76
+      "admitted": 76,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST01",
@@ -19381,7 +19756,8 @@
       "quota": 400,
       "band_a_apply": 1889,
       "band_a_offer": 443,
-      "admitted": 545
+      "admitted": 545,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST02",
@@ -19428,7 +19804,8 @@
       "quota": 45,
       "band_a_apply": 257,
       "band_a_offer": 41,
-      "admitted": 46
+      "admitted": 46,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST03",
@@ -19475,7 +19852,8 @@
       "quota": 20,
       "band_a_apply": 141,
       "band_a_offer": 21,
-      "admitted": 22
+      "admitted": 22,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST04",
@@ -19522,7 +19900,8 @@
       "quota": 60,
       "band_a_apply": 343,
       "band_a_offer": 65,
-      "admitted": 65
+      "admitted": 65,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST05",
@@ -19569,7 +19948,8 @@
       "quota": 60,
       "band_a_apply": 369,
       "band_a_offer": 48,
-      "admitted": 48
+      "admitted": 48,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST06",
@@ -19616,7 +19996,8 @@
       "quota": 40,
       "band_a_apply": 54,
       "band_a_offer": 10,
-      "admitted": 23
+      "admitted": 23,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST07",
@@ -19663,7 +20044,8 @@
       "quota": 25,
       "band_a_apply": 67,
       "band_a_offer": 14,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSST08",
@@ -19710,7 +20092,8 @@
       "quota": 30,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU12",
@@ -19757,7 +20140,8 @@
       "quota": 50,
       "band_a_apply": 298,
       "band_a_offer": 66,
-      "admitted": 119
+      "admitted": 119,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU14",
@@ -19804,7 +20188,8 @@
       "quota": 80,
       "band_a_apply": 450,
       "band_a_offer": 83,
-      "admitted": 118
+      "admitted": 118,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU15",
@@ -19851,7 +20236,8 @@
       "quota": 30,
       "band_a_apply": 307,
       "band_a_offer": 35,
-      "admitted": 54
+      "admitted": 54,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU18",
@@ -19898,7 +20284,8 @@
       "quota": 40,
       "band_a_apply": 128,
       "band_a_offer": 20,
-      "admitted": 34
+      "admitted": 34,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU40",
@@ -19945,7 +20332,8 @@
       "quota": 410,
       "band_a_apply": 2046,
       "band_a_offer": 390,
-      "admitted": 390
+      "admitted": 390,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU50",
@@ -19992,7 +20380,8 @@
       "quota": 130,
       "band_a_apply": 1029,
       "band_a_offer": 135,
-      "admitted": 135
+      "admitted": 135,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU55",
@@ -20039,7 +20428,8 @@
       "quota": 55,
       "band_a_apply": 295,
       "band_a_offer": 50,
-      "admitted": 50
+      "admitted": 50,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU61",
@@ -20086,7 +20476,8 @@
       "quota": 80,
       "band_a_apply": 306,
       "band_a_offer": 87,
-      "admitted": 90
+      "admitted": 90,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU67",
@@ -20133,7 +20524,8 @@
       "quota": 60,
       "band_a_apply": 432,
       "band_a_offer": 63,
-      "admitted": 63
+      "admitted": 63,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU69",
@@ -20180,7 +20572,8 @@
       "quota": 40,
       "band_a_apply": 398,
       "band_a_offer": 55,
-      "admitted": 65
+      "admitted": 65,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU70",
@@ -20227,7 +20620,8 @@
       "quota": 35,
       "band_a_apply": 253,
       "band_a_offer": 44,
-      "admitted": 60
+      "admitted": 60,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU72",
@@ -20274,7 +20668,8 @@
       "quota": 50,
       "band_a_apply": 286,
       "band_a_offer": 64,
-      "admitted": 70
+      "admitted": 70,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU77",
@@ -20321,7 +20716,8 @@
       "quota": 25,
       "band_a_apply": 86,
       "band_a_offer": 12,
-      "admitted": 28
+      "admitted": 28,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU78",
@@ -20368,7 +20764,8 @@
       "quota": 20,
       "band_a_apply": 104,
       "band_a_offer": 8,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU79",
@@ -20415,7 +20812,8 @@
       "quota": 45,
       "band_a_apply": 237,
       "band_a_offer": 48,
-      "admitted": 65
+      "admitted": 65,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU90",
@@ -20462,7 +20860,8 @@
       "quota": 40,
       "band_a_apply": 374,
       "band_a_offer": 47,
-      "admitted": 81
+      "admitted": 81,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU93",
@@ -20509,7 +20908,8 @@
       "quota": 40,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU95",
@@ -20556,7 +20956,8 @@
       "quota": 50,
       "band_a_apply": 402,
       "band_a_offer": 70,
-      "admitted": 70
+      "admitted": 70,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU96",
@@ -20603,7 +21004,8 @@
       "quota": 25,
       "band_a_apply": 205,
       "band_a_offer": 38,
-      "admitted": 67
+      "admitted": 67,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSU97",
@@ -20650,7 +21052,8 @@
       "quota": 20,
       "band_a_apply": 147,
       "band_a_offer": 19,
-      "admitted": 43
+      "admitted": 43,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV01",
@@ -20697,7 +21100,8 @@
       "quota": 20,
       "band_a_apply": 269,
       "band_a_offer": 24,
-      "admitted": 51
+      "admitted": 51,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV02",
@@ -20744,7 +21148,8 @@
       "quota": 10,
       "band_a_apply": 152,
       "band_a_offer": 10,
-      "admitted": 17
+      "admitted": 17,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV03",
@@ -20791,7 +21196,8 @@
       "quota": 15,
       "band_a_apply": 67,
       "band_a_offer": 8,
-      "admitted": 15
+      "admitted": 15,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV04",
@@ -20838,7 +21244,8 @@
       "quota": 10,
       "band_a_apply": 218,
       "band_a_offer": 12,
-      "admitted": 24
+      "admitted": 24,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV05",
@@ -20885,7 +21292,8 @@
       "quota": 20,
       "band_a_apply": 112,
       "band_a_offer": 5,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV07",
@@ -20932,7 +21340,8 @@
       "quota": 15,
       "band_a_apply": 67,
       "band_a_offer": 7,
-      "admitted": 12
+      "admitted": 12,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV08",
@@ -20979,7 +21388,8 @@
       "quota": 15,
       "band_a_apply": 82,
       "band_a_offer": 16,
-      "admitted": 26
+      "admitted": 26,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV09",
@@ -21026,7 +21436,8 @@
       "quota": 20,
       "band_a_apply": 267,
       "band_a_offer": 34,
-      "admitted": 63
+      "admitted": 63,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV10",
@@ -21073,7 +21484,8 @@
       "quota": 10,
       "band_a_apply": 50,
       "band_a_offer": 3,
-      "admitted": 5
+      "admitted": 5,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSV13",
@@ -21120,7 +21532,8 @@
       "quota": 10,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSW01",
@@ -21167,7 +21580,8 @@
       "quota": 15,
       "band_a_apply": 165,
       "band_a_offer": 18,
-      "admitted": 31
+      "admitted": 31,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSW02",
@@ -21214,7 +21628,8 @@
       "quota": 10,
       "band_a_apply": 72,
       "band_a_offer": 5,
-      "admitted": 8
+      "admitted": 8,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSY01",
@@ -21261,7 +21676,8 @@
       "quota": 25,
       "band_a_apply": 167,
       "band_a_offer": 26,
-      "admitted": 62
+      "admitted": 62,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JSSY02",
@@ -21308,7 +21724,8 @@
       "quota": 30,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 5"
     },
     {
       "js_code": "JS6200",
@@ -21355,7 +21772,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "英數Best3"
     },
     {
       "js_code": "JS6626",
@@ -21402,7 +21820,8 @@
       "quota": null,
       "band_a_apply": null,
       "band_a_offer": null,
-      "admitted": null
+      "admitted": null,
+      "scoring_method_label": "Best 6"
     }
   ]
 }
