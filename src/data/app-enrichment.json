@@ -1,7 +1,7 @@
 {
  "source": "https://www.pickmyquiz.com/jupas-data/meta.json",
- "version": 20261011022843,
- "enrichmentSha256": "eb6133dee9683fba8a546230103705e98b0f18b5a15764dabfc124428b0985a6",
+ "version": 20261020083414,
+ "enrichmentSha256": "2fd3b4dbfc776f8cbb821cbeccee315d911d04322ab14f0e7bd2f99f556ca793",
  "fields": [
   "overview",
   "careers",
@@ -6457,6 +6457,15 @@
      "title": "科技顧問",
      "salary_y1": "20k-28k"
     }
+   ]
+  },
+  "JS4898": {
+   "overview": [
+    "由中大社會科學院與法律學院合辦，涵蓋外交、國際治理、法律及區域研究。",
+    "課程結合理論、實習、暑期課程及海外交流。"
+   ],
+   "careers": [
+    "課程培養國際事務分析、跨文化溝通及協調能力，可發展國際組織、公共事務及相關工作。"
    ]
   },
   "JS4903": {
@@ -13553,6 +13562,15 @@
    ],
    "tuition_annual": 73070,
    "tuition_note": "已扣 SSSDP 政府資助，原價約 $119,850/年"
+  },
+  "JSSV14": {
+   "overview": [
+    "四年全日制課程，學習人體結構、運動學、運動創傷辨識及復康訓練。",
+    "包括臨床及運動場景的業界實習。院校現列英國運動治療師學會認證仍在進行中。"
+   ],
+   "careers": [
+    "運動創傷預防、復康訓練、運動按摩及運動治療相關工作；專業資格須按有關機構當時規定確認。"
+   ]
   },
   "JSSW01": {
    "overview": [

@@ -15,6 +15,7 @@ Map<String, dynamic> calculate(Map<String, dynamic> input) {
   final req = engine.meetsMinRequirement(r, p);
   return {
     'total': score.total,
+    'can_compare': score.canCompare,
     'approx': score.approx,
     'formula': score.formulaText,
     'requirement': {'kind': req.kind.name, 'reason': req.reason},

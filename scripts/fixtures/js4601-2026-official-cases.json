@@ -1,0 +1,852 @@
+{
+  "source": "https://admission.cuhk.edu.hk/application/jupas/programme-specific-requirements-and-score-calculator/",
+  "source_data": "https://admission.cuhk.edu.hk/wp-content/uploads/data.json",
+  "verified_date": "2026-10-15",
+  "entry_year": 2026,
+  "scope": "64 English/Maths grade pairs plus six reciprocal, tied, missing and weighted-cap cases; numeric output reproduced from actual official inline functions. Does not verify unpublished 2027 calculator.",
+  "cases": [
+    {
+      "id": "Engg1-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 19
+    },
+    {
+      "id": "Engg1-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 20.5
+    },
+    {
+      "id": "Engg1-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 22
+    },
+    {
+      "id": "Engg1-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 23.5
+    },
+    {
+      "id": "Engg1-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 25.75
+    },
+    {
+      "id": "Engg1-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 28
+    },
+    {
+      "id": "Engg1-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 30.25
+    },
+    {
+      "id": "Engg1-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "g1",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 18
+    },
+    {
+      "id": "Engg2-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 20.5
+    },
+    {
+      "id": "Engg2-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 21.5
+    },
+    {
+      "id": "Engg2-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 23
+    },
+    {
+      "id": "Engg2-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 24.5
+    },
+    {
+      "id": "Engg2-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 26.75
+    },
+    {
+      "id": "Engg2-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 29
+    },
+    {
+      "id": "Engg2-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 31.25
+    },
+    {
+      "id": "Engg2-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "g2",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 19.5
+    },
+    {
+      "id": "Engg3-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 22
+    },
+    {
+      "id": "Engg3-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 23
+    },
+    {
+      "id": "Engg3-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 24
+    },
+    {
+      "id": "Engg3-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 25.5
+    },
+    {
+      "id": "Engg3-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 27.75
+    },
+    {
+      "id": "Engg3-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 30
+    },
+    {
+      "id": "Engg3-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 32.25
+    },
+    {
+      "id": "Engg3-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 21
+    },
+    {
+      "id": "Engg4-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 23.5
+    },
+    {
+      "id": "Engg4-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 24.5
+    },
+    {
+      "id": "Engg4-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 25.5
+    },
+    {
+      "id": "Engg4-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 26.5
+    },
+    {
+      "id": "Engg4-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 28.75
+    },
+    {
+      "id": "Engg4-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 31
+    },
+    {
+      "id": "Engg4-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 33.25
+    },
+    {
+      "id": "Engg4-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 22.5
+    },
+    {
+      "id": "Engg5-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 25.75
+    },
+    {
+      "id": "Engg5-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 26.75
+    },
+    {
+      "id": "Engg5-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 27.75
+    },
+    {
+      "id": "Engg5-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 28.75
+    },
+    {
+      "id": "Engg5-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 30.25
+    },
+    {
+      "id": "Engg5-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 32.5
+    },
+    {
+      "id": "Engg5-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 34.75
+    },
+    {
+      "id": "Engg5-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 24.75
+    },
+    {
+      "id": "Engg5s-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 28
+    },
+    {
+      "id": "Engg5s-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 29
+    },
+    {
+      "id": "Engg5s-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 30
+    },
+    {
+      "id": "Engg5s-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 31
+    },
+    {
+      "id": "Engg5s-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 32.5
+    },
+    {
+      "id": "Engg5s-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 34
+    },
+    {
+      "id": "Engg5s-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 36.25
+    },
+    {
+      "id": "Engg5s-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5s",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 27
+    },
+    {
+      "id": "Engg5ss-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 30.25
+    },
+    {
+      "id": "Engg5ss-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 31.25
+    },
+    {
+      "id": "Engg5ss-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 32.25
+    },
+    {
+      "id": "Engg5ss-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 33.25
+    },
+    {
+      "id": "Engg5ss-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 34.75
+    },
+    {
+      "id": "Engg5ss-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 36.25
+    },
+    {
+      "id": "Engg5ss-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 37.75
+    },
+    {
+      "id": "Engg5ss-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5ss",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 29.25
+    },
+    {
+      "id": "Enguntaken-Mathg1",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "g1",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 18
+    },
+    {
+      "id": "Enguntaken-Mathg2",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "g2",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 19.5
+    },
+    {
+      "id": "Enguntaken-Mathg3",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 21
+    },
+    {
+      "id": "Enguntaken-Mathg4",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 22.5
+    },
+    {
+      "id": "Enguntaken-Mathg5",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 24.75
+    },
+    {
+      "id": "Enguntaken-Mathg5s",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "g5s",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 27
+    },
+    {
+      "id": "Enguntaken-Mathg5ss",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 29.25
+    },
+    {
+      "id": "Enguntaken-Mathuntaken",
+      "grades": {
+        "中文": "g4",
+        "英文": "untaken",
+        "數學": "untaken",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 16.5
+    },
+    {
+      "id": "math5-eng3-low-cap",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 27.75
+    },
+    {
+      "id": "eng5-math3-low-cap",
+      "grades": {
+        "中文": "g4",
+        "英文": "g5",
+        "數學": "g3",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 27.75
+    },
+    {
+      "id": "math4-eng4-tie",
+      "grades": {
+        "中文": "g4",
+        "英文": "g4",
+        "數學": "g4",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 26.5
+    },
+    {
+      "id": "math5-eng4-three-weighted-slots",
+      "grades": {
+        "中文": "g5",
+        "英文": "g4",
+        "數學": "g5",
+        "M1": "g5s",
+        "物理": "g4",
+        "經濟": "g4",
+        "公民": "attained"
+      },
+      "expected_total": 39.75
+    },
+    {
+      "id": "cap3-saturated",
+      "grades": {
+        "中文": "g4",
+        "英文": "g3",
+        "數學": "g5",
+        "M1": "g5ss",
+        "生物": "g5ss",
+        "化學": "g5ss",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 60.5
+    },
+    {
+      "id": "english-unset",
+      "grades": {
+        "中文": "g4",
+        "數學": "g5",
+        "物理": "g4",
+        "經濟": "g3",
+        "公民": "attained"
+      },
+      "expected_total": 24.75
+    }
+  ]
+}

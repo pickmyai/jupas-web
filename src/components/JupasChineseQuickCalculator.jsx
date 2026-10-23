@@ -38,6 +38,7 @@ export default function JupasChineseQuickCalculator() {
                         <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-4xl">JUPAS Best 5<br />快速計分器</h2>
                         <p className="mt-4 max-w-xl text-sm leading-relaxed text-slate-300">輸入最多六科 DSE 等級，系統會按 2025 年入學起常見的 8.5 制，自動選出最高五科。先取得未加權基準，再按目標課程核對指定科和加權。</p>
                         <p className="mt-3 text-xs leading-relaxed text-slate-400">非官方工具；各院校及課程可採用不同換算、指定科目、M1/M2 及加權方法。</p>
+                        <a href="/universities/" className="mt-4 inline-flex min-h-[44px] items-center font-semibold text-amber-300 underline">查看課程公式及歷史收分 →</a>
                     </div>
 
                     <div className="rounded-3xl border border-white/10 bg-white p-5 text-slate-900 shadow-2xl sm:p-7">

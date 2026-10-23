@@ -38,6 +38,7 @@ export default function JupasEnglishQuickCalculator() {
                         <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-4xl">JUPAS Best 5<br />quick calculator</h2>
                         <p className="mt-4 max-w-xl text-sm leading-relaxed text-slate-300">Enter up to six HKDSE grades. The calculator uses the 8.5-point conversion commonly adopted for admissions from 2025 and automatically selects your five highest scores. Use this as an unweighted baseline before checking the exact rules for your target programme.</p>
                         <p className="mt-3 text-xs leading-relaxed text-slate-400">Independent reference tool. Institutions and programmes may use different conversions, compulsory subjects, M1/M2 rules and weightings.</p>
+                        <a href="/universities/" className="mt-4 inline-flex min-h-[44px] items-center font-semibold text-amber-300 underline">Check programme formulas and historical scores →</a>
                     </div>
 
                     <div className="rounded-3xl border border-white/10 bg-white p-5 text-slate-900 shadow-2xl sm:p-7">

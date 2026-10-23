@@ -51,6 +51,11 @@ class Page(HTMLParser):
         if tag == 'table': self.in_table = False
 
 snapshot = json.loads((ROOT / 'src/data/app-admissions.json').read_text())
+for p in snapshot["programmes"]:
+    if p.get("actual_2026_requires_engine") in {"official_2026_v2", "official_2026_raw_best_v1"} and p.get("actual_2026_formula_year") == 2026 and p.get("scoring_2026", {}).get("scoring_formula_year") == 2026:
+        p.update(p["scoring_2026"])
+        p["actual_2026_comparable_to_calculator"] = True
+        p["actual_2026_note"] = p["scoring_2026"].get("calculator_note") or p.get("actual_2026_note")
 SCHOOLS = {'hku': ['HKU'], 'cuhk': ['CUHK'], 'hkust': ['HKUST'], 'polyu': ['PolyU'], 'cityu': ['CityU'],
            'hkbu': ['HKBU'], 'lingu': ['LingU'], 'eduhk': ['EdUHK'], 'hkmu': ['HKMU', '都會大學'],
            'sssdp': ['THEi', '東華學院', '聖方濟各大學', '恒生大學', '伍倫貢學院', '樹仁大學', '珠海學院']}
@@ -60,7 +65,7 @@ def expected_cells(p):
     m25 = p['median'] if prior else None
     l25 = p['lq'] if prior else None
     mean_only = p.get('median') is None and p.get('mean') is not None
-    return [('mean', p['actual_2026_mean']) if p.get('actual_2026_mean') is not None else p.get('actual_2026_median'),
+    return [('both', p['actual_2026_median'], p['actual_2026_mean']) if p.get('actual_2026_median') is not None and p.get('actual_2026_mean') is not None else ('mean', p['actual_2026_mean']) if p.get('actual_2026_mean') is not None else p.get('actual_2026_median'),
             ('quartiles', p.get('actual_2026_lq'), p.get('actual_2026_uq')) if p.get('actual_2026_uq') is not None else p.get('actual_2026_lq'),
             ('mean', p['mean']) if m25 is None and p.get('mean') is not None else m25,
             l25, ('mean', p['median_2024']) if mean_only and p.get('median_2024') is not None else p['median_2024'],
@@ -84,7 +89,11 @@ for slug, names in SCHOOLS.items():
         for cell, want in zip(row['cells'], expected_cells(p), strict=True):
             if want is None: assert cell == '—', (code, cell)
             elif isinstance(want, tuple):
-                if want[0] == 'mean':
+                if want[0] == 'both':
+                    assert '平均分' in cell, (code, cell)
+                    values = [float(v) for v in re.findall(r'\d+(?:\.\d+)?', cell.replace(',', ''))]
+                    assert values == list(want[1:]), (code, cell, want)
+                elif want[0] == 'mean':
                     assert '平均分' in cell, (code, cell)
                     assert abs(float(cell.split('（')[0].replace(',', '')) - want[1]) < 1e-8, (code, cell)
                 else:
@@ -136,7 +145,7 @@ for row in hub.rows.values():
     assert row['scores'] == {'reference': median if median is not None else mean, 'lq': lq}, f'{code}: hub shows wrong year or score'
     if year == 2026 and p.get('actual_2026_formula_year') == 2027:
         assert '按 2027 公式重算' in row['text'], code
-    if mean is not None:
+    if mean is not None and median is None:
         assert '平均分' in row['text'], code
     if year == 2026:
         assert p['actual_2026_source'] in row['links'], f'{code}: official source lost'

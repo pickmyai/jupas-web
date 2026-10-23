@@ -1,9 +1,13 @@
 import sourceSnapshot from '../data/app-admissions.json';
 // The current web engine understands this formula; older installed apps keep
 // the legacy fields in the identical OTA dataset.
-const snapshot = { ...sourceSnapshot, programmes: sourceSnapshot.programmes.map(p =>
-  p.actual_2026_requires_engine === 'cityu_2027' && p.scoring_2027
-    ? { ...p, ...p.scoring_2027, actual_2026_comparable_to_calculator: true } : p) };
+const snapshot = { ...sourceSnapshot, programmes: sourceSnapshot.programmes.map(p => {
+  if (['official_2026_v2', 'official_2026_raw_best_v1'].includes(p.actual_2026_requires_engine) && p.actual_2026_formula_year === 2026 && p.scoring_2026?.scoring_formula_year === 2026) {
+    return { ...p, ...p.scoring_2026, actual_2026_comparable_to_calculator: true, actual_2026_note: p.scoring_2026.calculator_note ?? p.actual_2026_note };
+  }
+  return p.actual_2026_requires_engine === 'cityu_2027' && p.scoring_2027
+    ? { ...p, ...p.scoring_2027, actual_2026_comparable_to_calculator: true } : p;
+}) };
 import enrichmentSnapshot from '../data/app-enrichment.json';
 
 export { snapshot };

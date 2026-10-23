@@ -27,9 +27,9 @@ export const translations = {
             tagline: "JUPAS 計分器 · 入學分析 · 面試模擬",
             title: "JUPAS 計分器：一秒計好 DSE 分數",
             titleHighlight: "再睇清入學機會同出路",
-            subtitle: "DSE Jupas 神器：輸入一次 DSE 成績，即按 417 個課程各自嘅院校公式計分，再同歷年 Median、LQ 比較。",
+            subtitle: "DSE Jupas 神器：輸入一次 DSE 成績，查閱 {programmeCount} 個課程資料，按已核適用年份嘅公式計分，再同歷年 Median、LQ 比較。",
             bullets: [
-                "八大及自資院校 417 個課程公式",
+                "八大及自資院校 {programmeCount} 個課程資料",
                 "歷年收生位置、熱門程度同出路評級",
                 "AI 大學面試模擬，1,232 條練習題",
             ],
@@ -49,9 +49,9 @@ export const translations = {
             title: "常見問題",
             items: [
                 { q: "計分準唔準？數據邊度嚟？", a: "計分器依據八大及自資院校公開嘅收生計分公式（Best 5、4C+2X、科目加權、加分制等）逐一實現，並對照公開及整理所得嘅 JUPAS 課程計分資料。結果只供參考，正式收生以各院校公佈為準。" },
-                { q: "覆蓋幾多個課程？", a: "目前整理 417 個唯一 JUPAS 課程資料及出路評級，包括八大院校及主要自資院校課程，並會按官方資料更新。" },
+                { q: "覆蓋幾多個課程？", a: "目前整理 {programmeCount} 個唯一 JUPAS 課程資料，包括八大院校及主要自資院校課程，並會按官方資料更新。" },
                 { q: "AI 入學分析點計？", a: "AI 會將你按課程公式計出嘅分數，對比該課程歷年 median 同 LQ，解釋你與過往取錄分布嘅距離，再結合入學要求、Band、面試及出路資料作參考；結果唔係錄取概率或保證。" },
-                { q: "出路評級係咩？", a: "出路評級係職涯 ROI 導向參考，417 個課程按就業前景、升學潛力、抗 AI 能力、院校排名、薪酬回報、技能複利 6 個維度評估，再用 A+ 至 C+ 顯示。它唔等同官方意見，亦唔代表課程學術價值或個人適合度。" },
+                { q: "出路評級係咩？", a: "出路評級係職涯 ROI 導向參考，按就業前景、升學潛力、抗 AI 能力、院校排名、薪酬回報、技能複利 6 個維度評估，再用 A+ 至 C+ 顯示。它唔等同官方意見，亦唔代表課程學術價值或個人適合度。" },
             ],
         },
         cta: { title: "由放榜計到入大學", subtitle: "免費下載，即刻計你嘅 JUPAS 分數。" },
@@ -63,9 +63,9 @@ export const translations = {
             tagline: "JUPAS 计分器 · 入学分析 · 面试模拟",
             title: "JUPAS 计分器：一秒算好 DSE 分数",
             titleHighlight: "再看清入学机会和出路",
-            subtitle: "DSE Jupas 神器：输入一次 DSE 成绩，即按 417 个课程各自的院校公式计分，再与历年 Median、LQ 比较。",
+            subtitle: "DSE Jupas 神器：输入一次 DSE 成绩，查阅 {programmeCount} 个课程资料，按已核适用年份的公式计分，再与历年 Median、LQ 比较。",
             bullets: [
-                "八大及自资院校 417 个课程公式",
+                "八大及自资院校 {programmeCount} 个课程资料",
                 "历年收生位置、热门程度和出路评级",
                 "AI 大学面试模拟，1,232 条练习题",
             ],
@@ -85,9 +85,9 @@ export const translations = {
             title: "常见问题",
             items: [
                 { q: "计分准不准？数据从哪里来？", a: "计分器依据八大及自资院校公开的收生计分公式（Best 5、4C+2X、科目加权、加分制等）逐一实现，并对照公开及整理所得的 JUPAS 课程计分资料。结果仅供参考，正式收生以各院校公布为准。" },
-                { q: "覆盖多少个课程？", a: "目前整理 417 个唯一 JUPAS 课程资料及出路评级，包括八大院校及主要自资院校课程，并会按官方资料更新。" },
+                { q: "覆盖多少个课程？", a: "目前整理 {programmeCount} 个唯一 JUPAS 课程资料，包括八大院校及主要自资院校课程，并会按官方资料更新。" },
                 { q: "AI 入学分析怎么算？", a: "AI 会把你按课程公式算出的分数与该课程历年 median 和 LQ 比较，解释你和过往取录分布的距离，再结合入学要求、Band、面试及出路资料作参考；结果不是录取概率或保证。" },
-                { q: "出路评级是什么？", a: "出路评级是职业 ROI 导向参考，417 个课程按就业前景、升学潜力、抗 AI 能力、院校排名、薪酬回报、技能复利 6 个维度评估，再用 A+ 至 C+ 显示。它不是官方意见，也不代表课程学术价值或个人适合度。" },
+                { q: "出路评级是什么？", a: "出路评级是职业 ROI 导向参考，按就业前景、升学潜力、抗 AI 能力、院校排名、薪酬回报、技能复利 6 个维度评估，再用 A+ 至 C+ 显示。它不是官方意见，也不代表课程学术价值或个人适合度。" },
             ],
         },
         cta: { title: "从放榜算到进大学", subtitle: "免费下载，立即算你的 JUPAS 分数。" },
@@ -99,9 +99,9 @@ export const translations = {
             tagline: "JUPAS Calculator · Admission Analysis · Interview Sim",
             title: "JUPAS Calculator: Score Your DSE Results in a Second",
             titleHighlight: "Then Compare Admission Chances and Outcomes",
-            subtitle: "DSE Jupas: enter your DSE results once and score them against each of 417 programmes' own formula, then compare with past median and LQ.",
+            subtitle: "DSE Jupas: enter your DSE results once and explore {programmeCount} programme profiles and score with formulas for their stated years, then compare with past median and LQ.",
             bullets: [
-                "Formulas for 417 programmes at the eight universities and self-financing institutions",
+                "{programmeCount} programme profiles from universities and self-financing institutions",
                 "Past admission positions, competition and outcome ratings",
                 "AI university interview practice with 1,232 prompts",
             ],
@@ -121,9 +121,9 @@ export const translations = {
             title: "Common Questions",
             items: [
                 { q: "How accurate is the scoring? Where's the data from?", a: "The calculator implements the published admission scoring formulas of the eight universities and self-financing institutions (Best 5, 4C+2X, subject weighting, bonus points, etc.), cross-checked against community-compiled programme scoring methods. Results are for reference only; official admissions follow each institution's announcements." },
-                { q: "How many programmes are covered?", a: "The current bundle contains 417 unique JUPAS programme scoring and Outcome Rating profiles, updated against published institutional information." },
+                { q: "How many programmes are covered?", a: "The current catalogue contains {programmeCount} unique JUPAS programme profiles, updated against published institutional information." },
                 { q: "How does the AI admission analysis work?", a: "It compares your programme-specific score with historical median and LQ data, explains the distance from past admitted cohorts, and adds entrance-requirement, band, interview and outcome context. It is not an admission probability or guarantee." },
-                { q: "What is the Outcome Rating?", a: "Outcome Rating is a career-ROI reference for 417 programmes across six dimensions: employment outlook, further-study path, AI resilience, university ranking, salary ROI and skill compounding. It is not official advice and does not measure academic value or personal fit." },
+                { q: "What is the Outcome Rating?", a: "Outcome Rating is a career-ROI reference across six dimensions: employment outlook, further-study path, AI resilience, university ranking, salary ROI and skill compounding. It is not official advice and does not measure academic value or personal fit." },
             ],
         },
         cta: { title: "From Results Day to Your University Offer", subtitle: "Download free and score your JUPAS choices now." },
@@ -219,7 +219,7 @@ const BLOG_POSTS = [
     },
 ];
 
-export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
+export default function LandingPage({ initialLang = "zh-HK", popular = [], admissionsSummary }) {
     const [lang, setLang] = useState(initialLang);
     const [langMenuOpen, setLangMenuOpen] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -242,6 +242,29 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
     }, []);
 
     const t = getTranslation(lang);
+    const catalogueCopy = (text) => text.replaceAll("{programmeCount}", String(admissionsSummary.programmeCount));
+    const yearCopy = lang === "en" ? {
+        title: "Using a JUPAS calculator for 2027? Check three different years",
+        cycle: "2027 is the application cycle. A programme formula may still apply to 2026 or another stated year; the catalogue is not a fully reverified 2027 course list.",
+        history: "2026 median, LQ and mean describe the 2026 admitted cohort. Some CityU figures are recalculated using 2027 formulas and are labelled separately. They are not predicted 2027 entry scores.",
+        next: "Use the web Best 5 tool as an unweighted baseline. For a target programme, check its required subjects, conversion and formula year on the course page, then continue in the app for programme scoring and comparisons.",
+        link: "Check programme formulas and historical scores →",
+        data: `${admissionsSummary.programmeCount} programme profiles · ${admissionsSummary.score2026Count} with 2026 figures · Data source updated ${admissionsSummary.sourceDate}`,
+    } : lang === "zh-CN" ? {
+        title: "用 JUPAS 2027 计分器，先分清三个年份",
+        cycle: "2027 是申请周期；各课程公式仍须按标示的适用年份使用，课程目录并非已全面重新核实的 2027 名单。",
+        history: "2026 Median、LQ 和平均分是 2026 年取录者的历史数据；城大部分按 2027 公式重算的数字会另标示，不能当作 2027 预测收分。",
+        next: "网页 Best 5 只算未加权基准。选定课程后，先在课程页核对必计科目、换算和公式年份，再在 App 按课程计分及比较。",
+        link: "核对课程公式及历史收分 →",
+        data: `${admissionsSummary.programmeCount} 个课程资料 · ${admissionsSummary.score2026Count} 个有 2026 数字 · 资料来源更新 ${admissionsSummary.sourceDate}`,
+    } : {
+        title: "用 JUPAS 2027 計分器，先分清三個年份",
+        cycle: "2027 係申請週期；各課程公式仍須按標示嘅適用年份使用，課程目錄並非已全面重新核實嘅 2027 名單。",
+        history: "2026 Median、LQ 同平均分係 2026 年取錄者嘅歷史數據；城大部分按 2027 公式重算嘅數字會另標示，唔可以當作 2027 預測收分。",
+        next: "網頁 Best 5 只計未加權基準。選定課程後，先喺課程頁核對必計科目、換算同公式年份，再喺 App 按課程計分及比較。",
+        link: "核對課程公式及歷史收分 →",
+        data: `${admissionsSummary.programmeCount} 個課程資料 · ${admissionsSummary.score2026Count} 個有 2026 數字 · 資料來源更新 ${admissionsSummary.sourceDate}`,
+    };
     const currentLang = LANGUAGES.find((l) => l.code === lang) || LANGUAGES[0];
     const showChineseName = lang.startsWith("zh");
 
@@ -379,7 +402,7 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
                             </FadeUp>
                             <FadeUp delay={0.16} reveal={false}>
                                 <p className="text-base text-gray-500 leading-relaxed mb-5 max-w-lg">
-                                    {t.hero.subtitle}
+                                    {catalogueCopy(t.hero.subtitle)}
                                 </p>
                             </FadeUp>
                             {t.hero.bullets && (
@@ -388,7 +411,7 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
                                         {t.hero.bullets.map((b, i) => (
                                             <li key={i} className="flex items-start gap-2.5 text-sm text-gray-600">
                                                 <CheckCircle2 className="w-4 h-4 text-amber-500 mt-0.5 flex-shrink-0" />
-                                                <span>{b}</span>
+                                                <span>{catalogueCopy(b)}</span>
                                             </li>
                                         ))}
                                     </ul>
@@ -425,6 +448,17 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
                 </div>
             </section>
 
+            <section id="scoring-years" className="bg-white py-10" aria-labelledby="scoring-years-title">
+                <div className="container mx-auto max-w-5xl px-6">
+                    <h2 id="scoring-years-title" className="text-xl font-bold text-gray-900">{yearCopy.title}</h2>
+                    <p className="mt-3 text-sm leading-relaxed text-gray-700">{yearCopy.cycle}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-gray-700">{yearCopy.history}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-gray-700">{yearCopy.next}</p>
+                    <p className="mt-3 text-xs text-gray-600">{yearCopy.data}</p>
+                    <a href="/universities/" className="mt-3 inline-flex min-h-[44px] items-center font-semibold text-amber-800">{yearCopy.link}</a>
+                </div>
+            </section>
+
             {lang === "zh-HK" && <JupasChineseQuickCalculator />}
             {lang === "en" && <JupasEnglishQuickCalculator />}
 
@@ -432,17 +466,12 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
             <section id="scores" className="py-14 bg-amber-50/60" aria-label={tr(lang,"院校收生分數")}>
                 <div className="container mx-auto px-6 max-w-6xl">
                     <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-2">{tr(lang,"按院校睇 2023–2026 JUPAS 收生分數")}</h2>
-                    <p className="text-gray-600 mb-6">{tr(lang,"科大、理大、港大、都大已公布 2026 年收生分數；全部 417 個課程各有獨立頁面，附 Median、LQ、計分方法及公式變更備註。")}</p>
+                    <p className="text-gray-600 mb-6">{yearCopy.data}</p>
                     <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
-                        {[
-                            ["hku", "HKU", "港大", true], ["cuhk", "CUHK", "中大", false], ["hkust", "HKUST", "科大", true],
-                            ["polyu", "PolyU", "理大", true], ["cityu", "CityU", "城大", false], ["hkbu", "HKBU", "浸大", false],
-                            ["lingu", "LingU", "嶺大", false], ["eduhk", "EdUHK", "教大", false], ["hkmu", "HKMU", "都大", true],
-                            ["sssdp", "SSSDP", "自資院校", false],
-                        ].map(([slug, code, zh, has2026]) => (
+                        {admissionsSummary.institutions.map(({slug, code, name, programmeCount, score2026Count}) => (
                             <a key={slug} href={`/universities/${slug}/`} className="block bg-white border border-amber-200 rounded-xl px-4 py-3 text-gray-900 hover:border-amber-500">
-                                <strong className="block">{code}{lang === "en" ? "" : ` ${tr(lang, zh)}`}</strong>
-                                <span className="text-xs text-gray-500">{has2026 ? tr(lang,"已更新 2026") : tr(lang,"2025 數字")}</span>
+                                <strong className="block">{code}{lang === "en" ? "" : ` ${tr(lang, name)}`}</strong>
+                                <span className="text-xs text-gray-500">{lang === "en" ? `${score2026Count}/${programmeCount} with 2026 figures` : `${score2026Count}/${programmeCount} ${lang === "zh-CN" ? "个有" : "個有"} 2026 ${lang === "zh-CN" ? "数据" : "數據"}`}</span>
                             </a>
                         ))}
                     </div>
@@ -503,7 +532,7 @@ export default function LandingPage({ initialLang = "zh-HK", popular = [] }) {
                     <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-8 text-center">{t.faq.title}</h2>
                     <div className="bg-white rounded-3xl border border-gray-100 shadow-sm px-6">
                         {t.faq.items.map((item, i) => (
-                            <FAQItem key={i} question={item.q} answer={item.a} isOpen={openFAQ === i} onClick={() => setOpenFAQ(openFAQ === i ? -1 : i)} />
+                            <FAQItem key={i} question={item.q} answer={catalogueCopy(item.a)} isOpen={openFAQ === i} onClick={() => setOpenFAQ(openFAQ === i ? -1 : i)} />
                         ))}
                     </div>
                 </div>

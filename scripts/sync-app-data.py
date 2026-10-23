@@ -30,7 +30,7 @@ FIELDS = [
     'actual_2026_source', 'actual_2026_note', 'actual_2026_no_score', 'actual_2026_mean',
     'actual_2026_formula_year', 'scoring_formula_year', 'score_history_formula_years',
     'actual_2026_shared_programme_codes', 'historical_reference_unverified',
-    'scoring_2027', 'actual_2026_requires_engine', 'mean_2024', 'score_history_metrics',
+    'scoring_2027', 'scoring_2026', 'actual_2026_requires_engine', 'mean_2024', 'score_history_metrics',
     'actual_2026_comparable_to_calculator', 'actual_2026_prior_reference_is_2025',
     # Official JUPAS 2025 intake statistics (competition on the programme pages)
     'quota', 'band_a_apply', 'band_a_offer', 'admitted',
@@ -79,9 +79,7 @@ def main():
         # Display the same conditional add-ons as the app before entering grades.
         # Include the effective CityU formula used by admissions.js, while the
         # original source rows and OTA checksum remain unchanged.
-        label_input = [dict(p, **p['scoring_2027'])
-                       if p.get('actual_2026_requires_engine') == 'cityu_2027' and p.get('scoring_2027')
-                       else p for p in selected]
+        label_input = selected
         label_cases = temp / 'labels.jsonl'
         label_output = temp / 'labels-output.jsonl'
         label_cases.write_bytes(b'\n'.join(canonical(p) for p in label_input) + b'\n')
@@ -106,6 +104,13 @@ def main():
             {},
         ])
         cases = [{'programme': p, 'grades': grades} for p in selected if p['institution'] == 'HKU' for grades in scenarios]
+        # A shared parser also serves CUHK. English-or-Maths must choose the
+        # higher score and still obey the programme's three-subject weight cap.
+        # Expected totals come from CUHK's published 2026 calculator functions.
+        regression = json.loads((ROOT / 'scripts/fixtures/js4601-2026-official-cases.json').read_text())
+        js4601 = next(p for p in selected if p['js_code'] == 'JS4601')
+        hku_case_count = len(cases)
+        cases.extend({'programme': js4601, 'grades': row['grades']} for row in regression['cases'])
         payload = b'\n'.join(canonical(c) for c in cases) + b'\n'
         # File-backed input/output lets the synchronous Dart reader finish at
         # EOF without stalling a large bidirectional pipe on macOS.
@@ -121,6 +126,8 @@ def main():
         javascript = subprocess.check_output(['node', str(harness)], input=payload, cwd=temp)
         expected = [json.loads(line) for line in native.splitlines()]
         actual = [json.loads(line) for line in javascript.splitlines()]
+        for row, result in zip(regression['cases'], expected[hku_case_count:], strict=True):
+            assert abs(result['total'] - row['expected_total']) < 1e-8, f'CUHK official regression: {row["id"]}'
         for index, (a, b) in enumerate(zip(expected, actual, strict=True)):
             assert abs(a['total'] - b['total']) < 1e-8 and a['approx'] == b['approx'] and a['requirement'] == b['requirement'] and a['formula'] == b['formula'], f'JS/VM mismatch in case {index}'
             assert len(a['used']) == len(b['used'])
@@ -138,7 +145,8 @@ def main():
             'sourceUpdatedAt': live['updated_at'], 'statisticsYear': 2026,
             'programmeSha256': digest(subprocess.check_output(['node', '-e', "process.stdout.write(JSON.stringify(JSON.parse(require('fs').readFileSync(0,'utf8'))))"], input=canonical(selected))),
             'engineSources': engine_hashes, 'engineSha256': digest(engine),
-            'parityCases': len(cases), 'metadata': metadata, 'programmes': selected,
+            'parityCases': len(cases), 'officialRegressionCases': len(regression['cases']),
+            'metadata': metadata, 'programmes': selected,
         }
         (generated / 'app-admissions.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + '\n')
         public_enrichment = {}
