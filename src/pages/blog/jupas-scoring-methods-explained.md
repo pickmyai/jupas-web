@@ -1,80 +1,77 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "JUPAS 點計分？Best 5、4C+2X、科目加權與院校換算差異"
-description: "JUPAS 沒有一條全港通用計分公式。本文解釋 Best 5、4C+2X、指定科目加權、等級換算差異，以及查證每個課程最新公式的正確方法。"
+title: "Best 5 點計？JUPAS 計分方法：計唔計主科、5** 幾多分、4C+2X 與加權"
+description: "Best 5 是在課程可計算的科目中取最高五科；5** 自 2025 年入學起換算為 8.5 分。本文以港大、城大官方公布解釋 Best 5 計唔計主科、4C+2X、M1/M2 及加權，並用同一張成績單示範分數可相差近一倍。"
 image: "/blog-covers/jupas-scoring-methods-explained.webp"
 category: "計分攻略"
-readTime: "8 分鐘"
+readTime: "7 分鐘"
 pubDate: "2026-06-18"
-updatedDate: "2026-08-13"
-verifiedDate: "2026-08-13"
+updatedDate: "2026-11-07"
+verifiedDate: "2026-10-26"
+showBestFiveCalculator: true
 ---
 
-同一張 HKDSE 成績單，放進不同院校甚至同一院校的不同課程，計出的 admission score 可以不同。原因不是 JUPAS 先替所有人計一個「總分」，而是院校和課程會公布自己的科目選取、等級換算、加權和其他甄選準則。
+**Best 5 是在課程「可計算」的科目中，取分數最高的五科計入收生分數。**甲類科目的等級自 2025 年入學起，主要院校已統一按 8.5 制換算；但哪些科目可計、要不要包含核心科、哪些科加權，仍由每個課程自行規定。所以 Best 5 是一種選科方式的通稱，不是一條全港通用公式。
 
-## 沒有一條通用的「5** = 7 分」公式
+## 5** 值幾多分？等級換算已統一
 
-網上常見把 5**、5*、5 分別換成 7、6、5 分。這條舊尺度已經過時——**自 2025 年入學起，主要院校已改用同一套「8.5 制」換算**（甲類核心及選修科）：
+網上仍常見「5** = 7、5* = 6、5 = 5」的舊換算，這已過時。港大 JUPAS Score Calculator 及城大 2026 JUPAS 計分文件均列明甲類核心及選修科的換算：
 
 | 等級 | 5** | 5* | 5 | 4 | 3 | 2 | 1 |
 |---|---|---|---|---|---|---|---|
 | 分值 | 8.5 | 7 | 5.5 | 4 | 3 | 2 | 1 |
 
-這一點在三間院校的官方頁面上分別可查：<a href="https://admissions.hku.hk/apply/jupas/score-calculator" rel="external">港大 JUPAS Score Calculator</a>、<a href="https://www.cityu.edu.hk/admo/sites/default/files/2026-01/2026_JUPAS_AdmissionScoreFormulaAndScores.pdf" rel="external">城大 2026 JUPAS 計分公式及收生分數（PDF）</a>（原文寫明「new score conversion with effect from 2025 entry」）、<a href="https://join.hkust.edu.hk/admissions/jupas" rel="external">科大 JUPAS 頁</a>。
+高分區每升一級多 1.5 分，4 至 1 級之間每級只差 1 分，所以 5* 升 5** 對總分的影響比 3 升 4 大。其他語言科（丙類）另有換算，城大 2026 年公布的最高為 7 分。
 
-**但統一了的只是「等級換算」這一步。**科目選取、加權、M1/M2 處理仍然逐個課程不同——單看城大同一份 2026 文件，JS1211 用「Best 5 subjects」並把英文、數學、生物、化學、M1/M2、物理加權 2 倍，JS1806 卻用「3 core + 2 elective subjects」。科大亦明文指出計分是「program-specific formulae, of which certain subjects are given heavier weighting」。
+## Best 5 計唔計主科？
 
-因此，不能只問「我有幾多分」，而要問「按 JSXXXX 這個課程的當年度公式，我有幾多分」。
+視乎課程，兩種做法都存在。城大同一份 2026 年官方文件已有兩種寫法：
 
-可直接使用 <a href="https://admissions.hku.hk/apply/jupas/score-calculator" rel="external">HKU 官方 JUPAS Score Calculator</a> 查看適用年度的換算與課程規則。
+| 課程 | 官方列出的計分科目 |
+|---|---|
+| JS1211 生物醫學工程 | Best 5 subjects，不指定必須包含核心科 |
+| JS1806 生物科學 | 3 core + 2 elective subjects，必須計三個核心科 |
 
-## Best 5 是甚麼？
-
-Best 5 一般指在符合最低要求後，選取指定範圍內最高的五科計算。但「指定範圍」可能不同：
-
-- 有些課程接受核心科、甲類選修及 M1/M2；
-- 有些要求包含指定語文或數學科；
-- 有些對相關科目加權；
-- 有些不把所有科目以同一分值計算。
-
-所以即使兩個課程都標示 Best 5，實際結果仍可能不同。
+選修科較強、核心科一般的考生，在 Best 5 型課程較有利；3 core + 2 elective 或 4C+2X 型課程則一定計入指定核心科。另外，城大註明計分不包括公民與社會發展科；港大亦說明公式中的第六、七科只在適用時才計，只有五科可計的考生仍可獲考慮。
 
 ## 4C+2X 是甚麼？
 
-4C+2X 通常指四個核心科目加兩個選修科，但必須再看院校如何界定可計選修、是否接受 M1/M2、個別公民與社會發展科安排，以及指定科目要求。不要只看到「4C+2X」便自行用一張通用換算表計算。
+4C+2X 通常指四個核心科加兩個選修科。公民與社會發展科改為「達標／不達標」後，各院校對「核心科」的界定、是否接受 M1/M2 作選修，以及指定科目要求都要逐一核對，不能套用舊年代的通用表。
 
-## 科目加權與 bonus
+## 加權：同一張成績單，分數差近一倍
 
-課程可能更重視與學科相關的科目，例如工程課程重視數學或物理、健康專業重視生物或化學、語文課程重視相關語言。做法可能是乘數、額外分、指定科必須計入，或在同分時優先考慮。
+即使同樣寫 Best 5，加權不同結果便不同。城大 JS1211 的官方加權為：英文、數學、生物、化學、M1/M2、物理 ×2，其他選修科 ×1。以下用一張假設成績單說明（英文 5*、數學 5、物理 5**、化學 5*、經濟 5、中文 4），兩種計法選出的都是同五科：
 
-「M1/M2 一律加某個 bonus」或「面試自動加一至兩分」都不是通用規則。是否計算及如何計算，必須以課程當年度官方資料為準。
+| 科目 | 英文 5* | 數學 5 | 物理 5** | 化學 5* | 經濟 5 | 總分 |
+|---|---|---|---|---|---|---|
+| 未加權 | 7 | 5.5 | 8.5 | 7 | 5.5 | **33.5** |
+| JS1211 加權 | 14 | 11 | 17 | 14 | 5.5 | **61.5** |
 
-## 面試和其他資料未必能化成一個公開分數
+同一張成績單相差 28 分，所以用一個課程的公式計出的分數，不能拿去和另一課程的收生中位數比較。城大文件亦提醒：不同課程及年度的收生分數不可互相比較，也不應用來預測取錄機會。
 
-部分課程會考慮面試、能力測試、作品集、學生學習概覽、比賽成績或其他資料。院校未必公開把這些項目換成多少分，因此單靠 DSE 計分不能重建完整甄選結果。
+## M1/M2 和其他資料怎樣處理？
 
-教育大學等院校亦會在官方 JUPAS 頁面列明一般及課程要求；應直接查看 <a href="https://www.apply.eduhk.hk/ug/jupas" rel="external">EdUHK Undergraduate Admissions</a>，不要依賴未標示年份的第三方概括。
+M1/M2 同樣逐個課程不同。城大 JS1211 註明，數學與 M1/M2 兩科都有應考時只計其中一科；同時應考 M1 和 M2 亦只當一科。「M1/M2 一律加分」或「面試自動加分」都不是通則。部分課程亦會考慮面試、志願組別及科目成績等資料，這些未必能換成一個公開分數。
 
-## 一個正確的計分流程
+## 正確的計分步驟
 
-1. 先記下課程 JUPAS code 和入學年度。
-2. 在 JUPAS programme information 及院校課程頁核對最低要求。
-3. 找出院校官方 score calculator、selection principles 或 admission score notes。
-4. 確認等級換算、計算科目數量、指定科、加權和 M1/M2 處理。
-5. 按每個課程分別計算，保留公式來源及年份。
-6. 若再與 median／LQ 比較，確認統計使用的是同一套計分口徑。
+1. 記下課程 JUPAS 編號及入學年度。
+2. 查院校官方計分器或計分說明，確認可計科目、指定科及加權。
+3. 甲類科按 8.5 制換算，丙類語言科按院校另列尺度。
+4. 逐個課程分開計算，保留公式來源及年份。
+5. 與 Median／LQ 比較前，確認統計用的是同一課程、同一年度的公式。
 
 ## 最常見的四個錯誤
 
-- 所有院校一律用 7／6／5 換算。
-- 所有標示 Best 5 的課程都會選同樣五科。
-- 把 M1/M2、面試或比賽視為固定 bonus。
-- 用不同公式計出的總分直接比較課程競爭程度。
+- 仍用「5** = 7」的舊換算。
+- 以為所有寫 Best 5 的課程都會選同樣五科。
+- 把 M1/M2、面試或比賽當成固定加分。
+- 用不同公式計出的總分直接比較兩個課程的競爭程度。
 
-## App 可以幫到甚麼，不能代替甚麼？
+## App 可以幫到甚麼？
 
-DSE Jupas 神器目前整理 JUPAS 課程資料，讓使用者輸入成績後按已整理公式計分，並查看歷史收生位置、出路評級和面試練習。它可減少重複計算，但不能代替院校最新公布，也不能完整重現未公開的甄選評級。
+上方工具只計未加權的最高五科，作為起點。DSE Jupas 神器按已整理的課程公式逐個計分，並顯示歷史收生位置，可減少重複計算；但不能代替院校最新公布，如有出入應以 JUPAS 及院校當年度頁面為準，並可透過<a href="/editorial-policy/">編輯與更正政策</a>回報。
 
-如 App 與官方資料有出入，應以 JUPAS 和院校當年度頁面為準，並透過本網站的<a href="/editorial-policy/">編輯與更正政策</a>回報。
+官方來源：<a href="https://admissions.hku.hk/apply/jupas/score-calculator" rel="external">港大 JUPAS Score Calculator</a>、<a href="https://www.cityu.edu.hk/admo/sites/default/files/2026-01/2026_JUPAS_AdmissionScoreFormulaAndScores.pdf" rel="external">城大 2026 JUPAS 計分公式及收生分數（PDF）</a>、<a href="https://join.hkust.edu.hk/admissions/jupas" rel="external">科大 JUPAS 頁</a>。延伸閱讀：<a href="/blog/jupas-admission-scores-2026/">2026 收生分數參考</a>、<a href="/blog/jupas-band-a-strategy/">Band A 排位策略</a>。
 
 <a href="https://apps.apple.com/app/id6780134101">在 App Store 查看 DSE Jupas 神器</a>

@@ -2,6 +2,16 @@
     "trailingSlash": true,
     "redirects": [
         {
+            "source": "/blog/dse-best-5-explained",
+            "destination": "/blog/jupas-scoring-methods-explained/",
+            "permanent": true
+        },
+        {
+            "source": "/blog/dse-best-5-explained/",
+            "destination": "/blog/jupas-scoring-methods-explained/",
+            "permanent": true
+        },
+        {
             "source": "/zh-hk",
             "destination": "/",
             "permanent": true
