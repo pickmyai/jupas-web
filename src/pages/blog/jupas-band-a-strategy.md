@@ -6,7 +6,7 @@ image: "/blog-covers/jupas-band-a-strategy.webp"
 category: "選科策略"
 readTime: "8 分鐘"
 pubDate: "2026-06-19"
-updatedDate: "2026-07-12"
+updatedDate: "2026-10-28"
 verifiedDate: "2026-07-12"
 ---
 
@@ -35,7 +35,7 @@ JUPAS 20 個課程選擇的**實際次序會影響你最後獲派哪一個 offer
 
 院校不會看到 Band 內的精確次序，但部分課程會把 Band、面試、指定科目、學生學習概覽或其他資料納入評核。做法因課程而異，不能假設所有院校都同樣重視 Band。
 
-官方說明：<a href="https://www.jupas.edu.hk/tc/application-procedures-information/selection-amendment-of-programme-choices/actual-pirority-of-programme-choices/" rel="external">JUPAS：課程選擇的實際次序</a>。
+官方說明：<a href="https://www.jupas.edu.hk/tc/application-procedures/post-hkdse-exam-results-announcement/iteration-process" rel="external">JUPAS：遴選程序</a>。
 
 ## 最可靠的排序原則：按你真正願意接受的先後次序
 
@@ -43,7 +43,7 @@ JUPAS 20 個課程選擇的**實際次序會影響你最後獲派哪一個 offer
 
 因此，排序前應先問：**如果兩個課程同時取錄我，我會選哪一個？** 把答案排在前面。不要單憑去年 median 把較喜歡的課程調低，也不要把一個其實不願入讀的課程放高。
 
-JUPAS 官方的 <a href="https://www.jupas.edu.hk/en/results-of-application/iteration-process/" rel="external">Iteration Process</a> 解釋了系統如何在課程評級與申請者實際次序之間反覆配對。
+JUPAS 官方的<a href="https://www.jupas.edu.hk/tc/application-procedures/post-hkdse-exam-results-announcement/iteration-process" rel="external">遴選程序（Iteration Process）</a> 解釋了系統如何在課程評級與申請者實際次序之間反覆配對。
 
 ## Band A 要考慮甚麼？
 
@@ -78,7 +78,7 @@ Band A 只有三個位置，而且院校知道它們屬於 Band A。選擇時可
 - 再查最低要求、面試安排及課程資料；
 - 重新按「若同時可得，我真正會選哪一個」排列。
 
-完整時間與步驟見<a href="/blog/jupas-change-of-choices-guide/">JUPAS 改選 2026 攻略</a>，並以 <a href="https://www.jupas.edu.hk/en/application-procedures-information/selection-amendment-of-programme-choices/" rel="external">JUPAS 官方修改課程選擇頁</a>為準。
+完整時間與步驟見<a href="/blog/jupas-change-of-choices-guide/">JUPAS 改選 2027 攻略</a>，並以 <a href="https://www.jupas.edu.hk/tc/application-procedures/application-other-submission-deadline/selection-updating-and-modification-of-programme-choices" rel="external">JUPAS 官方修改課程選擇頁</a>為準。
 
 ## 常見錯誤
 

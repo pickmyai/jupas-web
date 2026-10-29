@@ -136,7 +136,7 @@ verifiedDate: "2026-07-14"
   <p class="text-red-900/80 text-sm leading-relaxed m-0">JUPAS 官方列明，九間參與院校及 SSSDP 院校由放榜至改選截止期間，不會提供選科建議，當中包括面試、電話／電子聯絡及課程輔導。因此唔應預期院校喺改選兩日內打電話教你點排 JUPAS。放榜前如有課程問題，應最遲 7 月 14 日查清；Non-JUPAS 直接申請或早已安排嘅程序，則按相關院校正式通知處理。</p>
 </div>
 
-官方程序：<a href="https://www.jupas.edu.hk/en/application-procedures-information/selection-amendment-of-programme-choices/modification-of-programme-choices-after-release-of-hkdse-examination-results/" rel="external">JUPAS 放榜後修改課程選擇</a>。
+官方程序：<a href="https://www.jupas.edu.hk/en/application-procedures/post-hkdse-exam-results-announcement/modification-of-programme-choices-after-release-of-hkdse-examination-results" rel="external">JUPAS 放榜後修改課程選擇</a>。
 
 ## 成績明顯低過預期：覆核唔等於 Appeal
 
@@ -174,7 +174,7 @@ verifiedDate: "2026-07-14"
 
 <div class="not-prose my-6 border-l-4 border-amber-400 bg-amber-50 rounded-r-xl p-5">
   <div class="font-bold text-amber-900 mb-2">唔好因為等覆核而放棄 Main Round offer</div>
-  <p class="text-amber-900/80 text-sm leading-relaxed m-0">覆核結果暫定 8 月 12 日先公布，遲過 8 月 5 日 Main Round。收到 Main Round offer 時仍應按 JUPAS 限期決定及繳費；如成績其後獲提升，再循正式 reconsideration 程序處理。詳情見 <a href="https://www.jupas.edu.hk/en/useful-materials/faq/about-jupas/rechecking-and-remarking-of-hkdse-examination-results/" rel="external">JUPAS 覆核結果 FAQ</a>。</p>
+  <p class="text-amber-900/80 text-sm leading-relaxed m-0">覆核結果暫定 8 月 12 日先公布，遲過 8 月 5 日 Main Round。收到 Main Round offer 時仍應按 JUPAS 限期決定及繳費；如成績其後獲提升，再循正式 reconsideration 程序處理。詳情見 <a href="https://www.jupas.edu.hk/en/applicants-user-guide-faq/faq/about-jupas/rechecking-and-remarking-of-hkdse-examination-results" rel="external">JUPAS 覆核結果 FAQ</a>。</p>
 </div>
 
 ## Plan B：E-APP 已截止，仍然可以點做？
@@ -290,7 +290,7 @@ Main Round 落空唔等於冇書讀：Clearing 補選階段，仍有空缺嘅課
 
 想放榜日一改成績即刻睇晒所有志願嘅分數同機會，而家就下載 <a href="https://apps.apple.com/app/id6780134101">DSE Jupas 神器</a>，放榜前入定你嘅目標課程，用 JUPAS 計分器 + AI 入學機會分析 + 大學面試模擬打贏場放榜戰役。
 
-<p class="text-sm text-slate-500 italic">本文根據《DSE 放榜急救包 V5》整理實務清單，所有日期、費用與制度性資料已於 2026 年 7 月 14 日重新對照 <a href="https://www.jupas.edu.hk/en/important-dates/" rel="external">JUPAS</a>、<a href="https://www.hkeaa.edu.hk/en/hkdse/admin/release_of_results/recheck_remark/" rel="external">香港考評局</a>、<a href="https://www.eapp.gov.hk/" rel="external">E-APP</a>及政府官方資料；與官方資料不一致或無法核實嘅個人經驗數字並未採用。</p>
+<p class="text-sm text-slate-500 italic">本文根據《DSE 放榜急救包 V5》整理實務清單，所有日期、費用與制度性資料已於 2026 年 7 月 14 日重新對照 <a href="https://www.jupas.edu.hk/en/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines" rel="external">JUPAS</a>、<a href="https://www.hkeaa.edu.hk/en/hkdse/admin/release_of_results/recheck_remark/" rel="external">香港考評局</a>、<a href="https://www.eapp.gov.hk/" rel="external">E-APP</a>及政府官方資料；與官方資料不一致或無法核實嘅個人經驗數字並未採用。</p>
 
 <script type="application/ld+json">
 {

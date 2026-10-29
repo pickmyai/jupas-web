@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "JUPAS 收生分數 2026｜Median、LQ 意思點睇？附已公布院校數字"
-description: "港大、科大、理大、都大已公布 2026 年 JUPAS 收生分數（共 178 個課程）。本文附各院校代表課程 2026 Median、LQ，並解釋 Median、LQ、UQ 的意思、比較限制及查證方法。"
+title: "JUPAS 收生分數 2026｜九大院校已公布，Median、LQ 意思及查法"
+description: "九間聯招院校及 SSSDP 院校已公布 2026 年 JUPAS 收生分數，網站 421 個課程中 415 個已有 2026 數字。本文附中大、港大、科大、理大等代表課程 Median、LQ，並解釋 Median、LQ、UQ 的意思及報名時怎樣使用。"
 image: "/blog-covers/jupas-admission-scores-2026.webp"
 category: "收生數據"
 readTime: "8 分鐘"
 pubDate: "2026-06-20"
-updatedDate: "2026-10-04"
-verifiedDate: "2026-07-12"
+updatedDate: "2026-10-28"
+verifiedDate: "2026-10-28"
 ---
 
 不少院校會公布獲錄取學生的 median、lower quartile（LQ）或 upper quartile（UQ）。這些數字可以幫你理解**過往獲錄取者的分數分布**，但不是預先公布的 cut-off，更不是今年的錄取概率。
@@ -16,7 +16,9 @@ verifiedDate: "2026-07-12"
 
 ## 2026 年收生分數：已公布院校
 
-截至 2026 年 9 月 25 日，以下院校已公布 2026 年 JUPAS 收生分數：[港大](/universities/hku/)（54 個課程）、[科大](/universities/hkust/)（33 個）、[理大](/universities/polyu/)（45 個）及[都大](/universities/hkmu/)（46 個，含自資課程）。中大、城大、浸大、嶺大、教大尚未公布，相關頁面暫列 2025 年數字，公布後更新。
+截至 2026 年 10 月 28 日，九間聯招院校及 SSSDP 院校均已公布 2026 年收生統計。網站收錄的 421 個課程中，415 個已有 2026 數字：[中大](/universities/cuhk/) 70 個、[港大](/universities/hku/) 56 個、[城大](/universities/cityu/) 58 個、[理大](/universities/polyu/) 45 個、[科大](/universities/hkust/) 33 個、[教大](/universities/eduhk/) 26 個、[嶺大](/universities/lingu/) 23 個、[浸大](/universities/hkbu/) 22 個（只公布平均分），以及[都大](/universities/hkmu/)和其他 [SSSDP 院校](/universities/sssdp/)。其餘 6 個課程暫列最近有資料的年份。
+
+正在準備 2027 年度報名的同學，可以先用這些數字篩選課程，再在 12 月 2 日前排好志願；之後每次更新課程選擇要付 HK$100，詳見 [JUPAS 改選 2027](/blog/jupas-change-of-choices-guide/)。
 
 下表列出各院校 2026 年中位數較高的課程（只選計分公式與 2025 年相同、可以直接比較的課程）。各院校計分尺度不同（例如理大以數百分計），**不同院校之間的分數不能直接比較**。
 
@@ -34,6 +36,17 @@ verifiedDate: "2026-07-12"
 | 都大 | [JS9011 中文榮譽文學士](/universities/hkmu/js9011/) | 22 | 21 | 22 |
 | 都大 | [JS9530 英語教學榮譽教育學士及英語研究榮譽學士](/universities/hkmu/js9530/) | 22 | 22 | 20 |
 | 都大 | [JS9560 教育榮譽學士（中國語文教學）及語言研究榮譽學士（應用中國語言）](/universities/hkmu/js9560/) | 22 | 21 | 22 |
+
+其他院校 2026 年中位數較高的課程如下。部分院校 2026 年改用新公式或以新一年公式重算，這裏不與 2025 年比較；浸大只公布平均分。
+
+| 院校 | 課程 | 2026 Median | 2026 LQ |
+|---|---|---|---|
+| 中大 | [JS4733 數學與信息工程學](/universities/cuhk/js4733/) | 60.5 | 59.75 |
+| 中大 | [JS4276 計量金融學及風險管理科學](/universities/cuhk/js4276/) | 57.75 | 56.25 |
+| 中大 | [JS4682 數學精研](/universities/cuhk/js4682/) | 57.75 | 56.25 |
+| 嶺大 | [JS7225 數據科學(榮譽)理學士](/universities/lingu/js7225/) | 38 | 35 |
+| 教大 | [JS8726 運動科學及教練榮譽理學士](/universities/eduhk/js8726/) | 29.5 | 28.5 |
+| 浸大 | [JS2410 中醫學學士及生物醫學理學士(榮譽)](/universities/hkbu/js2410/) | 平均分 33.63 | — |
 
 全部課程的 2023–2026 年分數、計分方法及資料備註，見[各大學 JUPAS 收生分數一覽](/universities/)；每個課程另有獨立頁面。以下說明怎樣讀這些統計。
 
