@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import { keyDates, datesByPhase, zhRange, TAG_LABELS, faqFromMyths, researched } from '../lib/guides';
 import '../styles/universities.css';
 import '../styles/guides.css';
+import ScoreAppCta from '../components/ScoreAppCta.astro';
+import StickyStoreBar from '../components/StickyStoreBar.astro';
 
 // Content is generated from the app (app/tool/guides/gen_guides.py), so the
 // website and the app's 重要日子 page always say the same thing.
@@ -33,6 +35,8 @@ const phases = datesByPhase();
     <nav class="section-nav" aria-label="本頁內容">
       <a href="#timeline">時間表</a><a href="#checklist">各階段行動清單</a><a href="#parallel">聯招以外</a><a href="#myths">常見誤解</a><a href="#sources">資料來源</a>
     </nav>
+
+    <ScoreAppCta compact eyebrow="DSE Jupas 神器 App" heading="把 JUPAS 日子及行動清單放在手機" body="App 內「重要日子」顯示下一個日子的倒數，各階段行動清單可逐項剔選；另可輸入 DSE 成績，計算各課程分數。" />
 
     <section class="article-section" id="timeline">
       <h2>全年時間表</h2>
@@ -108,6 +112,7 @@ const phases = datesByPhase();
       <p class="fine-print">資料整理於 {researched}。非官方資訊，日期及費用以 JUPAS、考評局及各院校公布為準。</p>
     </section>
   </main>
+  <StickyStoreBar text="在手機查看 JUPAS 日子倒數" />
   <script is:inline>
     (function () {
       var today = new Date(); today.setHours(0, 0, 0, 0);

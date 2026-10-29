@@ -2,6 +2,8 @@
 import Layout from '../../../layouts/Layout.astro';
 import { schools, snapshot, formatScore as f, slugFor, programmePath, programmesFor, yearRows, latestRow, institutionNames, enrichmentFor, enrichmentVersion, popularityFor, scoreBasis } from '../../../lib/admissions';
 import '../../../styles/universities.css';
+import ScoreAppCta from '../../../components/ScoreAppCta.astro';
+import StickyStoreBar from '../../../components/StickyStoreBar.astro';
 
 // One page per JUPAS programme, generated from the app's unified data
 // (src/data/app-admissions.json via scripts/sync-app-data.py). No hand-kept numbers.
@@ -86,6 +88,7 @@ const faqPairs = [
       </div> : <p>{p.actual_2026_no_score ? '院校未有公布此課程的收生分數（例如取錄人數不足）。' : '暫未有此課程的收生分數。'}</p>}
       {notes.map(n => <p class="data-note">{n}</p>)}
       {p.actual_2026_source && <p class="fine-print">2026 年資料來源：<a href={p.actual_2026_source} rel="nofollow">{uni}官方公布 ↗</a></p>}
+      <ScoreAppCta heading={`計算你的 ${p.js_code} 分數`} body={`輸入各科 DSE 成績，App 按${uni}此課程的計分方法計算你的分數，並顯示與上表 Median、LQ 的差距。計分器免費使用。`} />
     </section>
 
     {pop && <section id="popularity" class="article-section">
@@ -139,4 +142,5 @@ const faqPairs = [
 
     <p class="fine-print">本頁數字及備註由 DSE Jupas 神器 App 的統一資料產生（資料版本 <code>{snapshot.version}</code>；課程簡介及出路 <code>{enrichmentVersion}</code>）。本網站並非 JUPAS 或院校官方服務；正式申請以各院校及 JUPAS 最新公布為準。</p>
   </main>
+  <StickyStoreBar text={`免費計算你的 ${p.js_code} 分數`} />
 </Layout>

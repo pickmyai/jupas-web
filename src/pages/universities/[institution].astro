@@ -3,6 +3,8 @@ import Layout from '../../layouts/Layout.astro';
 import UniversityCalculator from '../../components/UniversityCalculator';
 import { schools, programmesFor, snapshot, years, medianFor, formatScore as f, has2026, median2025, lq2025, programmePath, institutionNames } from '../../lib/admissions';
 import '../../styles/universities.css';
+import ScoreAppCta from '../../components/ScoreAppCta.astro';
+import StickyStoreBar from '../../components/StickyStoreBar.astro';
 
 export function getStaticPaths() {
   return Object.entries(schools).map(([institution, school]) => ({ params: { institution }, props: { school } }));
@@ -37,6 +39,7 @@ const others = Object.entries(schools).filter(([, s]) => s.code !== school.code)
     </header>
 
     <div class="reading-note"><strong>{with2026 ? `${school.shortName}已公布 2026 年收生分數（${with2026} 個課程）。` : `${school.shortName}目前未有已核實的 2026 分數，下表列最近有資料的年份。`}</strong>所有數字都是已取錄學生的分數分布，並非下一年的收分預測；部分課程 2026 年改了計分公式，請閱讀各課程備註。</div>
+    <ScoreAppCta compact heading={`輸入你的 DSE 成績，計算${school.shortName}各課程分數`} body={`DSE Jupas 神器按${school.shortName}每個課程的計分方法計算你的分數，並與歷年 Median、LQ 比較。計分器免費使用。`} />
     <nav class="section-nav" aria-label="文章目錄">{hasAnalysis && <a href="#analysis">近年數據分析</a>}<a href="#scores">課程分數表</a>{isHku && <a href="#calculator">港大計算器</a>}<a href="#how-to-read">Median／LQ 點睇</a><a href="#sources">資料來源</a></nav>
 
     {hasAnalysis && <section id="analysis" class="article-section">
@@ -79,6 +82,8 @@ const others = Object.entries(schools).filter(([, s]) => s.code !== school.code)
       </div><p id="no-programmes" class="data-note" hidden>找不到符合的課程。請試用較短名稱或 JS 代碼。</p>
     </section>
 
+    <ScoreAppCta heading="比較完分數，計算你自己的分數" body={`在 App 選擇${school.shortName}課程並輸入各科成績，即可看到你的計分與 Median、LQ 的差距，以及哪幾科需要進步多少才達標。`} />
+
     <section id="how-to-read" class="article-section article-copy"><h2>Median、LQ 同「最低收分」有甚麼不同？</h2><p>Median 是獲錄取者的中位數；LQ、UQ 是下、上四分位數，中間一半數值大致在 LQ 至 UQ 之間。LQ 並非最低錄取分數，Median 也不是考到便一定獲取錄的門檻。</p><p>例如某課程 LQ 是 28、Median 是 30、UQ 是 32，只能描述過往獲錄取學生的分布。這份資料沒有所有申請人的成績、面試及志願條件，不能由此算出你有幾多成錄取機會。Expected Score 則是院校另行公布的前瞻參考，不能放進實際收生年份欄當作新一年結果。</p><p>實際使用時，先核對一般及課程特定要求，再按相同公式計分，最後綜合興趣、面試和其他甄選因素整理志願。<a href="/blog/jupas-admission-scores-2026/">閱讀完整 Median／LQ 解讀</a>，或看<a href="/blog/jupas-band-a-strategy/">按真實喜好整理 Band A–E 的方法</a>。</p></section>
 
     <aside class="app-next"><div><p class="eyebrow">下一步 / 整理自己的選擇</p><h2>由睇一間院校，到整理自己的志願</h2><p>在 App 保存心儀課程、比較不同選擇，配合個人分析及面試練習繼續準備。免費下載；部分功能及使用額度需升級。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>
@@ -86,6 +91,7 @@ const others = Object.entries(schools).filter(([, s]) => s.code !== school.code)
     <section id="sources" class="article-section article-copy"><h2>資料來源、更新及適用範圍</h2><p>本頁數字及課程備註由 DSE Jupas 神器 App 的統一核心資料產生，資料版本為 <code>{snapshot.version}</code>；同步時已核對 App 線上更新版本一致。統計涵蓋 2023–{lastYear} 入學年份{school.code === 'HKBU' ? '（* 浸大公布平均分，不公布中位數）' : ''}。文章整理日期不代表院校剛公布新數據，亦不表示所有歷年數字已在當天重新向院校核實。</p><p>資料未提供某年份或已因公式不一致而留空，本頁會保留空白。課程加權、前身代碼及舊制比較限制沿用 App 原有備註；有備註不適合直接比較的課程，不會計算升跌排名或錄取概率。資料按版本同步，並非即時連接院校招生系統。</p><ul>{school.sources.map(([label, href]) => <li><a href={href}>{label} ↗</a></li>)}</ul><p>撰寫及整理：DSE Jupas 神器編輯組。<a href="/editorial-policy/">閱讀資料來源與編輯守則</a>。本網站並非 JUPAS 或院校官方服務；正式申請以各院校及 JUPAS 最新公布為準。</p></section>
     <nav class="related-school" aria-label="繼續閱讀"><span>繼續比較</span>{others.map(([slug, o]) => <a href={`/universities/${slug}/`}>{o.shortName}收生分數 →</a>)}<a href="/universities/">返回院校收分目錄 →</a></nav>
   </main>
+  <StickyStoreBar text={`免費計算${school.shortName}課程分數`} />
   <script>
     const input = document.querySelector<HTMLInputElement>('#programme-search');
     const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('#scores-table tbody tr'));

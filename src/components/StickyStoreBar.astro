@@ -1,0 +1,73 @@
+---
+// 手機底部下載列（只在 ≤760px 顯示）。
+//
+// 收分頁很長（課程表、歷年分數、出路），頁尾下載框在手機要捲十多屏才見到；
+// 讀者通常查完上半部便離開。底部列在讀者捲過首屏後出現，按裝置只顯示對應商店，
+// 可按「關閉」收起（本分頁瀏覽期間記住）。出現時為頁底預留同等高度，
+// 不遮蓋頁尾內容。商店點擊沿用 Layout.astro 的 web_clicks beacon。
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+---
+<div class="sticky-store-bar" data-sticky-store-bar hidden>
+  <img src="/logo-80.webp" alt="" width="36" height="36" loading="lazy" decoding="async" />
+  <p>{text}</p>
+  <a data-store="ios" href="https://apps.apple.com/app/id6780134101" rel="noopener">App Store 下載</a>
+  <a data-store="android" href="https://play.google.com/store/apps/details?id=app.jupas.dse" rel="noopener">Google Play 下載</a>
+  <button type="button" data-sticky-close aria-label="關閉下載提示">×</button>
+</div>
+
+<style>
+  .sticky-store-bar{display:none}
+  @media(max-width:760px){
+    .sticky-store-bar:not([hidden]){position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #dfe5e2;box-shadow:0 -2px 12px rgba(23,43,54,.08);font-family:-apple-system,BlinkMacSystemFont,'PingFang TC','Microsoft JhengHei',sans-serif}
+    .sticky-store-bar img{width:36px;height:36px;border-radius:9px;flex:none}
+    .sticky-store-bar p{margin:0;flex:1 1 auto;min-width:0;font-size:13px;font-weight:700;line-height:1.4;color:#172b36}
+    .sticky-store-bar a{flex:none;min-height:40px;display:inline-flex;align-items:center;background:#203e44;color:#fff;padding:0 12px;border-radius:8px;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap}
+    .sticky-store-bar a[hidden]{display:none}
+    /* Device unknown: both stores shown, so drop the line of text to keep them on one row. */
+    .sticky-store-bar.both p{display:none}
+    .sticky-store-bar.both a{flex:1 1 0;justify-content:center}
+    .sticky-store-bar button{flex:none;width:32px;height:40px;border:0;background:transparent;color:#5b6d72;font-size:22px;line-height:1;cursor:pointer}
+  }
+</style>
+
+<script is:inline>
+(function () {
+  var bar = document.querySelector('[data-sticky-store-bar]');
+  if (!bar || !window.matchMedia) return;
+  var KEY = 'jupas_sticky_store_bar_closed';
+  try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
+  var ua = navigator.userAgent || '';
+  var isAndroid = /Android/.test(ua);
+  // iPadOS reports a Mac UA; touch points tell it apart from a real Mac.
+  var isIOS = !isAndroid && (/iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1));
+  // Show only the matching store when the device is known; both otherwise.
+  if (isIOS || isAndroid) {
+    bar.querySelector(isIOS ? '[data-store="android"]' : '[data-store="ios"]').hidden = true;
+  } else {
+    bar.classList.add('both');
+  }
+  var mq = window.matchMedia('(max-width: 760px)');
+  var closed = false;
+  function update() {
+    var show = !closed && mq.matches && window.scrollY > window.innerHeight * 0.6;
+    if (show === !bar.hidden) return;
+    bar.hidden = !show;
+    var h = show ? bar.offsetHeight : 0;
+    document.body.style.paddingBottom = show ? h + 'px' : '';
+    // Lift the floating 「內容有誤？」 report button (fixed, bottom 10px) above the bar.
+    var report = document.querySelector('pickmy-content-report');
+    if (report) report.style.bottom = show ? (h + 10) + 'px' : '';
+  }
+  bar.querySelector('[data-sticky-close]').addEventListener('click', function () {
+    closed = true;
+    try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+    update();
+  });
+  window.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>

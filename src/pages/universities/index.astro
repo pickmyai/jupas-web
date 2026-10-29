@@ -3,6 +3,8 @@ import Layout from '../../layouts/Layout.astro';
 import { snapshot, schools, programmesFor, has2026, formatScore, programmePath, latestRow, institutionNames, scoreMetric, scoreBasis } from '../../lib/admissions';
 import '../../styles/universities.css';
 import '../../styles/score-hub.css';
+import ScoreAppCta from '../../components/ScoreAppCta.astro';
+import StickyStoreBar from '../../components/StickyStoreBar.astro';
 
 const schoolEntries = Object.entries(schools).map(([slug, school]) => {
   const programmes = programmesFor(school.code).sort((a, b) => a.js_code.localeCompare(b.js_code));
@@ -30,6 +32,8 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
       <p class="hub-update">{snapshot.programmes.length} 個課程 · {publishedCount} 個已有 2026 數據 · 收分資料更新 <time datetime={updatedDate}>{displayDate}</time></p>
       <nav class="section-nav" aria-label="本頁內容"><a href="#quick-scores">全部課程收分</a><a href="#schools">院校介紹及年份</a><a href="#sources">官方資料來源</a></nav>
     </header>
+
+    <ScoreAppCta compact heading="輸入你的 DSE 成績，計算各課程分數" body="表內是已取錄學生的分數。下載 DSE Jupas 神器，按每個課程的計分方法計算你的分數，並與歷年 Median、LQ 比較。計分器免費使用。" />
 
     <section id="quick-scores" aria-labelledby="quick-scores-title" class="quick-scores-section">
       <h2 id="quick-scores-title">全部 {snapshot.programmes.length} 個課程收分</h2>
@@ -62,6 +66,7 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
         </tbody>)}
       </table>
       <p id="hub-no-results" class="hub-empty" hidden>找不到符合的課程。請試用較短名稱、JS 代碼，或清除篩選。</p>
+      <ScoreAppCta heading="找到心儀課程後，計算自己的分數" body="在 App 選擇課程並輸入各科成績，即可看到你的計分與該課程 Median、LQ 的差距，以及哪幾科需要進步多少才達標。" />
       <p class="fine-print quick-scores-followup">點選課程查看歷年分數、計分方法及資料備註。<a href="/blog/jupas-admission-scores-2026/">Median、LQ、UQ 是甚麼？查看完整讀法 →</a></p>
     </section>
 
@@ -80,6 +85,7 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
 
     <section class="article-section article-copy"><h2>怎樣用收分表安排下一步？</h2><p>先確認課程最低要求，再按該年度公式計算自己的分數，與同一課程、同一口徑的 Median／LQ 比較。面試、作品集、志願 Band 及年度學額亦可能影響甄選。</p><p>港大頁設免費單課程試算；<a href="/blog/jupas-band-a-strategy/">JUPAS 志願排序指南</a>協助整理課程選擇。下一屆報名日子見<a href="/jupas-key-dates/">JUPAS 2027 重要日子</a>；其他升學路線見<a href="/dse-plan-b/">DSE 放榜 Plan B</a>。</p></section>
   </main>
+  <StickyStoreBar text="免費計算你的 JUPAS 課程分數" />
 </Layout>
 
 <script>

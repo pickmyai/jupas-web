@@ -1,0 +1,49 @@
+---
+// 收分頁內文 CTA。
+//
+// 2026-10-28 web-click-stats（28 日）：/universities/ 1,415 次瀏覽、0 次商店點擊；
+// 院校頁（HKU 471、PolyU 441、CUHK 339……）亦近乎 0。原因是這些頁只在頁尾有一個
+// 下載框（hub 頁更沒有），讀者查完分數便離開。首頁商店點擊率 15%，按鈕就在首屏。
+// 所以把「用自己成績計算」的入口放到分數表前後，即讀者正在比較分數的位置。
+//
+// 商店連結沿用 Layout.astro 的 web_clicks beacon（按 href 捕捉 apps.apple.com／
+// play.google.com），不需另加追蹤。
+interface Props {
+  eyebrow?: string;
+  heading: string;
+  body: string;
+  compact?: boolean;
+}
+const { eyebrow = 'DSE Jupas 神器 App · 免費計分器', heading, body, compact = false } = Astro.props;
+---
+<aside class:list={['score-app-cta', { compact }]} aria-label="下載 DSE Jupas 神器">
+  <img class="score-app-cta__icon" src="/logo-80.webp" alt="" width="56" height="56" loading="lazy" decoding="async" />
+  <div class="score-app-cta__copy">
+    <p class="score-app-cta__eyebrow">{eyebrow}</p>
+    <p class="score-app-cta__heading">{heading}</p>
+    <p class="score-app-cta__body">{body}</p>
+  </div>
+  <div class="score-app-cta__stores">
+    <a href="https://apps.apple.com/app/id6780134101" rel="noopener">App Store 下載</a>
+    <a href="https://play.google.com/store/apps/details?id=app.jupas.dse" rel="noopener">Google Play 下載</a>
+  </div>
+</aside>
+
+<style>
+  .score-app-cta{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:18px;align-items:center;margin:28px 0;padding:20px 22px;background:#edf3ef;border:1px solid #d3e2da;border-radius:14px;color:#172b36;line-height:1.6}
+  .score-app-cta__icon{width:56px;height:56px;border-radius:13px;background:#fff}
+  .score-app-cta__eyebrow{margin:0 0 4px;font-size:12px;font-weight:750;letter-spacing:.06em;color:#825712}
+  .score-app-cta__heading{margin:0 0 4px;font-size:19px;font-weight:800;line-height:1.45}
+  .score-app-cta__body{margin:0;font-size:14px;color:#425a60;max-width:640px}
+  .score-app-cta__stores{display:flex;flex-direction:column;gap:8px}
+  .score-app-cta__stores a{display:block;min-height:44px;background:#203e44;color:#fff !important;padding:11px 18px;border-radius:8px;font-size:14px;font-weight:700;white-space:nowrap;text-align:center;text-decoration:none !important}
+  .score-app-cta__stores a:hover{background:#2c555c}
+  .score-app-cta.compact{margin:20px 0}
+  @media(max-width:760px){
+    .score-app-cta{grid-template-columns:44px minmax(0,1fr);gap:12px 14px;padding:16px}
+    .score-app-cta__icon{width:44px;height:44px;border-radius:10px}
+    .score-app-cta__heading{font-size:17px}
+    .score-app-cta__stores{grid-column:1 / -1;flex-direction:row}
+    .score-app-cta__stores a{flex:1 1 0;white-space:normal;font-size:13px;padding:11px 10px}
+  }
+</style>
