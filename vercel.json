@@ -20,6 +20,16 @@
             "source": "/zh-hk/:path*/",
             "destination": "/",
             "permanent": true
+        },
+        {
+            "source": "/blog/dse-results-day-2026-guide/",
+            "destination": "/blog/dse-results-day-2027-guide/",
+            "permanent": true
+        },
+        {
+            "source": "/blog/dse-results-day-2026-guide",
+            "destination": "/blog/dse-results-day-2027-guide/",
+            "permanent": true
         }
     ]
 }

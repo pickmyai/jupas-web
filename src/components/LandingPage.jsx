@@ -164,13 +164,13 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => (
 
 const BLOG_POSTS = [
     {
-        url: "/blog/dse-results-day-2026-guide/",
-        en: { category: "Results day", title: "DSE results day 2026: timeline, the 48-hour JUPAS change window and allocation", desc: "What to prepare before results day, a results-day checklist, the 48-hour change of choices and the August allocation." },
+        url: "/blog/dse-results-day-2027-guide/",
+        en: { category: "Results day", title: "DSE results day 2027: checklist, JUPAS change window, rechecking and offers", desc: "Prepare three versions of your choices before 14 July, check before deciding on the day, and the key dates for the 14–16 July change window and August offers." },
         image: "/blog-covers/dse-results-day-2026-guide.webp",
         category: "放榜攻略",
-        title: "DSE 放榜 2026 攻略｜7 月 15 日放榜日時間表、JUPAS 改選 48 小時、派位全流程",
-        desc: "由放榜前準備、放榜日行動清單，到 48 小時改選同 8 月派位補選，拆清 2026 放榜季每個關鍵日期。",
-        readTime: "11 分鐘",
+        title: "DSE 放榜 2027｜7 月 14 日放榜清單、JUPAS 改選、覆核及派位日期",
+        desc: "放榜前準備三套志願次序，放榜當日先核對再決定；附 7 月 14–16 日改選、覆核、8 月派位及補選日期。",
+        readTime: "6 分鐘",
     },
     {
         url: "/blog/jupas-scoring-methods-explained/",
