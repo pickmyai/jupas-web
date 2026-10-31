@@ -20,7 +20,7 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
     .map((href, index) => ({ href, id: `source-${slug}-${index}`, school }))
 );
 ---
-<Layout title="JUPAS 收分 2026｜各大學全部課程收生分數、Median／LQ 一覽" description={`同一頁查閱全部 ${snapshot.programmes.length} 個 JUPAS 課程的收生分數、資料年份及官方來源，可按院校、年份、名稱或 JS 代碼搜尋。${publishedCount} 個課程已有 2026 數字，其餘列最近有資料的年份，平均分與 Median 分開標示。`} schemaType="website" productShowcase={false} breadcrumbItems={[{ name: '首頁', url: '/' }, { name: 'JUPAS 收分 2026', url: '/universities/' }]}>
+<Layout title="JUPAS 收分 2026｜2027 選科參考：全部課程 Median／LQ 一覽" description={`同一頁查閱全部 ${snapshot.programmes.length} 個 JUPAS 課程的收生分數、資料年份及官方來源，可按院校、年份、名稱或 JS 代碼搜尋。${publishedCount} 個課程已有 2026 數字，其餘列最近有資料的年份，平均分與 Median 分開標示。`} schemaType="website" productShowcase={false} breadcrumbItems={[{ name: '首頁', url: '/' }, { name: 'JUPAS 收分 2026', url: '/universities/' }]}>
   <a class="skip-link" href="#quick-scores">跳至收分速查表</a>
   <header class="uni-nav"><a class="uni-brand" href="/"><img src="/logo-transparent-96.webp" alt="" width="40" height="40" /><span>DSE Jupas 神器</span></a><a href="/blog/">升學攻略</a></header>
   <main class="uni-main score-hub">

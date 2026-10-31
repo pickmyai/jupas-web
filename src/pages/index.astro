@@ -5,7 +5,7 @@ import { admissionsSummary } from "../lib/admissionsSummary";
 import { popularProgrammes } from "../lib/popularProgrammes";
 ---
 
-<Layout title="JUPAS 計分器｜DSE Jupas 神器 · 免費計分、收生位置、面試練習" description={`JUPAS 2027 升學規劃：查 ${admissionsSummary.programmeCount} 個課程資料及 ${admissionsSummary.score2026Count} 個課程的 2026 歷史收分。免費未加權 Best 5 試算，再按課程公式適用年份核對；App 提供課程計分與面試練習。`}>
+<Layout title="JUPAS 計分器 2027｜DSE Jupas 神器 · 免費計分、收生位置、面試練習" description={`JUPAS 2027 升學規劃：查 ${admissionsSummary.programmeCount} 個課程資料及 ${admissionsSummary.score2026Count} 個課程的 2026 歷史收分。免費未加權 Best 5 試算，再按課程公式適用年份核對；App 提供課程計分與面試練習。`}>
     <main>
         <LandingPage client:load initialLang="zh-HK" popular={popularProgrammes()} admissionsSummary={admissionsSummary} />
     </main>
