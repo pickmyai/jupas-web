@@ -10,10 +10,16 @@ const snapshot = { ...sourceSnapshot, programmes: sourceSnapshot.programmes.map(
     ? { ...p, ...p.scoring_2027, actual_2026_comparable_to_calculator: true } : p;
 }).map(p => {
   // Show the official JUPAS 2027 name; scores stay with the code they were published under.
+  // The app core now carries the 2027 name, title_2026 and offered_2027 itself;
+  // the official file stays as a fallback for an older snapshot.
   const o = official2027.programmes[p.js_code];
-  if (o) return { ...p, title: o.title, title_en_2027: o.title_en, title_2026: o.renamed_from ?? null, offered_2027: true };
+  if (o) return { ...p, title: o.title, title_en_2027: o.title_en, title_2026: p.title_2026 ?? o.renamed_from ?? null, offered_2027: true };
   const gone = official2027.notOffered2027[p.js_code];
-  return gone ? { ...p, title_2026: null, offered_2027: false, successors_2027: gone.successors } : p;
+  if (!gone && p.offered_2027 !== false) return p;
+  // The page has its own not-offered notice; drop the app's leading sentence.
+  const strip = text => typeof text === 'string' && text.startsWith('JUPAS 2027 不再提供') ? (text.split('\n\n').slice(1).join('\n\n') || null) : text;
+  return { ...p, title_2026: null, offered_2027: false, successors_2027: gone?.successors ?? p.successor_codes_2027 ?? [],
+    actual_2026_note: strip(p.actual_2026_note), data_remark: strip(p.data_remark) };
 }) };
 import enrichmentSnapshot from '../data/app-enrichment.json';
 

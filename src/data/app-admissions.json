@@ -1,19 +1,19 @@
 {
   "source": "https://www.pickmyquiz.com/jupas-data/meta.json",
-  "version": 20261111134047,
-  "coreSha256": "90abb52e24e691d40a04753021c96d8af3b8403458ccaaa8d0f682c6405b61c2",
-  "sourceUpdatedAt": "2026-11-11T13:40:47.798404+00:00",
+  "version": 20261112154038,
+  "coreSha256": "afd34a5382e36e90fa9de870ec905fc130d1ad48749ba321d1591638395e9007",
+  "sourceUpdatedAt": "2026-11-12T15:40:39.051431+00:00",
   "statisticsYear": 2026,
-  "programmeSha256": "481e7ebe7e05a6ae67ab28c9a80c326da13006ea042b05aa06e4c61369d38401",
+  "programmeSha256": "3a67040b3f9799b9eb19b506253d5125086d0f9bd983427ebadfbf97faa34813",
   "engineSources": {
     "lib/services/jupas/score_calculator.dart": "bd5946bf3d99ef6f9d4cc65beef3431ca1055f4fb1877a7624fd884c67b94f5c",
-    "lib/models/jupas/programme.dart": "8e3df4704b199318f334889e2cb358d8ac233dee10062088a4d29e920bc6b4cb",
+    "lib/models/jupas/programme.dart": "e129912250e59cd673d62f2c2a109edf361f93b52d2c01de8577df6499324660",
     "lib/models/jupas/dse_result.dart": "698fa311b92878ef2f7866c36d79743b8a3caab63e0c23bc7caad3b15daf2a0d",
     "lib/models/jupas/subject.dart": "a1731156c3caca6311f7f2447c8ddc1d60acfe661f8593cae5cca7480e0897c7",
     "lib/models/jupas/grade.dart": "a92abcc85d48370ff4c5c5152a712e885ce21d9bebc800cccf2aa7f4c430cd97"
   },
-  "engineSha256": "4ec2540459861d2ed3d0d2dc17d7895973d76627320838d801c15f14c68b5825",
-  "parityCases": 925,
+  "engineSha256": "f8d02794a87d9786cad1437d9b97499fc7333d6d0f093bca4295a77f4289e6fe",
+  "parityCases": 970,
   "officialRegressionCases": 70,
   "metadata": {
     "subjects": [
@@ -313,6 +313,10 @@
       "band_a_apply": 81,
       "band_a_offer": 2,
       "admitted": 2,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -374,6 +378,10 @@
       "band_a_apply": 100,
       "band_a_offer": 1,
       "admitted": 4,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -435,6 +443,10 @@
       "band_a_apply": 1018,
       "band_a_offer": 127,
       "admitted": 131,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -442,7 +454,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "商學院",
-      "title": "工商管理學士 (管理學 ) (專修 : 人 力資源管理 / 策略及國際管理 )",
+      "title": "工商管理學士 (管理學) (專修 : 人力資源管理 / 策略及國際管理 )",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰數學",
       "bonus_system": true,
@@ -496,6 +508,10 @@
       "band_a_apply": 711,
       "band_a_offer": 37,
       "admitted": 42,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -503,7 +519,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "商學院",
-      "title": "工商管理學士(市場營銷) (專修: 環球市場營銷 / 營銷數據分析)",
+      "title": "工商管理學士(市場學) (專修: 環球市場營銷 / 營銷數據分析)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文、數學 x1.5: 英文",
       "bonus_system": true,
@@ -557,6 +573,10 @@
       "band_a_apply": 934,
       "band_a_offer": 72,
       "admitted": 76,
+      "title_2026": "工商管理學士(市場營銷) (專修: 環球市場營銷 / 營銷數據分析)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -618,6 +638,10 @@
       "band_a_apply": 247,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -679,6 +703,10 @@
       "band_a_apply": 476,
       "band_a_offer": 32,
       "admitted": 32,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -740,6 +768,10 @@
       "band_a_apply": 756,
       "band_a_offer": 102,
       "admitted": 102,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -747,7 +779,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "商學院",
-      "title": "資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(資訊管理)]",
+      "title": "智能資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(商業人工智能)]",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰數學",
       "bonus_system": true,
@@ -801,6 +833,10 @@
       "band_a_apply": 322,
       "band_a_offer": 54,
       "admitted": 59,
+      "title_2026": "資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(資訊管理)]",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -862,6 +898,10 @@
       "band_a_apply": 63,
       "band_a_offer": 6,
       "admitted": 8,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -869,7 +909,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "商學院",
-      "title": "工商管理學士(資訊管理) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)",
+      "title": "工商管理學士 (商業人工智能) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰數學",
       "bonus_system": true,
@@ -923,6 +963,10 @@
       "band_a_apply": 66,
       "band_a_offer": 3,
       "admitted": 7,
+      "title_2026": "工商管理學士(資訊管理) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -984,6 +1028,10 @@
       "band_a_apply": 154,
       "band_a_offer": 20,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1045,6 +1093,10 @@
       "band_a_apply": 286,
       "band_a_offer": 20,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1106,6 +1158,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1167,6 +1223,10 @@
       "band_a_apply": 322,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1228,6 +1288,10 @@
       "band_a_apply": 253,
       "band_a_offer": 14,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1289,6 +1353,10 @@
       "band_a_apply": 236,
       "band_a_offer": 25,
       "admitted": 25,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1350,6 +1418,10 @@
       "band_a_apply": 179,
       "band_a_offer": 18,
       "admitted": 18,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1447,6 +1519,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -1544,6 +1620,10 @@
       "band_a_apply": 389,
       "band_a_offer": 41,
       "admitted": 54,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -1641,6 +1721,10 @@
       "band_a_apply": 49,
       "band_a_offer": 3,
       "admitted": 11,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -1742,6 +1826,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -1803,6 +1891,10 @@
       "band_a_apply": 129,
       "band_a_offer": 26,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1864,6 +1956,10 @@
       "band_a_apply": 19,
       "band_a_offer": 4,
       "admitted": 5,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -1871,7 +1967,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "計算學院",
-      "title": "數據賦能: 學習･突破･成就課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)",
+      "title": "人工智能 ･ 計算 ･ 突破課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)",
       "scoring_method": "3C2X",
       "weighting_detail": "x2: 英文、數學",
       "bonus_system": true,
@@ -1925,6 +2021,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": "數據賦能: 學習･突破･成就課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -1986,6 +2086,10 @@
       "band_a_apply": 200,
       "band_a_offer": 14,
       "admitted": 16,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -2047,6 +2151,10 @@
       "band_a_apply": 195,
       "band_a_offer": 17,
       "admitted": 18,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -2054,7 +2162,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "計算學院",
-      "title": "理學士(數據與系統工程) (特點: 數據科學 / 金融科技 / 工業人工智能 / 智慧城市 / 物聯網)",
+      "title": "理學士(數據與系統工程) (特點: 數據科學 / 金融科技 / 工業人工智能 / 智慧城市)",
       "scoring_method": "3C2X",
       "weighting_detail": "x2: 數學 x1.5: 英文",
       "bonus_system": true,
@@ -2108,6 +2216,10 @@
       "band_a_apply": 108,
       "band_a_offer": 13,
       "admitted": 16,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -2169,6 +2281,10 @@
       "band_a_apply": 274,
       "band_a_offer": 13,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2230,6 +2346,10 @@
       "band_a_apply": 500,
       "band_a_offer": 34,
       "admitted": 37,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -2291,6 +2411,10 @@
       "band_a_apply": 172,
       "band_a_offer": 20,
       "admitted": 28,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2352,6 +2476,10 @@
       "band_a_apply": 505,
       "band_a_offer": 36,
       "admitted": 43,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2359,7 +2487,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "人文社會科學院",
-      "title": "社會科學學士(公共事務與管理) (專修: 公共事務與管冶 / 公共政策與管理)",
+      "title": "社會科學學士(公共事務與管理) (專修: 公共事務與管治 / 公共政策與管理)",
       "scoring_method": "3C2X",
       "weighting_detail": "x1.5: 英文",
       "bonus_system": true,
@@ -2413,6 +2541,10 @@
       "band_a_apply": 271,
       "band_a_offer": 48,
       "admitted": 59,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -2420,7 +2552,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "人文社會科學院",
-      "title": "文學士(語言學及語言應用) (特點: 語言學 / 語言應用 / 語言技術)",
+      "title": "文學士(語言學及語言應用) (特點: 普通語言學 / 計算語言學 / 語料庫語言學 / 實驗語言學 / 語言技術及應用)",
       "scoring_method": "3C2X",
       "weighting_detail": "x2: 英文 x1.5: 中文、數學",
       "bonus_system": true,
@@ -2474,6 +2606,10 @@
       "band_a_apply": 130,
       "band_a_offer": 20,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -2481,7 +2617,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "人文社會科學院",
-      "title": "社會科學學士(犯罪學及社會學)",
+      "title": "社會科學學士 (犯罪科學) (特點: 犯罪預防 / 安保實務 / 全球警政 / 犯罪分析 / 科網與未來犯罪)",
       "scoring_method": "Best 4",
       "weighting_detail": "最佳四科必須包括︰英文 x2: 英文",
       "bonus_system": true,
@@ -2535,6 +2671,10 @@
       "band_a_apply": 328,
       "band_a_offer": 21,
       "admitted": 23,
+      "title_2026": "社會科學學士(犯罪學及社會學)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2542,7 +2682,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "人文社會科學院",
-      "title": "社會科學學士(心理學)",
+      "title": "社會科學學士(心理學) (專修: 健康與人類發展 / 大腦與認知)",
       "scoring_method": "Best 4",
       "weighting_detail": "最佳四科必須包括︰英文 x2: 英文",
       "bonus_system": true,
@@ -2596,6 +2736,10 @@
       "band_a_apply": 319,
       "band_a_offer": 27,
       "admitted": 31,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2603,7 +2747,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "人文社會科學院",
-      "title": "社會科學學士(社會工作)",
+      "title": "社會科學學士(社會工作) (特點: 社會參與及人文關懷 – 健康與福祉 / 社會多元與持續 / 人在環境的專業介入)",
       "scoring_method": "Best 4",
       "weighting_detail": "最佳四科必須包括︰英文 x2: 英文",
       "bonus_system": true,
@@ -2657,6 +2801,10 @@
       "band_a_apply": 630,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2664,7 +2812,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "人文社會科學院",
-      "title": "社會科學學士(犯罪學)與法律學學士",
+      "title": "社會科學學士(犯罪科學)與法律學學士 (雙學位)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文",
       "bonus_system": true,
@@ -2718,6 +2866,10 @@
       "band_a_apply": 91,
       "band_a_offer": 9,
       "admitted": 11,
+      "title_2026": "社會科學學士(犯罪學)與法律學學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2725,7 +2877,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "理學院",
-      "title": "環球精研與科創課程",
+      "title": "環球精研與科創課程 [主修：理學士 (化學) / 理學士 (計算數學) / 理學士 (物理學) ＋ 環球精研與科創]",
       "scoring_method": "Best 4",
       "weighting_detail": "x2.5: 化學、物理、M2 x2: 英文、數學、M1 x1.5: 生物、經濟",
       "bonus_system": true,
@@ -2779,6 +2931,10 @@
       "band_a_apply": 20,
       "band_a_offer": 2,
       "admitted": 4,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2786,7 +2942,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "建築學及土木工程學系 [選項: 工學士(建築工程)、工學士(土木工程)、理學士(建築學及測量學)]",
+      "title": "建築學及土木工程學 [主修:工學士(屋宇裝備工程) / 工學士(土木工程) / 理學士(建築學及測量學)]",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文 x2.5: 英文、數學、M1/2、物理 x1.5: 中文",
       "bonus_system": true,
@@ -2840,6 +2996,10 @@
       "band_a_apply": 507,
       "band_a_offer": 98,
       "admitted": 98,
+      "title_2026": "建築學及土木工程學系 [選項: 工學士(建築工程)、工學士(土木工程)、理學士(建築學及測量學)]",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2847,7 +3007,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "理學院",
-      "title": "理學士(化學)",
+      "title": "理學士(化學) (專修: 綜合化學 / 化妝品化學 / 鑑證化學 / 環球精研與科創)",
       "scoring_method": "Best 4",
       "weighting_detail": "x2: 英文、化學 x1.5: 數學",
       "bonus_system": true,
@@ -2901,6 +3061,10 @@
       "band_a_apply": 309,
       "band_a_offer": 40,
       "admitted": 48,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2908,7 +3072,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "計算學院",
-      "title": "理學士(電腦科學)",
+      "title": "理學士(計算機科學) (專修: 人工智能 / 網絡安全 / 數據科學 / 多媒體計算 / 軟件工程與項目管理)",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": true,
@@ -2962,6 +3126,10 @@
       "band_a_apply": 882,
       "band_a_offer": 78,
       "admitted": 85,
+      "title_2026": "理學士(電腦科學)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -2969,7 +3137,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "電機工程學系 [選項: 工學士(電子計算機及數據工程學)、工學士(電子及電機工程學)、工學士(資訊工程學)、工學士(微電子工程學)]",
+      "title": "電機工程學 [主修: 工學士(電子計算機及數據工程學) ／工學士(電子及電機工程學) ／ 工學士(資訊工程學) ／ 工學士(微電子工程學)]",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文、數學 x2: 英文、數學、ICT、M1/2、物理 x1.5: 生物、化學",
       "bonus_system": true,
@@ -3023,6 +3191,10 @@
       "band_a_apply": 884,
       "band_a_offer": 114,
       "admitted": 126,
+      "title_2026": "電機工程學系 [選項: 工學士(電子計算機及數據工程學)、工學士(電子及電機工程學)、工學士(資訊工程學)、工學士(微電子工程學)]",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3030,7 +3202,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "理學院",
-      "title": "理學士(計算數學)",
+      "title": "理學士 (計算數學) (專修範疇: 數學精研 / 金融數學 / 環球精研與科創)",
       "scoring_method": "Best 4",
       "weighting_detail": "最佳四科必須包括︰數學 x2.5: 數學 | x2: 英文、M1/2 x1.5: 生物、化學、物理",
       "bonus_system": true,
@@ -3084,6 +3256,10 @@
       "band_a_apply": 373,
       "band_a_offer": 21,
       "admitted": 27,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3091,7 +3267,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "機械工程學系 [選項: 工學士(航空航天工程)、工學士(機械工程)、工學士(核子及風險工程)]",
+      "title": "機械工程學 [主修: 工學士(航空航天工程) / 工學士(機械工程) / 工學士(核子及風險工程)]",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰數學 x2: 英文、數學、物理 x1.5: 化學、DAT、M1/2",
       "bonus_system": true,
@@ -3145,6 +3321,10 @@
       "band_a_apply": 711,
       "band_a_offer": 85,
       "admitted": 109,
+      "title_2026": "機械工程學系 [選項: 工學士(航空航天工程)、工學士(機械工程)、工學士(核子及風險工程)]",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3152,7 +3332,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "理學院",
-      "title": "理學士(物理學)",
+      "title": "理學士 (物理學) (特點：經典物理 / 近代物理 / 實驗與電算物理 / 醫學物理 / 凝聚態物理 / 環球精研與科創)",
       "scoring_method": "Best 4",
       "weighting_detail": "最佳四科必須包括︰數學 x2: 英文、物理 | x1.5: M1/2 x1.25: 數學",
       "bonus_system": true,
@@ -3206,6 +3386,10 @@
       "band_a_apply": 214,
       "band_a_offer": 13,
       "admitted": 19,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3213,7 +3397,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "工學士(材料科學及工程)",
+      "title": "工學士(材料科學及工程) (特點: 香港工程師學會認可 / 工業和科研實習 / 海外雙學位課程 / 知識到應用遷移 / 世界領先的研究)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰數學 x2: 數學、物理 x1.5: 英文、生物、化學、M1/2",
       "bonus_system": true,
@@ -3267,6 +3451,10 @@
       "band_a_apply": 180,
       "band_a_offer": 17,
       "admitted": 31,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3274,7 +3462,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "工學士(生物醫學工程)",
+      "title": "工學士(生物醫學工程) (特點: 醫療技術 / 生物儀器 / 細胞和組織工程 / 醫療機器人)",
       "scoring_method": "Best 5",
       "weighting_detail": "若同學同時修讀數學及M1/2，最佳五科只會包含其中一科。 x2: 英文、數學、生物、化學、M1/2、物理",
       "bonus_system": true,
@@ -3355,6 +3543,10 @@
       "band_a_apply": 334,
       "band_a_offer": 47,
       "admitted": 57,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3362,7 +3554,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "工學士(智能製造工程學)",
+      "title": "工學士(智能製造工程學) (特點: 物聯網 / 工業大數據 / 機器人技術與自動化 / 物流與供應鏈 / 智慧城市工程)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文、數學",
       "bonus_system": true,
@@ -3416,6 +3608,10 @@
       "band_a_apply": 183,
       "band_a_offer": 20,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3423,7 +3619,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "工學院(選項: 工學院任何一個主修及工程創業副修)",
+      "title": "研究、創新和環球工程課程 (特點: 自由選擇工學院任何主修 十 海外經驗 / 跨學科 / 工程創業)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文 x2: 英文、數學、生物、化學、DAT、ICT、M1/2、物理",
       "bonus_system": true,
@@ -3477,6 +3673,10 @@
       "band_a_apply": 23,
       "band_a_offer": 6,
       "admitted": 12,
+      "title_2026": "工學院(選項: 工學院任何一個主修及工程創業副修)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3538,6 +3738,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3545,7 +3749,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "工學院",
-      "title": "工學士(創新與企業工程學) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)",
+      "title": "工學士(創新與企業工程) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文、數學",
       "bonus_system": true,
@@ -3599,6 +3803,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": "工學士(創新與企業工程學) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3606,7 +3814,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "理學院",
-      "title": "理學士(電腦科學)與理學士(計算金融及金融科技)",
+      "title": "理學士（計算機科學）與理學士（計算金融及金融科技）(雙學位；特點：企業會計與經濟 / 計算金融 / 高階統計 / 建模與演算法 / 金融科技軟件工程)",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": true,
@@ -3660,6 +3868,10 @@
       "band_a_apply": 98,
       "band_a_offer": 11,
       "admitted": 11,
+      "title_2026": "理學士(電腦科學)與理學士(計算金融及金融科技)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3667,7 +3879,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "賽馬會動物醫學及生命科學院",
-      "title": "綜合生物科學及生物工程課程 (Bio3)",
+      "title": "綜合生物科學與生物工程課程 (特點: 自主選擇主修學科 / 海外頂尖院校研究機會 / 跨學科)",
       "scoring_method": "3C2X",
       "weighting_detail": "x2: 英文、生物、化學 x1.5: 數學、BAFS、DAT、ICT、M1/2、物理",
       "bonus_system": true,
@@ -3721,6 +3933,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": "綜合生物科學及生物工程課程 (Bio3)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -3728,7 +3944,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "賽馬會動物醫學及生命科學院",
-      "title": "獸醫學學士",
+      "title": "獸醫學學士 (特點: 健康一體化 / 動物健康與福利 / 公共衞生 / 雙認證獸醫課程)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文、數學、生物 及 化學",
       "bonus_system": true,
@@ -3782,6 +3998,10 @@
       "band_a_apply": 173,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -3789,7 +4009,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "賽馬會動物醫學及生命科學院",
-      "title": "生物醫學系 [選項: 理學士(生物科學)、理學士(生物醫學)]",
+      "title": "生物醫學 [主修: 理學士(生物科學) / 理學士(生物醫學)]",
       "scoring_method": "3C2X",
       "weighting_detail": "x2: 英文、生物、化學 x1.5: 數學、BAFS、DAT、ICT、M1/2、物理",
       "bonus_system": true,
@@ -3843,6 +4063,10 @@
       "band_a_apply": 124,
       "band_a_offer": 19,
       "admitted": 23,
+      "title_2026": "生物醫學系 [選項: 理學士(生物科學)、理學士(生物醫學)]",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -3850,7 +4074,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "賽馬會動物醫學及生命科學院",
-      "title": "理學士(生物科學)",
+      "title": "理學士(生物科學) (特點: 生物資訊學/生物化學/遺傳學/細胞與分子生物學/免疫學/參與不同研究項目提供實踐經驗)",
       "scoring_method": "3C2X",
       "weighting_detail": "x2: 英文、生物、化學 x1.5: 數學、BAFS、DAT、ICT、M1/2、物理",
       "bonus_system": true,
@@ -3904,6 +4128,10 @@
       "band_a_apply": 202,
       "band_a_offer": 24,
       "admitted": 29,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -3911,7 +4139,7 @@
       "js_code_2024": null,
       "institution": "CityU",
       "faculty": "賽馬會動物醫學及生命科學院",
-      "title": "理學士(生物醫學)",
+      "title": "理學士(生物醫學) (特點: 臨床化學 / 血液學 / 醫學微生物與感染學 / 解剖病理學 / 免疫學 / 臨床實習 / 密集實驗室經驗)",
       "scoring_method": "3C2X",
       "weighting_detail": "x2: 英文、生物、化學 x1.5: 數學、BAFS、DAT、ICT、M1/2、物理",
       "bonus_system": true,
@@ -3965,6 +4193,10 @@
       "band_a_apply": 130,
       "band_a_offer": 26,
       "admitted": 29,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -4085,6 +4317,10 @@
       "band_a_apply": 563,
       "band_a_offer": 102,
       "admitted": 106,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -4205,6 +4441,10 @@
       "band_a_apply": 157,
       "band_a_offer": 9,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -4235,7 +4475,7 @@
       "actual_2026_lq": null,
       "actual_2026_uq": null,
       "actual_2026_source": "https://admissions.hkbu.edu.hk/admissions/hkdse.html",
-      "actual_2026_note": "2026 錄取者｜加權平均分 20.75。浸大未公布中位數／下四分位數總分；官方的各科成績組合不作相加推算。本頁計分參考另標年份。2027 音樂課程分為 JS2030／JS2050；兩頁沿用前身 JS2060 的 2026 合併課程統計，並非兩個新課程各自的收分。",
+      "actual_2026_note": "JUPAS 2027 不再提供此課程代碼（2027 年改為 JS2030、JS2050）。以下為往年資料，只供參考。\n\n2026 錄取者｜加權平均分 20.75。浸大未公布中位數／下四分位數總分；官方的各科成績組合不作相加推算。本頁計分參考另標年份。2027 年音樂課程分為 JS2030／JS2050 兩個新課程；本頁 2026 年統計屬 JS2060 合併課程，並非兩個新課程各自的收分。",
       "actual_2026_no_score": null,
       "actual_2026_mean": 20.75,
       "actual_2026_formula_year": 2026,
@@ -4312,7 +4552,7 @@
           }
         },
         "scoring_formula_year": 2026,
-        "calculator_note": "採用 2026 年正式收生平均分及相應官方計分公式。2025 年參考分數保留於歷年表；歷年公式可能不同，不宜直接比較升跌。學額及 Band A 申請／取錄數字仍為較早年份。 浸大的平均分是錄取者的加權總分平均，並非每科平均。\n\n【舊版／2025 年參考資料備註；不適用於目前計分】浸大 2024、2025 及 2026 收生總分分開按年份列出，均為官方加權平均分。中位數及下四分位數的各科成績組合沒有轉換為總分。各年科目比重可不同。\n\n2027 音樂課程分為 JS2030／JS2050；兩頁沿用前身 JS2060 的 2026 合併課程統計，並非兩個新課程各自的收分。",
+        "calculator_note": "JUPAS 2027 不再提供此課程代碼（2027 年改為 JS2030、JS2050）。以下為往年資料，只供參考。\n\n採用 2026 年正式收生平均分及相應官方計分公式。2025 年參考分數保留於歷年表；歷年公式可能不同，不宜直接比較升跌。學額及 Band A 申請／取錄數字仍為較早年份。 浸大的平均分是錄取者的加權總分平均，並非每科平均。\n\n【舊版／2025 年參考資料備註；不適用於目前計分】浸大 2024、2025 及 2026 收生總分分開按年份列出，均為官方加權平均分。中位數及下四分位數的各科成績組合沒有轉換為總分。各年科目比重可不同。\n\n2027 年音樂課程分為 JS2030／JS2050 兩個新課程；本頁 2026 年統計屬 JS2060 合併課程，並非兩個新課程各自的收分。",
         "entry_req": null,
         "bonus_system": false
       },
@@ -4328,6 +4568,13 @@
       "band_a_apply": 251,
       "band_a_offer": 28,
       "admitted": 28,
+      "title_2026": null,
+      "offered_2027": false,
+      "successor_codes_2027": [
+        "JS2030",
+        "JS2050"
+      ],
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -4450,6 +4697,10 @@
       "band_a_apply": 513,
       "band_a_offer": 40,
       "admitted": 46,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -4572,6 +4823,10 @@
       "band_a_apply": 1519,
       "band_a_offer": 124,
       "admitted": 157,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -4695,6 +4950,10 @@
       "band_a_apply": 557,
       "band_a_offer": 66,
       "admitted": 74,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -4818,6 +5077,10 @@
       "band_a_apply": 387,
       "band_a_offer": 17,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -4942,6 +5205,10 @@
       "band_a_apply": 176,
       "band_a_offer": 8,
       "admitted": 8,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5066,6 +5333,10 @@
       "band_a_apply": 550,
       "band_a_offer": 16,
       "admitted": 16,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5191,6 +5462,10 @@
       "band_a_apply": 349,
       "band_a_offer": 46,
       "admitted": 46,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5198,7 +5473,7 @@
       "js_code_2024": null,
       "institution": "HKBU",
       "faculty": "中醫藥學院",
-      "title": "中藥學學士(榮譽)",
+      "title": "中藥及藥物科學藥學士(榮譽)",
       "scoring_method": "Best 5",
       "weighting_detail": "x1.5: 英文、化學 x1.25: 生物、數學",
       "bonus_system": false,
@@ -5316,6 +5591,10 @@
       "band_a_apply": 339,
       "band_a_offer": 29,
       "admitted": 29,
+      "title_2026": "中藥學學士(榮譽)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5436,6 +5715,10 @@
       "band_a_apply": 1296,
       "band_a_offer": 121,
       "admitted": 198,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5443,7 +5726,7 @@
       "js_code_2024": null,
       "institution": "HKBU",
       "faculty": "社會科學院",
-      "title": "文學士(榮譽) / 社會科學學士(榮譽) (歐洲研究 [法文/德文] / 地理 / 全球及中國研究 / 政治及國際關係學 / 歷史 / 社會學)",
+      "title": "文學士(榮譽)/ 社會科學學士(榮譽) (應用心理科學/ 歐洲研究 [法文/德文]/ 地理/ 全球及中國研究/ 政治及國際關係學/ 歷史/ 社會學)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文",
       "bonus_system": false,
@@ -5558,6 +5841,10 @@
       "band_a_apply": 994,
       "band_a_offer": 146,
       "admitted": 155,
+      "title_2026": "文學士(榮譽) / 社會科學學士(榮譽) (歐洲研究 [法文/德文] / 地理 / 全球及中國研究 / 政治及國際關係學 / 歷史 / 社會學)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5678,6 +5965,10 @@
       "band_a_apply": 667,
       "band_a_offer": 15,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5801,6 +6092,10 @@
       "band_a_apply": 763,
       "band_a_offer": 29,
       "admitted": 29,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5921,6 +6216,10 @@
       "band_a_apply": 605,
       "band_a_offer": 37,
       "admitted": 37,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -5928,7 +6227,7 @@
       "js_code_2024": null,
       "institution": "HKBU",
       "faculty": "跨學院課程",
-      "title": "商業計算及數據分析理學士(榮譽)",
+      "title": "商業分析及人工智能理學士(榮譽)",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": false,
@@ -6041,6 +6340,10 @@
       "band_a_apply": 145,
       "band_a_offer": 3,
       "admitted": 15,
+      "title_2026": "商業計算及數據分析理學士(榮譽)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -6163,6 +6466,10 @@
       "band_a_apply": 317,
       "band_a_offer": 35,
       "admitted": 35,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -6283,6 +6590,10 @@
       "band_a_apply": 331,
       "band_a_offer": 12,
       "admitted": 12,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -6409,6 +6720,10 @@
       "band_a_apply": 332,
       "band_a_offer": 30,
       "admitted": 42,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -6532,6 +6847,10 @@
       "band_a_apply": 59,
       "band_a_offer": 11,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -6663,6 +6982,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -6719,6 +7042,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -6768,6 +7095,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -6824,6 +7155,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -6973,6 +7308,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7122,6 +7461,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7178,6 +7521,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -7227,6 +7574,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7257,7 +7608,7 @@
       "actual_2026_lq": 218.5,
       "actual_2026_uq": null,
       "actual_2026_source": "https://www.polyu.edu.hk/saso/docdrive/jupas/admission_figures.pdf",
-      "actual_2026_note": "2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大於 2024/25 學年將組合課程 JS3010 重組為本課程及 JS3255,故本課程並無 2023 年及之前的收生分數。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 212.2,以及「中位數」(Percentile Median) 209 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 209。若你在理大官網見到 212.2,那是平均分,不是中位數。",
+      "actual_2026_note": "JUPAS 2027 不再提供此課程代碼（2027 年改為 JS3923、JS3997）。以下為往年資料，只供參考。\n\n2026 年正式遴選中位數及下四分位數來自理大官方公布。理大另列平均分，與中位數並非同一統計數字。學額及 Band A 申請／取錄數字未同步更新至 2026。\n\n【2025 年參考分數備註】理大於 2024/25 學年將組合課程 JS3010 重組為本課程及 JS3255,故本課程並無 2023 年及之前的收生分數。理大官方同時公布兩個數字:「平均分」(Average HKDSE Score with Subject Weighting) 212.2,以及「中位數」(Percentile Median) 209 —— 兩者並非同一個統計數字。本頁的收生分數與入圍機會一律採用中位數 209。若你在理大官網見到 212.2,那是平均分,不是中位數。",
       "actual_2026_no_score": null,
       "actual_2026_mean": 226.9,
       "actual_2026_formula_year": null,
@@ -7276,6 +7627,13 @@
       "band_a_apply": 252,
       "band_a_offer": 43,
       "admitted": 53,
+      "title_2026": null,
+      "offered_2027": false,
+      "successor_codes_2027": [
+        "JS3923",
+        "JS3997"
+      ],
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7325,6 +7683,10 @@
       "band_a_apply": 178,
       "band_a_offer": 17,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7381,6 +7743,10 @@
       "band_a_apply": 837,
       "band_a_offer": 77,
       "admitted": 82,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -7430,6 +7796,10 @@
       "band_a_apply": 620,
       "band_a_offer": 99,
       "admitted": 108,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7479,6 +7849,10 @@
       "band_a_apply": 515,
       "band_a_offer": 42,
       "admitted": 46,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7528,6 +7902,10 @@
       "band_a_apply": 664,
       "band_a_offer": 59,
       "admitted": 65,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7577,6 +7955,10 @@
       "band_a_apply": 173,
       "band_a_offer": 26,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7626,6 +8008,10 @@
       "band_a_apply": 426,
       "band_a_offer": 39,
       "admitted": 48,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7633,7 +8019,7 @@
       "js_code_2024": null,
       "institution": "PolyU",
       "faculty": "工程學院",
-      "title": "生物醫學工程(榮譽)理學士組合課程",
+      "title": "生物醫學工程(榮譽)理學士",
       "scoring_method": "Best 5",
       "weighting_detail": "x10: 數學、M1/2、生物、化學、物理、組合科學(任何) x7: 中文、英文 x5: 其他科目",
       "bonus_system": true,
@@ -7775,6 +8161,10 @@
       "band_a_apply": 108,
       "band_a_offer": 28,
       "admitted": 42,
+      "title_2026": "生物醫學工程(榮譽)理學士組合課程",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7824,6 +8214,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7873,6 +8267,10 @@
       "band_a_apply": 494,
       "band_a_offer": 48,
       "admitted": 52,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7922,6 +8320,10 @@
       "band_a_apply": 608,
       "band_a_offer": 42,
       "admitted": 50,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -7971,6 +8373,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -8027,6 +8433,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -8176,6 +8586,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -8325,6 +8739,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -8374,6 +8792,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -8381,7 +8803,7 @@
       "js_code_2024": "JS3571",
       "institution": "PolyU",
       "faculty": "工程學院",
-      "title": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析)",
+      "title": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析 / 航空營運及系統學)",
       "scoring_method": "Best 5",
       "weighting_detail": "x10: 英文、數學、BAFS、經濟、ICT x7: 中文、生物、化學、組合科學(任何)、地理、綜合科學、物理、DAT x5: 其他科目",
       "bonus_system": true,
@@ -8523,6 +8945,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -8579,6 +9005,10 @@
       "band_a_apply": 119,
       "band_a_offer": 23,
       "admitted": 28,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "中英Best3 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -8635,6 +9065,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -8691,6 +9125,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -8740,6 +9178,10 @@
       "band_a_apply": 400,
       "band_a_offer": 38,
       "admitted": 38,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -8789,6 +9231,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -8845,6 +9291,10 @@
       "band_a_apply": 199,
       "band_a_offer": 53,
       "admitted": 55,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -8994,6 +9444,10 @@
       "band_a_apply": 1086,
       "band_a_offer": 75,
       "admitted": 75,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9050,6 +9504,10 @@
       "band_a_apply": 280,
       "band_a_offer": 19,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -9099,6 +9557,10 @@
       "band_a_apply": 482,
       "band_a_offer": 58,
       "admitted": 58,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9155,6 +9617,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -9211,6 +9677,10 @@
       "band_a_apply": 313,
       "band_a_offer": 54,
       "admitted": 56,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -9218,7 +9688,7 @@
       "js_code_2024": null,
       "institution": "PolyU",
       "faculty": "設計學院",
-      "title": "設計學(榮譽)文學士組合課程 (廣告設計 / 環境設計 / 沉浸式媒體與遊戲設計 / 信息設計 / 交互設計 / 室內設計 / 產品設計 / 服務設計 / 社會設計)",
+      "title": "設計學(榮譽)文學士組合課程 (廣告設計/環境設計/沉浸式媒體與遊戲設計/信息設計/交互設計/室内設計/產品設計/服務創新設計/社會創新設計)",
       "scoring_method": "Best 5",
       "weighting_detail": "x10: 中文、英文、數學、DAT、ICT、視覺藝術 x7: BAFS、經濟、歷史、音樂、科技與生活、旅遊與款待 x5: 其他科目",
       "bonus_system": true,
@@ -9260,6 +9730,10 @@
       "band_a_apply": 822,
       "band_a_offer": 80,
       "admitted": 80,
+      "title_2026": "設計學(榮譽)文學士組合課程 (廣告設計 / 環境設計 / 沉浸式媒體與遊戲設計 / 信息設計 / 交互設計 / 室內設計 / 產品設計 / 服務設計 / 社會設計)",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9316,6 +9790,10 @@
       "band_a_apply": 439,
       "band_a_offer": 107,
       "admitted": 108,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -9365,6 +9843,10 @@
       "band_a_apply": 343,
       "band_a_offer": 78,
       "admitted": 78,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9414,6 +9896,10 @@
       "band_a_apply": 409,
       "band_a_offer": 124,
       "admitted": 128,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9463,6 +9949,10 @@
       "band_a_apply": 1007,
       "band_a_offer": 171,
       "admitted": 176,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9512,6 +10002,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9561,6 +10055,10 @@
       "band_a_apply": 365,
       "band_a_offer": 34,
       "admitted": 41,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9617,6 +10115,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -9673,6 +10175,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th weighted × 0.1 (Level 3+)"
     },
     {
@@ -9722,6 +10228,10 @@
       "band_a_apply": 627,
       "band_a_offer": 80,
       "admitted": 90,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9821,6 +10331,10 @@
       "band_a_apply": 130,
       "band_a_offer": 22,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -9920,6 +10434,10 @@
       "band_a_apply": 353,
       "band_a_offer": 80,
       "admitted": 80,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10019,6 +10537,10 @@
       "band_a_apply": 258,
       "band_a_offer": 49,
       "admitted": 49,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10118,6 +10640,10 @@
       "band_a_apply": 294,
       "band_a_offer": 19,
       "admitted": 19,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10217,6 +10743,10 @@
       "band_a_apply": 323,
       "band_a_offer": 46,
       "admitted": 46,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10316,6 +10846,10 @@
       "band_a_apply": 331,
       "band_a_offer": 22,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10415,6 +10949,10 @@
       "band_a_apply": 136,
       "band_a_offer": 20,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10514,6 +11052,10 @@
       "band_a_apply": 177,
       "band_a_offer": 26,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10613,6 +11155,10 @@
       "band_a_apply": 181,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "中英Best3"
     },
     {
@@ -10712,6 +11258,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10811,6 +11361,10 @@
       "band_a_apply": 160,
       "band_a_offer": 16,
       "admitted": 16,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10860,6 +11414,10 @@
       "band_a_apply": 25,
       "band_a_offer": 0,
       "admitted": 0,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -10959,6 +11517,10 @@
       "band_a_apply": 214,
       "band_a_offer": 29,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11058,6 +11620,10 @@
       "band_a_apply": 221,
       "band_a_offer": 10,
       "admitted": 10,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11157,6 +11723,10 @@
       "band_a_apply": 1030,
       "band_a_offer": 202,
       "admitted": 202,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11256,6 +11826,10 @@
       "band_a_apply": 55,
       "band_a_offer": 15,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11355,6 +11929,10 @@
       "band_a_apply": 470,
       "band_a_offer": 50,
       "admitted": 50,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11469,6 +12047,10 @@
       "band_a_apply": 168,
       "band_a_offer": 46,
       "admitted": 46,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11568,6 +12150,10 @@
       "band_a_apply": 415,
       "band_a_offer": 110,
       "admitted": 110,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11667,6 +12253,10 @@
       "band_a_apply": 146,
       "band_a_offer": 33,
       "admitted": 33,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11775,6 +12365,10 @@
       "band_a_apply": 53,
       "band_a_offer": 14,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -11874,6 +12468,10 @@
       "band_a_apply": 64,
       "band_a_offer": 22,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "3C2X"
     },
     {
@@ -11973,6 +12571,10 @@
       "band_a_apply": 46,
       "band_a_offer": 15,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12072,6 +12674,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12171,6 +12777,10 @@
       "band_a_apply": 447,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12279,6 +12889,10 @@
       "band_a_apply": 95,
       "band_a_offer": 14,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12387,6 +13001,10 @@
       "band_a_apply": 60,
       "band_a_offer": 14,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12505,6 +13123,10 @@
       "band_a_apply": 104,
       "band_a_offer": 15,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12604,6 +13226,10 @@
       "band_a_apply": 438,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12712,6 +13338,10 @@
       "band_a_apply": 78,
       "band_a_offer": 10,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12819,6 +13449,10 @@
       "band_a_apply": 357,
       "band_a_offer": 53,
       "admitted": 53,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -12925,6 +13559,10 @@
       "band_a_apply": 433,
       "band_a_offer": 116,
       "admitted": 116,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13024,6 +13662,10 @@
       "band_a_apply": 46,
       "band_a_offer": 12,
       "admitted": 12,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13123,6 +13765,10 @@
       "band_a_apply": 118,
       "band_a_offer": 35,
       "admitted": 35,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13229,6 +13875,10 @@
       "band_a_apply": 246,
       "band_a_offer": 39,
       "admitted": 39,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13334,6 +13984,10 @@
       "band_a_apply": 216,
       "band_a_offer": 67,
       "admitted": 67,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13433,6 +14087,10 @@
       "band_a_apply": 310,
       "band_a_offer": 54,
       "admitted": 54,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13538,6 +14196,10 @@
       "band_a_apply": 127,
       "band_a_offer": 26,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13645,6 +14307,10 @@
       "band_a_apply": 185,
       "band_a_offer": 29,
       "admitted": 29,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13745,6 +14411,10 @@
       "band_a_apply": 108,
       "band_a_offer": 29,
       "admitted": 29,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13851,6 +14521,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -13995,6 +14669,10 @@
       "band_a_apply": 527,
       "band_a_offer": 170,
       "admitted": 170,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "6Graded"
     },
     {
@@ -14141,6 +14819,10 @@
       "band_a_apply": 82,
       "band_a_offer": 32,
       "admitted": 32,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "6Graded"
     },
     {
@@ -14240,6 +14922,10 @@
       "band_a_apply": 694,
       "band_a_offer": 212,
       "admitted": 212,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -14341,6 +15027,10 @@
       "band_a_apply": 343,
       "band_a_offer": 59,
       "admitted": 59,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -14440,6 +15130,10 @@
       "band_a_apply": 94,
       "band_a_offer": 15,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -14539,6 +15233,10 @@
       "band_a_apply": 202,
       "band_a_offer": 25,
       "admitted": 25,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -14685,6 +15383,10 @@
       "band_a_apply": 165,
       "band_a_offer": 17,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -14801,6 +15503,10 @@
       "band_a_apply": 1428,
       "band_a_offer": 361,
       "admitted": 361,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -14907,6 +15613,10 @@
       "band_a_apply": 168,
       "band_a_offer": 35,
       "admitted": 35,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15017,6 +15727,10 @@
       "band_a_apply": 144,
       "band_a_offer": 38,
       "admitted": 38,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15127,6 +15841,10 @@
       "band_a_apply": 72,
       "band_a_offer": 18,
       "admitted": 19,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15229,6 +15947,10 @@
       "band_a_apply": 125,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15356,6 +16078,10 @@
       "band_a_apply": 51,
       "band_a_offer": 14,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15458,6 +16184,10 @@
       "band_a_apply": 34,
       "band_a_offer": 7,
       "admitted": 7,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15557,6 +16287,10 @@
       "band_a_apply": 64,
       "band_a_offer": 15,
       "admitted": 16,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15656,6 +16390,10 @@
       "band_a_apply": 87,
       "band_a_offer": 22,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15755,6 +16493,10 @@
       "band_a_apply": 642,
       "band_a_offer": 25,
       "admitted": 25,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15854,6 +16596,10 @@
       "band_a_apply": 140,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -15953,6 +16699,10 @@
       "band_a_apply": 334,
       "band_a_offer": 55,
       "admitted": 55,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16052,6 +16802,10 @@
       "band_a_apply": 305,
       "band_a_offer": 44,
       "admitted": 44,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16151,6 +16905,10 @@
       "band_a_apply": 184,
       "band_a_offer": 23,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16250,6 +17008,10 @@
       "band_a_apply": 284,
       "band_a_offer": 39,
       "admitted": 39,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16349,6 +17111,10 @@
       "band_a_apply": 150,
       "band_a_offer": 43,
       "admitted": 43,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16398,6 +17164,10 @@
       "band_a_apply": 23,
       "band_a_offer": 4,
       "admitted": 4,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16497,6 +17267,10 @@
       "band_a_apply": 342,
       "band_a_offer": 60,
       "admitted": 60,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16596,6 +17370,10 @@
       "band_a_apply": 323,
       "band_a_offer": 37,
       "admitted": 37,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16695,6 +17473,10 @@
       "band_a_apply": 236,
       "band_a_offer": 37,
       "admitted": 38,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16794,6 +17576,10 @@
       "band_a_apply": 62,
       "band_a_offer": 20,
       "admitted": 20,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -16893,6 +17679,10 @@
       "band_a_apply": 91,
       "band_a_offer": 19,
       "admitted": 19,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -17001,6 +17791,10 @@
       "band_a_apply": 233,
       "band_a_offer": 40,
       "admitted": 40,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -17068,6 +17862,10 @@
       "band_a_apply": 69,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17117,6 +17915,10 @@
       "band_a_apply": 927,
       "band_a_offer": 181,
       "admitted": 188,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17166,6 +17968,10 @@
       "band_a_apply": 1057,
       "band_a_offer": 193,
       "admitted": 203,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17215,6 +18021,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17222,7 +18032,7 @@
       "js_code_2024": null,
       "institution": "HKUST",
       "faculty": "理學院",
-      "title": "理學Ａ組– 延伸主修人工智能",
+      "title": "理學Ａ組– 人工智能延伸主修",
       "scoring_method": "英數Best3",
       "weighting_detail": "英文 x1.5 + 數學 x1 + 最佳一科理科x1 + 最佳兩科x1 (x2: M1/2/ 物理 | x1.5: 生物 / 化學) 最多只有兩科理科會計算比重",
       "bonus_system": true,
@@ -17264,6 +18074,10 @@
       "band_a_apply": 145,
       "band_a_offer": 36,
       "admitted": 36,
+      "title_2026": "理學Ａ組– 延伸主修人工智能",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17341,6 +18155,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17422,6 +18240,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17499,6 +18321,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17576,6 +18402,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17653,6 +18483,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17730,6 +18564,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17807,6 +18645,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17814,7 +18656,7 @@
       "js_code_2024": null,
       "institution": "HKUST",
       "faculty": "工學院",
-      "title": "工程學– 延伸主修人工智能",
+      "title": "工程學 – 人工智能延伸主修",
       "scoring_method": "英數Best3",
       "weighting_detail": "x2: 英文、數學 | 2026官方分槽: 生物、化學、物理、ICT最佳一科 + 其他最佳兩科",
       "bonus_system": true,
@@ -17884,6 +18726,10 @@
       "band_a_apply": 522,
       "band_a_offer": 158,
       "admitted": 161,
+      "title_2026": "工程學– 延伸主修人工智能",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17933,6 +18779,10 @@
       "band_a_apply": 1035,
       "band_a_offer": 235,
       "admitted": 235,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -17982,6 +18832,10 @@
       "band_a_apply": 108,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18031,6 +18885,10 @@
       "band_a_apply": 141,
       "band_a_offer": 45,
       "admitted": 45,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18080,6 +18938,10 @@
       "band_a_apply": 64,
       "band_a_offer": 18,
       "admitted": 18,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18129,6 +18991,10 @@
       "band_a_apply": 92,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18178,6 +19044,10 @@
       "band_a_apply": 67,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18227,6 +19097,10 @@
       "band_a_apply": 73,
       "band_a_offer": 17,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18276,6 +19150,10 @@
       "band_a_apply": 28,
       "band_a_offer": 10,
       "admitted": 10,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18325,6 +19203,10 @@
       "band_a_apply": 173,
       "band_a_offer": 56,
       "admitted": 56,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18374,6 +19256,10 @@
       "band_a_apply": 105,
       "band_a_offer": 33,
       "admitted": 33,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18423,6 +19309,10 @@
       "band_a_apply": 65,
       "band_a_offer": 18,
       "admitted": 18,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18472,6 +19362,10 @@
       "band_a_apply": 242,
       "band_a_offer": 51,
       "admitted": 53,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "中英Best3"
     },
     {
@@ -18521,6 +19415,10 @@
       "band_a_apply": 77,
       "band_a_offer": 27,
       "admitted": 28,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18528,7 +19426,7 @@
       "js_code_2024": null,
       "institution": "HKUST",
       "faculty": "工學院",
-      "title": "理學士（綜合系統與設計）",
+      "title": "理學士（創新設計與科技）",
       "scoring_method": "英數Best3",
       "weighting_detail": "英文x2  + 數學x2 + 最佳理科* x2 + 最佳兩科 x1 (*理科: 生物/ 化學 /物理 / 組合科學/DAT) (ICT則只會x1) (若最佳兩科包括M1/2，則M1/2會 x 1.5)",
       "bonus_system": true,
@@ -18570,6 +19468,10 @@
       "band_a_apply": 25,
       "band_a_offer": 7,
       "admitted": 7,
+      "title_2026": "理學士（綜合系統與設計）",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18619,6 +19521,10 @@
       "band_a_apply": 65,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18668,6 +19574,10 @@
       "band_a_apply": 149,
       "band_a_offer": 23,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18717,6 +19627,10 @@
       "band_a_apply": 49,
       "band_a_offer": 14,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18766,6 +19680,10 @@
       "band_a_apply": 68,
       "band_a_offer": 23,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18815,6 +19733,10 @@
       "band_a_apply": 31,
       "band_a_offer": 17,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18864,6 +19786,10 @@
       "band_a_apply": 51,
       "band_a_offer": 20,
       "admitted": 20,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -18913,6 +19839,10 @@
       "band_a_apply": 102,
       "band_a_offer": 37,
       "admitted": 37,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -18962,6 +19892,10 @@
       "band_a_apply": 178,
       "band_a_offer": 61,
       "admitted": 61,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19011,6 +19945,10 @@
       "band_a_apply": 38,
       "band_a_offer": 7,
       "admitted": 7,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19060,6 +19998,10 @@
       "band_a_apply": 100,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19109,6 +20051,10 @@
       "band_a_apply": 884,
       "band_a_offer": 176,
       "admitted": 176,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19116,7 +20062,7 @@
       "js_code_2024": null,
       "institution": "HKU",
       "faculty": "文學院",
-      "title": "文學士（全球創意產業）",
+      "title": "文學士(全球創意產業)",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文 x2: 英文",
       "bonus_system": true,
@@ -19229,6 +20175,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19278,6 +20228,10 @@
       "band_a_apply": 46,
       "band_a_offer": 15,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19327,6 +20281,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19376,6 +20334,10 @@
       "band_a_apply": 472,
       "band_a_offer": 53,
       "admitted": 53,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
@@ -19425,6 +20387,10 @@
       "band_a_apply": 282,
       "band_a_offer": 56,
       "admitted": 56,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
@@ -19474,6 +20440,10 @@
       "band_a_apply": 257,
       "band_a_offer": 83,
       "admitted": 83,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
@@ -19523,6 +20493,10 @@
       "band_a_apply": 104,
       "band_a_offer": 17,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -19572,6 +20546,10 @@
       "band_a_apply": 81,
       "band_a_offer": 23,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
@@ -19621,6 +20599,10 @@
       "band_a_apply": 100,
       "band_a_offer": 40,
       "admitted": 40,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -19670,6 +20652,10 @@
       "band_a_apply": 87,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.2"
     },
     {
@@ -19719,6 +20705,10 @@
       "band_a_apply": 123,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -19768,6 +20758,10 @@
       "band_a_apply": 52,
       "band_a_offer": 18,
       "admitted": 18,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -19837,6 +20831,10 @@
       "band_a_apply": 203,
       "band_a_offer": 55,
       "admitted": 55,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -19886,6 +20884,10 @@
       "band_a_apply": 138,
       "band_a_offer": 17,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19935,6 +20937,10 @@
       "band_a_apply": 102,
       "band_a_offer": 17,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -19984,6 +20990,10 @@
       "band_a_apply": 178,
       "band_a_offer": 13,
       "admitted": 13,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20065,6 +21075,10 @@
       "band_a_apply": 143,
       "band_a_offer": 13,
       "admitted": 13,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20114,6 +21128,10 @@
       "band_a_apply": 223,
       "band_a_offer": 49,
       "admitted": 49,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20163,6 +21181,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20212,6 +21234,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20261,6 +21287,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20310,6 +21340,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20359,6 +21393,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20408,6 +21446,10 @@
       "band_a_apply": 119,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20457,6 +21499,10 @@
       "band_a_apply": 96,
       "band_a_offer": 26,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20506,6 +21552,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -20555,6 +21605,10 @@
       "band_a_apply": 42,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -20604,6 +21658,10 @@
       "band_a_apply": 237,
       "band_a_offer": 61,
       "admitted": 62,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -20653,6 +21711,10 @@
       "band_a_apply": 63,
       "band_a_offer": 4,
       "admitted": 4,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.5"
     },
     {
@@ -20702,6 +21764,10 @@
       "band_a_apply": 482,
       "band_a_offer": 155,
       "admitted": 155,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -20751,6 +21817,10 @@
       "band_a_apply": 769,
       "band_a_offer": 189,
       "admitted": 189,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.5"
     },
     {
@@ -20800,6 +21870,10 @@
       "band_a_apply": 166,
       "band_a_offer": 22,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5 + 6th × 0.5"
     },
     {
@@ -20849,6 +21923,10 @@
       "band_a_apply": 121,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -20898,6 +21976,10 @@
       "band_a_apply": 122,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -20905,7 +21987,7 @@
       "js_code_2024": null,
       "institution": "HKU",
       "faculty": "理學院",
-      "title": "科研專才啟導課程(雙學位課程)",
+      "title": "科研專才啟導課程",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文、數學、最佳兩科理科* *理科: M1/2、生物、化學、物理、組合科學 x1.2: 生物、化學、物理、M1/2",
       "bonus_system": true,
@@ -21037,6 +22119,10 @@
       "band_a_apply": 105,
       "band_a_offer": 25,
       "admitted": 25,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21086,6 +22172,10 @@
       "band_a_apply": 239,
       "band_a_offer": 54,
       "admitted": 54,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21093,7 +22183,7 @@
       "js_code_2024": null,
       "institution": "HKU",
       "faculty": "理學院",
-      "title": "理學士及法學士(雙學位課程)",
+      "title": "理學士及法學士",
       "scoring_method": "Best 6",
       "weighting_detail": "最佳六科必須包括︰英文、[數學或M1/2]、最佳理科* *理科: 生物、化學、物理 x2: 英文、[數學 或 M1/2]、最佳理科",
       "bonus_system": true,
@@ -21172,6 +22262,10 @@
       "band_a_apply": 51,
       "band_a_offer": 24,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -21253,6 +22347,10 @@
       "band_a_apply": 1473,
       "band_a_offer": 211,
       "admitted": 211,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21302,6 +22400,10 @@
       "band_a_apply": 247,
       "band_a_offer": 34,
       "admitted": 35,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21351,6 +22453,10 @@
       "band_a_apply": 359,
       "band_a_offer": 81,
       "admitted": 81,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21400,6 +22506,10 @@
       "band_a_apply": 202,
       "band_a_offer": 23,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21407,7 +22517,7 @@
       "js_code_2024": null,
       "institution": "HKU",
       "faculty": "社會科學院",
-      "title": "社會科學學士(政治學與法學)及法學士(雙學位課程)",
+      "title": "社會科學學士(政治學與法學)及法學士",
       "scoring_method": "Best 6",
       "weighting_detail": null,
       "bonus_system": true,
@@ -21449,6 +22559,10 @@
       "band_a_apply": 64,
       "band_a_offer": 35,
       "admitted": 35,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -21456,7 +22570,7 @@
       "js_code_2024": null,
       "institution": "HKU",
       "faculty": "社會科學院",
-      "title": "新聞學學士",
+      "title": "新聞媒體及人工智能學士",
       "scoring_method": "Best 5",
       "weighting_detail": "最佳五科必須包括︰英文 可包含 M1/2 或丙類科目 (較高者) 於計算內 x1.5: 英文",
       "bonus_system": true,
@@ -21498,6 +22612,10 @@
       "band_a_apply": 99,
       "band_a_offer": 10,
       "admitted": 10,
+      "title_2026": "新聞學學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21547,6 +22665,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21625,6 +22747,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21703,6 +22829,10 @@
       "band_a_apply": 92,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21752,6 +22882,10 @@
       "band_a_apply": 35,
       "band_a_offer": 1,
       "admitted": 1,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21830,6 +22964,10 @@
       "band_a_apply": 85,
       "band_a_offer": 26,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21879,6 +23017,10 @@
       "band_a_apply": 24,
       "band_a_offer": 9,
       "admitted": 9,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21969,6 +23111,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -21976,7 +23122,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "中文(榮譽)文學士",
+      "title": "中文(榮譽)文學士(課程特色: 中國語言與文學/創意寫作/數字人文)",
       "scoring_method": "Best 5",
       "weighting_detail": "x1.5: 中文、英文、[中國歷史或中國文學]",
       "bonus_system": false,
@@ -22091,6 +23237,10 @@
       "band_a_apply": 506,
       "band_a_offer": 42,
       "admitted": 45,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22098,7 +23248,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "跨學院",
-      "title": "環球可持續發展(榮譽)博雅學士",
+      "title": "環球可持續發展(榮譽)博雅學士(專修: 政策和機構/文化及社區/商業及經濟/人類與環境的互動)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 數學、M1/2、地理 x1.25: 生物、BAFS、DAT、經濟、地理、HSMC、科技與生活、旅遊與款待",
       "bonus_system": false,
@@ -22224,6 +23374,10 @@
       "band_a_apply": 313,
       "band_a_offer": 15,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22231,7 +23385,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "動畫及數碼藝術(榮譽)文學士",
+      "title": "動畫及數碼藝術(榮譽)文學士(專修: 數碼動畫/藝術與科技)",
       "scoring_method": "Best 5",
       "weighting_detail": "x1.5: 中文、英文、ICT、視覺藝術",
       "bonus_system": false,
@@ -22346,6 +23500,10 @@
       "band_a_apply": 441,
       "band_a_offer": 10,
       "admitted": 10,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22353,7 +23511,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "翻譯(榮譽)文學士",
+      "title": "跨語傳意及語言科技（榮譽）文學士 (專修: 翻譯及跨文化傳意 / 人工智能與企業傳訊)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 中文、中國文學、英語文學",
       "bonus_system": false,
@@ -22468,6 +23626,10 @@
       "band_a_apply": 237,
       "band_a_offer": 27,
       "admitted": 44,
+      "title_2026": "翻譯(榮譽)文學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22475,7 +23637,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "商學院",
-      "title": "工商管理(榮譽)學士 – 會計與企業管治",
+      "title": "工商管理(榮譽)學士-會計與企業管治 (專修: 專業會計/企業管治)(課程特色:學生精進計劃/業內實習)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文、數學 x1.5: M1/2、BAFS",
       "bonus_system": false,
@@ -22591,6 +23753,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22598,7 +23764,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "商學院",
-      "title": "工商管理(榮譽)學士 – 商業分析與創新",
+      "title": "工商管理(榮譽)學士-商業分析與創新 (課程特色: 電子商務/信息系統/運營管理/數據科學/人工智能)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文、數學 x1.5: M1/2、ICT",
       "bonus_system": false,
@@ -22716,6 +23882,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22723,7 +23893,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "商學院",
-      "title": "工商管理(榮譽)學士 – 金融",
+      "title": "工商管理(榮譽)學士-金融(課程特色: 特許金融分析師協會學生獎學金/多元選修科目: 投資學、公司財務、金融科技)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文、數學 x1.5: M1/2、ICT、BAFS、經濟",
       "bonus_system": false,
@@ -22841,6 +24011,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22848,7 +24022,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "商學院",
-      "title": "工商管理(榮譽)學士 – 人力資源管理與分析",
+      "title": "工商管理(榮譽)學士-管理與分析 (專修:環球商業管理與分析/人力資源管理與分析)(課程特色:專業會員資格/實習與導師計劃)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文、數學 x1.5: M1/2、ICT、BAFS、經濟",
       "bonus_system": false,
@@ -22966,6 +24140,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": "工商管理(榮譽)學士 – 人力資源管理與分析",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -22973,7 +24151,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "商學院",
-      "title": "工商管理(榮譽)學士 – 市場學與社交媒體",
+      "title": "工商管理(榮譽)學士-市場學及社交媒體 (課程特色: 綜合行銷/社交媒體與數字行銷/消費者行為與市場調研)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文、數學 x1.5: M1/2、ICT、BAFS、經濟",
       "bonus_system": false,
@@ -23091,6 +24269,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": "工商管理(榮譽)學士 – 市場學與社交媒體",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23098,7 +24280,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "商學院",
-      "title": "工商管理(榮譽)學士 - 風險及保險管理",
+      "title": "工商管理(榮譽)學士-風險及保險管理(可選專修: 保險科技)(課程特色: 專業國際資格認證/專屬師友計劃)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文、數學 x1.5: M1/2、ICT、BAFS、經濟",
       "bonus_system": false,
@@ -23216,6 +24398,10 @@
       "band_a_apply": 252,
       "band_a_offer": 11,
       "admitted": 37,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23223,7 +24409,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "商學院",
-      "title": "數據科學(榮譽)理學士",
+      "title": "數據科學(榮譽)理學士 (課程特色：大數據分析/深度學習/生成式人工智能)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文、數學、ICT、化學、M1/2 x1.25: 物理",
       "bonus_system": false,
@@ -23341,6 +24527,10 @@
       "band_a_apply": 234,
       "band_a_offer": 17,
       "admitted": 40,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23348,7 +24538,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "社會科學院",
-      "title": "社會科學(榮譽)學士 - 經濟學",
+      "title": "社會科學(榮譽)學士-經濟學 (可選專修: 環球經濟與銀行)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 數學、經濟、M1/2",
       "bonus_system": false,
@@ -23464,6 +24654,10 @@
       "band_a_apply": 156,
       "band_a_offer": 12,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23589,6 +24783,10 @@
       "band_a_apply": 142,
       "band_a_offer": 8,
       "admitted": 25,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23596,7 +24794,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "社會科學院",
-      "title": "社會科學(榮譽)學士 - 心理學",
+      "title": "社會科學(榮譽)學士-心理學 (可選專修: 輔導心理學/工業與組織心理學)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 數學",
       "bonus_system": false,
@@ -23709,6 +24907,10 @@
       "band_a_apply": 330,
       "band_a_offer": 23,
       "admitted": 31,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23716,7 +24918,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "社會科學院",
-      "title": "社會科學(榮譽)學士 - 社會學",
+      "title": "社會科學(榮譽)學士-社會學 (可選專修: 社會創新與社會研究)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 數學",
       "bonus_system": false,
@@ -23829,6 +25031,10 @@
       "band_a_apply": 262,
       "band_a_offer": 17,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23949,6 +25155,10 @@
       "band_a_apply": 191,
       "band_a_offer": 8,
       "admitted": 16,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -23956,7 +25166,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "社會科學院",
-      "title": "社會科學(榮譽)學士 - 社會與公共政策研究",
+      "title": "社會科學(榮譽)學士-社會與公共政策研究 (可選專修: 智慧城市與數碼社會)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 數學、M1/2",
       "bonus_system": false,
@@ -24071,6 +25281,10 @@
       "band_a_apply": 143,
       "band_a_offer": 8,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -24078,7 +25292,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "社會科學院",
-      "title": "社會科學(榮譽)學士 - 社會數據科學",
+      "title": "社會科學(榮譽)學士-社會數據科學 (專修: 經濟學/政府與國際事務學 /心理學/社會學)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 數學、M1/2、ICT",
       "bonus_system": false,
@@ -24194,6 +25408,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -24201,7 +25419,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "英語語言文學課程(榮譽)文學士",
+      "title": "英語語言文學課程(榮譽)文學士 (可選專修: 文學/語言學)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2.5: 英文 x1.5: 中文、英語文學",
       "bonus_system": false,
@@ -24315,6 +25533,10 @@
       "band_a_apply": 99,
       "band_a_offer": 11,
       "admitted": 18,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -24322,7 +25544,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "文化研究(榮譽)文學士",
+      "title": "文化研究(榮譽)文學士 (可選專修: 數碼文化與媒體實踐/文化共享、社會創新與創造力)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 中文",
       "bonus_system": false,
@@ -24435,6 +25657,10 @@
       "band_a_apply": 329,
       "band_a_offer": 24,
       "admitted": 33,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -24442,7 +25668,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "歷史(榮譽)文學士",
+      "title": "歷史(榮譽)文學士 (可選專修: 亞洲史/全球史)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 中文 x1.2: 中國歷史、歷史",
       "bonus_system": false,
@@ -24557,6 +25783,10 @@
       "band_a_apply": 507,
       "band_a_offer": 27,
       "admitted": 41,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -24564,7 +25794,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "哲學(榮譽)文學士",
+      "title": "哲學(榮譽)文學士 (課程特色:價值論/人工智能哲學/思考方法)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 英文 x1.5: 中文、數學",
       "bonus_system": false,
@@ -24678,6 +25908,10 @@
       "band_a_apply": 197,
       "band_a_offer": 17,
       "admitted": 27,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -24685,7 +25919,7 @@
       "js_code_2024": null,
       "institution": "LingU",
       "faculty": "文學院",
-      "title": "電影與視覺藝術(榮譽)文學士",
+      "title": "電影與視覺藝術(榮譽)文學士(課程特色: 電影研究/環球媒體/藝術史/博物館學)",
       "scoring_method": "Best 5",
       "weighting_detail": "x2: 中文、英文 x1.5: ICT、視覺藝術",
       "bonus_system": false,
@@ -24800,6 +26034,10 @@
       "band_a_apply": 361,
       "band_a_offer": 16,
       "admitted": 20,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -24902,6 +26140,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25003,6 +26245,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25119,6 +26365,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25225,6 +26475,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25324,6 +26578,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25435,6 +26693,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25549,6 +26811,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25649,6 +26915,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25754,6 +27024,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25854,6 +27128,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -25958,6 +27236,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26078,6 +27360,10 @@
       "band_a_apply": 1389,
       "band_a_offer": 319,
       "admitted": 416,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26179,6 +27465,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26283,6 +27573,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26387,6 +27681,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26484,6 +27782,10 @@
       "band_a_apply": 386,
       "band_a_offer": 17,
       "admitted": 20,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26584,6 +27886,10 @@
       "band_a_apply": 268,
       "band_a_offer": 18,
       "admitted": 18,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26685,6 +27991,10 @@
       "band_a_apply": 75,
       "band_a_offer": 5,
       "admitted": 14,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26794,6 +28104,10 @@
       "band_a_apply": 296,
       "band_a_offer": 26,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26891,6 +28205,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -26995,6 +28313,10 @@
       "band_a_apply": 239,
       "band_a_offer": 21,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27107,6 +28429,10 @@
       "band_a_apply": 240,
       "band_a_offer": 17,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27217,6 +28543,10 @@
       "band_a_apply": 860,
       "band_a_offer": 30,
       "admitted": 30,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27317,6 +28647,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27421,6 +28755,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27525,6 +28863,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27574,6 +28916,10 @@
       "band_a_apply": 601,
       "band_a_offer": 178,
       "admitted": 277,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27623,6 +28969,10 @@
       "band_a_apply": 722,
       "band_a_offer": 193,
       "admitted": 378,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27672,6 +29022,10 @@
       "band_a_apply": 189,
       "band_a_offer": 57,
       "admitted": 130,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27721,6 +29075,10 @@
       "band_a_apply": 108,
       "band_a_offer": 35,
       "admitted": 82,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27770,6 +29128,10 @@
       "band_a_apply": 370,
       "band_a_offer": 93,
       "admitted": 177,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27819,6 +29181,10 @@
       "band_a_apply": 230,
       "band_a_offer": 43,
       "admitted": 64,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27868,6 +29234,10 @@
       "band_a_apply": 207,
       "band_a_offer": 52,
       "admitted": 149,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27917,6 +29287,10 @@
       "band_a_apply": 468,
       "band_a_offer": 80,
       "admitted": 80,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -27924,7 +29298,7 @@
       "js_code_2024": null,
       "institution": "HKMU",
       "faculty": "李兆基商業管理學院",
-      "title": "環球商業及市場學榮譽工商管理學士",
+      "title": "環球商業榮譽工商管理學士",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": false,
@@ -27966,6 +29340,10 @@
       "band_a_apply": 145,
       "band_a_offer": 46,
       "admitted": 110,
+      "title_2026": "環球商業及市場學榮譽工商管理學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28015,6 +29393,10 @@
       "band_a_apply": 199,
       "band_a_offer": 25,
       "admitted": 73,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28064,6 +29446,10 @@
       "band_a_apply": 207,
       "band_a_offer": 49,
       "admitted": 80,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28113,6 +29499,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28162,6 +29552,10 @@
       "band_a_apply": 237,
       "band_a_offer": 35,
       "admitted": 84,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28169,7 +29563,7 @@
       "js_code_2024": null,
       "institution": "HKMU",
       "faculty": "李兆基商業管理學院",
-      "title": "酒店及可持續旅遊管理榮譽工商管理學士",
+      "title": "持續旅遊及款待管理榮譽工商管理學士",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": false,
@@ -28211,6 +29605,10 @@
       "band_a_apply": 590,
       "band_a_offer": 65,
       "admitted": 106,
+      "title_2026": "酒店及可持續旅遊管理榮譽工商管理學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28260,6 +29658,10 @@
       "band_a_apply": 245,
       "band_a_offer": 20,
       "admitted": 66,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28465,6 +29867,10 @@
       "band_a_apply": 165,
       "band_a_offer": 20,
       "admitted": 25,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28514,6 +29920,10 @@
       "band_a_apply": 142,
       "band_a_offer": 31,
       "admitted": 36,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28563,6 +29973,10 @@
       "band_a_apply": 52,
       "band_a_offer": 11,
       "admitted": 33,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28612,6 +30026,10 @@
       "band_a_apply": 36,
       "band_a_offer": 3,
       "admitted": 21,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28636,7 +30054,7 @@
       "entry_req": null,
       "interview": false,
       "other_considerations": null,
-      "data_remark": null,
+      "data_remark": "JUPAS 2027 不再提供此課程代碼。以下為往年資料，只供參考。",
       "mean": null,
       "actual_2026_median": null,
       "actual_2026_lq": null,
@@ -28661,6 +30079,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": false,
+      "successor_codes_2027": [],
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28710,6 +30132,10 @@
       "band_a_apply": 165,
       "band_a_offer": 26,
       "admitted": 29,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28759,6 +30185,10 @@
       "band_a_apply": 390,
       "band_a_offer": 23,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28808,6 +30238,10 @@
       "band_a_apply": 379,
       "band_a_offer": 36,
       "admitted": 74,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28857,6 +30291,10 @@
       "band_a_apply": 214,
       "band_a_offer": 39,
       "admitted": 50,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28906,6 +30344,10 @@
       "band_a_apply": 190,
       "band_a_offer": 45,
       "admitted": 85,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28913,7 +30355,7 @@
       "js_code_2024": null,
       "institution": "HKMU",
       "faculty": "科技學院",
-      "title": "生命科學榮譽理學士",
+      "title": "生物醫學與生物科技榮譽理學士",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": false,
@@ -28955,6 +30397,10 @@
       "band_a_apply": 237,
       "band_a_offer": 70,
       "admitted": 70,
+      "title_2026": "生命科學榮譽理學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -28962,7 +30408,7 @@
       "js_code_2024": null,
       "institution": "HKMU",
       "faculty": "科技學院",
-      "title": "科學（ＳＴＥＭ）榮譽理學士",
+      "title": "科學（ＳＴＥＡＭ）榮譽理學士",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": false,
@@ -29004,6 +30450,10 @@
       "band_a_apply": 72,
       "band_a_offer": 11,
       "admitted": 36,
+      "title_2026": "科學（ＳＴＥＭ）榮譽理學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29053,6 +30503,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29102,6 +30556,10 @@
       "band_a_apply": 2705,
       "band_a_offer": 613,
       "admitted": 720,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29109,7 +30567,7 @@
       "js_code_2024": null,
       "institution": "聖方濟各大學",
       "faculty": null,
-      "title": "數碼娛樂科技（榮譽）理學士",
+      "title": "人工智能及數碼娛樂（榮譽）理學士",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": false,
@@ -29151,6 +30609,10 @@
       "band_a_apply": 235,
       "band_a_offer": 17,
       "admitted": 28,
+      "title_2026": "數碼娛樂科技（榮譽）理學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29200,6 +30662,10 @@
       "band_a_apply": 624,
       "band_a_offer": 60,
       "admitted": 60,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29249,6 +30715,10 @@
       "band_a_apply": 208,
       "band_a_offer": 19,
       "admitted": 66,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29298,6 +30768,10 @@
       "band_a_apply": 56,
       "band_a_offer": 4,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29347,6 +30821,10 @@
       "band_a_apply": 482,
       "band_a_offer": 39,
       "admitted": 81,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 4"
     },
     {
@@ -29396,6 +30874,10 @@
       "band_a_apply": 85,
       "band_a_offer": 15,
       "admitted": 27,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29527,6 +31009,10 @@
       "band_a_apply": 529,
       "band_a_offer": 147,
       "admitted": 227,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29658,6 +31144,10 @@
       "band_a_apply": 121,
       "band_a_offer": 29,
       "admitted": 64,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29789,6 +31279,10 @@
       "band_a_apply": 312,
       "band_a_offer": 53,
       "admitted": 70,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29920,6 +31414,10 @@
       "band_a_apply": 258,
       "band_a_offer": 49,
       "admitted": 89,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -29927,7 +31425,7 @@
       "js_code_2024": null,
       "institution": "恒生大學",
       "faculty": null,
-      "title": "管理科學與資訊管理（榮譽）學士",
+      "title": "商業分析與資訊管理（榮譽）理學士",
       "scoring_method": "Best 5",
       "weighting_detail": "Best 5 可包含 M1/2",
       "bonus_system": false,
@@ -30051,6 +31549,10 @@
       "band_a_apply": 182,
       "band_a_offer": 39,
       "admitted": 70,
+      "title_2026": "管理科學與資訊管理（榮譽）學士",
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30182,6 +31684,10 @@
       "band_a_apply": 374,
       "band_a_offer": 61,
       "admitted": 76,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30231,6 +31737,10 @@
       "band_a_apply": 1889,
       "band_a_offer": 443,
       "admitted": 545,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30280,6 +31790,10 @@
       "band_a_apply": 257,
       "band_a_offer": 41,
       "admitted": 46,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30329,6 +31843,10 @@
       "band_a_apply": 141,
       "band_a_offer": 21,
       "admitted": 22,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30378,6 +31896,10 @@
       "band_a_apply": 343,
       "band_a_offer": 65,
       "admitted": 65,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30427,6 +31949,10 @@
       "band_a_apply": 369,
       "band_a_offer": 48,
       "admitted": 48,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30476,6 +32002,10 @@
       "band_a_apply": 54,
       "band_a_offer": 10,
       "admitted": 23,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30525,6 +32055,10 @@
       "band_a_apply": 67,
       "band_a_offer": 14,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30574,6 +32108,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30623,6 +32161,10 @@
       "band_a_apply": 298,
       "band_a_offer": 66,
       "admitted": 119,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30672,6 +32214,10 @@
       "band_a_apply": 450,
       "band_a_offer": 83,
       "admitted": 118,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30721,6 +32267,10 @@
       "band_a_apply": 307,
       "band_a_offer": 35,
       "admitted": 54,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30770,6 +32320,10 @@
       "band_a_apply": 128,
       "band_a_offer": 20,
       "admitted": 34,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30819,6 +32373,10 @@
       "band_a_apply": 2046,
       "band_a_offer": 390,
       "admitted": 390,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30868,6 +32426,10 @@
       "band_a_apply": 1029,
       "band_a_offer": 135,
       "admitted": 135,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30917,6 +32479,10 @@
       "band_a_apply": 295,
       "band_a_offer": 50,
       "admitted": 50,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -30966,6 +32532,10 @@
       "band_a_apply": 306,
       "band_a_offer": 87,
       "admitted": 90,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31015,6 +32585,10 @@
       "band_a_apply": 432,
       "band_a_offer": 63,
       "admitted": 63,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31064,6 +32638,10 @@
       "band_a_apply": 398,
       "band_a_offer": 55,
       "admitted": 65,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31113,6 +32691,10 @@
       "band_a_apply": 253,
       "band_a_offer": 44,
       "admitted": 60,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31162,6 +32744,10 @@
       "band_a_apply": 286,
       "band_a_offer": 64,
       "admitted": 70,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31211,6 +32797,10 @@
       "band_a_apply": 86,
       "band_a_offer": 12,
       "admitted": 28,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31260,6 +32850,10 @@
       "band_a_apply": 104,
       "band_a_offer": 8,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31309,6 +32903,10 @@
       "band_a_apply": 237,
       "band_a_offer": 48,
       "admitted": 65,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31358,6 +32956,10 @@
       "band_a_apply": 374,
       "band_a_offer": 47,
       "admitted": 81,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31407,6 +33009,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31456,6 +33062,10 @@
       "band_a_apply": 402,
       "band_a_offer": 70,
       "admitted": 70,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31505,6 +33115,10 @@
       "band_a_apply": 205,
       "band_a_offer": 38,
       "admitted": 67,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31554,6 +33168,10 @@
       "band_a_apply": 147,
       "band_a_offer": 19,
       "admitted": 43,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31729,6 +33347,10 @@
       "band_a_apply": 269,
       "band_a_offer": 24,
       "admitted": 51,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -31904,6 +33526,10 @@
       "band_a_apply": 152,
       "band_a_offer": 10,
       "admitted": 17,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -32079,6 +33705,10 @@
       "band_a_apply": 67,
       "band_a_offer": 8,
       "admitted": 15,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -32254,6 +33884,10 @@
       "band_a_apply": 218,
       "band_a_offer": 12,
       "admitted": 24,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -32429,6 +34063,10 @@
       "band_a_apply": 112,
       "band_a_offer": 5,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -32604,6 +34242,10 @@
       "band_a_apply": 67,
       "band_a_offer": 7,
       "admitted": 12,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -32779,6 +34421,10 @@
       "band_a_apply": 82,
       "band_a_offer": 16,
       "admitted": 26,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -32954,6 +34600,10 @@
       "band_a_apply": 267,
       "band_a_offer": 34,
       "admitted": 63,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33129,6 +34779,10 @@
       "band_a_apply": 50,
       "band_a_offer": 3,
       "admitted": 5,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33304,6 +34958,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33353,6 +35011,10 @@
       "band_a_apply": 165,
       "band_a_offer": 18,
       "admitted": 31,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33402,6 +35064,10 @@
       "band_a_apply": 72,
       "band_a_offer": 5,
       "admitted": 8,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33451,6 +35117,10 @@
       "band_a_apply": 167,
       "band_a_offer": 26,
       "admitted": 62,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33500,6 +35170,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33549,6 +35223,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "英數Best3"
     },
     {
@@ -33598,6 +35276,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 6"
     },
     {
@@ -33697,6 +35379,10 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
       "scoring_method_label": "Best 5"
     },
     {
@@ -33704,7 +35390,7 @@
       "js_code_2024": null,
       "institution": "THEi",
       "faculty": null,
-      "title": "運動治療（榮譽）社會科學學士",
+      "title": "運動治療(榮譽)社會科學學士",
       "scoring_method": "Best 5",
       "weighting_detail": null,
       "bonus_system": false,
@@ -33872,6 +35558,927 @@
       "band_a_apply": null,
       "band_a_offer": null,
       "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": null,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS1063",
+      "js_code_2024": null,
+      "institution": "CityU",
+      "faculty": "法律學院",
+      "title": "法律學學士與理學士(計算機科學) (專修: 人工智能)(雙學位)",
+      "scoring_method": "Best 5",
+      "weighting_detail": "最佳五科必須包括︰英文 | x1.5: 英文、數學、M1/2、生物、化學、物理、ICT",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": "英文需 Lv.5；中文需 Lv.3；數學需 Lv.3；以下一科選修取得Lv.3︰生物、化學、ICT、M1/2、物理",
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。計分按城大 2027 年入學要求：最佳五科須包括英文。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS1120",
+      "js_code_2024": null,
+      "institution": "CityU",
+      "faculty": "人文社會科學院",
+      "title": "卓越全球人文社科課程 [特點: 自由選擇學院內任何一個主修科(社會科學學士(社會工作)除外) / 海外體驗 / 跨領域學習]",
+      "scoring_method": "3C2X",
+      "weighting_detail": "x1.5: 中文、英文 | x1.25: 數學",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": "英文需 Lv.3；中文需 Lv.3；數學需 Lv.2",
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。計分按城大 2027 年入學要求：中文、英文、數學三科核心加最佳兩科選修。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "3C2X"
+    },
+    {
+      "js_code": "JS2030",
+      "js_code_2024": null,
+      "institution": "HKBU",
+      "faculty": "文學院",
+      "title": "音樂文學士(榮譽)",
+      "scoring_method": "Best 5",
+      "weighting_detail": "各科權重均為1；按加權分取最佳五科",
+      "bonus_system": false,
+      "score_rules": {
+        "selection_slots": [
+          {
+            "count": 5,
+            "default_weight": 1,
+            "weights": {}
+          }
+        ],
+        "grade_point_overrides": {
+          "日文": {
+            "g5ss": 7,
+            "g5": 5.5,
+            "g4": 4
+          },
+          "韓文": {
+            "g5ss": 7,
+            "g5s": 5.5,
+            "g5": 5.5,
+            "g4": 4
+          },
+          "法文": {
+            "g5ss": 7,
+            "g5s": 7,
+            "g5": 5.5,
+            "g4": 5.5,
+            "g3": 4
+          },
+          "德文": {
+            "g5ss": 7,
+            "g5s": 7,
+            "g5": 5.5,
+            "g4": 5.5,
+            "g3": 4
+          },
+          "西班牙文": {
+            "g5ss": 7,
+            "g5s": 7,
+            "g5": 5.5,
+            "g4": 5.5,
+            "g3": 4
+          },
+          "烏爾都文": {
+            "g5ss": 7,
+            "g5s": 5.5,
+            "g5": 4,
+            "g3": 2.5,
+            "g2": 1
+          }
+        },
+        "unsupported_grade_keys": {
+          "烏爾都文": [
+            "g4"
+          ],
+          "應用學習": [
+            "g2",
+            "g3",
+            "g4"
+          ]
+        },
+        "verified_for": 2027,
+        "source": "https://admissions.hkbu.edu.hk/content/dam/ao-assets/document/news/JUPAS_GER_PER.pdf"
+      },
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": true,
+      "other_considerations": "作品集／考試／面試／試音",
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。由前身 JS2060 音樂課程分拆；JS2060 的往年分數屬合併課程，不代表本課程。另須遞交作品集及／或參加考試、面試或試音。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS2050",
+      "js_code_2024": null,
+      "institution": "HKBU",
+      "faculty": "文學院",
+      "title": "創意產業音樂學士(榮譽)",
+      "scoring_method": "Best 5",
+      "weighting_detail": "各科權重均為1；按加權分取最佳五科",
+      "bonus_system": false,
+      "score_rules": {
+        "selection_slots": [
+          {
+            "count": 5,
+            "default_weight": 1,
+            "weights": {}
+          }
+        ],
+        "grade_point_overrides": {
+          "日文": {
+            "g5ss": 7,
+            "g5": 5.5,
+            "g4": 4
+          },
+          "韓文": {
+            "g5ss": 7,
+            "g5s": 5.5,
+            "g5": 5.5,
+            "g4": 4
+          },
+          "法文": {
+            "g5ss": 7,
+            "g5s": 7,
+            "g5": 5.5,
+            "g4": 5.5,
+            "g3": 4
+          },
+          "德文": {
+            "g5ss": 7,
+            "g5s": 7,
+            "g5": 5.5,
+            "g4": 5.5,
+            "g3": 4
+          },
+          "西班牙文": {
+            "g5ss": 7,
+            "g5s": 7,
+            "g5": 5.5,
+            "g4": 5.5,
+            "g3": 4
+          },
+          "烏爾都文": {
+            "g5ss": 7,
+            "g5s": 5.5,
+            "g5": 4,
+            "g3": 2.5,
+            "g2": 1
+          }
+        },
+        "unsupported_grade_keys": {
+          "烏爾都文": [
+            "g4"
+          ],
+          "應用學習": [
+            "g2",
+            "g3",
+            "g4"
+          ]
+        },
+        "verified_for": 2027,
+        "source": "https://admissions.hkbu.edu.hk/content/dam/ao-assets/document/news/JUPAS_GER_PER.pdf"
+      },
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": true,
+      "other_considerations": "作品集／考試／面試／試音",
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。由前身 JS2060 音樂課程分拆；JS2060 的往年分數屬合併課程，不代表本課程。另須遞交作品集及／或參加考試、面試或試音。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS3923",
+      "js_code_2024": null,
+      "institution": "PolyU",
+      "faculty": "理學院",
+      "title": "應用生物兼生物科技(榮譽)理學士",
+      "scoring_method": "Best 5",
+      "weighting_detail": "x10: 英文、生物 x7: 中文、數學、M1/2、化學、物理、組合科學(任何)、綜合科學 x5: 其他科目",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。由前身 JS3011 組合課程重組；JS3011 的往年分數按另一套比重計算，不代表本課程。理大官方：組合科學含生物部分 x10、只含物理及化學 x7，本計分器一律按 x7 計；應用學習「醫務化驗科學」x7，本計分器按 x5 計。不設第六科加分。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS3997",
+      "js_code_2024": null,
+      "institution": "PolyU",
+      "faculty": "理學院",
+      "title": "化學科技(榮譽)理學士",
+      "scoring_method": "Best 5",
+      "weighting_detail": "x10: 英文、數學、化學、物理 x7: 中文、M1/2、生物、組合科學(任何)、綜合科學 x5: 其他科目",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。由前身 JS3011 組合課程重組；JS3011 的往年分數按另一套比重計算，不代表本課程。理大官方：組合科學(物理、化學) x10、含生物部分 x7，本計分器一律按 x7 計。不設第六科加分。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS4472",
+      "js_code_2024": null,
+      "institution": "CUHK",
+      "faculty": "工程學院",
+      "title": "機器人學",
+      "scoring_method": "Best 5",
+      "weighting_detail": "x1.75: 數學 x1.75: [M1或M2] x1.75: 物理 x1.25: 生物、化學、DAT、ICT",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": "數學科應考獲Lv.4 或以上 以下一科選修取得Lv.3︰M1/2、生物、化學、DAT、ICT、物理",
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。中大另為第六、七科給予額外分數，但未公布算法，本計分器未計入，所以分數可能略低於中大計算。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS5712",
+      "js_code_2024": null,
+      "institution": "HKUST",
+      "faculty": "跨學科課程",
+      "title": "理學士（跨學科自選主修）",
+      "scoring_method": "英數Best3",
+      "weighting_detail": "英文x2  + 數學x2 + 最佳三科x1",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": "英文科應考獲Lv.4 或以上；數學科應考獲Lv.3 或以上",
+      "interview": true,
+      "other_considerations": "面試、課程構想書",
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。科大另設「第六科獎勵」：最佳五科以外，第六科按成績可額外加最高 5% 分數，本計分器已計入，所以總分或會高於分數解構表所列五科之和。須面試，並須上載課程構想書（Programme Proposal）。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "英數Best3"
+    },
+    {
+      "js_code": "JS6133",
+      "js_code_2024": null,
+      "institution": "HKU",
+      "faculty": "文學院",
+      "title": "文學士精英課程",
+      "scoring_method": "Best 5",
+      "weighting_detail": "最佳五科必須包括︰英文 可包含 M1/2 或丙類科目 (較高者) 於計算內 x2: 英文 x1.5: 中文",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": "英文科應考獲Lv.4 或以上",
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。港大 2027 入學資料列明英文最低第 4 級（JUPAS 課程頁寫第 3 級），本頁按港大文件。課程仍待大學批准。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS6365",
+      "js_code_2024": null,
+      "institution": "HKU",
+      "faculty": "工程學院",
+      "title": "工學學士(機器人工程學)",
+      "scoring_method": "Best 5",
+      "weighting_detail": "最佳五科必須包括︰英文、數學 可包含 M1/2 及丙類科目於計算內",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": "英文科應考獲Lv.4 或以上；數學科應考獲Lv.4 或以上 以下一科選修取得Lv.3︰生物、化學、物理、組合科學",
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。計分按港大 2027 年入學資料：英文＋數學＋最佳三科。課程仍待大學批准。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS6743",
+      "js_code_2024": null,
+      "institution": "HKU",
+      "faculty": "社會科學院",
+      "title": "社會科學學士精英課程",
+      "scoring_method": "Best 5",
+      "weighting_detail": "可包含 M1/2 或丙類科目 (較高者) 於計算內",
+      "bonus_system": true,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。計分按港大 2027 年入學資料：最佳五科。課程仍待大學批准。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JS9210",
+      "js_code_2024": null,
+      "institution": "HKMU",
+      "faculty": "李兆基商業管理學院",
+      "title": "全球商業榮譽工商管理學士",
+      "scoring_method": "Best 5",
+      "weighting_detail": "公民科 「達標」 可被計算為一科 Lv.2 科目 Best 5 可包含 M1/2",
+      "bonus_system": false,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。都大 2027 年頁面以最佳五科計分，沒有列出科目比重，本計分器各科按 x1 計。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JSSU66",
+      "js_code_2024": null,
+      "institution": "都會大學",
+      "faculty": null,
+      "title": "放射診斷學榮譽理學士",
+      "scoring_method": "Best 5",
+      "weighting_detail": "公民科 「達標」 可被計算為一科 Lv.2 科目 x1.2: 生物、物理",
+      "bonus_system": false,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": true,
+      "other_considerations": "小組面試（按需要）",
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。都大 2027 年頁面：生物、物理 x1.2。或須參加小組面試。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JSSU75",
+      "js_code_2024": null,
+      "institution": "都會大學",
+      "faculty": null,
+      "title": "機器人和自動化工程榮譽應用理學士",
+      "scoring_method": "Best 5",
+      "weighting_detail": "公民科 「達標」 可被計算為一科 Lv.2 科目 Best 5 可包含 M1/2",
+      "bonus_system": false,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": null,
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。都大 2027 年頁面以最佳五科計分，沒有列出科目比重，本計分器各科按 x1 計。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
+      "scoring_method_label": "Best 5"
+    },
+    {
+      "js_code": "JSSY03",
+      "js_code_2024": null,
+      "institution": "樹仁大學",
+      "faculty": null,
+      "title": "娛樂及遊戲應用數碼方案（榮譽）理學士",
+      "scoring_method": "Best 5",
+      "weighting_detail": "公民科 「達標」 可被計算為一科 Lv.2 科目。最佳五科必須包括︰數學",
+      "bonus_system": false,
+      "score_rules": null,
+      "median": null,
+      "uq": null,
+      "lq": null,
+      "median_2024": null,
+      "uq_2024": null,
+      "lq_2024": null,
+      "median_2023": null,
+      "uq_2023": null,
+      "lq_2023": null,
+      "entry_req": "優先考慮:  M1/2 或 資訊及通訊科技 考獲Lv.4或以上者",
+      "interview": false,
+      "other_considerations": null,
+      "data_remark": "2027 年新課程，暫時沒有本身的收生分數。計分按樹仁 2027 年入學資料：最佳五科須包括數學。",
+      "mean": null,
+      "actual_2026_median": null,
+      "actual_2026_lq": null,
+      "actual_2026_uq": null,
+      "actual_2026_source": null,
+      "actual_2026_note": null,
+      "actual_2026_no_score": null,
+      "actual_2026_mean": null,
+      "actual_2026_formula_year": null,
+      "scoring_formula_year": 2027,
+      "score_history_formula_years": null,
+      "actual_2026_shared_programme_codes": null,
+      "historical_reference_unverified": null,
+      "scoring_2027": null,
+      "scoring_2026": null,
+      "actual_2026_requires_engine": null,
+      "mean_2024": null,
+      "score_history_metrics": null,
+      "actual_2026_comparable_to_calculator": null,
+      "actual_2026_prior_reference_is_2025": null,
+      "quota": null,
+      "band_a_apply": null,
+      "band_a_offer": null,
+      "admitted": null,
+      "title_2026": null,
+      "offered_2027": null,
+      "successor_codes_2027": null,
+      "is_new_2027": true,
       "scoring_method_label": "Best 5"
     }
   ]

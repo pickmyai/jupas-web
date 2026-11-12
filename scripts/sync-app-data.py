@@ -34,6 +34,8 @@ FIELDS = [
     'actual_2026_comparable_to_calculator', 'actual_2026_prior_reference_is_2025',
     # Official JUPAS 2025 intake statistics (competition on the programme pages)
     'quota', 'band_a_apply', 'band_a_offer', 'admitted',
+    # JUPAS 2027 programme list (app tool/apply_jupas_2027_programme_list.py)
+    'title_2026', 'offered_2027', 'successor_codes_2027', 'is_new_2027',
 ]
 # Public subset of the app's `enrichment` section. Ratings, editor's take,
 # MBTI, teaching/facilities notes and 10/20-year salaries stay app-only.

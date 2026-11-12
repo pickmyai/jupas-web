@@ -106,7 +106,10 @@ for slug, names in SCHOOLS.items():
                     values = [float(v) for v in re.findall(r'\d+(?:\.\d+)?', cell.replace(',', ''))]
                     assert values == [float(v) for v in want[1:] if v is not None], (code, cell, want)
             else: assert abs(float(cell.replace(',', '')) - want) < 1e-8, (code, cell)
-        if p.get('actual_2026_note') or p.get('data_remark'): assert (p.get('actual_2026_note') or p['data_remark']) in row['text'], f'{code} lost original caveat'
+        caveat = p.get('actual_2026_note') or p.get('data_remark')
+        # admissions.js drops the app's 2027 not-offered sentence (the page has its own notice).
+        if caveat and caveat.startswith('JUPAS 2027 不再提供'): caveat = '\n\n'.join(caveat.split('\n\n')[1:])
+        if caveat: assert caveat in row['text'], f'{code} lost original caveat'
         detail = ROOT / f'dist/universities/{slug}/{code.lower()}/index.html'
         assert detail.exists(), f'{code}: programme page missing'
         dpage = Page(detail.read_text())
