@@ -44,7 +44,10 @@ function describe(r) {
 }
 const lead = `${uni}「${p.title}」（${p.js_code}）${describe(latest)}${(p.scoring_method_label ?? p.scoring_method) ? `；${earlierFormula ? "較早參考計法" : "計分方法"}為 ${(p.scoring_method_label ?? p.scoring_method)}` : ''}。`;
 const headline = latest ? (usesMean ? `平均分 ${f(latest.mean)}` : latest.median != null ? `Median ${f(latest.median)}${latest.lq != null ? `・LQ ${f(latest.lq)}` : ''}` : `LQ ${f(latest.lq)}・UQ ${f(latest.uq)}`) : '收生分數';
-const title = `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} ${p.title} ${latest?.year ?? ''} 收生分數｜${headline}`;
+// Code, school, year and score first so the part searchers scan survives SERP truncation of long programme names.
+const title = latest
+  ? `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} ${latest.year} 收分 ${headline}｜${p.title}`
+  : `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} 收生分數｜${p.title}`;
 const description = `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法${pop ? '、Band A 申請人數' : ''}${paths.length ? '、畢業出路及起薪' : ''}。`;
 
 const notes = [
