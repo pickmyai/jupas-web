@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { schools, snapshot, formatScore as f, slugFor, programmePath, programmesFor, yearRows, latestRow, institutionNames, enrichmentFor, enrichmentVersion, popularityFor, scoreBasis } from '../../../lib/admissions';
+import { schools, snapshot, official2027, formatScore as f, slugFor, programmePath, programmesFor, yearRows, latestRow, institutionNames, enrichmentFor, enrichmentVersion, popularityFor, scoreBasis } from '../../../lib/admissions';
 import '../../../styles/universities.css';
 import ScoreAppCta from '../../../components/ScoreAppCta.astro';
 import StickyStoreBar from '../../../components/StickyStoreBar.astro';
@@ -45,9 +45,10 @@ function describe(r) {
 const lead = `${uni}「${p.title}」（${p.js_code}）${describe(latest)}${(p.scoring_method_label ?? p.scoring_method) ? `；${earlierFormula ? "較早參考計法" : "計分方法"}為 ${(p.scoring_method_label ?? p.scoring_method)}` : ''}。`;
 const headline = latest ? (usesMean ? `平均分 ${f(latest.mean)}` : latest.median != null ? `Median ${f(latest.median)}${latest.lq != null ? `・LQ ${f(latest.lq)}` : ''}` : `LQ ${f(latest.lq)}・UQ ${f(latest.uq)}`) : '收生分數';
 // Code, school, year and score first so the part searchers scan survives SERP truncation of long programme names.
-const title = latest
+const status2027 = p.offered_2027 === false ? (p.successors_2027?.length ? `｜2027 改為 ${p.successors_2027.join('／')}` : '｜2027 不再招生') : '';
+const title = (latest
   ? `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} ${latest.year} 收分 ${headline}｜${p.title}`
-  : `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} 收生分數｜${p.title}`;
+  : `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} 收生分數｜${p.title}`) + status2027;
 const description = `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法${pop ? '、Band A 申請人數' : ''}${paths.length ? '、畢業出路及起薪' : ''}。`;
 
 const notes = [
@@ -77,6 +78,8 @@ const faqPairs = [
       <div><p class="eyebrow">{uni}{p.faculty ? ` · ${p.faculty}` : ''}</p>
         <h1>{p.title}<span>{p.js_code} 收生分數</span></h1>
         <p class="hero-intro">{lead}</p>
+        {p.title_2026 && <p class="data-note">JUPAS 2027 年起課程名稱改為「{p.title}」；2026 年及以前的收生分數以舊名「{p.title_2026}」公布，課程編號不變。<a href={official2027.changes} rel="nofollow">JUPAS 課程變更 ↗</a></p>}
+        {p.offered_2027 === false && <p class="data-note">此課程不在 JUPAS 2027 年課程名單內{p.successors_2027?.length ? `，2027 年改為 ${p.successors_2027.join('、')} 分開招生` : ''}；下表為過往收生分數，只供參考。<a href={official2027.changes} rel="nofollow">JUPAS 課程變更 ↗</a></p>}
       </div>
       {latest && <aside class="edition-card"><span>{scoreBasis(latest)}</span><strong>{usesMean ? f(latest.mean) : f(latest.median)}</strong><p>{usesMean ? '平均分' : latest.median != null ? 'Median（中位數）' : '未公布中位數／平均分'}</p><p>{latest.lq != null && `LQ ${f(latest.lq)}`}{latest.lq != null && latest.uq != null && ' · '}{latest.uq != null && `UQ ${f(latest.uq)}`}</p></aside>}
     </header>

@@ -51,6 +51,11 @@ class Page(HTMLParser):
         if tag == 'table': self.in_table = False
 
 snapshot = json.loads((ROOT / 'src/data/app-admissions.json').read_text())
+# Pages show the official JUPAS 2027 name (src/lib/admissions.js applies the same overlay).
+official2027 = json.loads((ROOT / 'src/data/jupas-2027-official.json').read_text())['programmes']
+for p in snapshot['programmes']:
+    if p['js_code'] in official2027:
+        p['title'] = official2027[p['js_code']]['title']
 for p in snapshot["programmes"]:
     if p.get("actual_2026_requires_engine") in {"official_2026_v2", "official_2026_raw_best_v1"} and p.get("actual_2026_formula_year") == 2026 and p.get("scoring_2026", {}).get("scoring_formula_year") == 2026:
         p.update(p["scoring_2026"])

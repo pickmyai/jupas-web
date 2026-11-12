@@ -1,4 +1,5 @@
 import sourceSnapshot from '../data/app-admissions.json';
+import official2027 from '../data/jupas-2027-official.json';
 // The current web engine understands this formula; older installed apps keep
 // the legacy fields in the identical OTA dataset.
 const snapshot = { ...sourceSnapshot, programmes: sourceSnapshot.programmes.map(p => {
@@ -7,10 +8,16 @@ const snapshot = { ...sourceSnapshot, programmes: sourceSnapshot.programmes.map(
   }
   return p.actual_2026_requires_engine === 'cityu_2027' && p.scoring_2027
     ? { ...p, ...p.scoring_2027, actual_2026_comparable_to_calculator: true } : p;
+}).map(p => {
+  // Show the official JUPAS 2027 name; scores stay with the code they were published under.
+  const o = official2027.programmes[p.js_code];
+  if (o) return { ...p, title: o.title, title_en_2027: o.title_en, title_2026: o.renamed_from ?? null, offered_2027: true };
+  const gone = official2027.notOffered2027[p.js_code];
+  return gone ? { ...p, title_2026: null, offered_2027: false, successors_2027: gone.successors } : p;
 }) };
 import enrichmentSnapshot from '../data/app-enrichment.json';
 
-export { snapshot };
+export { snapshot, official2027 };
 export const formatScore = value => value == null ? '—' : Number(value).toLocaleString('en-HK', { maximumFractionDigits: 3 });
 export const years = [2023, 2024, 2025];
 

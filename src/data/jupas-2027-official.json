@@ -1,0 +1,1807 @@
+{
+ "source": "https://www.jupas.edu.hk/tc/programmes-offered",
+ "changes": "https://www.jupas.edu.hk/tc/programmes-offered/programme-changes",
+ "fetchedAt": "2026-11-12",
+ "programmes": {
+  "JS1000": {
+   "title": "理學士(計算金融及金融科技) (專修：計算金融 / 金融科技)",
+   "title_en": "BSc Computational Finance and Financial Technology (Streams: Computational Finance / Financial Technology)"
+  },
+  "JS1001": {
+   "title": "工商管理學士(環球商業) (特點: 三次海外交流 / 美國哥倫比亞大學雙聯學士學位 / 海外暑期及遊學課程 / 商業諮詢課程 / 獎學金及資助)",
+   "title_en": "BBA Global Business (Features: 3 Exchanges/Joint Bachelor’s Degree Program with Columbia University (US)/Overseas Summer School & Study Tour/Business Consultancy Project/Scholarship and Sponsorship)"
+  },
+  "JS1002": {
+   "title": "工商管理學士(會計) (專修: 專業會計 / 環境，社會，治理和科技)",
+   "title_en": "BBA Accountancy (Streams: Professional Accounting / ESG and Tech)"
+  },
+  "JS1005": {
+   "title": "工商管理學士 (管理學) (專修 : 人力資源管理 / 策略及國際管理 )",
+   "title_en": "BBA Management (Streams: Human Resources Management / Strategy and International Management)"
+  },
+  "JS1007": {
+   "title": "工商管理學士(市場學) (專修: 環球市場營銷 / 營銷數據分析)",
+   "title_en": "BBA Marketing (Streams: Global Marketing / Marketing Analytics)",
+   "renamed_from": "工商管理學士(市場營銷) (專修: 環球市場營銷 / 營銷數據分析)"
+  },
+  "JS1012": {
+   "title": "經濟及金融 [主修: 工商管理學士(商業經濟) / 工商管理學士(金融)]",
+   "title_en": "Economics and Finance (Majors: BBA Business Economics / BBA Finance)"
+  },
+  "JS1013": {
+   "title": "工商管理學士(商業經濟) (特點: 經濟理論 / 國際經濟 / 經濟與商業預測 / 定量分析)",
+   "title_en": "BBA Business Economics (Features: Economic Theory / International Economics / Economic and Business Forecasting / Quantitative Analysis)"
+  },
+  "JS1014": {
+   "title": "工商管理學士(金融) (特點: 投資分析 / 金融市場 / 公司金融/ 風險管理 / 交易室工作坊)",
+   "title_en": "BBA Finance (Features: Investment Analysis / Financial Markets / Corporate Finance / Risk Management / Trading Room Workshop)"
+  },
+  "JS1017": {
+   "title": "智能資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(商業人工智能)]",
+   "title_en": "Intelligent Information Systems [Majors: BBA Global Business Systems Management / BBA Artificial Intelligence in Business]",
+   "renamed_from": "資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(資訊管理)]"
+  },
+  "JS1018": {
+   "title": "工商管理學士(環球商業系統管理) (特點: 智能科技 / 環球商業 / 海外及内地交流)",
+   "title_en": "BBA Global Business Systems Management (Features: Intelligent Technologies / Global Business / Study Exchange)"
+  },
+  "JS1019": {
+   "title": "工商管理學士 (商業人工智能) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)",
+   "title_en": "BBA Artificial Intelligence in Business (Streams: Business Intelligence / Information Systems Auditing / Internet Services and Social Networks / Data Informatics)",
+   "renamed_from": "工商管理學士(資訊管理) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)"
+  },
+  "JS1026": {
+   "title": "工商管理學士(商業決策分析) (專修: 決策分析學 / 數據信息學)",
+   "title_en": "BBA Business Decision Analytics (Streams: Decision Analytics / Data Informatics)"
+  },
+  "JS1027": {
+   "title": "工商管理學士(環球營運管理) (特點: 供應鏈管理 / 營運效率 / 流程改善 / 營運分析 / 資源規劃)",
+   "title_en": "BBA Global Operations Management (Features: Supply Chain Management / Operations Efficiency / Process Improvement / Operations Analytics / Resource Planning)"
+  },
+  "JS1040": {
+   "title": "卓越創藝與科技課程 [選項: 創意媒體(校本課程)、 文學士(創意媒體)、理學士(創意媒體)、文理學士(新媒體)]",
+   "title_en": "Creative Arts and Technology Excellence (CREATE) (Options: Creative Media (School-based)/ BA Creative Media / BSc Creative Media / BAS New Media)"
+  },
+  "JS1041": {
+   "title": "創意媒體 [主修: 文學士(創意媒體) / 理學士(創意媒體) / 文理學士(新媒體)]",
+   "title_en": "Creative Media (Majors: BA Creative Media / BSc Creative Media / BAS New Media)"
+  },
+  "JS1042": {
+   "title": "文學士(創意媒體) (特點: 動畫 / 電影及攝影 / 批判理論及實踐 / 遊戲及可玩媒體 / 新媒體藝術 / 聲音藝術)",
+   "title_en": "BA Creative Media (Features: Animation / Cinema & Photography / Critical Theory & Practices / Game & Playable Media / New Media Art / Sound Art)"
+  },
+  "JS1043": {
+   "title": "理學士(創意媒體) (特點: 結合創意媒體及電腦科學課程 / 動畫 / 遊戲 / 裝置藝術 / 互動媒體)",
+   "title_en": "BSc Creative Media (Features: Combination of Creative Media and Computer Science Courses / Animation / Games / Installation / Interactivity)"
+  },
+  "JS1044": {
+   "title": "文理學士(新媒體) (特點: 媒體藝術 / 機械人學及人工智能 / 藝術及科技 / 物料及數位製造)",
+   "title_en": "BAS New Media (Features: Media Art / Robotics & AI / Art & Technology / Materials & Digital Fabrication)"
+  },
+  "JS1050": {
+   "title": "環球可持續發展科創課程 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)＋特點：環球視野]",
+   "title_en": "International Sustainability Programme for Innovation, Research & Entrepreneurship(INSPIRE) (Majors: BEng Energy Science & Engineering/BEng Environmental Science & Engineering +Features: Global Focus)"
+  },
+  "JS1051": {
+   "title": "能源及環境學 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)]",
+   "title_en": "Energy and Environment (Majors: BEng Energy Science and Engineering / BEng Environmental Science and Engineering)"
+  },
+  "JS1052": {
+   "title": "工學士(環境科學及工程學)與工商管理學士(金融)[雙學位；特點：環境、社會和管治 / 綠色金融 / 環保技術 / 跨學科教育]",
+   "title_en": "BEng Environmental Science and Engineering and BBA Finance (Double Degree; Features: Environmental, Social & Governance (ESG) / Green Finance / Environmental Technology / Interdisciplinary Education)"
+  },
+  "JS1053": {
+   "title": "理學士(環境及可持續發展商業) [特點：環境科學 / 商業可持續發展 / 環境、社會和管治]",
+   "title_en": "BSc Environment and Sustainable Business (Features: Environmental Science / Business Sustainability / Environmental, Social & Governance (ESG))"
+  },
+  "JS1061": {
+   "title": "法律學學士",
+   "title_en": "Bachelor of Laws"
+  },
+  "JS1062": {
+   "title": "法律學學士與工商管理學士(會計) (雙學位)",
+   "title_en": "Bachelor of Laws and BBA Accountancy (Double Degree)"
+  },
+  "JS1063": {
+   "title": "法律學學士與理學士(計算機科學) (專修: 人工智能)(雙學位)",
+   "title_en": "Bachelor of Laws and Bachelor of Science in Computer Science (Stream: Artificial Intelligence) (Double Degree)"
+  },
+  "JS1070": {
+   "title": "人工智能 ･ 計算 ･ 突破課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)",
+   "title_en": "AI, Computing and Transformation (ACT) (Features: Free Choice of Major / One-to-One Advisor / Elite Work Placement / Executive Mentor Scheme / Premium Overseas Exchange / Internship Exchange)",
+   "renamed_from": "數據賦能: 學習･突破･成就課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)"
+  },
+  "JS1071": {
+   "title": "數據科學 [主修：理學士 (數據科學) / 理學士 (數據與系統工程)]",
+   "title_en": "Data Science (Majors: BSc Data Science / BSc Data and Systems Engineering)"
+  },
+  "JS1072": {
+   "title": "理學士(數據科學) (特點: 數據科學 / 機器學習 / 數據挖掘 / 大數據分析)",
+   "title_en": "BSc Data Science (Features: Data Science / Machine Learning / Data Mining / Big Data Analysis)"
+  },
+  "JS1074": {
+   "title": "理學士(數據與系統工程) (特點: 數據科學 / 金融科技 / 工業人工智能 / 智慧城市)",
+   "title_en": "BSc Data and Systems Engineering (Features: Data Science / FinTech & Decision Analytics / Industrial AI / Smart City)"
+  },
+  "JS1102": {
+   "title": "社會科學學士(國際關係及全球事務) (專修: 亞洲研究 / 國際研究 / 發展研究)",
+   "title_en": "BSocSc International Relations and Global Affairs (Streams: Asian Studies / International Studies / Development Studies)"
+  },
+  "JS1103": {
+   "title": "文學士(中文及歷史) (專修: 中文 / 歷史及文化遺產)",
+   "title_en": "BA Chinese and History (Streams: Chinese / History and Cultural Heritage)"
+  },
+  "JS1104": {
+   "title": "文學士(英語語言) (專修: 英語及專業傳意 / 語言及文學)",
+   "title_en": "BA English (Streams: English and Professional Communication / Language and Literature)"
+  },
+  "JS1106": {
+   "title": "媒體與傳播 [主修: 文學士(數碼電視與廣播) / 文學士(媒體與傳播)]",
+   "title_en": "Media and Communication (Majors: BA Digital Television and Broadcasting / BA Media and Communication)"
+  },
+  "JS1108": {
+   "title": "社會科學學士(公共事務與管理) (專修: 公共事務與管治 / 公共政策與管理)",
+   "title_en": "BSocSc Public Affairs and Management (Streams: Public Affairs and Governance / Public Policy and Management)"
+  },
+  "JS1109": {
+   "title": "文學士(語言學及語言應用) (特點: 普通語言學 / 計算語言學 / 語料庫語言學 / 實驗語言學 / 語言技術及應用)",
+   "title_en": "BA Linguistics and Language Applications (Features: General Linguistics / Computational Linguistics / Corpus Linguistics / Experimental Linguistics / Language Technology and Applications)"
+  },
+  "JS1111": {
+   "title": "社會科學學士 (犯罪科學) (特點: 犯罪預防 / 安保實務 / 全球警政 / 犯罪分析 / 科網與未來犯罪)",
+   "title_en": "BSocSc Crime Science (Features: Crime Prevention / Security Practice / Global Policing / Crime Analytics / Cyber and Future Crimes)",
+   "renamed_from": "社會科學學士(犯罪學及社會學)"
+  },
+  "JS1112": {
+   "title": "社會科學學士(心理學) (專修: 健康與人類發展 / 大腦與認知)",
+   "title_en": "BSocSc Psychology (Streams: Health and Development / Mind and Brain)"
+  },
+  "JS1113": {
+   "title": "社會科學學士(社會工作) (特點: 社會參與及人文關懷 – 健康與福祉 / 社會多元與持續 / 人在環境的專業介入)",
+   "title_en": "BSocSc Social Work (Features: Social Engagement and Concern for People’s Health and Well-Being / Human Diversities and Sustainability / People-in-Environment Interventions)"
+  },
+  "JS1120": {
+   "title": "卓越全球人文社科課程 [特點: 自由選擇學院內任何一個主修科(社會科學學士(社會工作)除外) / 海外體驗 / 跨領域學習]",
+   "title_en": "Social and Arts Global Excellence (SAGE) [Features: Any major in the College of Liberal Arts and Social Sciences (except for BSocSc Social Work) / Non-local experience / Interdisciplinary]*"
+  },
+  "JS1123": {
+   "title": "社會科學學士(犯罪科學)與法律學學士 (雙學位)",
+   "title_en": "BSocSc Crime Science and Bachelor of Laws (Double Degree)",
+   "renamed_from": "社會科學學士(犯罪學)與法律學學士"
+  },
+  "JS1200": {
+   "title": "環球精研與科創課程 [主修：理學士 (化學) / 理學士 (計算數學) / 理學士 (物理學) ＋ 環球精研與科創]",
+   "title_en": "Global Research Enrichment and Technopreneurship (GREAT) [Majors: BSc Chemistry / BSc Computing Mathematics / BSc Physics + Global Research Enrichment and Technopreneurship (GREAT)]"
+  },
+  "JS1201": {
+   "title": "建築學及土木工程學 [主修:工學士(屋宇裝備工程) / 工學士(土木工程) / 理學士(建築學及測量學)]",
+   "title_en": "Architecture and Civil Engineering (Majors: BEng Building Services Engineering / BEng Civil Engineering / BSc Architecture and Surveying)",
+   "renamed_from": "建築學及土木工程學系 [選項: 工學士(建築工程)、工學士(土木工程)、理學士(建築學及測量學)]"
+  },
+  "JS1202": {
+   "title": "理學士(化學) (專修: 綜合化學 / 化妝品化學 / 鑑證化學 / 環球精研與科創)",
+   "title_en": "BSc Chemistry (Streams: Comprehensive Chemistry / Cosmetic Chemistry / Forensic Chemistry / Global Research Enrichment and Technopreneurship (GREAT))"
+  },
+  "JS1204": {
+   "title": "理學士(計算機科學) (專修: 人工智能 / 網絡安全 / 數據科學 / 多媒體計算 / 軟件工程與項目管理)",
+   "title_en": "BSc Computer Science (Streams: Artificial Intelligence / Cybersecurity / Data Science / Multimedia Computing / Software Engineering and Project Management)",
+   "renamed_from": "理學士(電腦科學)"
+  },
+  "JS1205": {
+   "title": "電機工程學 [主修: 工學士(電子計算機及數據工程學) ／工學士(電子及電機工程學) ／ 工學士(資訊工程學) ／ 工學士(微電子工程學)]",
+   "title_en": "Electrical Engineering (Majors: BEng Computer and Data Engineering / BEng Electronic and Electrical Engineering / BEng Information Engineering / BEng Microelectronics Engineering)",
+   "renamed_from": "電機工程學系 [選項: 工學士(電子計算機及數據工程學)、工學士(電子及電機工程學)、工學士(資訊工程學)、工學士(微電子工程學)]"
+  },
+  "JS1206": {
+   "title": "理學士 (計算數學) (專修範疇: 數學精研 / 金融數學 / 環球精研與科創)",
+   "title_en": "BSc Computing Mathematics (Streams: Enriched Mathematics / Financial Mathematics / Global Research Enrichment and Technopreneurship (GREAT))"
+  },
+  "JS1207": {
+   "title": "機械工程學 [主修: 工學士(航空航天工程) / 工學士(機械工程) / 工學士(核子及風險工程)]",
+   "title_en": "Mechanical Engineering (Majors: BEng Aerospace Engineering / BEng Mechanical Engineering / BEng Nuclear and Risk Engineering)",
+   "renamed_from": "機械工程學系 [選項: 工學士(航空航天工程)、工學士(機械工程)、工學士(核子及風險工程)]"
+  },
+  "JS1208": {
+   "title": "理學士 (物理學) (特點：經典物理 / 近代物理 / 實驗與電算物理 / 醫學物理 / 凝聚態物理 / 環球精研與科創)",
+   "title_en": "BSc Physics [Features: Classical Physics/Modern Physics/Experimental and Computational Physics/Medical Physics/Condensed Matter Physics/Global Research Enrichment and Technopreneurship (GREAT)]"
+  },
+  "JS1210": {
+   "title": "工學士(材料科學及工程) (特點: 香港工程師學會認可 / 工業和科研實習 / 海外雙學位課程 / 知識到應用遷移 / 世界領先的研究)",
+   "title_en": "BEng Materials Science and Engineering (Features: HKIE Accredited / Industrial and Research Internships / Overseas Double-degrees / Knowledge Transfer / World-leading Research)"
+  },
+  "JS1211": {
+   "title": "工學士(生物醫學工程) (特點: 醫療技術 / 生物儀器 / 細胞和組織工程 / 醫療機器人)",
+   "title_en": "BEng Biomedical Engineering (Features: Medical Technology / Bioinstrumentation / Cell and Tissue Engineering / Biomedical Robotics)"
+  },
+  "JS1216": {
+   "title": "工學士(智能製造工程學) (特點: 物聯網 / 工業大數據 / 機器人技術與自動化 / 物流與供應鏈 / 智慧城市工程)",
+   "title_en": "BEng Intelligent Manufacturing Engineering (Features: Industrial Internet-of-Things / Industrial Big Data / Robotics and Automation / Logistics and Supply Chain / Smart City Engineering)"
+  },
+  "JS1217": {
+   "title": "研究、創新和環球工程課程 (特點: 自由選擇工學院任何主修 十 海外經驗 / 跨學科 / 工程創業)",
+   "title_en": "Pathway for Research, Innovation, and Multinational Engineering (PRIME) (Free Choice of Major in College of Engineering + Overseas Experience / Interdisciplinary / Engineering Entrepreneurship)",
+   "renamed_from": "工學院(選項: 工學院任何一個主修及工程創業副修)"
+  },
+  "JS1218": {
+   "title": "理學士 (網絡安全) (特點: 系統安全 / 軟件安全 / 密碼學 / 隱私增強技術 / 網絡風險管理)",
+   "title_en": "BSc Cybersecurity (Features: System Security / Software Security / Cryptography / Privacy-Enhancing Technologies / Cyber Risk Management)"
+  },
+  "JS1219": {
+   "title": "工學士(創新與企業工程) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)",
+   "title_en": "BEng Innovation and Enterprise Engineering (Features: Engineering / Technology / Innovation / Enterprise / Entrepreneurship)",
+   "renamed_from": "工學士(創新與企業工程學) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)"
+  },
+  "JS1221": {
+   "title": "理學士（計算機科學）與理學士（計算金融及金融科技）(雙學位；特點：企業會計與經濟 / 計算金融 / 高階統計 / 建模與演算法 / 金融科技軟件工程)",
+   "title_en": "BSc Computer Science and BSc Computational Finance and Financial Technology(Double Degree;Features:Corporate Accounting & Economics/Computational Finance/Advanced Statistics/Financial Technologies)",
+   "renamed_from": "理學士(電腦科學)與理學士(計算金融及金融科技)"
+  },
+  "JS1300": {
+   "title": "綜合生物科學與生物工程課程 (特點: 自主選擇主修學科 / 海外頂尖院校研究機會 / 跨學科)",
+   "title_en": "Integrative Bioscience & Bioengineering Programme (Bio3) (Features: Free Choice of Major / Overseas Research Opportunities / Interdisciplinary)",
+   "renamed_from": "綜合生物科學及生物工程課程 (Bio3)"
+  },
+  "JS1801": {
+   "title": "獸醫學學士 (特點: 健康一體化 / 動物健康與福利 / 公共衞生 / 雙認證獸醫課程)",
+   "title_en": "Bachelor of Veterinary Medicine (Features: One Health / Animal Health & Welfare / Public Health / Dual Accreditation)"
+  },
+  "JS1805": {
+   "title": "生物醫學 [主修: 理學士(生物科學) / 理學士(生物醫學)]",
+   "title_en": "Biomedical Sciences (Majors: BSc Biological Sciences / BSc Biomedical Sciences)",
+   "renamed_from": "生物醫學系 [選項: 理學士(生物科學)、理學士(生物醫學)]"
+  },
+  "JS1806": {
+   "title": "理學士(生物科學) (特點: 生物資訊學/生物化學/遺傳學/細胞與分子生物學/免疫學/參與不同研究項目提供實踐經驗)",
+   "title_en": "BSc Biological Sciences (Features: Bioinformatics/Biochemistry/Genetics/Cellular & Molecular Biology/Immunology/Research Rotation Projects for Hands-on Experience)"
+  },
+  "JS1807": {
+   "title": "理學士(生物醫學) (特點: 臨床化學 / 血液學 / 醫學微生物與感染學 / 解剖病理學 / 免疫學 / 臨床實習 / 密集實驗室經驗)",
+   "title_en": "BSc Biomedical Sciences (Features: Clinical Chemistry / Hematology / Medical Microbiology and Infection / Anatomical Pathology / Immunology / Clinical Placement / Intensive Laboratory Experience)"
+  },
+  "JS2020": {
+   "title": "文學士(榮譽) (中國語言文學 / 創意及專業寫作 / 英國語言文學 / 人文學 / 翻譯學)",
+   "title_en": "Bachelor of Arts (Hons) (Chinese Language and Literature / Creative and Professional Writing / English Language and Literature / Humanities / Translation)"
+  },
+  "JS2025": {
+   "title": "宗教、哲學及倫理文學士(榮譽)",
+   "title_en": "Bachelor of Arts (Hons) in Religion, Philosophy and Ethics"
+  },
+  "JS2030": {
+   "title": "音樂文學士(榮譽)",
+   "title_en": "Bachelor of Arts (Hons) in Music"
+  },
+  "JS2050": {
+   "title": "創意產業音樂學士(榮譽)",
+   "title_en": "Bachelor of Music (Hons) in Creative Industries"
+  },
+  "JS2110": {
+   "title": "工商管理學士(榮譽) - 會計學專修",
+   "title_en": "Bachelor of Business Administration (Hons) - Accounting Concentration"
+  },
+  "JS2120": {
+   "title": "工商管理學士(榮譽)",
+   "title_en": "Bachelor of Business Administration (Hons)"
+  },
+  "JS2310": {
+   "title": "傳理學學士(榮譽) (新聞與數碼媒體 / 公關及廣告)",
+   "title_en": "Bachelor of Communication (Hons) (Journalism and Digital Media / Public Relations and Advertising)"
+  },
+  "JS2330": {
+   "title": "電影電視文學士(榮譽)",
+   "title_en": "Bachelor of Arts (Hons) in Film and Television"
+  },
+  "JS2340": {
+   "title": "環球螢幕演技藝術學士(榮譽)",
+   "title_en": "Bachelor of Fine Arts (Hons) in Acting for Global Screen"
+  },
+  "JS2370": {
+   "title": "傳理學學士(榮譽) - 遊戲設計與動畫主修",
+   "title_en": "Bachelor of Communication (Hons) in Game Design and Animation"
+  },
+  "JS2410": {
+   "title": "中醫學學士及生物醫學理學士(榮譽)",
+   "title_en": "Bachelor of Chinese Medicine and Bachelor of Science (Hons) in Biomedical Science"
+  },
+  "JS2420": {
+   "title": "中藥及藥物科學藥學士(榮譽)",
+   "title_en": "Bachelor of Pharmacy (Hons) in Chinese Medicine and Pharmaceutical Sciences",
+   "renamed_from": "中藥學學士(榮譽)"
+  },
+  "JS2510": {
+   "title": "理學士(榮譽)",
+   "title_en": "Bachelor of Science (Hons)"
+  },
+  "JS2610": {
+   "title": "文學士(榮譽)/ 社會科學學士(榮譽) (應用心理科學/ 歐洲研究 [法文/德文]/ 地理/ 全球及中國研究/ 政治及國際關係學/ 歷史/ 社會學)",
+   "title_en": "BA (Hons) / BSSc (Hons) (Applied Psychological Science/ European Studies [French/German Stream] / Geography/ Global and China Studies/ Government and International Studies/ History/ Sociology)",
+   "renamed_from": "文學士(榮譽) / 社會科學學士(榮譽) (歐洲研究 [法文/德文] / 地理 / 全球及中國研究 / 政治及國際關係學 / 歷史 / 社會學)"
+  },
+  "JS2620": {
+   "title": "體育及康樂管理文學士(榮譽)",
+   "title_en": "Bachelor of Arts (Hons) in Physical Education and Recreation Management"
+  },
+  "JS2660": {
+   "title": "社會工作學士(榮譽)",
+   "title_en": "Bachelor of Social Work (Hons)"
+  },
+  "JS2810": {
+   "title": "視覺藝術文學士(榮譽)",
+   "title_en": "Bachelor of Arts (Hons) in Visual Arts"
+  },
+  "JS2910": {
+   "title": "商業分析及人工智能理學士(榮譽)",
+   "title_en": "Bachelor of Science (Hons) in Business Analytics and Artificial Intelligence",
+   "renamed_from": "商業計算及數據分析理學士(榮譽)"
+  },
+  "JS2920": {
+   "title": "藝術及科技文理學士(榮譽)",
+   "title_en": "Bachelor of Arts and Science (Hons) in Arts and Technology"
+  },
+  "JS2930": {
+   "title": "工商管理文學士(榮譽)(全球娛樂)",
+   "title_en": "Bachelor of Arts (Hons) in Business Administration (Global Entertainment)"
+  },
+  "JS2940": {
+   "title": "創新醫療及社會健康社會科學學士(榮譽) / 理學士(榮譽)",
+   "title_en": "Bachelor of Social Sciences (Hons) / Bachelor of Science (Hons) in Innovation in Health and Social Well-Being"
+  },
+  "JS2950": {
+   "title": "文理及科技學士(榮譽)自訂主修",
+   "title_en": "Bachelor of Arts, Science and Technology (Hons) in Individualised Major"
+  },
+  "JS2960": {
+   "title": "數位未來與人文學科文理學士(榮譽)",
+   "title_en": "Bachelor of Arts and Science (Hons) in Digital Futures and Humanities"
+  },
+  "JS3000": {
+   "title": "跨學科組合學士課程",
+   "title_en": "Bachelor’s Degree Scheme in Interdisciplinary Studies"
+  },
+  "JS3003": {
+   "title": "工商管理組合學士課程",
+   "title_en": "Bachelor’s Degree Scheme in Business Administration"
+  },
+  "JS3004": {
+   "title": "建設及環境組合學士課程",
+   "title_en": "Bachelor’s Degree Scheme in Construction and Environment"
+  },
+  "JS3005": {
+   "title": "工程學科組合學士課程",
+   "title_en": "Bachelor’s Degree Scheme in Engineering"
+  },
+  "JS3006": {
+   "title": "計算機及數學科學組合學士課程",
+   "title_en": "Bachelor’s Degree Scheme in Computer and Mathematical Sciences"
+  },
+  "JS3007": {
+   "title": "人文學科組合學士課程",
+   "title_en": "Bachelor’s Degree Scheme in Humanities"
+  },
+  "JS3008": {
+   "title": "理學組合學士課程",
+   "title_en": "Bachelor’s Degree Scheme in Science"
+  },
+  "JS3030": {
+   "title": "物理學(榮譽)理學士副主修人工智能及數據分析 / 創新及創業",
+   "title_en": "BSc (Hons) in Physics with a Secondary Major in Artificial Intelligence & Data Analytics (AIDA) / Innovation and Entrepreneurship (IE)"
+  },
+  "JS3050": {
+   "title": "時裝(榮譽)文學士組合課程 (時裝設計 / 針織時裝設計 / 內衣及運動服裝 / 時裝商務 / 時裝創新及科技)",
+   "title_en": "BA (Hons) Scheme in Fashion (Fashion Design / Knitwear Design / Contour Fashion and Activewear / Fashion Business / Fashion Innovation and Technology)"
+  },
+  "JS3060": {
+   "title": "會計及金融(榮譽)工商管理學士組合課程 (會計學 / 會計及金融 / 數碼金融及投資學)",
+   "title_en": "BBA (Hons) Scheme in Accounting and Finance (Accountancy / Accounting and Finance / Digital Finance and Investment)"
+  },
+  "JS3070": {
+   "title": "環球商業及物流、航空、航運及供應鏈管理(榮譽)工商管理學士組合課程",
+   "title_en": "BBA (Hons) Scheme in Global Business and Logistics, Aviation, Maritime, and Supply Chain Management"
+  },
+  "JS3080": {
+   "title": "管理及市場學(榮譽)工商管理學士組合課程 (管理學 / 市場學)",
+   "title_en": "BBA (Hons) Scheme in Management and Marketing (Management / Marketing)"
+  },
+  "JS3130": {
+   "title": "空間數據科學及智慧城市(榮譽)理學士組合課程 (土地測量及地理資訊學 / 城市信息學及智慧城市)",
+   "title_en": "BSc (Hons) Scheme in Spatial Data Science and Smart Cities (Land Surveying and Geo-Informatics / Urban Informatics and Smart Cities)"
+  },
+  "JS3140": {
+   "title": "航空工程學(榮譽)工學士組合課程 (航空工程學 / 民航工程學)",
+   "title_en": "BEng (Hons) Scheme in Aviation Engineering (Aeronautical Engineering / Air Transport Engineering)"
+  },
+  "JS3150": {
+   "title": "生物醫學工程(榮譽)理學士",
+   "title_en": "BSc (Hons) in Biomedical Engineering",
+   "renamed_from": "生物醫學工程(榮譽)理學士組合課程"
+  },
+  "JS3160": {
+   "title": "體育科技(榮譽)理學士",
+   "title_en": "BSc (Hons) in Sports Science and Technology"
+  },
+  "JS3170": {
+   "title": "電機工程學(榮譽)工學士組合課程 (電機工程學 / 運輸系統工程學)",
+   "title_en": "BEng (Hons) Scheme in Electrical Engineering (Electrical Engineering / Transportation Systems Engineering)"
+  },
+  "JS3180": {
+   "title": "資訊及人工智能工程學(榮譽)工學士/理學士組合課程 (物聯網 / 人工智能 / 資訊安全)",
+   "title_en": "BEng (Hons)/BSc (Hons) Scheme in Information and Artificial Intelligence Engineering (Internet-of-Things / Artificial Intelligence / Information Security)"
+  },
+  "JS3211": {
+   "title": "建築科學及工程學(榮譽)工學士",
+   "title_en": "BEng (Hons) in Building Sciences and Engineering"
+  },
+  "JS3214": {
+   "title": "建築學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Architectural Studies"
+  },
+  "JS3220": {
+   "title": "應用數學及金融分析(榮譽)理學士組合課程 (應用數學 / 投資科學及金融分析 / 量化金融及金融科技)",
+   "title_en": "BSc (Hons) Scheme in Applied Mathematics and Finance Analytics (Applied Mathematics / Investment Science and Finance Analytics / Quantitative Finance and FinTech)"
+  },
+  "JS3223": {
+   "title": "數據科學及人工智能(榮譽)理學士組合課程 (人工智能 / 人工智能兼金融科技 / 數據科學及分析)",
+   "title_en": "BSc (Hons) Scheme in Data Science and Artificial Intelligence (Artificial Intelligence / Artificial Intelligence with Financial Technology / Data Science and Analytics)"
+  },
+  "JS3236": {
+   "title": "產品創新及智能製造(榮譽)工學士組合課程 (產品創新兼市場學 / 智能製造)",
+   "title_en": "BEng (Hons) Scheme in Product Innovation and Smart Manufacturing (Product Innovation with Marketing / Smart Manufacturing)"
+  },
+  "JS3237": {
+   "title": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析 / 航空營運及系統學)",
+   "title_en": "BSc (Hons) Scheme in Intelligent Supply Chain and Engineering Management (Intelligent Supply Chain / Engineering Management with Data Analytics / Aviation Operations and Systems)",
+   "renamed_from": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析)"
+  },
+  "JS3240": {
+   "title": "英文及應用語言學(榮譽)文學士",
+   "title_en": "BA (Hons) in English and Applied Linguistics"
+  },
+  "JS3242": {
+   "title": "言語治療(榮譽)理學士",
+   "title_en": "BSc (Hons) in Speech Therapy"
+  },
+  "JS3243": {
+   "title": "語言科學及技術(榮譽)理學士",
+   "title_en": "BSc (Hons) in Language Science and Technology"
+  },
+  "JS3250": {
+   "title": "應用社會科學(榮譽)文學士組合課程 (社會工作 / 社會政策及社會創業)",
+   "title_en": "BA (Hons) Scheme in Applied Social Sciences (Social Work / Social Policy and Social Entrepreneurship)"
+  },
+  "JS3255": {
+   "title": "食品科學及營養學(榮譽)理學士組合課程 (食品科技與食物安全 / 人類營養學及健康)",
+   "title_en": "BSc (Hons) Scheme in Food Science and Nutrition (Food Safety and Technology / Human Nutrition and Health)"
+  },
+  "JS3290": {
+   "title": "眼科視光學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Optometry"
+  },
+  "JS3310": {
+   "title": "酒店及旅遊管理(榮譽)理學士組合課程 (酒店管理 / 智慧旅遊及酒店產業 / 會展及體驗管理)",
+   "title_en": "BSc (Hons) Scheme in Hotel and Tourism Management (Hotel Management / Smart Tourism and Hospitality / Event and Experience Management)"
+  },
+  "JS3320": {
+   "title": "中國歷史及文化(榮譽)文學士",
+   "title_en": "BA (Hons) in Chinese History and Culture"
+  },
+  "JS3337": {
+   "title": "精神健康護理學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Mental Health Nursing"
+  },
+  "JS3375": {
+   "title": "環境工程及可持續發展學(榮譽)工學士",
+   "title_en": "BEng (Hons) in Environmental Engineering and Sustainable Development"
+  },
+  "JS3478": {
+   "title": "醫療化驗科學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Medical Laboratory Science"
+  },
+  "JS3569": {
+   "title": "設計學(榮譽)文學士組合課程 (廣告設計/環境設計/沉浸式媒體與遊戲設計/信息設計/交互設計/室内設計/產品設計/服務創新設計/社會創新設計)",
+   "title_en": "BA (Hons) Scheme in Design (Advertising Design/Environmental Design/Immersive Media and Game Design/Information Design/Interaction Design/Interior Design/Product Design/Service Design/Social Design)",
+   "renamed_from": "設計學(榮譽)文學士組合課程 (廣告設計 / 環境設計 / 沉浸式媒體與遊戲設計 / 信息設計 / 交互設計 / 室內設計 / 產品設計 / 服務設計 / 社會設計)"
+  },
+  "JS3612": {
+   "title": "放射學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Radiography"
+  },
+  "JS3624": {
+   "title": "職業治療學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Occupational Therapy"
+  },
+  "JS3636": {
+   "title": "物理治療學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Physiotherapy"
+  },
+  "JS3648": {
+   "title": "護理學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Nursing"
+  },
+  "JS3739": {
+   "title": "土木工程學(榮譽)工學士",
+   "title_en": "BEng (Hons) in Civil Engineering"
+  },
+  "JS3741": {
+   "title": "機械工程學(榮譽)工學士組合課程 (智能機械人工程學 / 機械工程學)",
+   "title_en": "BEng (Hons) Scheme in Mechanical Engineering (Intelligent Robotics Engineering / Mechanical Engineering)"
+  },
+  "JS3789": {
+   "title": "地產及建設測量學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Surveying"
+  },
+  "JS3791": {
+   "title": "建築工程及管理學(榮譽)理學士",
+   "title_en": "BSc (Hons) in Building Engineering and Management"
+  },
+  "JS3868": {
+   "title": "電子計算及人工智能(榮譽)理學士組合課程 (計算機科學 / 企業信息管理)",
+   "title_en": "BSc (Hons) Scheme in Computing and AI (Computer Science / Enterprise Information Systems)"
+  },
+  "JS3923": {
+   "title": "應用生物兼生物科技(榮譽)理學士",
+   "title_en": "BSc (Hons) in Applied Biology with Biotechnology"
+  },
+  "JS3997": {
+   "title": "化學科技(榮譽)理學士",
+   "title_en": "BSc (Hons) in Chemical Technology"
+  },
+  "JS4006": {
+   "title": "人類學",
+   "title_en": "Anthropology"
+  },
+  "JS4018": {
+   "title": "中國語言及文學",
+   "title_en": "Chinese Language and Literature"
+  },
+  "JS4032": {
+   "title": "英文",
+   "title_en": "English"
+  },
+  "JS4044": {
+   "title": "藝術",
+   "title_en": "Fine Arts"
+  },
+  "JS4056": {
+   "title": "歷史",
+   "title_en": "History"
+  },
+  "JS4068": {
+   "title": "日本研究",
+   "title_en": "Japanese Studies"
+  },
+  "JS4070": {
+   "title": "語言學",
+   "title_en": "Linguistics"
+  },
+  "JS4082": {
+   "title": "音樂",
+   "title_en": "Music"
+  },
+  "JS4094": {
+   "title": "哲學",
+   "title_en": "Philosophy"
+  },
+  "JS4100": {
+   "title": "公共人文學",
+   "title_en": "Public Humanities"
+  },
+  "JS4109": {
+   "title": "宗教研究",
+   "title_en": "Religious Studies"
+  },
+  "JS4111": {
+   "title": "神學",
+   "title_en": "Theology"
+  },
+  "JS4123": {
+   "title": "翻譯",
+   "title_en": "Translation"
+  },
+  "JS4136": {
+   "title": "中國研究",
+   "title_en": "China Studies"
+  },
+  "JS4202": {
+   "title": "工商管理學士綜合課程",
+   "title_en": "Integrated Bachelor of Business Administration Programme"
+  },
+  "JS4214": {
+   "title": "環球商業學",
+   "title_en": "Global Business Studies"
+  },
+  "JS4226": {
+   "title": "酒店旅遊及房地產",
+   "title_en": "Hospitality and Real Estate"
+  },
+  "JS4238": {
+   "title": "保險、金融與精算學",
+   "title_en": "Insurance, Financial and Actuarial Analysis"
+  },
+  "JS4240": {
+   "title": "專業會計學",
+   "title_en": "Professional Accountancy"
+  },
+  "JS4252": {
+   "title": "計量金融學",
+   "title_en": "Quantitative Finance"
+  },
+  "JS4254": {
+   "title": "環球經濟與金融跨學科主修課程",
+   "title_en": "Interdisciplinary Major Programme in Global Economics and Finance"
+  },
+  "JS4264": {
+   "title": "工商管理學士（工商管理學士綜合課程）及法律博士雙學位課程",
+   "title_en": "Bachelor of Business Administration (Integrated BBA Programme) and Juris Doctor Double Degree Programme"
+  },
+  "JS4276": {
+   "title": "計量金融學及風險管理科學",
+   "title_en": "Quantitative Finance and Risk Management Science"
+  },
+  "JS4320": {
+   "title": "人體運動科學與健康研究",
+   "title_en": "Human Movement Science and Health Studies"
+  },
+  "JS4329": {
+   "title": "健康與體育運動科學",
+   "title_en": "Physical Education, Exercise Science and Health"
+  },
+  "JS4331": {
+   "title": "文學士 (中國語文研究) 及教育學士 (中國語文教育)",
+   "title_en": "B.A. (Chinese Language Studies) and B.Ed. (Chinese Language Education)"
+  },
+  "JS4343": {
+   "title": "文學士(英國語文研究)及教育學士(英國語文教育)",
+   "title_en": "B.A. (English Studies) and B.Ed. (English Language Education)"
+  },
+  "JS4361": {
+   "title": "教育學士(數學及數學教育)",
+   "title_en": "B.Ed. in Mathematics and Mathematics Education"
+  },
+  "JS4372": {
+   "title": "教育學士(幼兒教育)",
+   "title_en": "B.Ed. in Early Childhood Education"
+  },
+  "JS4386": {
+   "title": "理學士（學習設計與科技）",
+   "title_en": "B.Sc. in Learning Design and Technology"
+  },
+  "JS4408": {
+   "title": "機械與自動化工程學",
+   "title_en": "Mechanical and Automation Engineering"
+  },
+  "JS4412": {
+   "title": "計算機科學與工程",
+   "title_en": "Computer Science and Engineering"
+  },
+  "JS4416": {
+   "title": "計算數據科學",
+   "title_en": "Computational Data Science"
+  },
+  "JS4428": {
+   "title": "金融科技學",
+   "title_en": "Financial Technology"
+  },
+  "JS4434": {
+   "title": "電子工程學",
+   "title_en": "Electronic Engineering"
+  },
+  "JS4446": {
+   "title": "信息工程學",
+   "title_en": "Information Engineering"
+  },
+  "JS4458": {
+   "title": "系統工程與工程管理",
+   "title_en": "Systems Engineering and Engineering Management"
+  },
+  "JS4460": {
+   "title": "生物醫學工程學",
+   "title_en": "Biomedical Engineering"
+  },
+  "JS4462": {
+   "title": "能源與環境工程學",
+   "title_en": "Energy and Environmental Engineering"
+  },
+  "JS4468": {
+   "title": "人工智能：系統與科技",
+   "title_en": "Artificial Intelligence: Systems and Technologies"
+  },
+  "JS4470": {
+   "title": "材料科學與工程學",
+   "title_en": "Materials Science and Engineering"
+  },
+  "JS4472": {
+   "title": "機器人學",
+   "title_en": "Robotics"
+  },
+  "JS4501": {
+   "title": "內外全科醫學士課程",
+   "title_en": "Bachelor of Medicine and Bachelor of Surgery (MBChB)"
+  },
+  "JS4502": {
+   "title": "內外全科醫學士課程環球醫學領袖培訓專修組別",
+   "title_en": "Bachelor of Medicine and Bachelor of Surgery – Global Physician-Leadership Stream (MBChB-GPS)"
+  },
+  "JS4513": {
+   "title": "護理學",
+   "title_en": "Nursing"
+  },
+  "JS4525": {
+   "title": "藥劑學",
+   "title_en": "Pharmacy"
+  },
+  "JS4537": {
+   "title": "公共衞生",
+   "title_en": "Public Health"
+  },
+  "JS4542": {
+   "title": "中醫學",
+   "title_en": "Chinese Medicine"
+  },
+  "JS4550": {
+   "title": "生物醫學",
+   "title_en": "Biomedical Sciences"
+  },
+  "JS4601": {
+   "title": "理學",
+   "title_en": "Science"
+  },
+  "JS4648": {
+   "title": "地球與環境科學",
+   "title_en": "Earth and Environmental Sciences"
+  },
+  "JS4682": {
+   "title": "數學精研",
+   "title_en": "Enrichment Mathematics"
+  },
+  "JS4690": {
+   "title": "理論物理精研",
+   "title_en": "Enrichment Stream in Theoretical Physics"
+  },
+  "JS4719": {
+   "title": "風險管理科學",
+   "title_en": "Risk Management Science"
+  },
+  "JS4725": {
+   "title": "生物科技、創業與醫療管理",
+   "title_en": "Biotechnology, Entrepreneurship and Healthcare Management"
+  },
+  "JS4733": {
+   "title": "數學與信息工程學",
+   "title_en": "Mathematics and Information Engineering"
+  },
+  "JS4750": {
+   "title": "航天科學與地球信息學及Ｘ雙主修課程",
+   "title_en": "Aerospace Science and Earth Informatics & X Double Major Programme"
+  },
+  "JS4760": {
+   "title": "跨學科數據分析及Ｘ雙主修課程",
+   "title_en": "Interdisciplinary Data Analytics & X Double Major Programme"
+  },
+  "JS4801": {
+   "title": "社會科學",
+   "title_en": "Social Science"
+  },
+  "JS4812": {
+   "title": "建築學",
+   "title_en": "Architectural Studies"
+  },
+  "JS4824": {
+   "title": "經濟學",
+   "title_en": "Economics"
+  },
+  "JS4836": {
+   "title": "地理與資源管理學",
+   "title_en": "Geography and Resource Management"
+  },
+  "JS4838": {
+   "title": "城市研究",
+   "title_en": "Urban Studies"
+  },
+  "JS4848": {
+   "title": "政治與行政學",
+   "title_en": "Government and Public Administration"
+  },
+  "JS4850": {
+   "title": "新聞與傳播學",
+   "title_en": "Journalism and Communication"
+  },
+  "JS4858": {
+   "title": "全球傳播",
+   "title_en": "Global Communication"
+  },
+  "JS4862": {
+   "title": "心理學",
+   "title_en": "Psychology"
+  },
+  "JS4874": {
+   "title": "社會工作",
+   "title_en": "Social Work"
+  },
+  "JS4886": {
+   "title": "社會學",
+   "title_en": "Sociology"
+  },
+  "JS4892": {
+   "title": "全球研究",
+   "title_en": "Global Studies"
+  },
+  "JS4893": {
+   "title": "數據科學與政策研究",
+   "title_en": "Data Science and Policy Studies"
+  },
+  "JS4898": {
+   "title": "外交與國際事務",
+   "title_en": "Diplomacy and International Studies"
+  },
+  "JS4903": {
+   "title": "法學士",
+   "title_en": "Bachelor of Laws"
+  },
+  "JS5101": {
+   "title": "國際科研",
+   "title_en": "International Research Enrichment"
+  },
+  "JS5102": {
+   "title": "理學Ａ組",
+   "title_en": "Science (Group A)"
+  },
+  "JS5103": {
+   "title": "理學Ｂ組",
+   "title_en": "Science (Group B)"
+  },
+  "JS5118": {
+   "title": "理學士（生物醫學及健康科學）",
+   "title_en": "BSc in Biomedical and Health Sciences"
+  },
+  "JS5181": {
+   "title": "理學Ａ組– 人工智能延伸主修",
+   "title_en": "Science (Group A) with Extended Major in Artificial Intelligence",
+   "renamed_from": "理學Ａ組– 延伸主修人工智能"
+  },
+  "JS5212": {
+   "title": "工學士（計算機工程學）",
+   "title_en": "BEng in Computer Engineering"
+  },
+  "JS5220": {
+   "title": "化學及生物工程學系",
+   "title_en": "Department of Chemical and Biological Engineering"
+  },
+  "JS5230": {
+   "title": "土木及環境工程學系",
+   "title_en": "Department of Civil and Environmental Engineering"
+  },
+  "JS5240": {
+   "title": "計算機科學及工程學系",
+   "title_en": "Department of Computer Science and Engineering"
+  },
+  "JS5250": {
+   "title": "電子及計算機工程學系",
+   "title_en": "Department of Electronic and Computer Engineering"
+  },
+  "JS5260": {
+   "title": "工業工程及決策分析學系",
+   "title_en": "Department of Industrial Engineering and Decision Analytics"
+  },
+  "JS5270": {
+   "title": "機械及航空航天工程學系",
+   "title_en": "Department of Mechanical and Aerospace Engineering"
+  },
+  "JS5282": {
+   "title": "工程學 – 人工智能延伸主修",
+   "title_en": "Engineering with Extended Major in Artificial Intelligence",
+   "renamed_from": "工程學– 延伸主修人工智能"
+  },
+  "JS5300": {
+   "title": "工商管理",
+   "title_en": "Business and Management"
+  },
+  "JS5311": {
+   "title": "工商管理學士（經濟學）",
+   "title_en": "BBA in Economics"
+  },
+  "JS5312": {
+   "title": "工商管理學士（金融學）",
+   "title_en": "BBA in Finance"
+  },
+  "JS5313": {
+   "title": "工商管理學士（環球商業管理）",
+   "title_en": "BBA in Global Business"
+  },
+  "JS5314": {
+   "title": "工商管理學士（資訊系統學）",
+   "title_en": "BBA in Information Systems"
+  },
+  "JS5315": {
+   "title": "工商管理學士（管理學）",
+   "title_en": "BBA in Management"
+  },
+  "JS5316": {
+   "title": "工商管理學士（市場學）",
+   "title_en": "BBA in Marketing"
+  },
+  "JS5317": {
+   "title": "工商管理學士（營運管理學）",
+   "title_en": "BBA in Operations Management"
+  },
+  "JS5318": {
+   "title": "工商管理學士（專業會計學）",
+   "title_en": "BBA in Professional Accounting"
+  },
+  "JS5331": {
+   "title": "理學士（經濟及金融學）",
+   "title_en": "BSc in Economics and Finance"
+  },
+  "JS5332": {
+   "title": "理學士（量化金融學）",
+   "title_en": "BSc in Quantitative Finance"
+  },
+  "JS5411": {
+   "title": "理學士（環球中國研究）",
+   "title_en": "BSc in Global China Studies"
+  },
+  "JS5412": {
+   "title": "理學士（定量社會數據分析）",
+   "title_en": "BSc in Quantitative Social Analysis"
+  },
+  "JS5711": {
+   "title": "理學士（創新設計與科技）",
+   "title_en": "BSc in Innovation, Design and Technology",
+   "renamed_from": "理學士（綜合系統與設計）"
+  },
+  "JS5712": {
+   "title": "理學士（跨學科自選主修）",
+   "title_en": "BSc in Individualized Interdisciplinary Major"
+  },
+  "JS5811": {
+   "title": "理學士（生物科技及商學）",
+   "title_en": "BSc in Biotechnology and Business"
+  },
+  "JS5812": {
+   "title": "理學士（環境管理及科技）",
+   "title_en": "BSc in Environmental Management and Technology"
+  },
+  "JS5813": {
+   "title": "理學士（數學與經濟學）",
+   "title_en": "BSc in Mathematics and Economics"
+  },
+  "JS5814": {
+   "title": "理學士（風險管理及商業智能學）",
+   "title_en": "BSc in Risk Management and Business Intelligence"
+  },
+  "JS5822": {
+   "title": "理學士（可持續發展及綠色金融）",
+   "title_en": "BSc in Sustainable and Green Finance"
+  },
+  "JS5901": {
+   "title": "科技及管理學雙學位課程",
+   "title_en": "BEng/BSc & BBA Dual Degree Program in Technology & Management"
+  },
+  "JS6004": {
+   "title": "建築學文學士",
+   "title_en": "Bachelor of Arts in Architectural Studies"
+  },
+  "JS6016": {
+   "title": "理學士(測量學)",
+   "title_en": "Bachelor of Science in Surveying"
+  },
+  "JS6028": {
+   "title": "園境學文學士",
+   "title_en": "Bachelor of Arts in Landscape Studies"
+  },
+  "JS6042": {
+   "title": "文學士(城市研究)",
+   "title_en": "Bachelor of Arts in Urban Studies"
+  },
+  "JS6054": {
+   "title": "文學士",
+   "title_en": "Bachelor of Arts"
+  },
+  "JS6066": {
+   "title": "文學士及教育學士(語文教育) - 英文教育",
+   "title_en": "Bachelor of Arts and Bachelor of Education in Language Education - English"
+  },
+  "JS6078": {
+   "title": "文學士及法學士",
+   "title_en": "Bachelor of Arts and Bachelor of Laws"
+  },
+  "JS6080": {
+   "title": "文學士及教育學士(語文教育) - 中文教育",
+   "title_en": "Bachelor of Arts and Bachelor of Education in Language Education - Chinese"
+  },
+  "JS6092": {
+   "title": "教育學士(幼兒教育及特殊教育)",
+   "title_en": "Bachelor of Education in Early Childhood Education and Special Education"
+  },
+  "JS6107": {
+   "title": "牙醫學士",
+   "title_en": "Bachelor of Dental Surgery"
+  },
+  "JS6119": {
+   "title": "教育學士及理學士",
+   "title_en": "Bachelor of Education and Bachelor of Science"
+  },
+  "JS6133": {
+   "title": "文學士精英課程",
+   "title_en": "Bachelor of Arts Elite Programme"
+  },
+  "JS6157": {
+   "title": "理學士(言語及語言病理學)",
+   "title_en": "Bachelor of Science in Speech-Language Pathology"
+  },
+  "JS6200": {
+   "title": "計算與數據科學(港滬科技菁英)",
+   "title_en": "Computing and Data Science (Delta+)"
+  },
+  "JS6224": {
+   "title": "文理學士(應用人工智能)",
+   "title_en": "Bachelor of Arts and Sciences in Applied Artificial Intelligence"
+  },
+  "JS6236": {
+   "title": "文理學士(設計＋)",
+   "title_en": "Bachelor of Arts and Sciences in Design+"
+  },
+  "JS6248": {
+   "title": "文理學士(金融科技)",
+   "title_en": "Bachelor of Arts and Sciences in Financial Technology"
+  },
+  "JS6250": {
+   "title": "文理學士(環球衞生及發展)",
+   "title_en": "Bachelor of Arts and Sciences in Global Health and Development"
+  },
+  "JS6274": {
+   "title": "文學士(全球創意產業)",
+   "title_en": "Bachelor of Arts in Global Creative Industries"
+  },
+  "JS6286": {
+   "title": "文學士(人文及數碼科技)",
+   "title_en": "Bachelor of Arts in Humanities and Digital Technologies"
+  },
+  "JS6298": {
+   "title": "文學士及工學學士(人工智能及數據科學)",
+   "title_en": "Bachelor of Arts and Bachelor of Engineering in Artificial Intelligence and Data Science"
+  },
+  "JS6303": {
+   "title": "工學學士精英課程",
+   "title_en": "Bachelor of Engineering Elite Programme"
+  },
+  "JS6315": {
+   "title": "工學學士(數據與系統工程)",
+   "title_en": "Bachelor of Engineering in Data and Systems Engineering"
+  },
+  "JS6339": {
+   "title": "工學學士(機械工程)",
+   "title_en": "Bachelor of Engineering in Mechanical Engineering"
+  },
+  "JS6353": {
+   "title": "工學學士(土木工程)",
+   "title_en": "Bachelor of Engineering in Civil Engineering"
+  },
+  "JS6365": {
+   "title": "工學學士(機器人工程學)",
+   "title_en": "Bachelor of Engineering in Robotics Engineering"
+  },
+  "JS6377": {
+   "title": "工學學士與人工智能理學碩士聯合課程",
+   "title_en": "Bachelor of Engineering and Master of Science in Engineering in Artificial Intelligence in Engineering"
+  },
+  "JS6406": {
+   "title": "法學士",
+   "title_en": "Bachelor of Laws"
+  },
+  "JS6418": {
+   "title": "護理學學士菁英領袖培育專修組別",
+   "title_en": "Bachelor of Nursing Advanced Leadership Track"
+  },
+  "JS6456": {
+   "title": "內外全科醫學士",
+   "title_en": "Bachelor of Medicine and Bachelor of Surgery"
+  },
+  "JS6468": {
+   "title": "護理學學士",
+   "title_en": "Bachelor of Nursing"
+  },
+  "JS6482": {
+   "title": "中醫全科學士",
+   "title_en": "Bachelor of Chinese Medicine"
+  },
+  "JS6494": {
+   "title": "藥劑學學士",
+   "title_en": "Bachelor of Pharmacy"
+  },
+  "JS6602": {
+   "title": "理學士(創新與科技)",
+   "title_en": "Bachelor of Science in Innovation and Technology"
+  },
+  "JS6626": {
+   "title": "內外全科醫學士 - 傑出醫科學人",
+   "title_en": "Bachelor of Medicine and Bachelor of Surgery (Distinguished MedScholar)"
+  },
+  "JS6688": {
+   "title": "科研專才啟導課程",
+   "title_en": "Science Master Class"
+  },
+  "JS6705": {
+   "title": "心理學學士",
+   "title_en": "Bachelor of Psychology"
+  },
+  "JS6717": {
+   "title": "社會科學學士",
+   "title_en": "Bachelor of Social Sciences"
+  },
+  "JS6729": {
+   "title": "理學士(精算學)",
+   "title_en": "Bachelor of Science in Actuarial Science"
+  },
+  "JS6731": {
+   "title": "社會工作學學士",
+   "title_en": "Bachelor of Social Work"
+  },
+  "JS6743": {
+   "title": "社會科學學士精英課程",
+   "title_en": "Bachelor of Social Sciences Elite Programme"
+  },
+  "JS6755": {
+   "title": "工商管理學學士",
+   "title_en": "Bachelor of Business Administration"
+  },
+  "JS6767": {
+   "title": "經濟學學士 / 經濟金融學學士",
+   "title_en": "Bachelor of Economics / Bachelor of Economics and Finance"
+  },
+  "JS6779": {
+   "title": "統計決策科學",
+   "title_en": "Statistical Decision Sciences"
+  },
+  "JS6781": {
+   "title": "工商管理學學士(會計及財務) / 工商管理學學士(會計數據分析)",
+   "title_en": "Bachelor of Business Administration in Accounting and Finance / Bachelor of Business Administration in Accounting Data Analytics"
+  },
+  "JS6793": {
+   "title": "工商管理學學士(商業分析)",
+   "title_en": "Bachelor of Business Administration (Business Analytics)"
+  },
+  "JS6808": {
+   "title": "工商管理學學士(法學)及法學士",
+   "title_en": "Bachelor of Business Administration (Law) and Bachelor of Laws"
+  },
+  "JS6810": {
+   "title": "社會科學學士(政治學與法學)及法學士",
+   "title_en": "Bachelor of Social Sciences (Government and Laws) and Bachelor of Laws"
+  },
+  "JS6822": {
+   "title": "新聞媒體及人工智能學士",
+   "title_en": "Bachelor of Journalism, Media and Artificial Intelligence",
+   "renamed_from": "新聞學學士"
+  },
+  "JS6846": {
+   "title": "理學士(營銷分析及科技)",
+   "title_en": "Bachelor of Science in Marketing Analytics and Technology"
+  },
+  "JS6858": {
+   "title": "理學士及法學士",
+   "title_en": "Bachelor of Science and Bachelor of Laws"
+  },
+  "JS6860": {
+   "title": "金融學學士(資產管理及私人銀行)",
+   "title_en": "Bachelor of Finance in Asset Management and Private Banking"
+  },
+  "JS6884": {
+   "title": "理學士(計量金融)",
+   "title_en": "Bachelor of Science in Quantitative Finance"
+  },
+  "JS6896": {
+   "title": "工商管理學學士(國際商業及環球管理)",
+   "title_en": "Bachelor of Business Administration in International Business and Global Management"
+  },
+  "JS6901": {
+   "title": "理學士",
+   "title_en": "Bachelor of Science"
+  },
+  "JS6925": {
+   "title": "工學學士(生物醫學工程)",
+   "title_en": "Bachelor of Engineering in Biomedical Engineering"
+  },
+  "JS6937": {
+   "title": "環球工程與商業課程",
+   "title_en": "Global Engineering and Business Programme"
+  },
+  "JS6949": {
+   "title": "生物醫學學士",
+   "title_en": "Bachelor of Biomedical Sciences"
+  },
+  "JS6987": {
+   "title": "工學學士(計算機工程/電機工程/電子工程)",
+   "title_en": "Bachelor of Engineering in Computer Engineering / Electrical Engineering / Electronic Engineering"
+  },
+  "JS6999": {
+   "title": "計算與數據科學",
+   "title_en": "Computing and Data Science"
+  },
+  "JS7101": {
+   "title": "中文(榮譽)文學士(課程特色: 中國語言與文學/創意寫作/數字人文)",
+   "title_en": "Bachelor of Arts (Honours) in Chinese (Features: Chinese Language & Literature/Creative Writing/Digital Literature)"
+  },
+  "JS7123": {
+   "title": "環球可持續發展(榮譽)博雅學士(專修: 政策和機構/文化及社區/商業及經濟/人類與環境的互動)",
+   "title_en": "Bachelor of Liberal Arts (Hons) in Global Development and Sustainability (Concentrations: Policy & Institutions/Culture & Community/Business & Economy/Human-Environment Interactions)"
+  },
+  "JS7133": {
+   "title": "動畫及數碼藝術(榮譽)文學士(專修: 數碼動畫/藝術與科技)",
+   "title_en": "Bachelor of Arts (Honours) in Animation and Digital Arts (Concentrations: Digital Animation/Arts & Technology)"
+  },
+  "JS7204": {
+   "title": "跨語傳意及語言科技（榮譽）文學士 (專修: 翻譯及跨文化傳意 / 人工智能與企業傳訊)",
+   "title_en": "BA (Hons) in Interlingual Communication and Language Technology (Concentrations: Translation and Cross-cultural Communication / AI and Corporate Communication)",
+   "renamed_from": "翻譯(榮譽)文學士"
+  },
+  "JS7211": {
+   "title": "工商管理(榮譽)學士-會計與企業管治 (專修: 專業會計/企業管治)(課程特色:學生精進計劃/業內實習)",
+   "title_en": "Bachelor of Business Administration (Honours)-Accounting and Corporate Governance (Concentrations: Professional Accounting/Corporate Governance)(Features: Enhancement Programme/Industry Internship)"
+  },
+  "JS7212": {
+   "title": "工商管理(榮譽)學士-商業分析與創新 (課程特色: 電子商務/信息系統/運營管理/數據科學/人工智能)",
+   "title_en": "Bachelor of Business Administration (Honours)-Business Analytics & Innovation (Features: e-Business/Information Systems/Operations Management/Data Science/Artificial Intelligence)"
+  },
+  "JS7213": {
+   "title": "工商管理(榮譽)學士-金融(課程特色: 特許金融分析師協會學生獎學金/多元選修科目: 投資學、公司財務、金融科技)",
+   "title_en": "Bachelor of Business Administration (Honours)-Finance(Features:CFA Student Scholarship/Diverse Electives: Investment,Corporate Finance,FinTech)"
+  },
+  "JS7214": {
+   "title": "工商管理(榮譽)學士-管理與分析 (專修:環球商業管理與分析/人力資源管理與分析)(課程特色:專業會員資格/實習與導師計劃)",
+   "title_en": "Bachelor of Business Administration (Honours)-Management and Analytics (Concentration:Global Business Management & Analytics/Human Resource Management & Analytics)(Feature:Professional Membership)",
+   "renamed_from": "工商管理(榮譽)學士 – 人力資源管理與分析"
+  },
+  "JS7215": {
+   "title": "工商管理(榮譽)學士-市場學及社交媒體 (課程特色: 綜合行銷/社交媒體與數字行銷/消費者行為與市場調研)",
+   "title_en": "Bachelor of Business Administration (Honours)-Marketing and Social Media(Features: Integrated Marketing/Social Media & Digital Marketing/Consumer Behaviour & Marketing Research)",
+   "renamed_from": "工商管理(榮譽)學士 – 市場學與社交媒體"
+  },
+  "JS7216": {
+   "title": "工商管理(榮譽)學士-風險及保險管理(可選專修: 保險科技)(課程特色: 專業國際資格認證/專屬師友計劃)",
+   "title_en": "Bachelor of Business Administration (Honours) in Risk and Insurance Management (Optional Concentration: Insurance Technology)(Features: Globally Recognised Qualifications/Exclusive Mentorship)"
+  },
+  "JS7225": {
+   "title": "數據科學(榮譽)理學士 (課程特色：大數據分析/深度學習/生成式人工智能)",
+   "title_en": "Bachelor of Science (Honours) in Data Science (Features: Big Data Analytics/Deep Learning/Generative AI)"
+  },
+  "JS7301": {
+   "title": "社會科學(榮譽)學士-經濟學 (可選專修: 環球經濟與銀行)",
+   "title_en": "Bachelor of Social Sciences (Honours)-Economics (Optional Concentration: Global Economics & Banking)"
+  },
+  "JS7302": {
+   "title": "社會科學(榮譽)學士 - 政府與國際事務學",
+   "title_en": "Bachelor of Social Sciences (Honours) - Government and International Affairs"
+  },
+  "JS7303": {
+   "title": "社會科學(榮譽)學士-心理學 (可選專修: 輔導心理學/工業與組織心理學)",
+   "title_en": "Bachelor of Social Sciences (Honours)-Psychology (Optional Concentrations: Counselling Psychology/Industrial & Organisational Psychology)"
+  },
+  "JS7304": {
+   "title": "社會科學(榮譽)學士-社會學 (可選專修: 社會創新與社會研究)",
+   "title_en": "Bachelor of Social Sciences (Honours)-Sociology (Optional Concentration: Social Innovation & Social Studies)"
+  },
+  "JS7305": {
+   "title": "社會科學(榮譽)學士 - 健康及社會服務管理",
+   "title_en": "Bachelor of Social Sciences (Honours) - Health and Social Services Management"
+  },
+  "JS7306": {
+   "title": "社會科學(榮譽)學士-社會與公共政策研究 (可選專修: 智慧城市與數碼社會)",
+   "title_en": "Bachelor of Social Sciences (Honours)-Social and Public Policy Studies (Optional Concentration: Smart Cities & Digital Society)"
+  },
+  "JS7307": {
+   "title": "社會科學(榮譽)學士-社會數據科學 (專修: 經濟學/政府與國際事務學 /心理學/社會學)",
+   "title_en": "Bachelor of Social Sciences (Honours)-Social Data Science (Concentrations: Economics/Government and International Affairs/Psychology/Sociology)"
+  },
+  "JS7503": {
+   "title": "英語語言文學課程(榮譽)文學士 (可選專修: 文學/語言學)",
+   "title_en": "Bachelor of Arts (Honours) in English Studies (Optional Concentrations: Literature/Linguistics)"
+  },
+  "JS7606": {
+   "title": "文化研究(榮譽)文學士 (可選專修: 數碼文化與媒體實踐/文化共享、社會創新與創造力)",
+   "title_en": "Bachelor of Arts (Honours) in Cultural Studies (Optional Concentrations: Digital Culture & Media Practices/Cultural Commons, Social Innovation & Creativity)"
+  },
+  "JS7709": {
+   "title": "歷史(榮譽)文學士 (可選專修: 亞洲史/全球史)",
+   "title_en": "Bachelor of Arts (Honours) in History (Optional Concentrations: Asian History/Global History)"
+  },
+  "JS7802": {
+   "title": "哲學(榮譽)文學士 (課程特色:價值論/人工智能哲學/思考方法)",
+   "title_en": "Bachelor of Arts (Honours) in Philosophy (Features: Ethics/Philosophy of AI/Logic)"
+  },
+  "JS7905": {
+   "title": "電影與視覺藝術(榮譽)文學士(課程特色: 電影研究/環球媒體/藝術史/博物館學)",
+   "title_en": "Bachelor of Arts (Honours) in Film and Visual Arts (Features: Film Studies/Global Media/Art History/Museum Studies)"
+  },
+  "JS8001": {
+   "title": "創意藝術與數碼藝術榮譽文學士及音樂教育榮譽學士",
+   "title_en": "Bachelor of Arts (Honours) in Creative and Digital Arts and Bachelor of Education (Honours) (Music)"
+  },
+  "JS8002": {
+   "title": "創意藝術與數碼藝術榮譽文學士及視覺藝術教育榮譽學士",
+   "title_en": "Bachelor of Arts (Honours) in Creative and Digital Arts and Bachelor of Education (Honours) (Visual Arts)"
+  },
+  "JS8003": {
+   "title": "數碼中國文化與傳意榮譽文學士及中文教育榮譽學士",
+   "title_en": "Bachelor of Arts (Honours) in Digital Chinese Culture and Communication and Bachelor of Education (Honours) (Chinese Language)"
+  },
+  "JS8004": {
+   "title": "英語研究及數碼傳訊榮譽文學士及英文教育榮譽學士",
+   "title_en": "Bachelor of Arts (Honours) in English Studies and Digital Communication and Bachelor of Education (Honours) (English Language)"
+  },
+  "JS8005": {
+   "title": "文化傳承教育與藝術管理榮譽文學士及中國歷史教育榮譽學士",
+   "title_en": "Bachelor of Arts (Honours) in Heritage Education and Arts Management and Bachelor of Education (Honours) (Chinese History)"
+  },
+  "JS8006": {
+   "title": "心理學榮譽社會科學學士及幼兒教育榮譽學士",
+   "title_en": "Bachelor of Social Sciences (Honours) in Psychology and Bachelor of Education (Honours) (Early Childhood Education)"
+  },
+  "JS8007": {
+   "title": "個人理財榮譽文學士及企業、會計與財務概論教育榮譽學士",
+   "title_en": "Bachelor of Arts (Honours) in Personal Finance and Bachelor of Education (Honours) (Business, Accounting and Financial Studies)"
+  },
+  "JS8008": {
+   "title": "人工智能與教育科技榮譽理學士及資訊及通訊科技及小學科學教育榮譽學士",
+   "title_en": "Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology and Bachelor of Education (Honours) (Information and Communication Technology and Primary Science)"
+  },
+  "JS8009": {
+   "title": "人工智能與教育科技榮譽理學士及小學數學教育榮譽學士",
+   "title_en": "Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology and Bachelor of Education (Honours) (Primary Mathematics)"
+  },
+  "JS8010": {
+   "title": "運動科學及教練榮譽理學士及體育教育榮譽學士",
+   "title_en": "Bachelor of Science (Honours) in Sports Science and Coaching and Bachelor of Education (Honours) (Physical Education)"
+  },
+  "JS8011": {
+   "title": "綜合環境管理榮譽理學士及科學教育榮譽學士",
+   "title_en": "Bachelor of Science (Honours) in Integrated Environmental Management and Bachelor of Education (Honours) (Science)"
+  },
+  "JS8012": {
+   "title": "社會學與社區研究榮譽社會科學學士及地理教育榮譽學士",
+   "title_en": "Bachelor of Social Sciences (Honours) in Sociology and Community Studies and Bachelor of Education (Honours) (Geography)"
+  },
+  "JS8013": {
+   "title": "社會學與社區研究榮譽社會科學學士及小學人文科教育榮譽學士",
+   "title_en": "Bachelor of Social Sciences (Honours) in Sociology and Community Studies and Bachelor of Education (Honours) (Primary Humanities)"
+  },
+  "JS8507": {
+   "title": "幼兒教育高級文憑",
+   "title_en": "Higher Diploma in Early Childhood Education"
+  },
+  "JS8651": {
+   "title": "心理學榮譽社會科學學士",
+   "title_en": "Bachelor of Social Sciences (Honours) in Psychology"
+  },
+  "JS8663": {
+   "title": "特殊教育榮譽文學士",
+   "title_en": "Bachelor of Arts (Honours) in Special Education"
+  },
+  "JS8674": {
+   "title": "數碼中國文化與傳意榮譽文學士",
+   "title_en": "Bachelor of Arts (Honours) in Digital Chinese Culture and Communication"
+  },
+  "JS8675": {
+   "title": "英語研究及數碼傳訊榮譽文學士",
+   "title_en": "Bachelor of Arts (Honours) in English Studies and Digital Communication"
+  },
+  "JS8685": {
+   "title": "創意藝術與數碼藝術榮譽文學士 (音樂)",
+   "title_en": "Bachelor of Arts (Honours) in Creative and Digital Arts (Music)"
+  },
+  "JS8686": {
+   "title": "創意藝術與數碼藝術榮譽文學士 (視覺藝術)",
+   "title_en": "Bachelor of Arts (Honours) in Creative and Digital Arts (Visual Arts)"
+  },
+  "JS8687": {
+   "title": "文化傳承教育與藝術管理榮譽文學士",
+   "title_en": "Bachelor of Arts (Honours) in Heritage Education and Arts Management"
+  },
+  "JS8688": {
+   "title": "個人理財榮譽文學士",
+   "title_en": "Bachelor of Arts (Honours) in Personal Finance"
+  },
+  "JS8702": {
+   "title": "綜合環境管理榮譽理學士",
+   "title_en": "Bachelor of Science (Honours) in Integrated Environmental Management"
+  },
+  "JS8714": {
+   "title": "人工智能與教育科技榮譽理學士",
+   "title_en": "Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology"
+  },
+  "JS8726": {
+   "title": "運動科學及教練榮譽理學士",
+   "title_en": "Bachelor of Science (Honours) in Sports Science and Coaching"
+  },
+  "JS8727": {
+   "title": "言語病理學及復康榮譽理學士",
+   "title_en": "Bachelor of Science (Honours) in Speech Pathology and Rehabilitation"
+  },
+  "JS9009": {
+   "title": "社會科學榮譽學士",
+   "title_en": "Bachelor of Social Sciences with Honours"
+  },
+  "JS9010": {
+   "title": "心理學榮譽社會科學學士",
+   "title_en": "Bachelor of Social Sciences with Honours in Psychology"
+  },
+  "JS9011": {
+   "title": "中文榮譽文學士",
+   "title_en": "Bachelor of Arts with Honours in Chinese"
+  },
+  "JS9013": {
+   "title": "語言研究與翻譯榮譽文學士",
+   "title_en": "Bachelor of Arts with Honours in Language Studies and Translation"
+  },
+  "JS9016": {
+   "title": "創意廣告及媒體設計榮譽文學士",
+   "title_en": "Bachelor of Arts with Honours in Creative Advertising and Media Design"
+  },
+  "JS9019": {
+   "title": "英語及文化榮譽文學士",
+   "title_en": "Bachelor of Arts with Honours in English Language and Culture"
+  },
+  "JS9210": {
+   "title": "全球商業榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in World Business"
+  },
+  "JS9220": {
+   "title": "專業會計榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Professional Accounting"
+  },
+  "JS9230": {
+   "title": "商業管理學榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Business Management"
+  },
+  "JS9240": {
+   "title": "環球商業榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Global Business",
+   "renamed_from": "環球商業及市場學榮譽工商管理學士"
+  },
+  "JS9262": {
+   "title": "人力資源管理學榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Human Resource Management"
+  },
+  "JS9266": {
+   "title": "市場學榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Marketing"
+  },
+  "JS9276": {
+   "title": "房地產及測量學榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Real Estate and Surveying"
+  },
+  "JS9280": {
+   "title": "應用心理學榮譽學士，商業管理榮譽學士",
+   "title_en": "Bachelor of Applied Psychology with Honours, Bachelor of Business Management with Honours"
+  },
+  "JS9291": {
+   "title": "持續旅遊及款待管理榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Sustainable Tourism and Hospitality Management",
+   "renamed_from": "酒店及可持續旅遊管理榮譽工商管理學士"
+  },
+  "JS9294": {
+   "title": "運動及電競運動管理榮譽工商管理學士",
+   "title_en": "Bachelor of Business Administration with Honours in Sports and eSports Management"
+  },
+  "JS9520": {
+   "title": "教育榮譽學士（普通話及中文教育）及語言研究榮譽學士（漢語語言學研究）",
+   "title_en": "Bachelor of Education with Honours (Putonghua and Chinese Language Education) and Bachelor of Language Studies with Honours (Chinese Linguistic Studies)"
+  },
+  "JS9530": {
+   "title": "英語教學榮譽教育學士及英語研究榮譽學士",
+   "title_en": "Bachelor of Education with Honours in English Language Teaching and Bachelor of English Language Studies with Honours"
+  },
+  "JS9540": {
+   "title": "英語研究榮譽學士",
+   "title_en": "Bachelor of English Language Studies with Honours"
+  },
+  "JS9550": {
+   "title": "語言研究榮譽學士（應用中國語言）",
+   "title_en": "Bachelor of Language Studies with Honours (Applied Chinese Language Studies)"
+  },
+  "JS9560": {
+   "title": "教育榮譽學士（中國語文教學）及語言研究榮譽學士（應用中國語言）",
+   "title_en": "Bachelor of Education with Honours (Chinese Language Teaching) and Bachelor of Language Studies with Honours (Applied Chinese Language Studies)"
+  },
+  "JS9580": {
+   "title": "教育榮譽學士（幼兒教育：領導及特殊教育需要）",
+   "title_en": "Bachelor of Education with Honours in Early Childhood Education (Leadership and Special Educational Needs)"
+  },
+  "JS9719": {
+   "title": "網路及電腦安全榮譽理學士",
+   "title_en": "Bachelor of Science with Honours in Cyber and Computer Security"
+  },
+  "JS9720": {
+   "title": "電子及電腦工程學榮譽工學士",
+   "title_en": "Bachelor of Engineering with Honours in Electronic and Computer Engineering"
+  },
+  "JS9731": {
+   "title": "環境科學與綠色管理榮譽理學士",
+   "title_en": "Bachelor of Science with Honours in Environmental Science and Green Management"
+  },
+  "JS9732": {
+   "title": "生物醫學與生物科技榮譽理學士",
+   "title_en": "Bachelor of Science with Honours in Biomedical Sciences and Biotechnology",
+   "renamed_from": "生命科學榮譽理學士"
+  },
+  "JS9733": {
+   "title": "科學（ＳＴＥＡＭ）榮譽理學士",
+   "title_en": "Bachelor of Science with Honours in Science (STEAM)",
+   "renamed_from": "科學（ＳＴＥＭ）榮譽理學士"
+  },
+  "JS9776": {
+   "title": "建造工程與管理榮譽理學士",
+   "title_en": "Bachelor of Science with Honours in Building Engineering and Management"
+  },
+  "JSSA01": {
+   "title": "護理學（榮譽）學士",
+   "title_en": "Offered by SFU: Bachelor of Nursing (Honours)"
+  },
+  "JSSA02": {
+   "title": "人工智能及數碼娛樂（榮譽）理學士",
+   "title_en": "Offered by SFU: Bachelor of Science (Honours) in Artificial Intelligence and Digital Entertainment",
+   "renamed_from": "數碼娛樂科技（榮譽）理學士"
+  },
+  "JSSA03": {
+   "title": "物理治療學（榮譽）理學士",
+   "title_en": "Offered by SFU: Bachelor of Science (Honours) in Physiotherapy"
+  },
+  "JSSA04": {
+   "title": "人工智能（榮譽）理學士",
+   "title_en": "Offered by SFU: Bachelor of Science (Honours) in Artificial Intelligence"
+  },
+  "JSSA05": {
+   "title": "翻譯科技（榮譽）文學士",
+   "title_en": "Offered by SFU: Bachelor of Arts (Honours) in Translation Technology"
+  },
+  "JSSA06": {
+   "title": "工商管理（榮譽）酒店及旅遊管理應用學士",
+   "title_en": "Offered by SFU: Bachelor of Business Administration (Honours) in Applied Hotel and Tourism Management"
+  },
+  "JSSC02": {
+   "title": "建築學（榮譽）理學士",
+   "title_en": "Offered by HKCHC: Bachelor of Science (Honours) in Architecture"
+  },
+  "JSSH01": {
+   "title": "供應鏈管理工商管理（榮譽）學士",
+   "title_en": "Offered by HSUHK: Bachelor of Business Administration (Honours) in Supply Chain Management"
+  },
+  "JSSH02": {
+   "title": "精算及保險 （榮譽）理學士",
+   "title_en": "Offered by HSUHK: Bachelor of Science (Honours) in Actuarial Studies and Insurance"
+  },
+  "JSSH03": {
+   "title": "計算機應用（榮譽）理學士",
+   "title_en": "Offered by HSUHK: Bachelor of Science (Honours) in Applied Computing"
+  },
+  "JSSH04": {
+   "title": "數據科學及商業智能學（榮譽）理學士",
+   "title_en": "Offered by HSUHK: Bachelor of Science (Honours) in Data Science and Business Intelligence"
+  },
+  "JSSH05": {
+   "title": "商業分析與資訊管理（榮譽）理學士",
+   "title_en": "Offered by HSUHK: Bachelor of Science (Honours) in Business Analytics and Information Management",
+   "renamed_from": "管理科學與資訊管理（榮譽）學士"
+  },
+  "JSSH06": {
+   "title": "藝術設計（榮譽）文學士",
+   "title_en": "Offered by HSUHK: Bachelor of Arts (Honours) in Art and Design"
+  },
+  "JSST01": {
+   "title": "護理學（榮譽）健康科學學士",
+   "title_en": "Offered by TWC: Bachelor of Health Science (Honours) in Nursing"
+  },
+  "JSST02": {
+   "title": "醫療化驗科學（榮譽）理學士",
+   "title_en": "Offered by TWC: Bachelor of Science (Honours) in Medical Laboratory Science"
+  },
+  "JSST03": {
+   "title": "放射治療學（榮譽）理學士",
+   "title_en": "Offered by TWC: Bachelor of Science (Honours) in Radiation Therapy"
+  },
+  "JSST04": {
+   "title": "職業治療學（榮譽）理學士",
+   "title_en": "Offered by TWC: Bachelor of Science (Honours) in Occupational Therapy"
+  },
+  "JSST05": {
+   "title": "物理治療學（榮譽）理學士",
+   "title_en": "Offered by TWC: Bachelor of Science (Honours) in Physiotherapy"
+  },
+  "JSST06": {
+   "title": "應用老年學（榮譽）理學士",
+   "title_en": "Offered by TWC: Bachelor of Science (Honours) in Applied Gerontology"
+  },
+  "JSST07": {
+   "title": "醫療資訊及服務管理（榮譽）學士",
+   "title_en": "Offered by TWC: Bachelor of Health Information and Services Management (Honours)"
+  },
+  "JSST08": {
+   "title": "醫療影像學（榮譽）理學士",
+   "title_en": "Offered by TWC: Bachelor of Science (Honours) in Medical Imaging"
+  },
+  "JSSU12": {
+   "title": "創意寫作與電影藝術榮譽文學士",
+   "title_en": "Offered by HKMU: Bachelor of Arts with Honours in Creative Writing and Film Arts"
+  },
+  "JSSU14": {
+   "title": "動畫及視覺特效榮譽藝術學士",
+   "title_en": "Offered by HKMU: Bachelor of Fine Arts with Honours in Animation and Visual Effects"
+  },
+  "JSSU15": {
+   "title": "影像設計及數碼藝術榮譽藝術學士",
+   "title_en": "Offered by HKMU: Bachelor of Fine Arts with Honours in Imaging Design and Digital Art"
+  },
+  "JSSU18": {
+   "title": "新音樂及互動娛樂榮譽文學士",
+   "title_en": "Offered by HKMU: Bachelor of Arts with Honours in New Music and Interactive Entertainment"
+  },
+  "JSSU40": {
+   "title": "護理學榮譽學士（普通科）",
+   "title_en": "Offered by HKMU: Bachelor of Nursing with Honours in General Health Care"
+  },
+  "JSSU50": {
+   "title": "護理學榮譽學士（精神科）",
+   "title_en": "Offered by HKMU: Bachelor of Nursing with Honours in Mental Health Care"
+  },
+  "JSSU55": {
+   "title": "物理治療學榮譽理學士",
+   "title_en": "Offered by HKMU: Bachelor of Science with Honours in Physiotherapy"
+  },
+  "JSSU61": {
+   "title": "綜合檢測和認證榮譽應用理學士",
+   "title_en": "Offered by HKMU: Bachelor of Applied Science with Honours in Integrated Testing, Inspection and Certification"
+  },
+  "JSSU66": {
+   "title": "放射診斷學榮譽理學士",
+   "title_en": "Offered by HKMU: Bachelor of Science with Honours in Diagnostic Radiography"
+  },
+  "JSSU67": {
+   "title": "醫療化驗科學榮譽理學士",
+   "title_en": "Offered by HKMU: Bachelor of Science with Honours in Medical Laboratory Science"
+  },
+  "JSSU69": {
+   "title": "食品測試科學榮譽理學士",
+   "title_en": "Offered by HKMU: Bachelor of Science with Honours in Food Testing Science"
+  },
+  "JSSU70": {
+   "title": "數據科學及人工智能榮譽理學士",
+   "title_en": "Offered by HKMU: Bachelor of Science with Honours in Data Science and Artificial Intelligence"
+  },
+  "JSSU72": {
+   "title": "電腦科學榮譽理學士",
+   "title_en": "Offered by HKMU: Bachelor of Science with Honours in Computer Science"
+  },
+  "JSSU75": {
+   "title": "機器人和自動化工程榮譽應用理學士",
+   "title_en": "Offered by HKMU: Bachelor of Applied Science with Honours in Robotics and Automation Engineering"
+  },
+  "JSSU77": {
+   "title": "建築管理及工料測量學榮譽理學士",
+   "title_en": "Offered by HKMU: Bachelor of Science with Honours in Construction Management and Quantity Surveying"
+  },
+  "JSSU78": {
+   "title": "屋宇設備工程及可持續發展榮譽工學士",
+   "title_en": "Offered by HKMU: Bachelor of Engineering with Honours in Building Services Engineering and Sustainable Development"
+  },
+  "JSSU79": {
+   "title": "土木工程榮譽工學士",
+   "title_en": "Offered by HKMU: Bachelor of Engineering with Honours in Civil Engineering"
+  },
+  "JSSU90": {
+   "title": "國際款待及景區管理榮譽工商管理學士",
+   "title_en": "Offered by HKMU: Bachelor of Business Administration with Honours in International Hospitality and Attractions Management"
+  },
+  "JSSU93": {
+   "title": "航空服務管理榮譽工商管理學士",
+   "title_en": "Offered by HKMU: Bachelor of Business Administration with Honours in Aviation Services Management"
+  },
+  "JSSU95": {
+   "title": "運動及康樂管理榮譽工商管理學士",
+   "title_en": "Offered by HKMU: Bachelor of Business Administration with Honours in Sports and Recreation Management"
+  },
+  "JSSU96": {
+   "title": "財務及金融科技榮譽工商管理學士",
+   "title_en": "Offered by HKMU: Bachelor of Business Administration with Honours in Finance and Financial Technology"
+  },
+  "JSSU97": {
+   "title": "環球市場及供應鏈管理榮譽工商管理學士",
+   "title_en": "Offered by HKMU: Bachelor of Business Administration with Honours in Global Marketing and Supply Chain Management"
+  },
+  "JSSV01": {
+   "title": "時裝設計（榮譽）文學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Arts (Honours) in Fashion Design"
+  },
+  "JSSV02": {
+   "title": "產品設計（榮譽）文學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Arts (Honours) in Product Design"
+  },
+  "JSSV03": {
+   "title": "園境建築（榮譽）文學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Arts (Honours) in Landscape Architecture"
+  },
+  "JSSV04": {
+   "title": "廚藝及管理（榮譽）文學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Arts (Honours) in Culinary Arts and Management"
+  },
+  "JSSV05": {
+   "title": "土木工程（榮譽）工學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Engineering (Honours) in Civil Engineering"
+  },
+  "JSSV07": {
+   "title": "園藝樹藝及園境管理（榮譽）理學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Science (Honours) in Horticulture, Arboriculture and Landscape Management"
+  },
+  "JSSV08": {
+   "title": "測量學（榮譽）理學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Science (Honours) in Surveying"
+  },
+  "JSSV09": {
+   "title": "運動及康樂管理（榮譽）社會科學學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Social Sciences (Honours) in Sports and Recreation Management"
+  },
+  "JSSV10": {
+   "title": "屋宇設備工程（榮譽）工學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Engineering (Honours) in Building Services Engineering"
+  },
+  "JSSV13": {
+   "title": "運動教練(榮譽)社會科學學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Social Sciences (Honours) in Sports Coaching"
+  },
+  "JSSV14": {
+   "title": "運動治療(榮譽)社會科學學士",
+   "title_en": "Offered by VTC-THEi: Bachelor of Social Sciences (Honours) in Sports Therapy"
+  },
+  "JSSW01": {
+   "title": "營運及管理（榮譽）航空學士",
+   "title_en": "Offered by UOWCHK: Bachelor of Aviation (Honours) in Operations and Management"
+  },
+  "JSSW02": {
+   "title": "航運服務及營運管理學士（榮譽）",
+   "title_en": "Offered by UOWCHK: Bachelor of Maritime Services and Operations Management (Honours)"
+  },
+  "JSSY01": {
+   "title": "金融科技（榮譽）商學士",
+   "title_en": "Offered by HKSYU: Bachelor of Commerce (Honours) in Financial Technology"
+  },
+  "JSSY02": {
+   "title": "應用數據科學（榮譽）理學士",
+   "title_en": "Offered by HKSYU: Bachelor of Science with Honours in Applied Data Science"
+  },
+  "JSSY03": {
+   "title": "娛樂及遊戲應用數碼方案（榮譽）理學士",
+   "title_en": "Offered by HKSYU: Bachelor of Science with Honours in Digital Solutions for Entertainment and Game Applications"
+  }
+ },
+ "notOffered2027": {
+  "JS2060": {
+   "successors": [
+    "JS2030",
+    "JS2050"
+   ]
+  },
+  "JS3011": {
+   "successors": [
+    "JS3923",
+    "JS3997"
+   ]
+  },
+  "JS9555": {
+   "successors": []
+  }
+ },
+ "newIn2027": [
+  "JS1063",
+  "JS1120",
+  "JS2030",
+  "JS2050",
+  "JS3923",
+  "JS3997",
+  "JS4472",
+  "JS5712",
+  "JS6133",
+  "JS6365",
+  "JS6743",
+  "JS9210",
+  "JSSU66",
+  "JSSU75",
+  "JSSY03"
+ ]
+}
