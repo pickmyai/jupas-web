@@ -58,7 +58,6 @@ const alternates = providedAlternates ?? (isLocalizedHome
         url: l.code === 'zh-HK' ? '/' : `/${l.code.toLowerCase()}/`,
     }))
     : []);
-import Analytics from '@vercel/analytics/astro';
 ---
 
 <!doctype html>
@@ -103,7 +102,6 @@ import Analytics from '@vercel/analytics/astro';
 		  } catch (err) {}
 		}, true);
 		</script>
-		<Analytics />
 		<script is:inline>
 		// Page views into the same web_clicks table as the store clicks below, so
 		// web-click-stats can compute a real CTR instead of leaving the denominator

@@ -1,0 +1,19 @@
+{
+  "name": "jupascalculator-website",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "www.jupascalculator.app",
+      "custom_domain": true
+    },
+    {
+      "pattern": "jupascalculator.app",
+      "custom_domain": true
+    }
+  ]
+}
