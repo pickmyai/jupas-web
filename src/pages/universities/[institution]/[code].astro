@@ -125,13 +125,21 @@ const faqPairs = [
       <h2>{p.js_code} 計分方法{earlierFormula ? '（較早參考）' : p.scoring_formula_year ? `（${p.scoring_formula_year} 公式）` : ''}</h2>
       {earlierFormula && <p class="data-note">以下列出較早的參考計法；尚未確認可與上方 2026 分數直接比較，請先核對院校最新公式。</p>}
       {(p.scoring_method_label ?? p.scoring_method) && <p><strong>計分：</strong>{(p.scoring_method_label ?? p.scoring_method)}</p>}
-      <p><strong>科目要求及比重：</strong>{p.weighting_detail || '資料未列額外科目比重。'}</p>
+      <p><strong>科目比重：</strong>{p.weighting_detail || '資料未列額外科目比重。'}</p>
       <p><strong>等級換算：</strong>{p.bonus_system ? '5** = 8.5、5* = 7、5 = 5.5、4 = 4、3 = 3（加分制）。' : '5** = 7、5* = 6、5 = 5、4 = 4、3 = 3。'}</p>
       {p.interview && <p><strong>面試：</strong>此課程設面試。</p>}
       {p.other_considerations && <p><strong>其他考慮因素：</strong>{p.other_considerations}</p>}
-      {p.entry_req && <p><strong>其他要求：</strong>{p.entry_req}</p>}
       <p>Median 是已取錄學生分數的中位數；LQ、UQ 是下、上四分位數。LQ 並非最低錄取線，分數高於 Median 也不代表一定取錄。<a href="/blog/jupas-admission-scores-2026/">閱讀 Median／LQ 的完整讀法</a>。</p>
     </section>
+
+    {((slug === 'polyu' && p.offered_2027 !== false) || p.entry_req) && <section id="entry-requirements" class="article-section article-copy">
+      <h2>{p.js_code} 入學要求</h2>
+      {slug === 'polyu' && p.offered_2027 !== false && <>
+        <p><strong>理大聯招最低要求</strong>為文憑試中文及英文各 3 級，數學必修部分 2 級，公民與社會發展科達標，另有兩科選修達 3 級。M1 或 M2 可算作一科選修。</p>
+        <p>重考生、應用學習及其他語言科的安排見<a href="https://www.polyu.edu.hk/study/ug/admissions/jupas/jupas-general-entrance-requirements">理大聯招最低入學要求</a>。</p>
+      </>}
+      {p.entry_req && <p><strong>課程要求</strong> {p.entry_req}</p>}
+    </section>}
 
     {(paths.length > 0 || info.careers?.length > 0) && <section id="careers" class="article-section">
       <h2>{p.title}畢業出路及起薪</h2>
