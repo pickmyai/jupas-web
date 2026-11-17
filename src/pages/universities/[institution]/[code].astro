@@ -104,7 +104,11 @@ const faqPairs = [
         <div><dt>學額</dt><dd>{pop.places}</dd></div>
         <div><dt>每學額人數</dt><dd>{perPlace}</dd></div>
         {pop.offers != null && <div><dt>Band A 取錄</dt><dd>{pop.offers}</dd></div>}
+        {pop.otherOffers != null && <div><dt>Band A 以外取錄</dt><dd>{pop.otherOffers}（{Math.round(pop.otherShare * 100)}%）</dd></div>}
       </dl>
+      {pop.otherOffers != null && <p>{pop.otherOffers === 0
+        ? `${p.js_code} 全部 ${pop.admitted} 個取錄都給予 Band A 考生，把此課程排在 Band B 或以後的考生沒有獲取錄。`
+        : `${p.js_code} 共 ${pop.admitted} 個取錄，其中 ${pop.otherOffers} 個（${Math.round(pop.otherShare * 100)}%）給予把此課程排在 Band A 以外的考生。JUPAS 沒有把 Band B 與 Band C 至 E 分開公布，此數為合計；比例越高，排在 Band B 仍有取錄的機會越大。`}</p>}
       <p>{popRead}在{school.shortName === '自資院校' ? uni : school.shortName} {pop.peers} 個有數據的課程中，每學額申請人數排第 {pop.rank}。申請熱度只反映報讀人數，不代表入學難度：分數要求高的課程，申請者多數本身成績已高，應同時參考上面的 Median 及 LQ。</p>
       <p class="fine-print">數字為 JUPAS 2025 年官方統計；申請熱度按每學額 Band A 申請人數，與全部有數據的 JUPAS 課程比較分級。</p>
     </section>}

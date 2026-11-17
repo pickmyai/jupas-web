@@ -7,7 +7,7 @@
   "programmeSha256": "3a67040b3f9799b9eb19b506253d5125086d0f9bd983427ebadfbf97faa34813",
   "engineSources": {
     "lib/services/jupas/score_calculator.dart": "bd5946bf3d99ef6f9d4cc65beef3431ca1055f4fb1877a7624fd884c67b94f5c",
-    "lib/models/jupas/programme.dart": "e129912250e59cd673d62f2c2a109edf361f93b52d2c01de8577df6499324660",
+    "lib/models/jupas/programme.dart": "29ef7a00397e18573e78437ccf96695be2cc2ec0eaf37becbb0013c25b77c73c",
     "lib/models/jupas/dse_result.dart": "698fa311b92878ef2f7866c36d79743b8a3caab63e0c23bc7caad3b15daf2a0d",
     "lib/models/jupas/subject.dart": "a1731156c3caca6311f7f2447c8ddc1d60acfe661f8593cae5cca7480e0897c7",
     "lib/models/jupas/grade.dart": "a92abcc85d48370ff4c5c5152a712e885ce21d9bebc800cccf2aa7f4c430cd97"

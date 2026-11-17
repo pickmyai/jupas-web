@@ -149,6 +149,11 @@ export function popularityFor(p) {
   const tier = percentile >= 90 ? '極熱門' : percentile >= 75 ? '熱門' : percentile >= 25 ? '適中' : '較少人報';
   const peers = snapshot.programmes.filter(x => x.institution === p.institution && perPlace(x) != null)
     .map(perPlace).sort((a, b) => b - a);
+  // Offers outside Band A = total offers − Band A offers (Band B–E combined;
+  // JUPAS does not publish Band B separately).
+  const otherOffers = (p.admitted > 0 && p.band_a_offer != null && p.band_a_offer <= p.admitted)
+    ? p.admitted - p.band_a_offer : null;
   return { applicants: p.band_a_apply, places: p.quota, offers: p.band_a_offer, admitted: p.admitted,
+    otherOffers, otherShare: otherOffers == null ? null : otherOffers / p.admitted,
     perPlace: r, percentile, tier, rank: peers.indexOf(r) + 1, peers: peers.length };
 }
