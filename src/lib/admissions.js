@@ -55,7 +55,7 @@ export const scoreBasis = row => row?.formulaYear && row.formulaYear !== row.yea
 export const schools = {
   hku: {
     code: 'HKU', name: '香港大學', shortName: '港大',
-    title: 'HKU JUPAS 收生分數｜港大 2023–2026 收生中位數、LQ 及計算器',
+    title: '港大收分 2026｜HKU JUPAS 收生分數 2023–2026 Median、LQ 及計算器',
     description: '查看港大 HKU 課程 2023–2026 收生中位數、LQ／UQ、計分公式及改制備註。免費單課程試算沿用 DSE Jupas 神器 App 計分引擎。',
     intro: '港大收分要按課程睇。同樣寫 Best 5，指定科、科目比重同額外科加分都可能不同。先搵心儀課程，核對年份同公式，再將自己的分數放返同一基準比較。',
     highlights: ['JS6016', 'JS6028', 'JS6004'],
@@ -68,7 +68,7 @@ export const schools = {
   },
   cuhk: {
     code: 'CUHK', name: '香港中文大學', shortName: '中大',
-    title: 'CUHK JUPAS 收生分數｜中大歷年 Median、LQ 及 2026 醫科收分',
+    title: '中大收分 2026｜CUHK JUPAS 收生分數歷年 Median、LQ 及醫科收分',
     description: '查看中大各課程歷年收生分數及 2026 醫科中位數，分清取錄年份、科目加權與未公布項目。',
     intro: '中大歷年收分最容易睇錯嘅地方，係將不同年份嘅公式當成一樣。醫科嘅通識科斷層、商科加權調整、新課程承接前身，都要連同數字一齊睇。',
     highlights: ['JS4018', 'JS4501', 'JS4238'],
@@ -94,7 +94,7 @@ const generic = (code, name, shortName, match) => {
   const hasMean = own.some(p => p.actual_2026_mean != null || p.mean != null);
   const hasMedian = own.some(p => p.actual_2026_median != null || p.median != null);
   const metrics = hasMean && hasMedian ? '中位數、平均分及四分位數' : hasMean ? '平均分及四分位數' : '中位數及四分位數';
-  const title = `${code} JUPAS 收生分數｜${shortName} 2023–${last} ${metrics}`;
+  const title = `${shortName}收分 ${last}｜${code} JUPAS 收生分數 2023–${last} ${metrics}`;
   return {
     code, name, shortName, match, title,
     description: `查看${name}（${shortName}）各 JUPAS 課程 2023–${last} ${metrics}、計分方法及資料備註。每個數字分開標明錄取年份與公式基準，未公布項目留空。`,

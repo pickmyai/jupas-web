@@ -84,6 +84,8 @@ const faqPairs = [
       {latest && <aside class="edition-card"><span>{scoreBasis(latest)}</span><strong>{usesMean ? f(latest.mean) : f(latest.median)}</strong><p>{usesMean ? '平均分' : latest.median != null ? 'Median（中位數）' : '未公布中位數／平均分'}</p><p>{latest.lq != null && `LQ ${f(latest.lq)}`}{latest.lq != null && latest.uq != null && ' · '}{latest.uq != null && `UQ ${f(latest.uq)}`}</p></aside>}
     </header>
 
+    <ScoreAppCta compact heading={`你的成績夠不夠入讀 ${p.js_code}？`} body={`在 DSE Jupas 神器輸入各科成績，App 按${uni}此課程的計分方法計算你的分數，並顯示與下表 Median、LQ 的差距。計分器免費使用。`} />
+
     <section id="scores" class="article-section">
       <h2>歷年收生分數</h2>
       {rows.length ? <div class="score-table-scroll" tabindex="0" role="region" aria-label={`${p.js_code} 歷年收生分數`}>
@@ -94,7 +96,7 @@ const faqPairs = [
       </div> : <p>{p.actual_2026_no_score ? '院校未有公布此課程的收生分數（例如取錄人數不足）。' : '暫未有此課程的收生分數。'}</p>}
       {notes.map(n => <p class="data-note">{n}</p>)}
       {p.actual_2026_source && <p class="fine-print">2026 年資料來源：<a href={p.actual_2026_source} rel="nofollow">{uni}官方公布 ↗</a></p>}
-      <ScoreAppCta heading={`計算你的 ${p.js_code} 分數`} body={`輸入各科 DSE 成績，App 按${uni}此課程的計分方法計算你的分數，並顯示與上表 Median、LQ 的差距。計分器免費使用。`} />
+      <ScoreAppCta heading={`哪幾科要進步多少才夠 ${p.js_code}？`} body={`App 按你的成績反推：要達到上表 Median 或 LQ，哪幾科需要升級、各升多少。另可把課程加入志願，排好 Band A 至 Band B。`} />
     </section>
 
     {pop && <section id="popularity" class="article-section">

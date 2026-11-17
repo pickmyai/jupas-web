@@ -9,10 +9,18 @@ import StickyStoreBar from '../components/StickyStoreBar.astro';
 // Content is generated from the app (app/tool/guides/gen_guides.py), so the
 // website and the app's 重要日子 page always say the same thing.
 const url = 'https://www.jupascalculator.app/jupas-key-dates/';
-const title = 'JUPAS 2027 報名日期及截止｜改選、放榜、派位時間表';
+const title = 'JUPAS 2027 報名日期：12 月 2 日截止｜逾期申請、改選、放榜時間表';
 const description = 'JUPAS 2027 及 2027 文憑試全年日程：10 月 7 日開始報名、12 月 2 日截止，7 月 14 日放榜及改選，8 月 4 日正式遴選結果。逐項列出要做甚麼、費用、錯過的後果，以及 E-APP、內地、台灣、UCAS 報名日期。';
 const faq = faqFromMyths(keyDates.myths);
 const phases = datesByPhase();
+// Answer box for 報名／截止 searches, built from the same app-generated dates.
+const pick = (t) => keyDates.dates.find((d) => d.title.zh === t);
+const applyRows = [
+  ['報名及遞交申請', pick('遞交 JUPAS 申請')],
+  ['逾期申請', pick('JUPAS 逾期申請')],
+  ['放榜前更新課程選擇', pick('更新課程選擇（放榜前）及 SLP 截止')],
+  ['放榜後修改課程選擇（首次免費）', pick('放榜後修改課程選擇')],
+].filter(([, d]) => d);
 ---
 <Layout title={title} description={description} schemaType="article" productShowcase={false}
   articleData={{ title, description, url, datePublished: researched, dateModified: researched }}
@@ -23,7 +31,7 @@ const phases = datesByPhase();
     <nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>/</span><span>JUPAS 2027 重要日子</span></nav>
     <header class="hub-hero">
       <p class="eyebrow">JUPAS 2027 · 文憑試 2027</p>
-      <h1>JUPAS 2027 重要日子<span>由報名到派位，每一步要做甚麼、錯過會怎樣</span></h1>
+      <h1>JUPAS 2027 報名日期及重要日子<span>由報名到派位，每一步要做甚麼、錯過會怎樣</span></h1>
       <p class="hero-intro">按 JUPAS 2027 重要日期（v1.1）、考評局 2027 文憑試日程及 E-APP 公布整理。標示「暫定」的日子，以官方最終公布為準。</p>
       <div class="guide-next" id="guide-next" hidden>
         <p class="eyebrow">下一個日子</p>
@@ -32,8 +40,17 @@ const phases = datesByPhase();
       </div>
     </header>
 
+    <section class="article-section" id="apply-deadline">
+      <h2>JUPAS 2027 報名日期及截止</h2>
+      <p class="article-copy">JUPAS 2027 報名期為 2026 年 10 月 7 日至 12 月 2 日，申請費 HK$500。錯過截止的同學，可在 12 月 4 日至 2027 年 1 月 13 日逾期申請，但須多付 HK$500 附加費。12 月 4 日起，每次遞交修改後的課程選擇收費 HK$100；放榜後可免費修改一次。</p>
+      <ul class="deadline-list">
+        {applyRows.map(([label, d]) => <li><strong>{label}</strong><span class="when">{zhRange(d.start, d.end)}</span>{d.fee && <span class="fee">{d.fee.zh}</span>}</li>)}
+      </ul>
+    </section>
+    <style>.deadline-list{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:10px}.deadline-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;padding:14px 16px;background:#f7f5ed;border-radius:12px}.deadline-list strong{font-size:16px}.deadline-list .when{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}.deadline-list .fee{grid-column:1 / -1;font-size:14px;color:#5b6d72}@media(max-width:640px){.deadline-list li{grid-template-columns:1fr}.deadline-list .when{text-align:left}}</style>
+
     <nav class="section-nav" aria-label="本頁內容">
-      <a href="#timeline">時間表</a><a href="#checklist">各階段行動清單</a><a href="#parallel">聯招以外</a><a href="#myths">常見誤解</a><a href="#sources">資料來源</a>
+      <a href="#apply-deadline">報名及截止</a><a href="#timeline">時間表</a><a href="#checklist">各階段行動清單</a><a href="#parallel">聯招以外</a><a href="#myths">常見誤解</a><a href="#sources">資料來源</a>
     </nav>
 
     <ScoreAppCta compact eyebrow="DSE Jupas 神器 App" heading="把 JUPAS 日子及行動清單放在手機" body="App 內「重要日子」顯示下一個日子的倒數，各階段行動清單可逐項剔選；另可輸入 DSE 成績，計算各課程分數。" />
