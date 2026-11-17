@@ -81,6 +81,35 @@ const alternates = providedAlternates ?? (isLocalizedHome
 		<StructuredData type={schemaType} articleData={articleData} breadcrumbItems={breadcrumbItems} faqItems={faqItems} />
 
 		<title>{fullTitle}</title>
+			<script is:inline>
+		// Google Ads 搜尋廣告轉換（2026-11-17）：只在由廣告進站（URL 有 gclid／gbraid／wbraid）
+		// 或 90 日內曾由廣告進站的瀏覽器載入 gtag；按 App Store／Google Play 連結時記一次
+		// 「網站商店按鈕點擊」轉換。一般自然流量不載入任何 Google 代碼。
+		(function () {
+			try {
+				var AW = 'AW-18574801110', KEY = 'pm_gads_ts', store = null;
+				try { store = window.localStorage; } catch (e) {}
+				var q = new URLSearchParams(location.search);
+				var fromAd = q.has('gclid') || q.has('gbraid') || q.has('wbraid');
+				if (fromAd && store) { try { store.setItem(KEY, String(Date.now())); } catch (e) {} }
+				var ts = 0;
+				if (store) { try { ts = +store.getItem(KEY) || 0; } catch (e) {} }
+				if (!fromAd && !(ts && Date.now() - ts < 90 * 864e5)) return;
+				window.dataLayer = window.dataLayer || [];
+				window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+				window.gtag('js', new Date());
+				window.gtag('config', AW);
+				var s = document.createElement('script');
+				s.async = true;
+				s.src = 'https://www.googletagmanager.com/gtag/js?id=' + AW;
+				document.head.appendChild(s);
+				document.addEventListener('click', function (event) {
+					var link = event.target && event.target.closest && event.target.closest('a[href*="apps.apple.com"], a[href*="play.google.com"]');
+					if (link) window.gtag('event', 'conversion', { send_to: AW + '/N_AICJSWnLodENbxk5lF', transport_type: 'beacon' });
+				}, true);
+			} catch (err) {}
+		})();
+		</script>
 	</head>
 	<body class="bg-background text-foreground antialiased font-sans">
 		<slot />
