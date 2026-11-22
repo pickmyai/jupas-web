@@ -25,7 +25,19 @@ const path = programmePath(p);
 const url = `https://www.jupascalculator.app${path}`;
 const modified = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(snapshot.sourceUpdatedAt));
 const info = enrichmentFor(p);
-const pop = popularityFor(p);
+const isHkuSocialSciences = slug === 'hku' && p.js_code === 'JS6717';
+const isHkuSocialSciencesElite = slug === 'hku' && p.js_code === 'JS6743';
+// The 2027 joint intake is not a valid denominator for earlier JS6717 applications.
+// Programme-specific public corrections. The legacy shared export need not be
+// reinterpreted here: its cohort is not yet consistently verified.
+const notices = {
+  JSST04: { applicantsA: 181, offers: [63, 7, 5, 0, 0], grossFee: '168,350', netFee: '86,900' },
+  JSST05: { applicantsA: 224, offers: [42, 18, 0, 0, 0], grossFee: '171,250', netFee: '89,800' },
+};
+const verified = slug === 'sssdp' ? notices[p.js_code] : undefined;
+const officialProgramme = verified && `https://www.jupas.edu.hk/en/programme/sssdp/${p.js_code}/`;
+const pop = (isHkuSocialSciences || verified) ? null : popularityFor(p);
+const jupasProgramme = `https://web.jupas.edu.hk/en/programme/hku/${p.js_code}/`;
 const paths = info.career_paths ?? [];
 const perPlace = pop && pop.perPlace.toFixed(1);
 // Applicants per place measures how many people apply, not how hard it is to
@@ -49,10 +61,14 @@ const status2027 = p.offered_2027 === false ? (p.successors_2027?.length ? `｜2
 const title = (latest
   ? `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} ${latest.year} 收分 ${headline}｜${p.title}`
   : `${p.js_code} ${school.shortName === '自資院校' ? uni : school.shortName} 收生分數｜${p.title}`) + status2027;
-const description = `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法${pop ? '、Band A 申請人數' : ''}${paths.length ? '、畢業出路及起薪' : ''}。`;
+const description = isHkuSocialSciencesElite
+  ? `${lead} 2027 年新課程，仍待批准；暫無歷年收生分數。`
+  : `${lead}附 ${rows.map(r => r.year).sort().join('、')} 年分數、計分方法${(pop || isHkuSocialSciences || verified) ? '、Band A 申請人數' : ''}${paths.length ? '、畢業出路及起薪' : ''}。`;
 
 const notes = [
-  p.actual_2026_note ?? p.data_remark,
+  isHkuSocialSciences
+    ? '2026 年收生分數（上四分位數、中位數、下四分位數）來自港大《2026 JUPAS Admissions Scores》，按 2026 年主要遴選準則計算。'
+    : p.actual_2026_note ?? p.data_remark,
 ].filter(Boolean);
 
 const siblings = programmesFor(school.code)
@@ -64,6 +80,7 @@ const siblings = programmesFor(school.code)
 const faqPairs = [
   latest && { question: `${p.js_code} ${p.title} ${latest.year} 年收生分數是多少？`, answer: `${describe(latest)}。數字為已取錄學生的分數分布，不是最低錄取線，亦不能預測下一年。` },
   (p.scoring_method_label ?? p.scoring_method) && { question: `${p.js_code} 用甚麼計分方法？`, answer: `${(p.scoring_method_label ?? p.scoring_method)}${p.weighting_detail ? `；${p.weighting_detail}` : ''}。` },
+  verified && { question: `${p.js_code} ${p.title}有幾多人報？`, answer: `JUPAS 2026 年完成修改課程選擇後，Band A 申請者為 ${verified.applicantsA} 人。這是過往申請人數，不是錄取機率。` },
   pop && { question: `${p.js_code} ${p.title}有幾多人報？`, answer: `2025 年有 ${pop.applicants} 名 Band A 申請者，學額 ${pop.places} 個，即每個學額約 ${perPlace} 人。申請人數不代表入學難度，須同時參考收生分數。` },
 ].filter(Boolean);
 ---
@@ -84,7 +101,9 @@ const faqPairs = [
       {latest && <aside class="edition-card"><span>{scoreBasis(latest)}</span><strong>{usesMean ? f(latest.mean) : f(latest.median)}</strong><p>{usesMean ? '平均分' : latest.median != null ? 'Median（中位數）' : '未公布中位數／平均分'}</p><p>{latest.lq != null && `LQ ${f(latest.lq)}`}{latest.lq != null && latest.uq != null && ' · '}{latest.uq != null && `UQ ${f(latest.uq)}`}</p></aside>}
     </header>
 
-    <ScoreAppCta compact heading={`你的成績夠不夠入讀 ${p.js_code}？`} body={`在 DSE Jupas 神器輸入各科成績，App 按${uni}此課程的計分方法計算你的分數，並顯示與下表 Median、LQ 的差距。計分器免費使用。`} />
+    {isHkuSocialSciencesElite
+      ? <ScoreAppCta compact heading="用 Best 5 試算 JS6743 分數" body="按港大公布的最佳五科計分方法計算參考分數。此課程暫無歷年中位數或下四分位數，不能用作收生差距比較。" />
+      : <ScoreAppCta compact heading={`你的成績夠不夠入讀 ${p.js_code}？`} body={`在 DSE Jupas 神器輸入各科成績，App 按${uni}此課程的計分方法計算你的分數，並顯示與下表 Median、LQ 的差距。計分器免費使用。`} />}
 
     <section id="scores" class="article-section">
       <h2>歷年收生分數</h2>
@@ -96,8 +115,33 @@ const faqPairs = [
       </div> : <p>{p.actual_2026_no_score ? '院校未有公布此課程的收生分數（例如取錄人數不足）。' : '暫未有此課程的收生分數。'}</p>}
       {notes.map(n => <p class="data-note">{n}</p>)}
       {p.actual_2026_source && <p class="fine-print">2026 年資料來源：<a href={p.actual_2026_source} rel="nofollow">{uni}官方公布 ↗</a></p>}
-      <ScoreAppCta heading={`哪幾科要進步多少才夠 ${p.js_code}？`} body={`App 按你的成績反推：要達到上表 Median 或 LQ，哪幾科需要升級、各升多少。另可把課程加入志願，排好 Band A 至 Band B。`} />
+      {!isHkuSocialSciencesElite && <ScoreAppCta heading={`哪幾科要進步多少才夠 ${p.js_code}？`} body={`App 按你的成績反推：要達到上表 Median 或 LQ，哪幾科需要升級、各升多少。另可把課程加入志願，排好 Band A 至 Band B。`} />}
     </section>
+
+    {isHkuSocialSciences && <section id="popularity" class="article-section">
+      <h2>2026 年 JUPAS 申請及正式遴選結果</h2>
+      <dl class="pop-stats">
+        <div><dt>改選後 Band A 申請</dt><dd>192</dd></div>
+        <div><dt>正式遴選 Band A 取錄通知</dt><dd>47</dd></div>
+        <div><dt>正式遴選 Band B 至 E 取錄通知</dt><dd>0</dd></div>
+      </dl>
+      <p>2027 年入學首年學額：JS6717 與 JS6743 合計 72 個，並非 JS6717 的獨立學額。<a href={jupasProgramme} rel="nofollow">JUPAS 官方課程資料及統計 ↗</a></p>
+    </section>}
+
+    {isHkuSocialSciencesElite && <section id="programme-intake" class="article-section">
+      <h2>2027 年首年學額</h2>
+      <p>JS6717 與 JS6743 合計 72 個學額，並非 JS6743 的獨立學額。<a href={jupasProgramme} rel="nofollow">JUPAS 官方課程資料 ↗</a></p>
+    </section>}
+
+    {verified && <section id="popularity" class="article-section">
+      <h2>{p.js_code} 2026 年 JUPAS 申請及主輪取錄</h2>
+      <dl class="pop-stats">
+        <div><dt>Band A 申請（修改課程選擇後）</dt><dd>{verified.applicantsA}</dd></div>
+        <div><dt>主輪取錄（公布結果時）</dt><dd>{verified.offers.reduce((total, count) => total + count, 0)}</dd></div>
+        {verified.offers.map((count, index) => <div><dt>Band {'ABCDE'[index]} 取錄</dt><dd>{count}</dd></div>)}
+      </dl>
+      <p>以上為過往數字，不代表下一年取錄機率。<a href={officialProgramme}>JUPAS 官方統計 ↗</a></p>
+    </section>}
 
     {pop && <section id="popularity" class="article-section">
       <h2>{p.js_code} 申請熱度：<span class={`pop-tier pop-${pop.percentile >= 75 ? 'hot' : pop.percentile >= 25 ? 'mid' : 'low'}`}>{pop.tier}</span></h2>
@@ -118,7 +162,11 @@ const faqPairs = [
     {info.overview?.length > 0 && <section id="overview" class="article-section article-copy">
       <h2>{p.title}課程簡介</h2>
       <ul>{info.overview.map(x => <li>{x}</li>)}</ul>
-      {info.tuition_annual && <p><strong>學費：</strong>每年約 HK${Number(info.tuition_annual).toLocaleString('en-HK')}{info.tuition_note ? `（${info.tuition_note}）` : ''}</p>}
+      {verified && <>
+        <p><strong>2027/28 學年首年學費：</strong>符合資格者扣除 SSSDP 資助後為 HK${verified.netFee}；未扣資助為 HK${verified.grossFee}。以教育局最終批准為準，學費及資助額或按年調整。</p>
+        <p><strong>另收臨床實習費：</strong>每學年 HK$20,000，按年調整，不包括在上述學費內。<a href={officialProgramme}>JUPAS 官方費用詳情 ↗</a></p>
+      </>}
+      {!verified && info.tuition_annual && <p><strong>學費：</strong>每年約 HK${Number(info.tuition_annual).toLocaleString('en-HK')}{info.tuition_note ? `（${info.tuition_note}）` : ''}</p>}
     </section>}
 
     <section id="scoring" class="article-section article-copy">
@@ -127,7 +175,11 @@ const faqPairs = [
       {(p.scoring_method_label ?? p.scoring_method) && <p><strong>計分：</strong>{(p.scoring_method_label ?? p.scoring_method)}</p>}
       <p><strong>科目比重：</strong>{p.weighting_detail || '資料未列額外科目比重。'}</p>
       <p><strong>等級換算：</strong>{p.bonus_system ? '5** = 8.5、5* = 7、5 = 5.5、4 = 4、3 = 3（加分制）。' : '5** = 7、5* = 6、5 = 5、4 = 4、3 = 3。'}</p>
-      {p.interview && <p><strong>面試：</strong>此課程設面試。</p>}
+      {isHkuSocialSciences
+        ? <p><strong>面試：</strong>不設面試。</p>
+        : isHkuSocialSciencesElite
+          ? <p><strong>面試：</strong>港大會邀請部分申請人面試，暫列 1 月至 6 月，以港大通知為準。<a href="https://www.admissions.hku.hk/apply/jupas/interview" rel="nofollow">港大面試時間表 ↗</a></p>
+          : p.interview && <p><strong>面試：</strong>此課程設面試。</p>}
       {p.other_considerations && <p><strong>其他考慮因素：</strong>{p.other_considerations}</p>}
       <p>Median 是已取錄學生分數的中位數；LQ、UQ 是下、上四分位數。LQ 並非最低錄取線，分數高於 Median 也不代表一定取錄。<a href="/blog/jupas-admission-scores-2026/">閱讀 Median／LQ 的完整讀法</a>。</p>
     </section>
@@ -152,7 +204,7 @@ const faqPairs = [
       </div>}
     </section>}
 
-    <aside class="app-next"><div><p class="eyebrow">用你的成績計算</p><h2>{p.js_code} 你有幾多分？</h2><p>DSE Jupas 神器按{uni}此課程的計分方法計算你的分數，並與歷年 Median、LQ 比較；還可以反推哪幾科需要進步多少才達標。App 內另有六項出路評級，以及入職 10 年、20 年的薪酬走勢。計分器免費使用。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>
+    {!isHkuSocialSciencesElite && <aside class="app-next"><div><p class="eyebrow">用你的成績計算</p><h2>{p.js_code} 你有幾多分？</h2><p>DSE Jupas 神器按{uni}此課程的計分方法計算你的分數，並與歷年 Median、LQ 比較；還可以反推哪幾科需要進步多少才達標。App 內另有六項出路評級，以及入職 10 年、20 年的薪酬走勢。計分器免費使用。</p></div><div class="store-links"><a href="https://apps.apple.com/app/id6780134101">iPhone / iPad 下載</a><a href="https://play.google.com/store/apps/details?id=app.jupas.dse">Android 下載</a></div></aside>}
 
     {siblings.length > 0 && <section class="article-section">
       <h2>{school.shortName}其他課程收生分數</h2>
@@ -160,7 +212,7 @@ const faqPairs = [
       <p><a href={`/universities/${slug}/`}>查看{school.shortName}全部 {programmesFor(school.code).length} 個課程 →</a></p>
     </section>}
 
-    <p class="fine-print">本頁數字及備註由 DSE Jupas 神器 App 的統一資料產生（資料版本 <code>{snapshot.version}</code>；課程簡介及出路 <code>{enrichmentVersion}</code>）。本網站並非 JUPAS 或院校官方服務；正式申請以各院校及 JUPAS 最新公布為準。</p>
+    <p class="fine-print">{verified ? '本頁的申請、主輪取錄及首年學費取自 JUPAS；其他數字及備註來自 DSE Jupas 神器 App 的統一資料' : isHkuSocialSciences || isHkuSocialSciencesElite ? '收生分數及計分方法沿用 DSE Jupas 神器 App 的統一資料' : '本頁數字及備註由 DSE Jupas 神器 App 的統一資料產生'}（資料版本 <code>{snapshot.version}</code>；課程簡介及出路 <code>{enrichmentVersion}</code>）。{(isHkuSocialSciences || isHkuSocialSciencesElite) && '學額及申請／取錄統計以 JUPAS 官方公布為準。'}本網站並非 JUPAS 或院校官方服務；正式申請以各院校及 JUPAS 最新公布為準。</p>
   </main>
   <StickyStoreBar text={`免費計算你的 ${p.js_code} 分數`} />
 </Layout>
