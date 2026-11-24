@@ -1,18 +1,18 @@
 {
   "source": "https://www.pickmyquiz.com/jupas-data/meta.json",
-  "version": 20261112154038,
-  "coreSha256": "afd34a5382e36e90fa9de870ec905fc130d1ad48749ba321d1591638395e9007",
-  "sourceUpdatedAt": "2026-11-12T15:40:39.051431+00:00",
+  "version": 20261124015323,
+  "coreSha256": "0d08f6f220c0b383bc3660d900f7cc9b2d832e6a8dfafbf764e66b3dd8180b22",
+  "sourceUpdatedAt": "2026-11-24T04:04:08.355865+00:00",
   "statisticsYear": 2026,
   "programmeSha256": "3a67040b3f9799b9eb19b506253d5125086d0f9bd983427ebadfbf97faa34813",
   "engineSources": {
-    "lib/services/jupas/score_calculator.dart": "bd5946bf3d99ef6f9d4cc65beef3431ca1055f4fb1877a7624fd884c67b94f5c",
+    "lib/services/jupas/score_calculator.dart": "ca6cbec1a8f713b662396472673e373dfc4347b5b65feed3bdb9a519db855189",
     "lib/models/jupas/programme.dart": "29ef7a00397e18573e78437ccf96695be2cc2ec0eaf37becbb0013c25b77c73c",
     "lib/models/jupas/dse_result.dart": "698fa311b92878ef2f7866c36d79743b8a3caab63e0c23bc7caad3b15daf2a0d",
     "lib/models/jupas/subject.dart": "a1731156c3caca6311f7f2447c8ddc1d60acfe661f8593cae5cca7480e0897c7",
     "lib/models/jupas/grade.dart": "a92abcc85d48370ff4c5c5152a712e885ce21d9bebc800cccf2aa7f4c430cd97"
   },
-  "engineSha256": "f8d02794a87d9786cad1437d9b97499fc7333d6d0f093bca4295a77f4289e6fe",
+  "engineSha256": "b58bfca6e9464b7168542912fe5eb276e7852663cab8fd63a1e6cadecba50797",
   "parityCases": 970,
   "officialRegressionCases": 70,
   "metadata": {

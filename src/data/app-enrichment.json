@@ -1,7 +1,7 @@
 {
  "source": "https://www.pickmyquiz.com/jupas-data/meta.json",
- "version": 20261112153906,
- "enrichmentSha256": "22a82e985d88422bb5b426a99d874656dd801466841d56c8961efa1f6a271699",
+ "version": 20261124040408,
+ "enrichmentSha256": "4c19b63296610f324014a54488b7c6ba4d099250ed1facd10d8a6a253f1d8387",
  "fields": [
   "overview",
   "careers",
