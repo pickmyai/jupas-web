@@ -4,6 +4,7 @@ import { schools, snapshot, official2027, formatScore as f, slugFor, programmePa
 import '../../../styles/universities.css';
 import ScoreAppCta from '../../../components/ScoreAppCta.astro';
 import StickyStoreBar from '../../../components/StickyStoreBar.astro';
+import HeroAppCta from '../../../components/HeroAppCta.astro';
 
 // One page per JUPAS programme, generated from the app's unified data
 // (src/data/app-admissions.json via scripts/sync-app-data.py). No hand-kept numbers.
@@ -95,6 +96,7 @@ const faqPairs = [
       <div><p class="eyebrow">{uni}{p.faculty ? ` · ${p.faculty}` : ''}</p>
         <h1>{p.title}<span>{p.js_code} 收生分數</span></h1>
         <p class="hero-intro">{lead}</p>
+        <HeroAppCta text={isHkuSocialSciencesElite ? `在 App 輸入你的 DSE 成績，按港大公布的最佳五科計分方法計算 ${p.js_code} 參考分數。` : `在 App 輸入你的 DSE 成績，按 ${p.js_code} 的計分方法計算分數，並即時看到與歷年 Median、LQ 相差多少。`} />
         {p.title_2026 && <p class="data-note">JUPAS 2027 年起課程名稱改為「{p.title}」；2026 年及以前的收生分數以舊名「{p.title_2026}」公布，課程編號不變。<a href={official2027.changes} rel="nofollow">JUPAS 課程變更 ↗</a></p>}
         {p.offered_2027 === false && <p class="data-note">此課程不在 JUPAS 2027 年課程名單內{p.successors_2027?.length ? `，2027 年改為 ${p.successors_2027.join('、')} 分開招生` : ''}；下表為過往收生分數，只供參考。<a href={official2027.changes} rel="nofollow">JUPAS 課程變更 ↗</a></p>}
       </div>
@@ -103,7 +105,7 @@ const faqPairs = [
 
     {isHkuSocialSciencesElite
       ? <ScoreAppCta compact heading="用 Best 5 試算 JS6743 分數" body="按港大公布的最佳五科計分方法計算參考分數。此課程暫無歷年中位數或下四分位數，不能用作收生差距比較。" />
-      : <ScoreAppCta compact heading={`你的成績夠不夠入讀 ${p.js_code}？`} body={`在 DSE Jupas 神器輸入各科成績，App 按${uni}此課程的計分方法計算你的分數，並顯示與下表 Median、LQ 的差距。計分器免費使用。`} />}
+      : <ScoreAppCta shot heading={`你的成績夠不夠入讀 ${p.js_code}？`} body={`在 DSE Jupas 神器輸入各科成績，App 按${uni}此課程的計分方法計算你的分數。計分器免費使用。`} points={[`按 ${p.js_code} 的選科要求及科目比重計分，不用自行翻查課程資料`, `顯示你的分數與下表 Median、LQ 相差多少`, `反推哪幾科需要進步多少才達到 Median 或 LQ`]} />}
 
     <section id="scores" class="article-section">
       <h2>歷年收生分數</h2>

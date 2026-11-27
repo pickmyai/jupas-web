@@ -6,44 +6,60 @@
 // 下載框（hub 頁更沒有），讀者查完分數便離開。首頁商店點擊率 15%，按鈕就在首屏。
 // 所以把「用自己成績計算」的入口放到分數表前後，即讀者正在比較分數的位置。
 //
+// 2026-11-27：跟首頁一樣用官方商店徽章；`points` 逐點寫 App 能為這頁讀者做的事，
+// `shot` 附 App「入學計分」真實畫面（我的分數、距中位數、距 LQ），
+// 讓讀者下載前知道會看到甚麼。
+//
 // 商店連結沿用 Layout.astro 的 web_clicks beacon（按 href 捕捉 apps.apple.com／
 // play.google.com），不需另加追蹤。
 interface Props {
   eyebrow?: string;
   heading: string;
   body: string;
+  points?: string[];
+  shot?: boolean;
   compact?: boolean;
 }
-const { eyebrow = 'DSE Jupas 神器 App · 免費計分器', heading, body, compact = false } = Astro.props;
+const { eyebrow = 'DSE Jupas 神器 App · 免費計分器', heading, body, points = [], shot = false, compact = false } = Astro.props;
 ---
-<aside class:list={['score-app-cta', { compact }]} aria-label="下載 DSE Jupas 神器">
-  <img class="score-app-cta__icon" src="/logo-80.webp" alt="" width="56" height="56" loading="lazy" decoding="async" />
+<aside class:list={['score-app-cta', { compact, 'with-shot': shot }]} aria-label="下載 DSE Jupas 神器">
+  {shot
+    ? <img class="score-app-cta__shot" src="/app/score-cards.webp" alt="DSE Jupas 神器「入學計分」畫面：每個課程顯示我的分數、與中位數及 LQ 的差距" width="420" height="524" loading="lazy" decoding="async" />
+    : <img class="score-app-cta__icon" src="/logo-80.webp" alt="" width="56" height="56" loading="lazy" decoding="async" />}
   <div class="score-app-cta__copy">
     <p class="score-app-cta__eyebrow">{eyebrow}</p>
     <p class="score-app-cta__heading">{heading}</p>
     <p class="score-app-cta__body">{body}</p>
-  </div>
-  <div class="score-app-cta__stores">
-    <a href="https://apps.apple.com/app/id6780134101" rel="noopener">App Store 下載</a>
-    <a href="https://play.google.com/store/apps/details?id=app.jupas.dse" rel="noopener">Google Play 下載</a>
+    {points.length > 0 && <ul class="score-app-cta__points">{points.map(point => <li>{point}</li>)}</ul>}
+    <div class="score-app-cta__stores">
+      <a href="https://apps.apple.com/app/id6780134101" rel="noopener"><img src="/ios-icon.png" alt="在 App Store 免費下載 DSE Jupas 神器" width="144" height="43" loading="lazy" decoding="async" /></a>
+      <a href="https://play.google.com/store/apps/details?id=app.jupas.dse" rel="noopener"><img src="/android-icon.png" alt="在 Google Play 免費下載 DSE Jupas 神器" width="145" height="43" loading="lazy" decoding="async" /></a>
+    </div>
   </div>
 </aside>
 
 <style>
-  .score-app-cta{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:18px;align-items:center;margin:28px 0;padding:20px 22px;background:#edf3ef;border:1px solid #d3e2da;border-radius:14px;color:#172b36;line-height:1.6}
+  .score-app-cta{display:grid;grid-template-columns:56px minmax(0,1fr);gap:18px;align-items:start;margin:28px 0;padding:20px 22px;background:#f5f5f5;border-radius:14px;color:#172b36;line-height:1.6}
+  .score-app-cta.with-shot{grid-template-columns:200px minmax(0,1fr);gap:26px;align-items:center;padding:22px 26px}
   .score-app-cta__icon{width:56px;height:56px;border-radius:13px;background:#fff}
+  .score-app-cta__shot{display:block;width:200px;height:auto;border-radius:12px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06)}
   .score-app-cta__eyebrow{margin:0 0 4px;font-size:12px;font-weight:750;letter-spacing:.06em;color:#825712}
   .score-app-cta__heading{margin:0 0 4px;font-size:19px;font-weight:800;line-height:1.45}
   .score-app-cta__body{margin:0;font-size:14px;color:#425a60;max-width:640px}
-  .score-app-cta__stores{display:flex;flex-direction:column;gap:8px}
-  .score-app-cta__stores a{display:block;min-height:44px;background:#203e44;color:#fff !important;padding:11px 18px;border-radius:8px;font-size:14px;font-weight:700;white-space:nowrap;text-align:center;text-decoration:none !important}
-  .score-app-cta__stores a:hover{background:#2c555c}
+  .score-app-cta__points{margin:10px 0 0;padding:0;list-style:none;font-size:14px;color:#172b36;max-width:640px}
+  .score-app-cta__points li{position:relative;padding-left:20px;margin:4px 0}
+  .score-app-cta__points li::before{content:'';position:absolute;left:2px;top:.62em;width:8px;height:8px;border-radius:50%;background:#edb443}
+  .score-app-cta__stores{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .score-app-cta__stores a{display:inline-flex;border-radius:8px;text-decoration:none !important}
+  .score-app-cta__stores a:hover{opacity:.88}
+  .score-app-cta__stores img{display:block;height:43px;width:auto}
   .score-app-cta.compact{margin:20px 0}
   @media(max-width:760px){
     .score-app-cta{grid-template-columns:44px minmax(0,1fr);gap:12px 14px;padding:16px}
+    .score-app-cta.with-shot{grid-template-columns:1fr;gap:16px;padding:18px 16px}
+    .score-app-cta__shot{width:min(100%,220px);margin:0 auto}
     .score-app-cta__icon{width:44px;height:44px;border-radius:10px}
     .score-app-cta__heading{font-size:17px}
-    .score-app-cta__stores{grid-column:1 / -1;flex-direction:row}
-    .score-app-cta__stores a{flex:1 1 0;white-space:normal;font-size:13px;padding:11px 10px}
+    .score-app-cta__stores img{height:40px}
   }
 </style>

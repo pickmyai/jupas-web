@@ -5,6 +5,7 @@ import '../../styles/universities.css';
 import '../../styles/score-hub.css';
 import ScoreAppCta from '../../components/ScoreAppCta.astro';
 import StickyStoreBar from '../../components/StickyStoreBar.astro';
+import HeroAppCta from '../../components/HeroAppCta.astro';
 
 const schoolEntries = Object.entries(schools).map(([slug, school]) => {
   const programmes = programmesFor(school.code).sort((a, b) => a.js_code.localeCompare(b.js_code));
@@ -29,11 +30,12 @@ const sources = publishedSchools.flatMap(({ slug, school, published }) =>
       <p class="eyebrow">院校收生數據 / 2026 入學</p>
       <h1>JUPAS 收分 2026</h1>
       <p class="hero-intro">查看各院校已公布的 2026 取錄分數，分清中位數、平均分和四分位數；城大按 2027 公式重算的分數另有標示。</p>
+      <HeroAppCta text="在 App 輸入一次 DSE 成績，按每個課程的計分方法計算分數，並即時看到與歷年 Median、LQ 相差多少。" />
       <p class="hub-update">{snapshot.programmes.length} 個課程 · {publishedCount} 個已有 2026 數據 · 收分資料更新 <time datetime={updatedDate}>{displayDate}</time></p>
       <nav class="section-nav" aria-label="本頁內容"><a href="#quick-scores">全部課程收分</a><a href="#schools">院校介紹及年份</a><a href="#sources">官方資料來源</a></nav>
     </header>
 
-    <ScoreAppCta compact heading="輸入你的 DSE 成績，計算各課程分數" body="表內是已取錄學生的分數。下載 DSE Jupas 神器，按每個課程的計分方法計算你的分數，並與歷年 Median、LQ 比較。計分器免費使用。" />
+    <ScoreAppCta shot heading="輸入你的 DSE 成績，計算各課程分數" body="表內是已取錄學生的分數。在 DSE Jupas 神器輸入一次各科成績，App 會按每個課程的計分方法計算你的分數。計分器免費使用。" points={['每個課程的 Best 5、科目比重及加分方法分開處理，不用自行翻查課程資料', '每個課程顯示你的分數，以及與 Median、LQ 相差多少', '收藏心儀課程，再在 App 內排好 JUPAS 志願次序']} />
 
     <section id="quick-scores" aria-labelledby="quick-scores-title" class="quick-scores-section">
       <h2 id="quick-scores-title">全部 {snapshot.programmes.length} 個課程收分</h2>
